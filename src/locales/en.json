@@ -1,13 +1,13 @@
 {
   "seo": {
     "home": {
-      "title": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "description": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
-      "keywords": "Lucid Blocks, Lucid Blocks wiki, crafting, biomes, achievements, survival, Steam",
-      "ogTitle": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "ogDescription": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
-      "twitterTitle": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "twitterDescription": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, and survival tips for the surreal voxel sandbox on Steam."
+      "title": "Cobb Can Move Wiki - Rules, Endings & Survival Guide",
+      "description": "Cobb Can Move Wiki covers rules, Cobb abilities, coal, furnaces, breakers, endings, updates, controls, and survival tips for the itch.io horror game.",
+      "keywords": "Cobb Can Move, Cobb Can Move wiki, itch.io, horror game, rules, abilities, endings, survival guide",
+      "ogTitle": "Cobb Can Move Wiki - Rules, Endings & Survival Guide",
+      "ogDescription": "Cobb Can Move Wiki covers rules, Cobb abilities, coal, furnaces, breakers, endings, updates, controls, and survival tips for the itch.io horror game.",
+      "twitterTitle": "Cobb Can Move Wiki - Rules, Endings & Survival Guide",
+      "twitterDescription": "Cobb Can Move Wiki covers rules, Cobb abilities, endings, updates, controls, and survival tips for the itch.io pixel survival horror."
     }
   },
   "nav": {
@@ -34,27 +34,27 @@
     "articlesComingSoon": "Articles coming soon"
   },
   "hero": {
-    "badge": "Surreal Voxel Survival Sandbox",
-    "title": "Lucid Blocks Wiki",
-    "description": "Explore dreamlike biomes, fuse items with Apotheosis, build freely, and survive strange creatures in this surreal open-world sandbox on Steam.",
-    "getFreeCodesCTA": "Explore Crafting Guide",
-    "playOnSteamCTA": "Play on Steam",
+    "badge": "Rule-Changing Pixel Survival Horror",
+    "title": "Cobb Can Move Wiki",
+    "description": "Survive Cobb in a dark pixel horror game where every level changes the rules. Learn Cobb abilities, coal routes, furnaces, breakers, endings, updates, and survival tactics.",
+    "getFreeCodesCTA": "Check Updates",
+    "playOnSteamCTA": "Play on itch.io",
     "stats": {
       "stat1": {
-        "value": "1,325",
-        "label": "Players Online"
+        "value": "4.8/5",
+        "label": "User Rating"
       },
       "stat2": {
-        "value": "1,986",
-        "label": "Peak CCU"
+        "value": "539",
+        "label": "Total Ratings"
       },
       "stat3": {
-        "value": "97%",
-        "label": "Positive Reviews"
+        "value": "v1.7",
+        "label": "Latest Version"
       },
       "stat4": {
-        "value": "Mar 12, 2026",
-        "label": "Release Date"
+        "value": "HTML5 & Windows",
+        "label": "Platforms"
       }
     }
   },
@@ -785,26 +785,26 @@
     ]
   },
   "cta": {
-    "title": "Ready to Explore Lucid Blocks?",
-    "description": "Join the Lucid Blocks community on Discord for guides, updates, and discussions!",
+    "title": "Ready to Survive Cobb Can Move?",
+    "description": "Join the Cobb Can Move community on Discord for rules, abilities, endings, updates, and survival tactics!",
     "joinCommunity": "Join Discord",
-    "joinGame": "Play on Steam"
+    "joinGame": "Play on itch.io"
   },
   "footer": {
-    "title": "Lucid Blocks Wiki",
-    "description": "Your complete resource hub for Lucid Blocks crafting, biomes, creatures, achievements, and survival guides.",
+    "title": "Cobb Can Move Wiki",
+    "description": "Your complete resource hub for Cobb Can Move rules, Cobb abilities, coal, furnaces, breakers, endings, updates, and survival guides.",
     "resources": "Resources",
     "community": "Community",
     "legal": "Legal",
     "discord": "Discord",
     "twitter": "X / Twitter",
-    "steamCommunity": "Steam Community",
-    "steamStore": "Steam Store",
+    "itchio": "itch.io Game Page",
+    "bluesky": "Bluesky",
     "about": "About",
     "privacy": "Privacy Policy",
     "terms": "Terms of Service",
     "copyrightNotice": "Copyright",
-    "copyright": "© 2026 Lucid Blocks Wiki. Not affiliated with the developers of Lucid Blocks.",
+    "copyright": "© 2026 Cobb Can Move Wiki. Not affiliated with the developer of Cobb Can Move.",
     "disclaimer": "Unofficial fan-made resource website."
   },
   "pages": {
