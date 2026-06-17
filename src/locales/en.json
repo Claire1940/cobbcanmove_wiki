@@ -14,7 +14,7 @@
   "common": {
     "home": "Home",
     "more": "More",
-    "playNow": "Play on Steam",
+    "playNow": "Play on itch.io",
     "switchLanguage": "Switch Language",
     "switchTheme": "Switch Theme",
     "lightMode": "Light Mode",
@@ -52,734 +52,475 @@
     }
   },
   "gameFeature": {
-    "title": "Lucid Blocks Gameplay",
-    "description": "Explore surreal biomes, fuse items with Apotheosis, and survive strange creatures in this dreamlike voxel sandbox on Steam."
+    "title": "Cobb Can Move Gameplay",
+    "description": "Survive a rule-changing pixel horror game by Cobb Can Move where every level reshapes how the monster hunts. Read the rules, manage coal, feed furnaces, and outlast Cobb across story and Endless runs."
   },
   "tools": {
-    "title": "Lucid Blocks",
-    "titleHighlight": "Resources",
-    "subtitle": "Everything you need to explore, craft, and survive in Lucid Blocks",
+    "title": "Cobb Can Move",
+    "titleHighlight": "Guides",
+    "subtitle": "Everything you need to play, survive, and stay ahead of Cobb Can Move",
     "cards": [
       {
+        "icon": "Download",
+        "title": "Cobb Can Move Play Link",
+        "description": "Official itch.io page, browser play, download, and version"
+      },
+      {
         "icon": "BookOpen",
-        "title": "Beginner Guide",
-        "description": "First steps, exploration, and early progression"
-      },
-      {
-        "icon": "Sparkles",
-        "title": "Apotheosis Crafting",
-        "description": "Freeform fusion system and early recipes"
-      },
-      {
-        "icon": "Hammer",
-        "title": "Tools and Weapons",
-        "description": "Frost Pick, Azrael, Hookshot, and more"
-      },
-      {
-        "icon": "Package",
-        "title": "Storage and Inventory",
-        "description": "Cache Cubes, Cabinets, and Qualia storage"
-      },
-      {
-        "icon": "Home",
-        "title": "Qualia and Base Building",
-        "description": "Personal Qualia and home base setup"
+        "title": "Cobb Can Move Beginner Guide",
+        "description": "First-run survival loop, rules, items, and death tips"
       },
       {
         "icon": "Eye",
-        "title": "World Regions",
-        "description": "Fog Meadow, Essence Morass, and more"
+        "title": "Cobb Can Move Rules",
+        "description": "Sensory rules, pursuit, reach, and duplicate behavior"
       },
       {
-        "icon": "AlertTriangle",
-        "title": "Creatures and Enemies",
-        "description": "Manikins, spiders, and how to survive"
+        "icon": "Package",
+        "title": "Cobb Can Move Items",
+        "description": "Coal, rocks, carrots, batteries, furnace, and breaker"
       },
       {
-        "icon": "ArrowRight",
-        "title": "Mobility Gear",
-        "description": "Hookshot, Glider Glove, Bee Glider"
+        "icon": "Flag",
+        "title": "Cobb Can Move Story",
+        "description": "Story levels, batteries, ending, and level select"
       },
       {
-        "icon": "TrendingUp",
-        "title": "Farming and Growth",
-        "description": "Seed progression and material farming"
-      },
-      {
-        "icon": "Star",
-        "title": "Best Early Unlocks",
-        "description": "Priority upgrades for the first hour"
-      },
-      {
-        "icon": "ClipboardCheck",
-        "title": "Achievement Tracker",
-        "description": "All 19 Steam achievements and conditions"
-      },
-      {
-        "icon": "MessageCircle",
-        "title": "Singleplayer FAQ",
-        "description": "Platform, price, co-op, and language questions"
-      },
-      {
-        "icon": "Gamepad2",
-        "title": "Steam Deck and Controller",
-        "description": "Proton 9.0.4 setup and controller tips"
-      },
-      {
-        "icon": "Settings",
-        "title": "Settings and Accessibility",
-        "description": "Hide hands, Vulkan, and display options"
+        "icon": "Repeat",
+        "title": "Cobb Can Move Endless",
+        "description": "Endless mode, seeds, and replay strategy"
       },
       {
         "icon": "Clock",
-        "title": "Updates and Patch Notes",
-        "description": "Recent fixes and roadmap notes"
+        "title": "Cobb Can Move Updates",
+        "description": "Version notes, balance changes, and bug fixes"
       },
       {
-        "icon": "Shield",
-        "title": "Crash Fix",
-        "description": "Vulkan check, logs path, and bug reporting"
+        "icon": "Gift",
+        "title": "Cobb Can Move Codes",
+        "description": "Official status, rewards, and where updates really live"
       }
     ]
   },
   "modules": {
-    "lucidBlocksBeginnerGuide": {
-      "title": "Lucid Blocks Beginner Guide",
+    "cobbPlayLink": {
+      "title": "Cobb Can Move Play Link, Download and Latest Version",
+      "displayType": "cards",
+      "eyebrow": "Official Play Options",
+      "intro": "Play Cobb Can Move from the official itch.io page, either in your browser or through the downloadable build. The current listed release is v1.7, published on May 19, 2026.",
+      "cards": [
+        {
+          "name": "Official Play Page",
+          "value": "abho.itch.io/cobb-can-move",
+          "description": "The official itch.io page is the entry point for both the browser version and the download button."
+        },
+        {
+          "name": "Current Version",
+          "value": "v1.7",
+          "description": "The latest listed devlog is v1.7, a small balance update to smell, pursuit, and rock behavior."
+        },
+        {
+          "name": "Browser Play",
+          "value": "HTML5",
+          "description": "The game page includes a Run game option and lists HTML5 as a supported platform."
+        },
+        {
+          "name": "Downloadable Build",
+          "value": "v1.7 webview2 build",
+          "description": "A Windows download is available from the official page alongside the browser version."
+        },
+        {
+          "name": "Price Model",
+          "value": "Name your own price",
+          "description": "The official download uses itch.io's name-your-own-price model."
+        },
+        {
+          "name": "Platforms",
+          "value": "HTML5, Windows",
+          "description": "The official page lists both browser and Windows platform support."
+        },
+        {
+          "name": "Inputs",
+          "value": "Keyboard, Gamepad",
+          "description": "Keyboard and any gamepad are listed as supported input types."
+        },
+        {
+          "name": "Game Tags",
+          "value": "2D, Endless, Horror, Pixel Art",
+          "description": "Official tags include Survival Horror, Procedural Generation, Singleplayer, and Top-Down."
+        }
+      ],
+      "ctaLabel": "Open Official Play Page",
+      "ctaHref": "https://abho.itch.io/cobb-can-move"
+    },
+    "cobbBeginnerGuide": {
+      "title": "Cobb Can Move Beginner Guide",
       "displayType": "steps",
-      "intro": "Start by learning how exploration, fusion, and progression connect. Lucid Blocks rewards experimentation, so early progress comes from gathering unusual materials, testing combinations, and unlocking your personal Qualia.",
+      "eyebrow": "Beginner Survival",
+      "intro": "Learn the basic survival loop before Cobb turns your first run into a short pixel-art tragedy. Cobb Can Move is built around changing rules, short survival runs, resource handling, and reacting to Cobb's abilities.",
       "steps": [
         {
-          "title": "Explore Before You Commit",
-          "description": "Walk outward, mine common blocks, and keep any strange drops you find. Early progress is less about fixed quests and more about discovering what materials can become."
+          "title": "Start from the official itch.io page",
+          "description": "Launch the browser version or download the current build from the official Cobb Can Move page before playing."
         },
         {
-          "title": "Unlock Your Personal Qualia Early",
-          "description": "Your personal Qualia is one of the most important early milestones. It gives you a reliable place to regroup and build around."
+          "title": "Use a supported input type",
+          "description": "Keyboard and any gamepad are supported. Pick the control method that lets you move carefully, because rushed movement is punished fast."
         },
         {
-          "title": "Use Osmium for Fast Early Progress",
-          "description": "Osmium is one of the most useful early materials. A popular early route is combining Osmium with sticks to make a Frost Pick for fast mining."
+          "title": "Read the rule text every run",
+          "description": "The core idea is that the rules change, and level 2 guarantees a sensory rule such as hear, smell, or see."
         },
         {
-          "title": "Record Good Fusions",
-          "description": "Keep track of successful combinations in your journal. Lucid Blocks has many possible fusion paths, so writing down useful results saves a lot of time."
+          "title": "Move carefully around Cobb's senses",
+          "description": "Sensory rules change how Cobb detects you. Treat sight and smell rules as direct danger signals until you learn how each one feels."
+        },
+        {
+          "title": "Use items without wasting time",
+          "description": "Item swapping works even when the drop spot sits over a wall, so keep your inventory handling clean and deliberate instead of panic-dropping resources."
+        },
+        {
+          "title": "Learn from death tips",
+          "description": "Tips appear after dying, making each failed run useful for understanding the next rule or mistake before you restart."
+        },
+        {
+          "title": "Expect rocks to matter",
+          "description": "A direct rock hit can stun Cobb briefly, and rocks now sound louder, so they are a real defensive tool during chases."
+        },
+        {
+          "title": "Return after beating the story",
+          "description": "A level select menu unlocks after you beat the game once, letting you replay specific story levels and practice rule combinations."
         }
       ],
       "quickTips": [
-        "Apotheosis does not require a fixed recipe list.",
-        "Infinite world generation means moving higher or deeper can reveal completely different materials.",
-        "Movement tools and utility gear become a major quality-of-life boost once you start unlocking them.",
-        "Getting lost early is normal, but useful tools, storage, and movement options snowball fast once your first good fusions start working."
+        "Check the active rule text at the start of every level before moving.",
+        "Keep movement deliberate near sight and smell rules.",
+        "Use rocks as a defensive tool during long pursuits, not just decoration.",
+        "Read the death tip after each failed run before restarting."
       ]
     },
-    "lucidBlocksApotheosisCrafting": {
-      "title": "Lucid Blocks Apotheosis Crafting",
-      "displayType": "cards",
-      "intro": "Apotheosis is the game's unrestricted fusion system. Instead of memorizing a traditional recipe book, you combine materials, watch the result, and build your own crafting knowledge over time.",
-      "cards": [
-        {
-          "name": "Freeform Fusion",
-          "description": "Apotheosis lets you fuse together different items without needing to follow a fixed recipe list."
-        },
-        {
-          "name": "Multiple Useful Outcomes",
-          "description": "Different materials often push toward certain results. Community discoveries show that similar inputs can still lead to practical tools, storage, or combat upgrades."
-        },
-        {
-          "name": "Journal-First Crafting",
-          "description": "The best way to learn Apotheosis is to track your successful combinations. Your journal quickly becomes your own crafting reference."
-        },
-        {
-          "name": "Community-Tested Early Fusions",
-          "description": "Popular early examples include Osmium plus Stick for a Frost Pick, Stick plus Tungsten Appendage for Azrael, and Azrael plus Magnetite for the Tendril Rapier."
-        }
-      ],
-      "milestones": [
-        "Fuse an item",
-        "Fuse a vermin",
-        "Fuse a divine artifact"
-      ]
-    },
-    "lucidBlocksToolsAndWeapons": {
-      "title": "Lucid Blocks Tools and Weapons",
-      "displayType": "itemCards",
-      "intro": "Lucid Blocks mixes official utility gear with community-discovered early weapons. The best setup is usually a blend of fast mining, safe traversal, and one dependable combat option.",
+    "cobbRulesAndAbilities": {
+      "title": "Cobb Can Move Rules and Cobb Abilities",
+      "displayType": "accordion",
+      "eyebrow": "Rules and Abilities",
+      "intro": "Track the rule changes that shape each run, including sensory rules, pursuit behavior, duplicate handling, and balance changes from recent Cobb Can Move updates.",
       "items": [
         {
-          "name": "Frost Pick",
-          "type": "Mining Tool",
-          "description": "A fast and affordable early pick made from Osmium and Stick. Players use it to speed up early material gathering."
-        },
-        {
-          "name": "Azrael",
-          "type": "Starter Weapon",
-          "description": "A practical early weapon route crafted from Stick and Tungsten Appendage."
-        },
-        {
-          "name": "Tendril Rapier",
-          "type": "Upgraded Weapon",
-          "description": "A stronger follow-up made by combining Azrael with Magnetite. It is one of the most useful early-mid combat paths shared by players."
-        },
-        {
-          "name": "Hookshot",
-          "type": "Mobility Tool",
-          "description": "An official traversal item that greatly improves movement and vertical exploration."
-        },
-        {
-          "name": "Bee Glider",
-          "type": "Mobility Tool",
-          "description": "An official movement item that helps cover space more safely and efficiently."
-        },
-        {
-          "name": "Ball Wand",
-          "type": "Utility Weapon",
-          "description": "An official ranged utility item that expands your combat and puzzle options."
-        },
-        {
-          "name": "Scuba Diving Gear",
-          "type": "Traversal Gear",
-          "description": "An official utility item for reaching areas that would otherwise slow down exploration."
-        },
-        {
-          "name": "Explosives",
-          "type": "Utility Damage",
-          "description": "Officially highlighted as part of the core toolset and useful for breaking through threats or obstacles."
-        }
-      ]
-    },
-    "lucidBlocksStorageAndInventory": {
-      "title": "Lucid Blocks Storage and Inventory",
-      "displayType": "solutionCards",
-      "intro": "Inventory pressure starts early in Lucid Blocks, so building storage should be one of your first goals. Several real player-tested solutions already stand out.",
-      "solutions": [
-        {
-          "name": "Cache Cube",
-          "role": "Chest-Like Storage",
-          "description": "Cache Cubes are one of the earliest practical storage answers and are treated by players as the game's main chest-style container."
-        },
-        {
-          "name": "Cabinet",
-          "role": "Simple Base Storage",
-          "description": "Cabinets are another confirmed storage option. A shared early recipe uses 1 Cut Wood and 1 String."
-        },
-        {
-          "name": "Personal Qualia",
-          "role": "Long-Term Storage Hub",
-          "description": "Once unlocked, your personal Qualia becomes a natural place to organize materials, craft in peace, and expand your base setup."
-        },
-        {
-          "name": "Journal Tracking",
-          "role": "Inventory Efficiency",
-          "description": "Recording useful combinations in your journal reduces wasted materials and makes inventory management much easier."
-        }
-      ],
-      "managementTips": [
-        "Prioritize one dependable storage option before hoarding rare drops.",
-        "Build around your personal Qualia once it becomes available.",
-        "Keep crafting materials, combat tools, and movement gear separated so upgrades are easier to plan.",
-        "Use your journal as part of inventory management, not just crafting discovery."
-      ]
-    },
-    "lucidBlocksQualiaAndBaseBuilding": {
-      "title": "Lucid Blocks Qualia and Base Building",
-      "displayType": "cards",
-      "intro": "Qualia is one of the most important progression milestones in Lucid Blocks. It gives you a personal space to regroup, store materials, and gradually turn exploration progress into a real home base.",
-      "cards": [
-        {
-          "name": "Personal Qualia",
-          "description": "Unlocking a Qualia is an early milestone that gives you a more reliable place to return to while exploring the wider world."
-        },
-        {
-          "name": "Storage-First Building",
-          "description": "Many players start using their Qualia as a storage hub before turning it into a larger base with organized crafting and building space."
-        },
-        {
-          "name": "Creative Home Building",
-          "description": "Lucid Blocks supports creative building, and players are already using Qualia spaces to make houses and personalized layouts."
-        },
-        {
-          "name": "Progression Hub",
-          "description": "A strong base helps you separate exploration loot, crafting materials, seeds, tools, and mobility gear so your next upgrades are easier to plan."
-        }
-      ],
-      "highlights": [
-        "Enter a qualia",
-        "Store materials safely",
-        "Expand from utility to decoration",
-        "Use base space to support crafting and farming"
-      ]
-    },
-    "lucidBlocksWorldRegions": {
-      "title": "Lucid Blocks World Regions",
-      "displayType": "regionCards",
-      "intro": "Lucid Blocks uses infinite world generation, so players keep discovering new environments and structures. A few named places are already showing up in achievements and community discussions.",
-      "regions": [
-        {
-          "name": "Fog Meadow",
-          "type": "Community-Noted Area",
-          "description": "Fog Meadow is already known among players as a tense area associated with hidden threats and dangerous encounters."
-        },
-        {
-          "name": "Tiamana Leyline",
-          "type": "Discovery Landmark",
-          "description": "The tiamana leyline is important enough to have its own achievement milestone, making it one of the clearest named world discoveries so far."
-        },
-        {
-          "name": "Clonaqualia",
-          "type": "Build Space",
-          "description": "Players are already using Clonaqualia as a place to build houses, store materials, and experiment with more permanent layouts."
-        },
-        {
-          "name": "Essence Morass",
-          "type": "Farming Area",
-          "description": "Essence Morass is being shared by players as a useful farming location, especially for fighting slimes and gaining experience."
-        }
-      ]
-    },
-    "lucidBlocksCreaturesAndEnemies": {
-      "title": "Lucid Blocks Creatures and Enemies",
-      "displayType": "creatureCards",
-      "intro": "Lucid Blocks mixes surreal creatures with real danger. Official descriptions and community posts point to a world full of strange life, hostile threats, and a few standout encounters players remember quickly.",
-      "creatures": [
-        {
-          "name": "Manikins",
-          "role": "Hostile Enemy",
-          "description": "Manikins are one of the officially named foes in the world and part of the game's surreal threat roster."
-        },
-        {
-          "name": "Squishy Gels",
-          "role": "Hostile Enemy",
-          "description": "Squishy gels are another officially named enemy type and help define the game's strange biological style."
-        },
-        {
-          "name": "Higher-Dimensional Beings",
-          "role": "Hostile Enemy",
-          "description": "These beings are presented as part of the world's more abstract and unsettling enemy lineup."
-        },
-        {
-          "name": "Colossal Spiders",
-          "role": "Major Threat",
-          "description": "Spiders are one of the most immediately feared enemies in community discussions and are clearly a memorable danger."
-        },
-        {
-          "name": "Bubblebear",
-          "role": "Named Creature",
-          "description": "Bubblebear is notable enough to have its own achievement, which makes it one of the clearest named creature encounters in the game."
-        },
-        {
-          "name": "Cute Vermin",
-          "role": "Interactable Creature",
-          "description": "Vermin are not only part of fusion progression, they can also be renamed, giving them a more personal role than standard enemies."
-        },
-        {
-          "name": "Blasphemous Creature",
-          "role": "Elite Threat",
-          "description": "The blasphemous creature is tied to a dedicated combat achievement, marking it as a significant enemy encounter."
-        }
-      ]
-    },
-    "lucidBlocksMobilityGear": {
-      "title": "Lucid Blocks Mobility Gear",
-      "displayType": "itemCards",
-      "intro": "Movement upgrades are one of the biggest quality-of-life jumps in Lucid Blocks. Once you unlock your first traversal tools, exploration becomes faster, safer, and much more rewarding.",
-      "items": [
-        {
-          "name": "Hookshot",
-          "type": "Traversal Tool",
-          "description": "The hookshot is one of the clearest movement milestones in the game and has its own dedicated achievement."
-        },
-        {
-          "name": "Glider Glove",
-          "type": "Air Mobility",
-          "description": "The glider glove opens up much smoother travel and is another major progression milestone with its own achievement."
-        },
-        {
-          "name": "Bee Glider",
-          "type": "Traversal Tool",
-          "description": "Bee gliders are officially highlighted as part of the game's movement toolkit for covering space more efficiently."
-        },
-        {
-          "name": "Ball Wand",
-          "type": "Utility Gear",
-          "description": "Ball wands are one of the officially highlighted special tools and expand how you move through or interact with the world."
-        },
-        {
-          "name": "Scuba Diving Gear",
-          "type": "Exploration Gear",
-          "description": "Scuba diving gear is officially listed as part of the core utility set for reaching areas that would otherwise be harder to explore."
-        },
-        {
-          "name": "Explosives",
-          "type": "Utility Damage",
-          "description": "Explosives are both officially highlighted and linked to an achievement milestone, making them part of the game's core utility progression."
-        }
-      ],
-      "unlockMilestones": [
-        "Command a hookshot",
-        "Fly with the glider glove",
-        "Brandish a projectile wand",
-        "Brandish an explosive"
-      ]
-    },
-    "lucidBlocksFarmingAndGrowth": {
-      "title": "Lucid Blocks Farming and Growth",
-      "displayType": "mixedCards",
-      "intro": "Growth is part of real progression in Lucid Blocks. Farming is not only about planting and harvesting, but also about setting up repeatable material routes that keep your tools, weapons, and crafting options flowing.",
-      "sections": [
-        {
-          "name": "Seed Progression",
-          "description": "Planting and fertilizing seeds is a real milestone in the game, and harvesting a fully-grown nut is part of the same growth path."
-        },
-        {
-          "name": "Material Farming",
-          "description": "A practical early farming loop is creating Mercury Capsules, which spawn small slimes that drop Tendrils and goo for repeatable crafting materials."
-        },
-        {
-          "name": "Tool Sustain",
-          "description": "Resource farming becomes much stronger once you can consistently gather Osmium, glass shards, plants, and slime materials for follow-up crafts."
-        },
-        {
-          "name": "Base Routine",
-          "description": "The best farming setup supports more than food. It should feed your storage, movement tools, weapon upgrades, and future fusion experiments."
-        }
-      ],
-      "growthMilestones": [
-        "Fertilize a seed",
-        "Harvest a fully-grown nut",
-        "Create repeatable material loops",
-        "Turn farming into long-term progression"
-      ]
-    },
-    "lucidBlocksBestEarlyUnlocks": {
-      "title": "Lucid Blocks Best Early Unlocks",
-      "displayType": "priorityCards",
-      "intro": "The strongest early unlocks are the ones that improve safety, storage, and movement. In Lucid Blocks, a few practical upgrades can make the entire rest of the game much smoother.",
-      "priorities": [
-        {
-          "name": "Personal Qualia",
-          "priority": "Essential",
-          "description": "As soon as you get access to your personal Qualia, your run becomes much more stable. It acts as a reliable hub for storage, building, and regrouping."
-        },
-        {
-          "name": "Frost Pick",
-          "priority": "Very High",
-          "description": "A fast and cheap early mining tool made from Osmium and Stick. It is one of the most useful upgrades for accelerating early resource collection."
-        },
-        {
-          "name": "Cache Cube",
-          "priority": "Very High",
-          "description": "Storage pressure starts early, so getting your first dependable chest-style container is a major quality-of-life upgrade."
-        },
-        {
-          "name": "Hookshot",
-          "priority": "High",
-          "description": "The hookshot is one of the clearest movement milestones in the game and quickly makes exploration faster and safer."
-        },
-        {
-          "name": "Glider Glove",
-          "priority": "High",
-          "description": "The glider glove adds another major mobility boost and makes long-distance movement far more efficient."
-        },
-        {
-          "name": "Projectile Wand or Bombs",
-          "priority": "High",
-          "description": "A ranged tool or explosive option gives you a safer answer to dangerous enemies and trial-style encounters."
-        }
-      ]
-    },
-    "lucidBlocksAchievementTracker": {
-      "title": "Lucid Blocks Achievement Tracker",
-      "displayType": "achievementGrid",
-      "intro": "Lucid Blocks currently has 19 Steam achievements, and they naturally split into exploration, crafting, mobility, combat, and growth progression.",
-      "groups": [
-        {
-          "name": "Exploration",
-          "achievements": [
-            {
-              "title": "Angel α",
-              "description": "Enter a qualia."
-            },
-            {
-              "title": "Angel γ",
-              "description": "Discover a tiamana leyline."
-            },
-            {
-              "title": "Angel δ",
-              "description": "Overcome a tiamana challenge."
-            },
-            {
-              "title": "Angel ε",
-              "description": "Hidden achievement."
-            }
+          "title": "Changing Rules",
+          "summary": "Cobb Can Move is a survival horror game where the rules change.",
+          "details": [
+            "Rules alter how each run feels.",
+            "Check the active rule text before treating a level like the previous one."
           ]
         },
         {
-          "name": "Crafting and Summoning",
-          "achievements": [
-            {
-              "title": "Apotheosis α",
-              "description": "Fuse an item."
-            },
-            {
-              "title": "Apotheosis β",
-              "description": "Fuse a vermin."
-            },
-            {
-              "title": "Apotheosis γ",
-              "description": "Fuse a divine artifact."
-            },
-            {
-              "title": "Archangel β",
-              "description": "Summon your faith."
-            }
+          "title": "Sensory Rules",
+          "summary": "Level 2 guarantees a sensory rule: hear, smell, or see.",
+          "details": [
+            "Early runs teach Cobb's detection behavior quickly.",
+            "The rule system changes how you should move and react."
           ]
         },
         {
-          "name": "Mobility and Utility",
-          "achievements": [
-            {
-              "title": "Virtue α",
-              "description": "Fly with the glider glove."
-            },
-            {
-              "title": "Virtue β",
-              "description": "Command a hookshot."
-            },
-            {
-              "title": "Archangel α",
-              "description": "Brandish a projectile wand."
-            },
-            {
-              "title": "Archangel γ",
-              "description": "Brandish an explosive."
-            }
+          "title": "Cobb Can See",
+          "summary": "Sight has been actively balanced across updates, with range adjustments in v1.4 and v1.5.",
+          "details": [
+            "Treat visibility-related rules as major danger modifiers.",
+            "Keep more spacing when a sight rule is active."
           ]
         },
         {
-          "name": "Combat and Creatures",
-          "achievements": [
-            {
-              "title": "Bubblebear Massacre",
-              "description": "Defeat innocent bubblebears."
-            },
-            {
-              "title": "Archangel δ",
-              "description": "Eliminate a blasphemous creature."
-            },
-            {
-              "title": "Angel β",
-              "description": "Die."
-            },
-            {
-              "title": "Dominion γ",
-              "description": "Rename a cute vermin."
-            }
+          "title": "Cobb Can Smell",
+          "summary": "v1.7 nerfed smell with less frequent sniffs and less persistence when you are smelled at close range.",
+          "details": [
+            "Smell remains an important sensory rule.",
+            "The latest balance update makes smell less relentless than before."
           ]
         },
         {
-          "name": "Growth and Farming",
-          "achievements": [
-            {
-              "title": "Dominion α",
-              "description": "Fertilize a seed."
-            },
-            {
-              "title": "Dominion β",
-              "description": "Harvest a fully-grown nut."
-            },
-            {
-              "title": "Dominion δ",
-              "description": "Hidden achievement."
-            }
+          "title": "Long Pursuit Speed",
+          "summary": "Cobb gets faster during long pursuits, with acceleration slightly reduced in v1.7.",
+          "details": [
+            "Extended chases still matter.",
+            "v1.7 reduced the pressure slightly without removing the pursuit mechanic."
+          ]
+        },
+        {
+          "title": "Reach Rule",
+          "summary": "When reach is active, Cobb takes larger steps but moves with less speed.",
+          "details": [
+            "Reach changes Cobb's movement feel rather than simply making him faster.",
+            "Keep more spacing when this rule appears."
+          ]
+        },
+        {
+          "title": "Duplicate Behavior",
+          "summary": "Duplicates now push each other, fixing the issue where they could merge back into one Cobb.",
+          "details": [
+            "Duplicate Cobbs behave more distinctly.",
+            "Multiple-Cobb situations are clearer and less visually confusing."
+          ]
+        },
+        {
+          "title": "Rock Stun Fix",
+          "summary": "v1.7 fixed rocks sometimes failing to stun Cobb during a pursuit.",
+          "details": [
+            "Rocks became more reliable as a defensive tool.",
+            "This matters most when a direct hit lands during a chase."
           ]
         }
       ]
     },
-    "lucidBlocksSingleplayerAndPlatformFAQ": {
-      "title": "Lucid Blocks Singleplayer and Platform FAQ",
-      "displayType": "accordion",
-      "intro": "These are the core platform and access questions players keep asking before buying Lucid Blocks.",
-      "faqs": [
+    "cobbItemsFurnaceBreaker": {
+      "title": "Cobb Can Move Items, Furnace and Breaker Guide",
+      "displayType": "table",
+      "eyebrow": "Items and Objects",
+      "intro": "Understand the key interactable objects that affect survival, visibility, resource routing, and late-game pressure in Cobb Can Move.",
+      "columns": ["Item", "Type", "Use", "Update Note", "Takeaway"],
+      "rows": [
         {
-          "question": "Is Lucid Blocks singleplayer?",
-          "answer": "Yes. Lucid Blocks is a singleplayer game."
+          "item": "Coal",
+          "type": "Resource",
+          "use": "Core survival resource connected to the furnace loop.",
+          "note": "Coal is less likely to spawn right next to the furnace.",
+          "takeaway": "Expect more movement and routing pressure when collecting coal."
         },
         {
-          "question": "Is multiplayer or co-op planned?",
-          "answer": "No. Multiplayer is not planned for release or future updates."
+          "item": "Rocks",
+          "type": "Throwable",
+          "use": "Can stun Cobb on a direct hit.",
+          "note": "Rocks stun Cobb briefly on a direct hit, sound louder, and reliably stun during pursuit after v1.7.",
+          "takeaway": "Use rocks during dangerous moments instead of leaving them unused."
         },
         {
-          "question": "Where can I play Lucid Blocks?",
-          "answer": "It is currently available on Steam for Windows."
+          "item": "Carrots",
+          "type": "Respawning item",
+          "use": "A repeatable item source.",
+          "note": "Carrots respawn after being eaten.",
+          "takeaway": "Carrots are no longer one-and-done after being eaten."
         },
         {
-          "question": "How much does Lucid Blocks cost?",
-          "answer": "$9.99 on Steam."
+          "item": "Batteries",
+          "type": "Ending item",
+          "use": "Connected to the ending sequence and final task.",
+          "note": "The final task text changes after placing all four batteries.",
+          "takeaway": "Track battery progress carefully because the final task changes once all four are placed."
         },
         {
-          "question": "Does Lucid Blocks support controllers?",
-          "answer": "Yes, but controller play is not recommended because the menus are not designed around it."
+          "item": "Furnace",
+          "type": "Core objective",
+          "use": "Central object tied to the main survival loop and coal routing.",
+          "note": "Coal spawning pushes players to move farther for fuel.",
+          "takeaway": "The furnace stays central, but you travel farther for fuel now."
         },
         {
-          "question": "Does Lucid Blocks work on Steam Deck?",
-          "answer": "Yes. Proton 9.0 or 9.0.4 is the commonly recommended setup for Steam Deck."
+          "item": "Blast Furnace",
+          "type": "Ending object",
+          "use": "Used in the ending sequence.",
+          "note": "The blast furnace in the ending has a larger hitbox so it no longer gets lost behind it.",
+          "takeaway": "The ending interaction is easier to locate and use after the hitbox change."
         },
         {
-          "question": "Does Lucid Blocks work on Linux?",
-          "answer": "Yes. Proton 9.0 is reported to work well for Linux and Steam Deck."
+          "item": "Breaker",
+          "type": "Map object",
+          "use": "A visible interactable object you need to recognize during a run.",
+          "note": "The breaker sprite changed slightly to be more noticeable.",
+          "takeaway": "Look for the updated breaker appearance when scanning the map."
         },
         {
-          "question": "Will Mac or Android be supported?",
-          "answer": "They may be supported in the future, but they are not current launch platforms."
-        },
-        {
-          "question": "Does Lucid Blocks have translations?",
-          "answer": "No. There are currently no translations planned."
-        },
-        {
-          "question": "Will Lucid Blocks keep getting updates?",
-          "answer": "Yes. Some content updates are planned after release, but they are not intended to continue on an indefinite regular schedule."
+          "item": "Item Drop Spot",
+          "type": "Inventory handling",
+          "use": "Affects how you swap and manage carried objects.",
+          "note": "Item swapping works even when the drop spot sits over a wall and shows red.",
+          "takeaway": "Item swapping is more forgiving, especially near awkward walls."
         }
       ]
     },
-    "lucidBlocksSteamDeckAndController": {
-      "title": "Lucid Blocks Steam Deck and Controller",
-      "displayType": "accordion",
-      "intro": "Lucid Blocks can run on Steam Deck, but the default setup may need adjustment. Keyboard and mouse remains the smoother option for menus and general play.",
-      "faqs": [
-        {
-          "question": "Does Lucid Blocks work on Steam Deck?",
-          "answer": "Yes. Proton 9.0 works well, and Proton 9.0.4 is a commonly shared fix for Steam Deck issues."
-        },
-        {
-          "question": "What should I do if Steam Deck controls are not working?",
-          "answer": "Force compatibility and switch the game to Proton 9.0.4. The default configuration may not accept controller input correctly."
-        },
-        {
-          "question": "Does Lucid Blocks support controllers?",
-          "answer": "Yes, but controller play is not recommended because the game's menus are not designed around it."
-        },
-        {
-          "question": "Is Linux support possible?",
-          "answer": "Yes. Proton 9.0 is reported to work well for Linux and Steam Deck."
-        },
-        {
-          "question": "What is the best input setup?",
-          "answer": "Keyboard and mouse is the smoothest option for menu navigation and general moment-to-moment play."
-        }
-      ]
-    },
-    "lucidBlocksSettingsAndAccessibility": {
-      "title": "Lucid Blocks Settings and Accessibility",
-      "displayType": "settingCards",
-      "intro": "Lucid Blocks already has a few practical settings and compatibility notes that matter immediately when players first launch the game.",
-      "settings": [
-        {
-          "name": "Display Settings",
-          "type": "Comfort Option",
-          "description": "Display Settings includes an option that lets players hide the on-screen hands."
-        },
-        {
-          "name": "Graphics Compatibility",
-          "type": "System Requirement",
-          "description": "Vulkan support is required for the graphics to render properly. Systems without Vulkan can run into crashes and severe graphical glitches."
-        },
-        {
-          "name": "Input Preference",
-          "type": "Control Setup",
-          "description": "Controller support exists, but keyboard and mouse gives a smoother experience because menus are not built around controller use."
-        },
-        {
-          "name": "Language Support",
-          "type": "Localization",
-          "description": "The current setup is English-only, and no translations are planned right now."
-        }
-      ]
-    },
-    "lucidBlocksUpdatesAndPatchNotes": {
-      "title": "Lucid Blocks Updates and Patch Notes",
-      "displayType": "timeline",
-      "intro": "Lucid Blocks is already receiving quick post-launch fixes and small usability updates.",
-      "entries": [
-        {
-          "title": "Update 2.8.2",
-          "type": "UI Update",
-          "description": "Renamed \"awaken\" to \"exit\" in the main menu."
-        },
-        {
-          "title": "Small Patch for Start-Up Crashes",
-          "type": "Hotfix",
-          "description": "A dedicated patch was released for players whose game was crashing on launch."
-        },
-        {
-          "title": "Post-Launch Content Support",
-          "type": "Roadmap Note",
-          "description": "Some content updates are planned after release, but they are not intended to continue on an indefinite regular schedule."
-        }
-      ]
-    },
-    "lucidBlocksCrashFixAndTroubleshooting": {
-      "title": "Lucid Blocks Crash Fix and Troubleshooting",
+    "cobbStoryAndEnding": {
+      "title": "Cobb Can Move Story Mode Levels and Ending",
       "displayType": "steps",
-      "intro": "Most immediate launch and crash issues should be checked in a simple order: patch level, graphics support, platform compatibility, and logs.",
+      "eyebrow": "Story and Ending",
+      "intro": "Cobb Can Move story mode is a sequence of rule-changing levels that build toward a final task and an ending. This guide covers progression, batteries, the blast furnace, and the level select menu you unlock after finishing the game.",
       "steps": [
         {
-          "title": "Install the Latest Crash Hotfix",
-          "description": "If the game is crashing on start, update first and test again with the latest start-up crash patch."
+          "title": "Read the active rule each level",
+          "description": "Each level changes the rules, so treat every level fresh instead of repeating the same approach from the previous one."
         },
         {
-          "title": "Check Vulkan Support",
-          "description": "Lucid Blocks requires Vulkan support. Systems without Vulkan can suffer from crashes or major rendering problems."
+          "title": "Expect sensory rules from level 2",
+          "description": "Level 2 guarantees a sensory rule such as hear, smell, or see, which is where Cobb's detection behavior becomes the main threat."
         },
         {
-          "title": "Use Proton 9.0.4 on Steam Deck",
-          "description": "If Steam Deck input or launch behavior is broken, force compatibility and switch to Proton 9.0.4."
+          "title": "Gather coal and feed the furnace",
+          "description": "The early survival loop centers on collecting coal and routing it to the furnace, with coal now spawning farther away to push movement."
         },
         {
-          "title": "Collect Crash Logs",
-          "description": "Open Windows Run, paste %APPDATA%, go to lucid blocks/logs, and gather the .txt files for troubleshooting."
+          "title": "Watch the breaker",
+          "description": "The breaker sprite was made more noticeable, so scan the map for it and treat it as a recognizable interactable object."
         },
         {
-          "title": "Report the Issue Properly",
-          "description": "Share the logs and device details through the official Discord bug-reports forum or on the Steam community page."
+          "title": "Place all four batteries",
+          "description": "The final task text changes after placing four batteries, so track your battery progress carefully through the run."
+        },
+        {
+          "title": "Complete the blast furnace ending",
+          "description": "The blast furnace in the ending has a larger hitbox so the interaction is easier to find and finish without it getting lost."
+        },
+        {
+          "title": "Unlock level select after beating the game",
+          "description": "A level select menu unlocks after you beat the story once, letting you revisit any story level you want to practice."
+        },
+        {
+          "title": "Replay and refine",
+          "description": "Use level select to practice difficult rule combinations and sharpen your reaction to each sensory rule."
+        }
+      ],
+      "quickTips": [
+        "Read the rule text before moving on every level.",
+        "Keep four batteries in mind as you push toward the final task.",
+        "Use level select after the ending to drill hard rule combos.",
+        "Treat the breaker and furnace as reliable landmarks during a run."
+      ]
+    },
+    "cobbEndlessMode": {
+      "title": "Cobb Can Move Endless Mode and Replay Strategy",
+      "displayType": "cards",
+      "eyebrow": "Endless and Replay",
+      "intro": "Cobb Can Move Endless Mode keeps runs unpredictable because the rules keep changing. This guide explains how Endless works, why later levels raise the pressure, and how to adapt instead of memorizing one fixed route.",
+      "cards": [
+        {
+          "name": "Endless Starts at Level 3",
+          "description": "Endless mode begins at level 3, giving you a quick path into repeatable, rule-changing runs."
+        },
+        {
+          "name": "Changing Rules Every Run",
+          "description": "Rules change from level to level, so no single route stays optimal for long."
+        },
+        {
+          "name": "Rising Pressure",
+          "description": "Later levels push harder, including faster long pursuits and more demanding sensory rules."
+        },
+        {
+          "name": "Adapt Over Memorize",
+          "description": "Win by reacting to the active rule instead of repeating a fixed path that worked once."
+        },
+        {
+          "name": "Level Select After Story",
+          "description": "Beating the story unlocks level select, useful for practicing rule combinations before long Endless pushes."
+        },
+        {
+          "name": "Use Items to Extend Runs",
+          "description": "Rocks, carrots, and clean coal routing all help you survive longer as pressure ramps up."
         }
       ]
+    },
+    "cobbUpdatesPatchNotes": {
+      "title": "Cobb Can Move Updates and Patch Notes",
+      "displayType": "timeline",
+      "eyebrow": "Updates",
+      "intro": "Cobb Can Move received several 2026 updates after renewed player attention. This timeline tracks version notes, balance changes, quality-of-life additions, and bug fixes from the official devlog.",
+      "entries": [
+        {
+          "title": "v1.7",
+          "type": "Balance Hotfix",
+          "date": "May 19, 2026",
+          "description": "Nerfed smell with less frequent sniffs, slightly reduced pursuit acceleration, and fixed rocks sometimes failing to stun Cobb during pursuit."
+        },
+        {
+          "title": "v1.6",
+          "type": "Balance Update",
+          "date": "2026",
+          "description": "Made Cobb faster in long pursuits, changed reach to larger steps with less speed, fixed duplicates merging, moved coal spawns away from the furnace, made rocks stun Cobb on a direct hit, enlarged the blast furnace hitbox, and improved international keyboard layouts."
+        },
+        {
+          "title": "v1.5",
+          "type": "Content Update",
+          "date": "2026",
+          "description": "Adjusted the Cobb Can See range again and added a level select menu that unlocks after beating the game."
+        },
+        {
+          "title": "v1.4",
+          "type": "Rule and QoL Update",
+          "date": "2026",
+          "description": "Guaranteed a sensory rule on level 2, slightly nerfed Cobb Can See, allowed item swapping over walls, added death tips, and changed the final task text after placing four batteries."
+        },
+        {
+          "title": "v1.3",
+          "type": "Content Update",
+          "date": "2026",
+          "description": "Started Endless mode at level 3, made carrots respawn after being eaten, and tweaked the breaker sprite to be more noticeable."
+        }
+      ]
+    },
+    "cobbCodesAndStatus": {
+      "title": "Cobb Can Move Codes, Rewards and Official Status",
+      "displayType": "cards",
+      "eyebrow": "Codes and Status",
+      "intro": "The official Cobb Can Move itch.io page does not show a public redeem-code system. This guide points you to the real ways to get the game and stay current: the name-your-own-price download and the official devlog for updates.",
+      "cards": [
+        {
+          "name": "No Public Code System",
+          "description": "The official page does not list a redeem-code system, so there are no active Cobb Can Move codes to enter."
+        },
+        {
+          "name": "Name Your Own Price",
+          "description": "The official download uses itch.io's name-your-own-price model, including a free option, so price is never a barrier to playing."
+        },
+        {
+          "name": "Official itch.io Page",
+          "description": "abho.itch.io/cobb-can-move is the official entry point for both the browser version and the Windows download."
+        },
+        {
+          "name": "Real Updates on the Devlog",
+          "description": "Version notes, balance changes, and bug fixes all appear on the official devlog rather than in any code drop."
+        },
+        {
+          "name": "Ignore Fake Code Bait",
+          "description": "Third-party sites advertising active codes are not official, so treat them as noise and check the devlog instead."
+        },
+        {
+          "name": "Stay Current in the Community",
+          "description": "Join the official Discord for release news and devlog updates so you never miss a real Cobb Can Move change."
+        }
+      ],
+      "ctaLabel": "Open Official Play Page",
+      "ctaHref": "https://abho.itch.io/cobb-can-move"
     }
   },
   "faq": {
-    "title": "Frequently Asked",
-    "titleHighlight": "Questions",
-    "subtitle": "Everything you need to know about Lucid Blocks",
+    "title": "Cobb Can Move",
+    "titleHighlight": "FAQ",
+    "subtitle": "Everything you need to know about Cobb Can Move",
     "questions": [
       {
-        "question": "Is Lucid Blocks a singleplayer game?",
-        "answer": "Yes. Lucid Blocks is a singleplayer-only game with no multiplayer or co-op planned."
+        "question": "Where can I play Cobb Can Move?",
+        "answer": "You can play Cobb Can Move on the official itch.io page at abho.itch.io/cobb-can-move, either in your browser through the HTML5 version or by downloading the Windows build."
       },
       {
-        "question": "What is the Apotheosis system in Lucid Blocks?",
-        "answer": "Apotheosis is Lucid Blocks' freeform fusion crafting system. Instead of following fixed recipes, you combine materials and discover your own crafting paths."
+        "question": "Is Cobb Can Move free?",
+        "answer": "Cobb Can Move uses itch.io's name-your-own-price model, which includes a free option, so you can play without paying unless you want to support the developer."
       },
       {
-        "question": "Where can I play Lucid Blocks?",
-        "answer": "Lucid Blocks is currently available on Steam for Windows. Linux and Steam Deck support is available through Proton 9.0."
+        "question": "Are there active Cobb Can Move codes?",
+        "answer": "No. The official Cobb Can Move page does not list a redeem-code system, so there are no active codes to enter. Real updates arrive through the official devlog."
       },
       {
-        "question": "How much does Lucid Blocks cost?",
-        "answer": "Lucid Blocks costs $9.99 on Steam."
+        "question": "What platforms and inputs does Cobb Can Move support?",
+        "answer": "Cobb Can Move supports HTML5 and Windows, with keyboard and gamepad input listed on the official page."
       },
       {
-        "question": "Does Lucid Blocks support controllers?",
-        "answer": "Yes, but controller play is not recommended because the menus are not designed around it. Keyboard and mouse is the smoother option."
+        "question": "What is the latest version of Cobb Can Move?",
+        "answer": "The latest listed version of Cobb Can Move is v1.7, published on May 19, 2026, which adjusted smell, pursuit acceleration, and rock stun behavior."
       },
       {
-        "question": "Will Lucid Blocks receive updates?",
-        "answer": "Yes. Some content updates are planned after release, but they are not intended to continue on an indefinite regular schedule."
+        "question": "How do Cobb Can Move rules work?",
+        "answer": "In Cobb Can Move the rules change each level, and level 2 guarantees a sensory rule such as hear, smell, or see, so each run demands a different approach."
       }
     ]
   },
   "cta": {
     "title": "Ready to Survive Cobb Can Move?",
-    "description": "Join the Cobb Can Move community on Discord for rules, abilities, endings, updates, and survival tactics!",
+    "description": "Join the Cobb Can Move community on Discord for rules, abilities, endings, updates, and survival tactics.",
     "joinCommunity": "Join Discord",
     "joinGame": "Play on itch.io"
   },
@@ -802,124 +543,124 @@
   },
   "pages": {
     "guides": {
-      "title": "Lucid Blocks Guides",
-      "description": "Complete gameplay guides from beginner basics to advanced Apotheosis strategies. Master survival and crafting.",
-      "metaTitle": "Lucid Blocks Guides - Beginner to Advanced Strategies",
-      "metaDescription": "Complete Lucid Blocks guides covering beginner tips, Apotheosis system, survival strategies, and expert tactics for mastering the surreal sandbox.",
+      "title": "Cobb Can Move Guides",
+      "description": "Complete survival guides from beginner basics to advanced rule strategy. Master reading rules, routing coal, and outlasting Cobb.",
+      "metaTitle": "Cobb Can Move Guides - Beginner to Advanced Survival",
+      "metaDescription": "Complete Cobb Can Move guides covering beginner tips, the rule system, survival strategies, and expert tactics for mastering the pixel survival horror.",
       "categoryLabel": "GAME GUIDES",
       "whatIs": "What are Guides?",
-      "whatIsDescription": "Comprehensive guides covering gameplay mechanics, survival strategies, and the Apotheosis crafting system. Learn everything from first steps to advanced techniques.",
+      "whatIsDescription": "Comprehensive guides covering gameplay mechanics, survival strategies, and the rule system. Learn everything from first steps to advanced techniques.",
       "why": "Why read guides?",
       "whySteps": {
         "step1Title": "Learn Core Mechanics",
-        "step1Description": "Understand the Apotheosis system and avoid common beginner mistakes",
+        "step1Description": "Understand the rule system and avoid common beginner mistakes",
         "step2Title": "Fast Progression",
-        "step2Description": "Follow proven paths to survive and thrive in the surreal world",
+        "step2Description": "Follow proven paths to survive and thrive across story and Endless runs",
         "step3Title": "Master Strategies",
-        "step3Description": "Develop advanced tactics for exploration and crafting"
+        "step3Description": "Develop advanced tactics for adapting to changing rules"
       },
       "featured": "Featured & Essential",
       "all": "All Guides"
     },
-    "crafting": {
-      "title": "Lucid Blocks Crafting",
-      "description": "Master the Apotheosis fusion system with essence mechanics, recipes, and crafting strategies for powerful items.",
-      "metaTitle": "Lucid Blocks Crafting - Apotheosis System & Recipes",
-      "metaDescription": "Master Lucid Blocks Apotheosis crafting system. Learn essence mechanics, fusion recipes, and strategies for creating powerful tools and weapons.",
-      "categoryLabel": "CRAFTING SYSTEM",
-      "whatIs": "What is Crafting?",
-      "whatIsDescription": "The Apotheosis system is a unique essence-driven fusion mechanic where you combine up to six items to discover new recipes. No fixed crafting menus—experimentation is key.",
-      "why": "Why master crafting?",
+    "controls": {
+      "title": "Cobb Can Move Controls",
+      "description": "Keyboard, gamepad, item pickup, drop, throw, and movement controls for Cobb Can Move.",
+      "metaTitle": "Cobb Can Move Controls - Keyboard, Gamepad and Movement",
+      "metaDescription": "Complete Cobb Can Move controls guide covering keyboard and gamepad input, item handling, and movement tips for the pixel survival horror.",
+      "categoryLabel": "CONTROLS",
+      "whatIs": "What are Controls?",
+      "whatIsDescription": "Guides to keyboard and gamepad input, item pickup, drop, and throw actions, and movement tips for careful play.",
+      "why": "Why check controls?",
       "whySteps": {
-        "step1Title": "Unlock Powerful Items",
-        "step1Description": "Discover essential tools, weapons, and mobility gear through fusion",
-        "step2Title": "Understand Essences",
-        "step2Description": "Learn how item essences combine to create predictable results",
-        "step3Title": "Optimize Resources",
-        "step3Description": "Use dilution mechanics to maximize output from cheap materials"
+        "step1Title": "Pick Your Input",
+        "step1Description": "Choose keyboard or gamepad and learn the layout that fits careful movement",
+        "step2Title": "Handle Items",
+        "step2Description": "Learn pickup, drop, swap, and throw actions for clean inventory handling",
+        "step3Title": "Move Safely",
+        "step3Description": "Use deliberate movement to survive sensory rules"
       },
       "featured": "Featured & Essential",
-      "all": "All Crafting Guides"
+      "all": "All Controls"
+    },
+    "rules": {
+      "title": "Cobb Can Move Rules",
+      "description": "How the changing-rule system works, including sensory rules, pursuit, reach, and duplicate behavior.",
+      "metaTitle": "Cobb Can Move Rules - Sensory, Pursuit and Reach",
+      "metaDescription": "Learn how Cobb Can Move rules change each level, covering sensory rules, pursuit speed, reach, and duplicate behavior.",
+      "categoryLabel": "RULES",
+      "whatIs": "What are Rules?",
+      "whatIsDescription": "Guides to the rule system that reshapes each run, including sensory rules, pursuit behavior, reach, and duplicate handling.",
+      "why": "Why learn rules?",
+      "whySteps": {
+        "step1Title": "Read Each Rule",
+        "step1Description": "Understand what the active rule means before moving",
+        "step2Title": "Adapt Fast",
+        "step2Description": "Change your approach as rules shift between levels",
+        "step3Title": "Avoid Traps",
+        "step3Description": "Recognize danger patterns tied to sight, smell, and pursuit"
+      },
+      "featured": "Featured & Essential",
+      "all": "All Rules"
     },
     "items": {
-      "title": "Lucid Blocks Items",
-      "description": "Detailed item guides covering tools, weapons, mobility gear, and storage solutions with crafting recipes and usage tips.",
-      "metaTitle": "Lucid Blocks Items - Tools, Weapons & Gear Guide",
-      "metaDescription": "Complete item database for Lucid Blocks including tools, weapons, mobility gear, and storage. Learn how to craft and use every item effectively.",
-      "categoryLabel": "ITEMS & EQUIPMENT",
+      "title": "Cobb Can Move Items",
+      "description": "Detailed item guides covering coal, rocks, carrots, batteries, the furnace, and the breaker.",
+      "metaTitle": "Cobb Can Move Items - Coal, Rocks, Batteries and Furnace",
+      "metaDescription": "Complete Cobb Can Move item database including coal, rocks, carrots, batteries, the furnace, blast furnace, and breaker with usage tips.",
+      "categoryLabel": "ITEMS",
       "whatIs": "What are Items?",
-      "whatIsDescription": "Comprehensive guides for tools, weapons, mobility gear, and functional items. Learn crafting recipes, usage strategies, and optimal combinations.",
+      "whatIsDescription": "Comprehensive guides for interactable objects. Learn how each item affects survival, distraction, progression, and late-game pressure.",
       "why": "Why check item guides?",
       "whySteps": {
-        "step1Title": "Learn Crafting Recipes",
-        "step1Description": "Discover how to craft essential tools and weapons using Apotheosis",
-        "step2Title": "Optimize Equipment",
-        "step2Description": "Choose the best items for your playstyle and progression stage",
-        "step3Title": "Improve Survival",
-        "step3Description": "Equip mobility gear and weapons to navigate the dangerous world"
+        "step1Title": "Use Items Well",
+        "step1Description": "Discover how coal, rocks, and batteries shape each run",
+        "step2Title": "Route Resources",
+        "step2Description": "Plan coal routing to and from the furnace",
+        "step3Title": "Finish Strong",
+        "step3Description": "Track batteries and the blast furnace for the ending"
       },
       "featured": "Featured & Essential",
       "all": "All Items"
     },
-    "biomes": {
-      "title": "Lucid Blocks Biomes",
-      "description": "Explore world regions, environmental features, resource locations, and survival tips for each biome.",
-      "metaTitle": "Lucid Blocks Biomes - World Regions & Exploration",
-      "metaDescription": "Explore Lucid Blocks biomes including Tiamana Leylines, Fog Meadow, and surreal regions. Find resources, avoid dangers, and navigate the infinite world.",
-      "categoryLabel": "WORLD REGIONS",
-      "whatIs": "What are Biomes?",
-      "whatIsDescription": "Guides to different world regions, environmental features, resource distribution, and danger zones. Learn what to expect and how to prepare for each area.",
-      "why": "Why explore biomes?",
+    "endless": {
+      "title": "Cobb Can Move Endless",
+      "description": "Endless mode, seeds, replay strategy, and how to adapt to changing rules over longer runs.",
+      "metaTitle": "Cobb Can Move Endless Mode - Seeds and Replay Strategy",
+      "metaDescription": "Master Cobb Can Move Endless mode with seeds, replay strategy, and tactics for adapting to changing rules as pressure rises.",
+      "categoryLabel": "ENDLESS",
+      "whatIs": "What is Endless?",
+      "whatIsDescription": "Guides to Endless mode, which starts at level 3 and keeps runs unpredictable through changing rules.",
+      "why": "Why play Endless?",
       "whySteps": {
-        "step1Title": "Find Resources",
-        "step1Description": "Locate rare materials and essences specific to each region",
-        "step2Title": "Avoid Dangers",
-        "step2Description": "Understand environmental hazards and hostile creatures",
-        "step3Title": "Plan Exploration",
-        "step3Description": "Prepare the right tools and gear for each biome type"
+        "step1Title": "Repeat Runs",
+        "step1Description": "Jump into quick, rule-changing runs from level 3",
+        "step2Title": "Adapt",
+        "step2Description": "React to the active rule instead of memorizing routes",
+        "step3Title": "Push Farther",
+        "step3Description": "Survive rising pressure in later levels"
       },
       "featured": "Featured & Essential",
-      "all": "All Biomes"
+      "all": "All Endless Guides"
     },
-    "building": {
-      "title": "Lucid Blocks Building",
-      "description": "Master Qualia personal dimensions, base building, storage management, and creative construction techniques.",
-      "metaTitle": "Lucid Blocks Building - Qualia & Base Construction",
-      "metaDescription": "Master Lucid Blocks building with Qualia personal dimensions, base construction, storage solutions, and creative building techniques.",
-      "categoryLabel": "BUILDING & BASES",
-      "whatIs": "What is Building?",
-      "whatIsDescription": "Guides to the Qualia personal dimension system, base construction, storage management, and creative building. Learn to create your safe haven in the surreal world.",
-      "why": "Why build bases?",
+    "updates": {
+      "title": "Cobb Can Move Updates",
+      "description": "Version notes, balance changes, bug fixes, and developer notes from the official devlog.",
+      "metaTitle": "Cobb Can Move Updates - Patch Notes and Version History",
+      "metaDescription": "Track Cobb Can Move updates including version notes, balance changes, bug fixes, and developer notes from the official itch.io devlog.",
+      "categoryLabel": "UPDATES",
+      "whatIs": "What are Updates?",
+      "whatIsDescription": "Version-by-version coverage of balance changes, quality-of-life additions, and bug fixes straight from the devlog.",
+      "why": "Why follow updates?",
       "whySteps": {
-        "step1Title": "Create Safe Spaces",
-        "step1Description": "Establish secure bases for storage and crafting operations",
-        "step2Title": "Manage Resources",
-        "step2Description": "Organize materials efficiently with storage solutions",
-        "step3Title": "Unlock Qualia",
-        "step3Description": "Access personal pocket dimensions for ultimate convenience"
+        "step1Title": "Stay Current",
+        "step1Description": "See how rules and items change across versions",
+        "step2Title": "Adjust Strategy",
+        "step2Description": "Adapt your play to the latest balance changes",
+        "step3Title": "Fix Issues",
+        "step3Description": "Find bug fixes and quality-of-life improvements"
       },
       "featured": "Featured & Essential",
-      "all": "All Building Guides"
-    },
-    "support": {
-      "title": "Lucid Blocks Support",
-      "description": "Technical support, platform compatibility, performance optimization, and troubleshooting for common issues.",
-      "metaTitle": "Lucid Blocks Support - Technical Help & Fixes",
-      "metaDescription": "Get technical support for Lucid Blocks including Steam Deck setup, crash fixes, performance optimization, and platform compatibility guides.",
-      "categoryLabel": "TECHNICAL SUPPORT",
-      "whatIs": "What is Support?",
-      "whatIsDescription": "Technical guides covering platform compatibility, performance optimization, crash fixes, and common issues. Get help with Steam Deck, multiplayer questions, and settings.",
-      "why": "Why check support?",
-      "whySteps": {
-        "step1Title": "Fix Technical Issues",
-        "step1Description": "Resolve crashes, performance problems, and compatibility issues",
-        "step2Title": "Optimize Performance",
-        "step2Description": "Configure settings for best experience on your platform",
-        "step3Title": "Platform Compatibility",
-        "step3Description": "Learn about Steam Deck, controller support, and system requirements"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Support Articles"
+      "all": "All Updates"
     }
   }
 }

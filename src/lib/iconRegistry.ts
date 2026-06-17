@@ -38,6 +38,11 @@ export const iconRegistry: Record<string, LucideIcon> = {
   Clock: LucideIcons.Clock,
   X: LucideIcons.X,
 
+  // COBB CAN MOVE 导航卡片图标
+  Flag: LucideIcons.Flag,
+  Repeat: LucideIcons.Repeat,
+  Gift: LucideIcons.Gift,
+
   // 默认回退图标
   HelpCircle: LucideIcons.HelpCircle,
 }
