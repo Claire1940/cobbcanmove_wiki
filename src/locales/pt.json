@@ -1,1 +1,661 @@
-{}
+{
+  "seo": {
+    "home": {
+      "title": "Cobb Can Move Wiki - Regras, Finais e Guia de Sobrevivência",
+      "description": "Cobb Can Move Wiki cobre regras, habilidades de Cobb, carvão, fornalhas, disjuntores, finais, atualizações, controles e dicas de sobrevivência para o jogo de terror do itch.io.",
+      "keywords": "Cobb Can Move, Cobb Can Move wiki, itch.io, jogo de terror, regras, habilidades, finais, guia de sobrevivência",
+      "ogTitle": "Cobb Can Move Wiki - Regras, Finais e Guia de Sobrevivência",
+      "ogDescription": "Cobb Can Move Wiki cobre regras, habilidades de Cobb, carvão, fornalhas, disjuntores, finais, atualizações, controles e dicas de sobrevivência para o jogo de terror do itch.io.",
+      "twitterTitle": "Cobb Can Move Wiki - Regras, Finais e Guia de Sobrevivência",
+      "twitterDescription": "Cobb Can Move Wiki cobre regras, habilidades de Cobb, finais, atualizações, controles e dicas de sobrevivência para o terror de sobrevivência pixelado do itch.io."
+    }
+  },
+  "nav": {
+    "guide": "Guia",
+    "mechanics": "Mecânicas",
+    "ending": "Final",
+    "lore": "Lore",
+    "download": "Download",
+    "media": "Mídia"
+  },
+  "common": {
+    "home": "Início",
+    "more": "Mais",
+    "playNow": "Jogar no itch.io",
+    "switchLanguage": "Mudar Idioma",
+    "switchTheme": "Mudar Tema",
+    "lightMode": "Modo Claro",
+    "darkMode": "Modo Escuro",
+    "notFound": "Página Não Encontrada",
+    "notFoundDescription": "A página que você está procurando não existe.",
+    "backToHome": "Voltar para o Início",
+    "relatedArticles": "Artigos Relacionados",
+    "readMore": "Ler Mais",
+    "articlesComingSoon": "Artigos em breve"
+  },
+  "hero": {
+    "badge": "Terror de Sobrevivência Pixelado que Muda as Regras",
+    "title": "Cobb Can Move Wiki",
+    "description": "Sobreviva a Cobb em um jogo de terror pixelado sombrio onde cada nível muda as regras. Aprenda as habilidades de Cobb, rotas de carvão, fornalhas, disjuntores, finais, atualizações e táticas de sobrevivência.",
+    "getFreeCodesCTA": "Ver Atualizações",
+    "playOnSteamCTA": "Jogar no itch.io",
+    "stats": {
+      "stat1": {
+        "value": "4.8/5",
+        "label": "Avaliação do Usuário"
+      },
+      "stat2": {
+        "value": "539",
+        "label": "Total de Avaliações"
+      },
+      "stat3": {
+        "value": "v1.7",
+        "label": "Última Versão"
+      },
+      "stat4": {
+        "value": "HTML5 & Windows",
+        "label": "Plataformas"
+      }
+    }
+  },
+  "gameFeature": {
+    "title": "Jogabilidade de Cobb Can Move",
+    "description": "Sobreviva a um jogo de terror pixelado que muda as regras por Cobb Can Move, onde cada nível remodela como o monstro caça. Leia as regras, gerencie o carvão, alimente as fornalhas e sobreviva a Cobb em corridas de história e Endless Mode."
+  },
+  "tools": {
+    "title": "Cobb Can Move",
+    "titleHighlight": "Guias",
+    "subtitle": "Tudo o que você precisa para jogar, sobreviver e se manter à frente de Cobb Can Move",
+    "cards": [
+      {
+        "icon": "Download",
+        "title": "Link para Jogar Cobb Can Move",
+        "description": "Página oficial do itch.io, jogo no navegador, download e versão"
+      },
+      {
+        "icon": "BookOpen",
+        "title": "Guia para Iniciantes de Cobb Can Move",
+        "description": "Loop de sobrevivência inicial, regras, itens e dicas de morte"
+      },
+      {
+        "icon": "Eye",
+        "title": "Regras de Cobb Can Move",
+        "description": "Regras sensoriais, perseguição, alcance e comportamento de duplicação"
+      },
+      {
+        "icon": "Package",
+        "title": "Itens de Cobb Can Move",
+        "description": "Carvão, pedras, cenouras, baterias, fornalha e disjuntor"
+      },
+      {
+        "icon": "Flag",
+        "title": "História de Cobb Can Move",
+        "description": "Níveis da história, baterias, final e seleção de nível"
+      },
+      {
+        "icon": "Repeat",
+        "title": "Cobb Can Move Infinito",
+        "description": "Modo infinito, sementes e estratégia de repetição"
+      },
+      {
+        "icon": "Clock",
+        "title": "Atualizações de Cobb Can Move",
+        "description": "Notas da versão, mudanças de equilíbrio e correções de bugs"
+      },
+      {
+        "icon": "Gift",
+        "title": "Códigos de Cobb Can Move",
+        "description": "Status oficial, recompensas e onde as atualizações realmente vivem"
+      }
+    ]
+  },
+  "modules": {
+    "cobbPlayLink": {
+      "title": "Link para Jogar Cobb Can Move, Download e Última Versão",
+      "displayType": "cards",
+      "eyebrow": "Opções Oficiais de Jogo",
+      "intro": "Jogue Cobb Can Move na página oficial do itch.io, seja no seu navegador ou através da versão para download. O lançamento atual listado é v1.7, publicado em 19 de maio de 2026.",
+      "cards": [
+        {
+          "name": "Página Oficial de Jogo",
+          "value": "abho.itch.io/cobb-can-move",
+          "description": "A página oficial do itch.io é o ponto de entrada tanto para a versão do navegador quanto para o botão de download."
+        },
+        {
+          "name": "Versão Atual",
+          "value": "v1.7",
+          "description": "O último devlog listado é v1.7, uma pequena atualização de equilíbrio para o cheiro, perseguição e comportamento das rochas."
+        },
+        {
+          "name": "Jogo no Navegador",
+          "value": "HTML5",
+          "description": "A página do jogo inclui uma opção 'Executar jogo' e lista HTML5 como plataforma suportada."
+        },
+        {
+          "name": "Versão para Download",
+          "value": "v1.7 webview2 build",
+          "description": "Um download para Windows está disponível na página oficial junto com a versão do navegador."
+        },
+        {
+          "name": "Modelo de Preço",
+          "value": "Defina seu próprio preço",
+          "description": "O download oficial usa o modelo 'defina seu próprio preço' do itch.io."
+        },
+        {
+          "name": "Plataformas",
+          "value": "HTML5, Windows",
+          "description": "A página oficial lista suporte para plataformas de navegador e Windows."
+        },
+        {
+          "name": "Entradas",
+          "value": "Keyboard, Gamepad",
+          "description": "Teclado e qualquer gamepad são listados como tipos de entrada suportados."
+        },
+        {
+          "name": "Tags do Jogo",
+          "value": "2D, Endless, Horror, Pixel Art",
+          "description": "As tags oficiais incluem Survival Horror, Geração Procedural, Singleplayer e Top-Down."
+        }
+      ],
+      "ctaLabel": "Abrir Página Oficial de Jogo",
+      "ctaHref": "https://abho.itch.io/cobb-can-move"
+    },
+    "cobbBeginnerGuide": {
+      "title": "Guia para Iniciantes de Cobb Can Move",
+      "displayType": "steps",
+      "eyebrow": "Sobrevivência para Iniciantes",
+      "intro": "Aprenda o ciclo básico de sobrevivência antes que Cobb transforme sua primeira corrida em uma curta tragédia pixelada. Cobb Can Move é construído em torno de regras mutáveis, corridas curtas de sobrevivência, gerenciamento de recursos e reação às habilidades de Cobb.",
+      "steps": [
+        {
+          "title": "Comece pela página oficial do itch.io",
+          "description": "Inicie a versão do navegador ou baixe a versão atual na página oficial de Cobb Can Move antes de jogar."
+        },
+        {
+          "title": "Use um tipo de entrada suportado",
+          "description": "Keyboard e qualquer Gamepad são suportados. Escolha o método de controle que permite que você se mova com cuidado, porque o movimento apressado é punido rapidamente."
+        },
+        {
+          "title": "Leia o texto da regra a cada corrida",
+          "description": "A ideia central é que as regras mudam, e o nível 2 garante uma regra sensorial como ouvir, cheirar ou ver."
+        },
+        {
+          "title": "Mova-se com cuidado em torno dos sentidos de Cobb",
+          "description": "As regras sensoriais mudam a forma como Cobb o detecta. Trate as regras de visão e olfato como sinais diretos de perigo até que você aprenda como cada uma funciona."
+        },
+        {
+          "title": "Use itens sem perder tempo",
+          "description": "A troca de itens funciona mesmo quando o local de descarte está sobre uma parede, então mantenha o manuseio do seu inventário limpo e deliberado em vez de descartar recursos em pânico."
+        },
+        {
+          "title": "Aprenda com as dicas de morte",
+          "description": "Dicas aparecem após a morte, tornando cada corrida falha útil para entender a próxima regra ou erro antes de você reiniciar."
+        },
+        {
+          "title": "Espere que as pedras importem",
+          "description": "Um golpe direto de pedra pode atordoar Cobb brevemente, e as pedras agora soam mais alto, então elas são uma ferramenta defensiva real durante perseguições."
+        },
+        {
+          "title": "Retorne depois de terminar a história",
+          "description": "Um menu de seleção de nível é desbloqueado depois que você termina o jogo uma vez, permitindo que você jogue novamente níveis específicos da história e pratique combinações de regras."
+        }
+      ],
+      "quickTips": [
+        "Verifique o texto da regra ativa no início de cada nível antes de se mover.",
+        "Mantenha o movimento deliberado perto das regras de visão e olfato.",
+        "Use pedras como ferramenta defensiva durante perseguições longas, não apenas como decoração.",
+        "Leia a dica de morte após cada corrida falha antes de reiniciar."
+      ]
+    },
+    "cobbRulesAndAbilities": {
+      "title": "Regras de Cobb Can Move e Habilidades de Cobb",
+      "displayType": "accordion",
+      "eyebrow": "Regras e Habilidades",
+      "intro": "Acompanhe as mudanças de regras que moldam cada corrida, incluindo regras sensoriais, comportamento de perseguição, manuseio de duplicatas e mudanças de equilíbrio das atualizações recentes de Cobb Can Move.",
+      "items": [
+        {
+          "title": "Regras Mutáveis",
+          "summary": "Cobb Can Move é um jogo de survival horror onde as regras mudam.",
+          "details": [
+            "As regras alteram a sensação de cada corrida.",
+            "Verifique o texto da regra ativa antes de tratar um nível como o anterior."
+          ]
+        },
+        {
+          "title": "Regras Sensoriais",
+          "summary": "O nível 2 garante uma regra sensorial: ouvir, cheirar ou ver.",
+          "details": [
+            "As primeiras corridas ensinam rapidamente o comportamento de detecção de Cobb.",
+            "O sistema de regras muda como você deve se mover e reagir."
+          ]
+        },
+        {
+          "title": "Cobb Pode Ver",
+          "summary": "A visão foi ativamente equilibrada em todas as atualizações, com ajustes de alcance nas versões v1.4 e v1.5.",
+          "details": [
+            "Trate as regras relacionadas à visibilidade como grandes modificadores de perigo.",
+            "Mantenha mais espaço quando uma regra de visão estiver ativa."
+          ]
+        },
+        {
+          "title": "Cobb Pode Cheirar",
+          "summary": "A v1.7 enfraqueceu o olfato com cheiradas menos frequentes e menos persistência quando você é cheirado de perto.",
+          "details": [
+            "O olfato continua sendo uma regra sensorial importante.",
+            "A última atualização de equilíbrio torna o olfato menos implacável do que antes."
+          ]
+        },
+        {
+          "title": "Velocidade de Perseguição Longa",
+          "summary": "Cobb fica mais rápido durante perseguições longas, com a aceleração ligeiramente reduzida na v1.7.",
+          "details": [
+            "Perseguições prolongadas ainda importam.",
+            "A v1.7 reduziu a pressão ligeiramente sem remover a mecânica de perseguição."
+          ]
+        },
+        {
+          "title": "Regra de Alcance",
+          "summary": "Quando o alcance está ativo, Cobb dá passos maiores, mas se move com menos velocidade.",
+          "details": [
+            "O alcance muda a sensação de movimento de Cobb em vez de simplesmente torná-lo mais rápido.",
+            "Mantenha mais espaço quando esta regra aparecer."
+          ]
+        },
+        {
+          "title": "Comportamento de Duplicatas",
+          "summary": "As duplicatas agora se empurram, corrigindo o problema onde elas podiam se fundir de volta em um único Cobb.",
+          "details": [
+            "Os Cobbs duplicados se comportam de forma mais distinta.",
+            "As situações com múltiplos Cobbs são mais claras e menos confusas visualmente."
+          ]
+        },
+        {
+          "title": "Correção de Atordoamento por Pedra",
+          "summary": "A v1.7 corrigiu o problema de pedras às vezes falharem em atordoar Cobb durante uma perseguição.",
+          "details": [
+            "As pedras se tornaram mais confiáveis como ferramenta defensiva.",
+            "Isso é mais importante quando um golpe direto acerta durante uma perseguição."
+          ]
+        }
+      ]
+    },
+    "cobbItemsFurnaceBreaker": {
+      "title": "Cobb Can Move Itens, Fornalha e Guia do Disjuntor",
+      "displayType": "table",
+      "eyebrow": "Itens e Objetos",
+      "intro": "Compreenda os principais objetos interativos que afetam a sobrevivência, visibilidade, roteamento de recursos e pressão no final do jogo em Cobb Can Move.",
+      "columns": [
+        "Item",
+        "Tipo",
+        "Uso",
+        "Nota de Atualização",
+        "Conclusão"
+      ],
+      "rows": [
+        {
+          "item": "Coal",
+          "type": "Recurso",
+          "use": "Recurso de sobrevivência essencial conectado ao ciclo da fornalha.",
+          "note": "O carvão é menos propenso a aparecer bem ao lado da fornalha.",
+          "takeaway": "Espere mais movimento e pressão de roteamento ao coletar carvão."
+        },
+        {
+          "item": "Rocks",
+          "type": "Arremessável",
+          "use": "Pode atordoar Cobb com um acerto direto.",
+          "note": "As pedras atordoam Cobb brevemente com um acerto direto, soam mais alto e atordoam de forma confiável durante a perseguição após a v1.7.",
+          "takeaway": "Use pedras em momentos perigosos em vez de deixá-las sem uso."
+        },
+        {
+          "item": "Carrots",
+          "type": "Item que reaparece",
+          "use": "Uma fonte de item repetível.",
+          "note": "As cenouras reaparecem depois de serem comidas.",
+          "takeaway": "As cenouras não são mais de uso único depois de serem comidas."
+        },
+        {
+          "item": "Batteries",
+          "type": "Item final",
+          "use": "Conectado à sequência final e à tarefa final.",
+          "note": "O texto da tarefa final muda depois de colocar todas as quatro baterias.",
+          "takeaway": "Acompanhe o progresso da bateria com cuidado porque a tarefa final muda assim que todas as quatro são colocadas."
+        },
+        {
+          "item": "Furnace",
+          "type": "Objetivo principal",
+          "use": "Objeto central ligado ao ciclo principal de sobrevivência e roteamento de carvão.",
+          "note": "O surgimento de carvão força os jogadores a se moverem mais longe para obter combustível.",
+          "takeaway": "A fornalha permanece central, mas agora você viaja mais longe para obter combustível."
+        },
+        {
+          "item": "Blast Furnace",
+          "type": "Objeto final",
+          "use": "Usado na sequência final.",
+          "note": "A Blast Furnace no final tem uma hitbox maior para que não se perca mais atrás dela.",
+          "takeaway": "A interação final é mais fácil de localizar e usar após a mudança da hitbox."
+        },
+        {
+          "item": "Breaker",
+          "type": "Objeto do mapa",
+          "use": "Um objeto interativo visível que você precisa reconhecer durante uma corrida.",
+          "note": "O sprite do disjuntor mudou ligeiramente para ser mais perceptível.",
+          "takeaway": "Procure a aparência atualizada do disjuntor ao escanear o mapa."
+        },
+        {
+          "item": "Item Drop Spot",
+          "type": "Manuseio de inventário",
+          "use": "Afeta como você troca e gerencia objetos carregados.",
+          "note": "A troca de itens funciona mesmo quando o local de descarte está sobre uma parede e mostra vermelho.",
+          "takeaway": "A troca de itens é mais tolerante, especialmente perto de paredes estranhas."
+        }
+      ]
+    },
+    "cobbStoryAndEnding": {
+      "title": "Níveis do Modo História e Final de Cobb Can Move",
+      "displayType": "steps",
+      "eyebrow": "História e Final",
+      "intro": "Cobb Can Move constrói o modo história em torno de níveis curtos de sobrevivência onde as regras mudam e Cobb ganha novas ferramentas de pressão. Os patches oficiais alteraram a lógica das regras do Nível 2, os recursos do Nível 7, o texto da tarefa final, a velocidade da tarefa final, a hitbox da Blast Furnace final e o menu de seleção de nível pós-conclusão.",
+      "steps": [
+        {
+          "title": "O Nível 2 introduz uma regra sensorial garantida",
+          "description": "A atualização v1.4 faz com que o Nível 2 sempre inclua uma regra sensorial: ouvir, cheirar ou ver. Encare isso como o ponto onde Cobb deixa de ser apenas uma ameaça errante e começa a reagir à posição do jogador."
+        },
+        {
+          "title": "Dicas de morte foram adicionadas para reduzir reinícios às cegas",
+          "description": "Após a v1.4, morrer pode exibir dicas. Use essas sugestões para identificar o que a regra ativa está pedindo para você mudar antes de reiniciar a mesma rota."
+        },
+        {
+          "title": "O Nível 7 recebeu pedras extras",
+          "description": "A atualização v1.5 adicionou pedras ao Nível 7. Patches posteriores tornaram as pedras mais úteis, então a jogabilidade do Nível 7 deve incluir a busca por itens arremessáveis em vez de apenas correr atrás de carvão e baterias."
+        },
+        {
+          "title": "A tarefa final do encerramento foi reequilibrada",
+          "description": "O patch v1.4 alterou o texto da tarefa final após colocar quatro baterias e reduziu ligeiramente a velocidade de Cobb durante essa tarefa final. A atualização v1.5.2 então aumentou levemente a velocidade final de Cobb, mantendo o final tenso sem deixá-lo completamente impossível."
+        },
+        {
+          "title": "A fornalha do final tornou-se mais fácil de interagir",
+          "description": "A atualização v1.6 aumentou a hitbox da Blast Furnace no final para que os jogadores tenham menos probabilidade de perdê-la atrás da fornalha durante a sequência final."
+        },
+        {
+          "title": "A seleção de nível é desbloqueada após uma conclusão completa",
+          "description": "Depois de vencer o jogo uma vez, a v1.5 adiciona um menu de seleção de nível que permite aos jogadores escolher qualquer nível do modo história. Use-o para jogar o Nível 7 novamente, praticar o final ou revisitar combinações de regras específicas."
+        }
+      ],
+      "quickTips": [
+        "Leia o texto da regra antes de se mover em cada nível.",
+        "Mantenha quatro baterias em mente enquanto avança para a tarefa final.",
+        "Use a seleção de nível após o final para treinar combos de regras difíceis.",
+        "Trate o disjuntor e a fornalha como pontos de referência confiáveis durante uma partida."
+      ]
+    },
+    "cobbEndlessMode": {
+      "title": "Estratégia de Replay e Endless Mode de Cobb Can Move",
+      "displayType": "cards",
+      "eyebrow": "Endless e Replay",
+      "intro": "A página oficial classifica Cobb Can Move como um jogo de Endless, Geração Procedural e Survival Horror, e o devlog do desenvolvedor explica a aleatoriedade baseada em sementes, seleção de regras aleatórias e o comportamento de Cobb baseado em regras. Atualizações posteriores também alteraram o ritmo do Endless ao iniciar o Endless Mode no Nível 3 e ajustar os sentidos de Cobb, velocidade de perseguição, pedras e comportamento de duplicatas.",
+      "cards": [
+        {
+          "name": "Endless começa no Nível 3",
+          "description": "A atualização v1.3 alterou o Endless Mode para que comece no Nível 3. As partidas começam com mais pressão do que os níveis iniciais da história, então a exploração da primeira sala é importante imediatamente."
+        },
+        {
+          "name": "Chunks procedurais com aleatoriedade semeada",
+          "description": "O desenvolvedor descreveu o mapa como um ambiente gerado aleatoriamente construído a partir de variedades de chunks, com aleatoriedade semeada implementada para o Endless Mode. Rotas, posições de itens e hábitos seguros podem mudar entre as partidas."
+        },
+        {
+          "name": "Ver, Ouvir, Cheirar, Alcance, Duplicar",
+          "description": "A lista de regras oficial de Cobb inclui visão baseada no nível de luz do jogador, audição baseada no som, cheiro que aponta Cobb em direção ao jogador, maior alcance e duplicatas que podem se acumular após o Nível 5."
+        },
+        {
+          "name": "Congelar e Passar Fome",
+          "description": "As regras do lado do jogador incluem congelar em pouca luz e passar fome com o tempo enquanto cenouras surgem pelo mapa. Essas regras forçam o movimento mesmo quando se esconder parece mais seguro."
+        },
+        {
+          "name": "Acertos diretos podem atordoar Cobb",
+          "description": "A atualização v1.6 fez com que as pedras atordoassem Cobb brevemente em um acerto direto e tornou o ruído das pedras mais óbvio. A atualização v1.7 corrigiu casos em que as pedras não conseguiam atordoar Cobb durante a perseguição."
+        },
+        {
+          "name": "Perseguições longas e duplicatas aumentam o perigo",
+          "description": "A v1.6 tornou Cobb mais rápido durante perseguições longas, acelerou a vadiagem aleatória em mapas maiores e corrigiu a fusão de duplicatas de Cobb, fazendo com que elas se empurrassem. A atualização v1.7 reduziu ligeiramente a aceleração em perseguições longas e enfraqueceu o cheiro, tornando o modo mais aguçado, porém mais justo."
+        }
+      ]
+    },
+    "cobbUpdatesPatchNotes": {
+      "title": "Atualizações e Notas de Patch de Cobb Can Move",
+      "displayType": "timeline",
+      "eyebrow": "Atualizações",
+      "intro": "Cobb Can Move recebeu várias atualizações oficiais no itch.io após o lançamento original da jam, com as versões v1.4 a v1.7 focando em legibilidade, ajuste do modo história, equilíbrio do final, ferramentas de replay, controles e comportamento de Cobb.",
+      "entries": [
+        {
+          "title": "v1.7",
+          "type": "Hotfix de Equilíbrio",
+          "date": "19 de maio de 2026",
+          "description": "Pequena atualização de equilíbrio: enfraqueceu a capacidade de Cobb de cheirar com farejadas menos frequentes e menos persistência a curta distância, reduziu ligeiramente a aceleração de longa perseguição de Cobb e corrigiu pedras que às vezes não atordoavam Cobb enquanto ele estava em perseguição."
+        },
+        {
+          "title": "v1.6 / v1.6.3",
+          "type": "Atualização de Equilíbrio e QoL",
+          "date": "16 de maio de 2026",
+          "description": "Pedras, controles, comportamento de perseguição e hitbox final: pedras podem atordoar Cobb em um acerto direto por um curto período; pedras fazem um som mais alto para que seu ruído seja mais claro; é menos provável que o carvão surja diretamente ao lado da fornalha; Cobb fica ligeiramente mais rápido durante perseguições longas e vagueia mais rápido em mapas maiores; o alcance altera o comportamento dos passos de Cobb com passos maiores, mas menos velocidade; AZERTY e outros layouts de teclado internacionais devem parecer mais confortáveis; duplicatas de Cobb empurram umas às outras em vez de se fundirem novamente; e a Blast Furnace final tem uma hitbox maior."
+        },
+        {
+          "title": "v1.5 / v1.5.2",
+          "type": "Atualização de Conteúdo e Equilíbrio",
+          "date": "10 de maio de 2026",
+          "description": "Pedras do Nível 7, seleção de nível e mensagem final: adicionadas pedras ao Nível 7; ajustado o alcance da visão de Cobb novamente; adicionado um menu de seleção de nível que é desbloqueado após vencer o jogo uma vez; adicionada uma mensagem curta ao final do jogo promovendo o próximo jogo do desenvolvedor; e aumentada levemente a velocidade de Cobb durante a tarefa final."
+        },
+        {
+          "title": "v1.4",
+          "type": "Atualização de Regras e Final",
+          "date": "9 de maio de 2026",
+          "description": "Dicas de morte, regra sensorial do Nível 2 e equilíbrio do final: itens podem ser trocados mesmo quando o local de descarte está sobre uma parede e vermelho; adicionadas dicas após a morte; o Nível 2 tem garantia de incluir uma regra sensorial; visão de Cobb ligeiramente enfraquecida; corrigido um erro onde Cobb às vezes falhava em matar o jogador após agarrá-lo; alterado o texto da tarefa final após colocar quatro baterias; e velocidade de Cobb ligeiramente reduzida durante a tarefa final."
+        }
+      ]
+    },
+    "cobbCodesAndStatus": {
+      "title": "Códigos, Recompensas e Status Oficial de Cobb Can Move",
+      "displayType": "cards",
+      "eyebrow": "Códigos e Status",
+      "intro": "Use esta seção para responder a pesquisas de códigos de forma clara: não há códigos de resgate ativos oficiais listados na página do jogo itch.io, no devlog ou na listagem do Major Jam. As recompensas reais voltadas para o jogador são baseadas em acesso: jogar no navegador, o download para Windows, atualizações oficiais e o histórico da versão vencedora do Major Jam 7.",
+      "cards": [
+        {
+          "name": "Códigos Ativos",
+          "description": "Nenhum código ativo oficial listado. A página oficial do itch.io e o devlog não listam um sistema público de códigos de resgate ou uma tabela de códigos ativos para Cobb Can Move."
+        },
+        {
+          "name": "Modelo de Download",
+          "description": "Defina seu próprio preço. O jogo pode ser executado no navegador a partir do itch.io, e a seção de download oficial lista uma compilação webview2 para Windows para a versão atual v1.7."
+        },
+        {
+          "name": "Atualizações Oficiais",
+          "description": "Atualizações baseadas em devlog. Mudanças de equilíbrio, correções de bugs e atualizações de recursos são publicadas através do devlog oficial do itch.io, incluindo v1.4, v1.5, v1.6 e v1.7."
+        },
+        {
+          "name": "Resultado do Jam",
+          "description": "Vencedor do Major Jam 7. Cobb Can Move ficou em 1º lugar geral no Major Jam 7: Wild, com 1º em Conceito, 2º em Apresentação, 2º em Diversão e 6º em Uso da Limitação."
+        },
+        {
+          "name": "Fonte de Recompensa Real",
+          "description": "Apenas página oficial e devlog. Para este jogo, as atualizações relacionadas a recompensas pertencem à página oficial do itch.io, ao devlog oficial e à página de resultados do Major Jam."
+        }
+      ],
+      "ctaLabel": "Abrir Página Oficial de Jogo",
+      "ctaHref": "https://abho.itch.io/cobb-can-move"
+    }
+  },
+  "faq": {
+    "title": "Cobb Can Move",
+    "titleHighlight": "FAQ",
+    "subtitle": "Tudo o que você precisa saber sobre Cobb Can Move",
+    "questions": [
+      {
+        "question": "Onde posso jogar Cobb Can Move?",
+        "answer": "Você pode jogar Cobb Can Move na página oficial do itch.io em abho.itch.io/cobb-can-move, seja no seu navegador através da versão HTML5 ou baixando a versão para Windows."
+      },
+      {
+        "question": "Cobb Can Move é gratuito?",
+        "answer": "Cobb Can Move usa o modelo 'pague o quanto quiser' do itch.io, que inclui uma opção gratuita, então você pode jogar sem pagar, a menos que queira apoiar o desenvolvedor."
+      },
+      {
+        "question": "Existem códigos ativos para Cobb Can Move?",
+        "answer": "Não. A página oficial de Cobb Can Move não lista um sistema de códigos de resgate, então não há códigos ativos para inserir. As atualizações reais chegam através do devlog oficial."
+      },
+      {
+        "question": "Quais plataformas e entradas Cobb Can Move suporta?",
+        "answer": "Cobb Can Move suporta HTML5 e Windows, com entrada de teclado e Gamepad listada na página oficial."
+      },
+      {
+        "question": "Qual é a versão mais recente de Cobb Can Move?",
+        "answer": "A versão mais recente listada de Cobb Can Move é a v1.7, publicada em 19 de maio de 2026, que ajustou o cheiro, a aceleração da perseguição e o comportamento de atordoamento de rochas."
+      },
+      {
+        "question": "Como funcionam as regras de Cobb Can Move?",
+        "answer": "Em Cobb Can Move as regras mudam a cada nível, e o nível 2 garante uma regra sensorial como ouvir, cheirar ou ver, então cada corrida exige uma abordagem diferente."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Pronto para Sobreviver a Cobb Can Move?",
+    "description": "Junte-se à comunidade Cobb Can Move no Discord para regras, habilidades, finais, atualizações e táticas de sobrevivência.",
+    "joinCommunity": "Entrar no Discord",
+    "joinGame": "Jogar no itch.io"
+  },
+  "footer": {
+    "title": "Cobb Can Move Wiki",
+    "description": "Seu centro de recursos completo para regras de Cobb Can Move, habilidades de Cobb, carvão, fornalhas, disjuntores, finais, atualizações e guias de sobrevivência.",
+    "resources": "Recursos",
+    "community": "Comunidade",
+    "legal": "Legal",
+    "discord": "Discord",
+    "twitter": "X / Twitter",
+    "itchio": "Página do Jogo itch.io",
+    "bluesky": "Bluesky",
+    "about": "Sobre",
+    "privacy": "Política de Privacidade",
+    "terms": "Termos de Serviço",
+    "copyrightNotice": "Direitos Autorais",
+    "copyright": "© 2026 Cobb Can Move Wiki. Não afiliado ao desenvolvedor de Cobb Can Move.",
+    "disclaimer": "Site de recursos não oficial feito por fãs."
+  },
+  "pages": {
+    "guide": {
+      "title": "Guias de Cobb Can Move",
+      "description": "Guias completos de Cobb Can Move cobrindo regras de sobrevivência, níveis da história, habilidades de Cobb, roteamento de carvão, fornalhas, disjuntores e como vencer cada fase.",
+      "metaTitle": "Guias de Cobb Can Move - Regras, Níveis e Detalhamentos de Sobrevivência",
+      "metaDescription": "Domine Cobb Can Move com guias completos sobre o sistema de regras, níveis da história, itens, habilidades de Cobb e táticas de sobrevivência para o jogo de terror pixelado itch.io.",
+      "categoryLabel": "GUIAS",
+      "whatIs": "O que são os Guias de Cobb Can Move?",
+      "whatIsDescription": "Passo a passo e guias de estratégia cobrindo o ciclo de sobrevivência que muda as regras, cada nível da história, roteamento de itens e como sobreviver a Cobb em cada corrida.",
+      "why": "Por que ler os guias?",
+      "whySteps": {
+        "step1Title": "Entenda as Regras",
+        "step1Description": "Aprenda como o sistema de regras em constante mudança remodela cada nível antes de você se mover",
+        "step2Title": "Vença Todos os Níveis",
+        "step2Description": "Siga rotas comprovadas para carvão, baterias, fornalhas e a fase final",
+        "step3Title": "Sobreviva Mais Tempo",
+        "step3Description": "Crie táticas para regras sensoriais, perseguição e habilidades de Cobb"
+      },
+      "featured": "Em Destaque e Essencial",
+      "all": "Todos os Guias"
+    },
+    "mechanics": {
+      "title": "Mecânicas de Cobb Can Move",
+      "description": "Análises aprofundadas das mecânicas de Cobb Can Move: modificadores, mutações, atributos, cheiro, sentidos e como cada regra muda o comportamento de caça de Cobb.",
+      "metaTitle": "Mecânicas de Cobb Can Move - Modificadores, Mutações e Sentidos",
+      "metaDescription": "Entenda as mecânicas de Cobb Can Move, incluindo modificadores, mutações, atributos, olfato, audição, visão e como cada regra sensorial muda a caçada.",
+      "categoryLabel": "MECÂNICAS",
+      "whatIs": "O que são as Mecânicas de Cobb Can Move?",
+      "whatIsDescription": "Análises detalhadas dos sistemas que impulsionam cada corrida, incluindo modificadores, mutações, atributos do jogador e as regras sensoriais que decidem como Cobb o detecta.",
+      "why": "Por que aprender as mecânicas?",
+      "whySteps": {
+        "step1Title": "Decifre Cada Regra",
+        "step1Description": "Veja exatamente como o olfato, a visão e o alcance mudam o comportamento de Cobb",
+        "step2Title": "Rastreie Modificadores",
+        "step2Description": "Entenda como os modificadores e mutações mudam de uma corrida para outra",
+        "step3Title": "Escape do Cheiro",
+        "step3Description": "Aprenda táticas confiáveis para quebrar o cheiro de Cobb e sobreviver a perseguições"
+      },
+      "featured": "Em Destaque e Essencial",
+      "all": "Todas as Mecânicas"
+    },
+    "ending": {
+      "title": "Finais de Cobb Can Move",
+      "description": "Todos os finais, tipos de morte e desfechos de Cobb Can Move explicados: conclusão completa do jogo, todas as mortes, inanição, matar Cobb e a rota de jogo curto.",
+      "metaTitle": "Finais de Cobb Can Move - Todas as Mortes e Rotas Finais",
+      "metaDescription": "Guia completo dos finais de Cobb Can Move cobrindo a conclusão completa do jogo, todos os tipos de morte, inanição, matar Cobb e como alcançar cada final.",
+      "categoryLabel": "FINAIS",
+      "whatIs": "O que são os Finais de Cobb Can Move?",
+      "whatIsDescription": "Cobertura de todas as condições de final e morte no jogo, desde a conclusão completa da história e o final da bateria até a inanição, matar Cobb e os resultados de jogo curto.",
+      "why": "Por que explorar os finais?",
+      "whySteps": {
+        "step1Title": "Veja Todos os Finais",
+        "step1Description": "Encontre todos os finais e as condições exatas que desencadeiam cada um",
+        "step2Title": "Evite Mortes",
+        "step2Description": "Aprenda todos os tipos de morte para que você possa reconhecê-los e preveni-los",
+        "step3Title": "Planeje Sua Conclusão",
+        "step3Description": "Escolha a rota que se encaixa em como você deseja terminar o jogo"
+      },
+      "featured": "Em Destaque e Essencial",
+      "all": "Todos os Finais"
+    },
+    "lore": {
+      "title": "Cobb Can Move Lore",
+      "description": "A história, teorias e o mundo de Cobb Can Move: quem é Cobb, o papel do jogador, espécies e a narrativa por trás do horror pixelado.",
+      "metaTitle": "Cobb Can Move Lore - História, Quem é Cobb e Teorias",
+      "metaDescription": "Explore a lore de Cobb Can Move, incluindo a história, quem é Cobb, o jogador, espécies e as teorias por trás do survival horror do itch.io.",
+      "categoryLabel": "LORE",
+      "whatIs": "O que é a Lore de Cobb Can Move?",
+      "whatIsDescription": "A camada narrativa do jogo, cobrindo a história, a identidade e espécie de Cobb, o papel do jogador e as teorias que os jogadores construíram em torno do mundo.",
+      "why": "Por que ler a lore?",
+      "whySteps": {
+        "step1Title": "Conheça Cobb",
+        "step1Description": "Entenda quem é Cobb e o que impulsiona o monstro",
+        "step2Title": "Siga a História",
+        "step2Description": "Rastreie os fios narrativos escondidos em cada partida",
+        "step3Title": "Explore Teorias",
+        "step3Description": "Veja como os jogadores interpretam o mundo, as espécies e o papel do jogador"
+      },
+      "featured": "Destaques e Essenciais",
+      "all": "Toda a Lore"
+    },
+    "download": {
+      "title": "Download de Cobb Can Move",
+      "description": "Como baixar e jogar Cobb Can Move: a página oficial do itch.io, jogo no navegador, build para Windows, APK, Android, mobile e plataformas suportadas.",
+      "metaTitle": "Download de Cobb Can Move - Jogue no itch.io, Windows e Mobile",
+      "metaDescription": "Obtenha Cobb Can Move na página oficial do itch.io, com jogo no navegador, download para Windows, opções para mobile e Android, e onde jogar com segurança.",
+      "categoryLabel": "DOWNLOAD",
+      "whatIs": "O que é o Download de Cobb Can Move?",
+      "whatIsDescription": "Guias para acessar o jogo através da página oficial do itch.io, cobrindo jogo no navegador, a build para Windows, opções para mobile e Android, e todas as plataformas suportadas.",
+      "why": "Por que usar o download oficial?",
+      "whySteps": {
+        "step1Title": "Jogue com Segurança",
+        "step1Description": "Use a página oficial do itch.io para evitar cópias não oficiais ou inseguras",
+        "step2Title": "Escolha Sua Plataforma",
+        "step2Description": "Escolha entre opções para navegador, Windows e mobile",
+        "step3Title": "Mantenha-se Atualizado",
+        "step3Description": "Obtenha a versão mais recente e as atualizações do devlog diretamente da fonte"
+      },
+      "featured": "Destaques e Essenciais",
+      "all": "Todos os Guias de Download"
+    },
+    "media": {
+      "title": "Mídia de Cobb Can Move",
+      "description": "Sprites, pixel art e design visual de Cobb Can Move: a aparência de Cobb, arte ambiental e como os visuais moldam a atmosfera de horror.",
+      "metaTitle": "Mídia de Cobb Can Move - Sprites, Pixel Art e Visuais",
+      "metaDescription": "Navegue pela mídia de Cobb Can Move, incluindo sprites, pixel art, o design de Cobb e os visuais ambientais que definem o visual do survival horror.",
+      "categoryLabel": "MÍDIA",
+      "whatIs": "O que é a Mídia de Cobb Can Move?",
+      "whatIsDescription": "Ativos visuais e cobertura de design, incluindo o sprite de Cobb, pixel art ambiental e como a direção de arte constrói a atmosfera de horror opressiva do jogo.",
+      "why": "Por que explorar a mídia?",
+      "whySteps": {
+        "step1Title": "Veja a Arte",
+        "step1Description": "Descubra o estilo pixel art e o design distintivo de Cobb",
+        "step2Title": "Entenda os Visuais",
+        "step2Description": "Aprenda como os sprites e o contraste constroem o clima de horror",
+        "step3Title": "Acompanhe as Atualizações Visuais",
+        "step3Description": "Veja como a arte evoluiu através das atualizações do jogo"
+      },
+      "featured": "Destaques e Essenciais",
+      "all": "Toda a Mídia"
+    }
+  }
+}
