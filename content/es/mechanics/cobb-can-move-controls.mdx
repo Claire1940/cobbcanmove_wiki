@@ -1,0 +1,165 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Controles de Cobb Can Move: Guía de configuración de teclado y gamepad",
+  description: "Domina los controles de Cobb Can Move tanto para teclado como para gamepad. Aprende movimientos esenciales, interacción con objetos y cómo las asignaciones de teclas impactan la supervivencia en este juego de horror pixelado.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/8B0000/fff?text=Cobb+Can+Move+Controls",
+  date: "2026-06-17",
+  author: "Equipo de Wiki de Cobb Can Move"
+}
+
+<Callout type="info" title="Guía Rápida">
+- Los **controles de Cobb Can Move** son cruciales para la supervivencia, soportando entradas tanto por **teclado como por gamepad**.
+- El **movimiento cuidadoso** es clave; las acciones apresuradas a menudo son penalizadas en el juego.
+- La **interacción con objetos**, incluyendo recoger, soltar y lanzar objetos, es vital para la progresión.
+- Los **teclados AZERTY y otros diseños internacionales** son compatibles para una mayor accesibilidad.
+- Adaptarse al **texto de regla activa** sobre controles y movimiento es esencial para cada partida.
+</Callout>
+
+<Section icon={Target} title="Comprendiendo los Controles de Cobb Can Move">
+En *Cobb Can Move*, dominar tu entrada es primordial para sobrevivir a las reglas siempre cambiantes de este juego de horror pixelado. El juego soporta oficialmente tanto teclado como gamepad, ofreciendo flexibilidad en cómo navegas por sus oscuros niveles generados proceduralmente. Un control sensible y preciso sobre tu personaje es esencial, ya que cada movimiento e interacción con objetos puede dictar tu destino contra Cobb.
+
+<Callout type="tip">
+**Consejo Pro:** Experimenta con ambos, teclado y gamepad, para encontrar el esquema de control que te resulte más intuitivo. La comodidad con tus controles mejorará significativamente tu tiempo de reacción y tu tasa de supervivencia general.
+</Callout>
+
+### Tipos de Entrada Soportados
+La página oficial de itch.io confirma que *Cobb Can Move* soporta entradas tanto por **teclado como por gamepad**. Esto significa que los jugadores pueden elegir su método preferido para el movimiento y la interacción dentro del juego. El diseño del juego, que enfatiza el movimiento cuidadoso y las acciones precisas, se beneficia de una configuración de control que se siente natural para el jugador.
+
+**Puntos Destacados del Video:**
+- Demuestra el movimiento básico y la interacción del jugador.
+- Muestra cómo recoger y soltar objetos usando controles estándar.
+- Destaca la importancia de una navegación cuidadosa en un entorno oscuro.
+
+<YouTubeEmbed videoId="No_related_videos_found" title="No se encontró ningún video relevante para los Controles de Cobb Can Move" />
+
+Aunque no hay un tráiler oficial o un video específico de controles disponible, los videos de juego populares a menudo muestran los movimientos básicos. Las mecánicas centrales implican mover a tu personaje, interactuar con objetos y gestionar recursos bajo presión.
+
+</Section>
+
+<Section icon={Map} title="Descripción General de los Controles de Teclado">
+Los controles de teclado en *Cobb Can Move* son generalmente sencillos, centrándose en el movimiento direccional y teclas de acción específicas. El juego ha recibido actualizaciones para mejorar la compatibilidad con varios diseños de teclado, como AZERTY. Comprender estos controles fundamentales es el primer paso para dominar las mecánicas de supervivencia del juego.
+
+### Asignaciones Estándar de Teclado
+A continuación, se presenta una tabla que describe los controles comunes del teclado. Ten en cuenta que las asignaciones de teclas específicas pueden ser personalizables o variar ligeramente según la versión del juego o el sistema.
+
+| Acción          | Tecla Predeterminada (QWERTY) | Función                                                     | Notas de Actualización                                                                                                                                                                                            |
+| :-------------- | :------------------- | :----------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **Mover Arriba**     | W                    | Mueve al personaje del jugador hacia arriba.                          | Esencial para la navegación y para evitar a Cobb.                                                                                                                                                             |
+| **Mover Abajo**   | S                    | Mueve al personaje del jugador hacia abajo.                        | Crítico para retirarse o posicionarse para la interacción con objetos.                                                                                                                                            |
+| **Mover Izquierda**   | A                    | Mueve al personaje del jugador hacia la izquierda.                      | Se utiliza para el movimiento lateral y para esquivar.                                                                                                                                                                  |
+| **Mover Derecha**  | D                    | Mueve al personaje del jugador hacia la derecha.                     | Se utiliza para el movimiento lateral y para esquivar.                                                                                                                                                                  |
+| **Interactuar**    | E                    | Recoge o usa objetos, interactúa con objetos como hornos. | La v1.4 permite el intercambio de objetos incluso cuando el punto de caída está sobre una pared y en rojo, haciendo que la gestión del inventario sea menos punitiva.                                                                                    |
+| **Soltar/Lanzar**  | Q                    | Suelta o lanza el objeto que se tiene en la mano.                     | Las rocas se pueden lanzar para aturdir a Cobb (v1.6). Una mala gestión puede llevar a caídas de pánico.                                                                                                                         |
+| **Activar/Desactivar Luz**| F                    | Enciende/apaga la fuente de luz del jugador.                          | Crucial para gestionar la visibilidad y la regla de "puede ver" de Cobb.                                                                                                                                              |
+| **Menú de Pausa**  | Esc                  | Accede al menú del juego, configuración o pausa el juego.            | Útil para tomar un respiro o ajustar la configuración durante una partida.                                                                                                                                          |
+
+<Callout type="warning" title="Diseños de Teclado">
+La actualización v1.6 mencionó específicamente mejoras para **AZERTY y otros diseños de teclado internacionales**, haciendo el juego más cómodo para una audiencia más amplia. Si estás usando un diseño no QWERTY, asegúrate de que tu configuración en el juego esté optimizada.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Controles de Gamepad y Accesibilidad">
+Para los jugadores que prefieren una experiencia más táctil, *Cobb Can Move* también ofrece soporte para gamepad. Esto puede proporcionar una sensación diferente para el movimiento y la interacción, lo que podría mejorar la inmersión para algunos. La página oficial simplemente indica que "cualquier gamepad" es compatible, lo que sugiere una amplia compatibilidad.
+
+### Diseño Típico de Gamepad
+Si bien los enlaces predeterminados específicos para gamepads no se detallan en las fuentes disponibles, la mayoría de los juegos de terror de supervivencia siguen un esquema común. Aquí hay un desglose probable basado en la funcionalidad típica del gamepad:
+
+| Acción          | Entrada Probable de Gamepad | Función                                                     | Beneficios para Usuarios de Gamepad                                                                                                                                                                                            |
+| :-------------- | :--------------------- | :----------------------------------------------------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Mover Personaje**| Joystick Analógico Izquierdo      | Proporciona un movimiento fluido de 360 grados para una navegación precisa.   | Ofrece un control de movimiento más matizado que las entradas digitales del teclado, útil para espacios reducidos y esquivar.                                                                                                                 |
+| **Interactuar**    | Botón A / X           | Confirma acciones, recoge objetos, usa objetos.              | Colocación ergonómica para interacciones rápidas.                                                                                                                                                                             |
+| **Soltar/Lanzar**  | Botón B / Círculo      | Descarta o impulsa objetos sostenidos.                              | Permite la eliminación rápida o el uso estratégico de objetos lanzables sin cambiar la posición de la mano.                                                                                                                           |
+| **Activar/Desactivar Luz**| Botón Y / Triángulo    | Activa o desactiva la fuente de luz del jugador.          | Acceso conveniente para gestionar los niveles de luz, especialmente cuando la regla "puede ver" de Cobb está activa.                                                                                                                           |
+| **Menú de Pausa**  | Botón Inicio           | Abre el menú del juego.                                         | Estándar para la mayoría de los juegos, proporcionando una forma familiar de pausar la acción.                                                                                                                                                  |
+| **Cámara/Mirar** | Joystick Analógico Derecho     | Ajusta la vista de la cámara (si corresponde) o apunta objetos lanzables. | Aunque Cobb Can Move es de vista cenital, este joystick podría usarse para apuntar distracciones o para futuras actualizaciones.                                                                                                                |
+| **Correr**      | Gatillo Izquierdo / L2      | Aumenta la velocidad de movimiento (si está disponible).                     | Podría asignarse para ráfagas rápidas de velocidad, aunque el movimiento cuidadoso a menudo se prioriza sobre la velocidad.                                                                                                                     |
+
+<Callout type="success">
+**Ventaja del Gamepad:** Los gamepads pueden ofrecer una postura más relajada para sesiones de juego más largas y pueden proporcionar una sensación más intuitiva para el movimiento en un juego de terror de vista cenital donde el posicionamiento preciso del personaje es clave.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Optimizando tus Controles para la Supervivencia">
+El uso eficaz de los controles en *Cobb Can Move* va más allá de solo conocer los botones; se trata de adaptarse a las mecánicas centrales del juego, especialmente a las reglas cambiantes. Cada partida presenta nuevos desafíos, y tu capacidad para reaccionar rápida y precisamente con el método de entrada elegido es crucial.
+
+### Estrategias de Adaptación de Control
+El conjunto de reglas dinámico del juego impacta directamente cómo debes utilizar tus controles.
+
+<CardGrid cols={2}>
+  <Card title="Reglas Sensoriales">
+    Cuando **"Cobb puede ver"** o **"Cobb puede oler"** está activo, tu movimiento y uso de la luz se vuelven críticos. El **movimiento cuidadoso y deliberado** (caminar vs. correr) puede prevenir la detección.
+  </Card>
+  <Card title="Regla de Alcance">
+    Si **"Cobb puede alcanzar"** está activo, Cobb da pasos más grandes. Esto significa que necesitas mantener una **mayor distancia** y ajustar tus patrones de movimiento para evitar su alcance extendido.
+  </Card>
+  <Card title="Uso de Objetos">
+    Conocer tus teclas de **Interactuar (E/A)** y **Soltar/Lanzar (Q/B)** instintivamente es vital para gestionar recursos como carbón, rocas y zanahorias bajo presión.
+  </Card>
+  <Card title="Acciones de Emergencia">
+    Ser capaz de **soltar rápidamente una roca** para aturdir a Cobb (actualización v1.6) o **alternar tu luz** para gestionar la visibilidad puede ser la diferencia entre la supervivencia y un final rápido.
+  </Card>
+</CardGrid>
+
+<Callout type="info">
+**Actualización Importante:** La v1.6 hizo que las rocas aturdieran a Cobb por un corto período con un golpe directo y su sonido fuera más fuerte, haciendo que la acción de **Soltar/Lanzar** fuera más impactante. La v1.7 corrigió aún más los casos en los que las rocas a veces no aturdían a Cobb durante la persecución.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Resolución de Problemas y Mejores Prácticas">
+Incluso con controles óptimos, podrías encontrarte con situaciones en las que tu entrada se siente poco receptiva o tus acciones conducen a resultados inesperados. Aquí tienes algunas mejores prácticas y consejos para la resolución de problemas para asegurar una experiencia fluida en *Cobb Can Move*.
+
+### Asegurando una Jugabilidad Responsiva
+*   **Minimiza el Retraso de Entrada:** Si juegas la versión de navegador HTML5, asegúrate de que tu navegador esté actualizado y cierra cualquier pestaña o aplicación innecesaria que pueda consumir recursos del sistema. Para la versión de Windows, asegúrate de que tus controladores estén actualizados.
+*   **Prueba la Compatibilidad del Gamepad:** Si usas un gamepad, asegúrate de que sea reconocido correctamente por tu sistema operativo antes de iniciar el juego. Algunos gamepads pueden requerir software de terceros para un rendimiento óptimo.
+*   **Practica la Gestión de Objetos:** La actualización v1.4 hizo que el intercambio de objetos fuera más indulgente, incluso si el punto de caída está sobre una pared y en rojo. Practica los intercambios rápidos de objetos para evitar soltar recursos por pánico en posiciones incómodas.
+*   **Aprende de los Consejos de Muerte:** A partir de la v1.4, morir ahora muestra consejos. Estos a menudo se relacionan con errores comunes o el conjunto de reglas actual, ayudándote a refinar el uso de tus controles para la siguiente partida.
+*   **Ajusta la Sensibilidad (si está disponible):** Aunque no se indica explícitamente, algunos juegos permiten ajustes de sensibilidad. Si está disponible, afinar esto puede hacer que el movimiento se sienta más natural.
+
+<Checklist
+  id="control-checklist"
+  title="Lista de Verificación de Optimización de Controles:"
+  items={[
+    "Confirma la página oficial de itch.io para la última versión (v1.7) para asegurar que se apliquen las correcciones de errores.",
+    "Verifica que el diseño de tu teclado sea compatible (el soporte AZERTY mejoró en la v1.6).",
+    "Prueba la funcionalidad del gamepad antes de iniciar una partida.",
+    "Practica las caídas y lanzamientos rápidos de objetos para dominar las distracciones y la defensa.",
+    "Presta atención a los consejos de muerte para entender cómo tus controles afectan la supervivencia bajo diferentes reglas."
+  ]}
+/>
+
+</Section>
+
+<Section icon={Swords} title="Preguntas Frecuentes sobre los Controles de Cobb Can Move">
+
+<FAQ items={[
+  {
+    question: "¿Qué métodos de entrada soporta Cobb Can Move?",
+    answer: "Cobb Can Move soporta oficialmente entradas tanto por **teclado como por gamepad**, permitiendo a los jugadores elegir su método de control preferido para navegar los desafíos del juego."
+  },
+  {
+    question: "¿Existen diferentes esquemas de control para cada partida?",
+    answer: "Aunque los **controles principales de Cobb Can Move** se mantienen consistentes, las **reglas cambiantes** del juego (por ejemplo, 'Cobb puede ver', 'Cobb puede oler') requieren que los jugadores adapten *cómo* usan sus controles, enfatizando el movimiento cuidadoso o el uso estratégico de objetos según la regla activa. La actualización v1.4 garantiza que el Nivel 2 introduce una regla sensorial, forzando una adaptación temprana."
+  },
+  {
+    question: "¿Puedo personalizar las asignaciones de teclas en Cobb Can Move?",
+    answer: "La información oficial no detalla explícitamente las opciones de personalización de asignaciones de teclas en el juego. Sin embargo, la actualización v1.6 mejoró la compatibilidad para **AZERTY y otros diseños de teclado internacionales**, sugiriendo un grado de adaptabilidad en el sistema de control. Es posible que necesites depender de software externo para una reasignación avanzada si el juego no lo ofrece directamente."
+  },
+  {
+    question: "¿Cómo afectan los controles de objetos a la jugabilidad?",
+    answer: "Los controles de objetos, como **recoger, soltar y lanzar**, son cruciales. La actualización v1.4 hizo que el intercambio de objetos fuera más indulgente, incluso a través de paredes. El uso estratégico de objetos lanzables como **rocas** (que pueden aturdir a Cobb a partir de la v1.6) es vital para la defensa y la distracción."
+  }
+]} />
+
+</Section>

@@ -1,0 +1,156 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Cobb Can Move Carbón: Guía de Rutas Esenciales y Hornos",
+  description: "Domina la recolección de carbón y las mecánicas de los hornos en Cobb Can Move. Aprende rutas óptimas, interacciones de objetos y consejos de supervivencia para alimentar tu escape.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/8B0000/fff?text=Cobb+Can+Move+Coal",
+  date: "2026-06-17",
+  author: "Equipo de Wiki de Cobb Can Move"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **El carbón en Cobb Can Move** es un objetivo central para la supervivencia y el progreso.
+- **Los hornos** son fundamentales para el ciclo principal de supervivencia, requiriendo una entrega constante de carbón.
+- **La aparición de carbón** se ajustó en la v1.6, haciendo que sea menos probable que aparezca cerca de los hornos.
+- Utiliza las **cintas transportadoras** para reducir la carga de transportar el carbón.
+- Rastrea el **progreso de las baterías** para la tarea final, que cambia después de colocar cuatro.
+</Callout>
+
+<Section icon={Target} title="Dominando la Recolección de Carbón en Cobb Can Move">
+En Cobb Can Move, el carbón no es solo un recurso; es tu salvavidas. El ciclo central del juego gira en torno a localizar, recolectar y depositar carbón en los hornos para sobrevivir. Comprender las mecánicas del **carbón en Cobb Can Move** es fundamental para cualquier jugador que busque superar las reglas en constante cambio del juego y la persecución implacable de Cobb. La supervivencia al principio del juego y los objetivos al final dependen en gran medida de una gestión eficiente del carbón. Los devlogs oficiales destacan lo centrales que son las interacciones entre el carbón y el horno para la experiencia de juego.
+
+<Callout type="tip">
+Prioriza siempre la recolección de carbón, especialmente en las etapas iniciales de una partida. Sin él, tu fuente de luz disminuye y la ventaja de Cobb crece significativamente.
+</Callout>
+
+**Puntos destacados del video:**
+- Demuestra estrategias efectivas de rutas para el carbón.
+- Muestra la interacción óptima con el horno durante momentos de alta presión.
+- Resalta errores comunes que se deben evitar al manipular el carbón.
+
+</Section>
+
+<Section icon={Map} title="Estrategias de Aparición de Carbón y Rutas">
+La ubicación del carbón se genera dinámicamente, pero las actualizaciones recientes han influido en su distribución. En la v1.6, por ejemplo, el carbón se volvió menos propenso a aparecer directamente adyacente al horno, lo que obliga a los jugadores a aventurarse más en los mapas generados procedimentalmente. Este cambio aumenta la presión de movimiento y de creación de rutas, haciendo que la planificación estratégica sea esencial.
+
+| Ubicación de Aparición | Descripción | Estrategia del Jugador | Nota de Actualización |
+|---|---|---|---|
+| Cerca del Horno (Pre-v1.6) | El carbón solía aparecer cerca del horno, reduciendo el tiempo de viaje. | Recolección rápida, menos riesgo. | N/A |
+| Lejos del Horno (Post-v1.6) | El carbón ahora aparece más lejos, requiriendo más travesía por el mapa. | Planifica rutas, usa distracciones, gestiona la luz. | Cambio en v1.6 |
+| Cintas Transportadoras | Pueden transportar carbón eficientemente a través de distancias. | Identifica y activa las cintas para facilitar el transporte. | Mecánica central inicial |
+
+<Callout type="warning">
+Ten cuidado con las reglas sensoriales de Cobb cuando te aventures por carbón. Si Cobb puede oír u oler, tus movimientos y el propio carbón pueden delatar tu posición.
+</Callout>
+
+Una ruta eficiente implica no solo encontrar carbón, sino también transportarlo de forma segura. Utiliza el entorno a tu favor y recuerda que cada paso cuenta cuando Cobb te pisa los talones.
+
+</Section>
+
+<Section icon={Shield} title="Mecánicas del Horno y Gestión de Combustible">
+El horno es el corazón de tu supervivencia en Cobb Can Move. Mantenerlo alimentado no es negociable. Comprender cómo interactuar con él y gestionar tu suministro de carbón es una habilidad de supervivencia clave. El diseño del juego garantiza que el horno siga siendo un objeto central vinculado al ciclo principal de supervivencia.
+
+<Steps>
+  <Step num="1" title="Localiza el Horno">
+    Identifica el horno en el mapa. Es tu objetivo principal para la entrega de carbón.
+  </Step>
+  <Step num="2" title="Recolecta Carbón">
+    Reúne **carbón de Cobb Can Move** en varios lugares, prestando atención a los patrones de aparición.
+  </Step>
+  <Step num="3" title="Transporta el Carbón de Forma Segura">
+    Mueve el carbón hacia el horno. Considera usar piedras como distracción si Cobb está cerca, ya que la v1.6 las hizo más efectivas para aturdir.
+  </Step>
+  <Step num="4" title="Deposita el Carbón">
+    Interactúa con el horno para depositar el carbón. Asegura un suministro constante para mantener la luz y el progreso.
+  </Step>
+  <Step num="5" title="Monitorea los Niveles de Combustible">
+    Vigila el nivel de combustible del horno. Quedarse sin combustible conduce a la oscuridad, aumentando la amenaza de Cobb.
+  </Step>
+</Steps>
+
+<Callout type="success">
+Alimentar con éxito el horno no solo te mantiene a salvo, sino que a menudo hace avanzar los objetivos, especialmente en el modo historia.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Interactuando con Otros Objetos Clave">
+Más allá del carbón y los hornos, varios otros objetos juegan roles cruciales en tu supervivencia y progresión dentro de Cobb Can Move. Comprender su utilidad es vital para una partida exitosa.
+
+<CardGrid cols={2}>
+  <Card title="Piedras: Utilidad y Distracción">
+    Las piedras son objetos arrojadizos que pueden usarse para distraer a Cobb. En la v1.6, los impactos directos con piedras podían aturdir brevemente a Cobb, y su sonido se hizo más fuerte para una retroalimentación más clara. La v1.7 corrigió casos en los que las piedras no lograban aturdir a Cobb durante la persecución, convirtiéndolas en una herramienta defensiva más confiable.
+  </Card>
+  <Card title="Zanahorias: Fuente de Alimento Renovable">
+    Después de la actualización v1.3, las zanahorias reaparecen al ser consumidas, convirtiéndolas en una fuente de objetos repetible para gestionar la mecánica de "hambre" del jugador. Esto asegura que no estés buscando constantemente nuevas fuentes de comida.
+  </Card>
+  <Card title="Baterías: Progresión del Final">
+    Las baterías son críticas para la secuencia final y la tarea final. Hay cuatro baterías para recolectar, y el texto de la tarea final cambia una vez que todas están colocadas. Rastrear el progreso de tus baterías es esencial para completar el juego.
+  </Card>
+  <Card title="Interruptor: Visibilidad del Mapa">
+    El interruptor (breaker) es un objeto interactivo del mapa. En la v1.3, su sprite se cambió ligeramente para hacerlo más notable, ayudando a los jugadores a reconocerlo rápidamente durante una partida. Conocer su ubicación puede ser crucial en ocasiones.
+  </Card>
+</CardGrid>
+
+<Callout type="info">
+El intercambio de objetos es más permisivo ahora. La actualización v1.4 permite a los jugadores intercambiar objetos incluso si el punto de caída está sobre una pared y se muestra en rojo, reduciendo la frustración en la gestión del inventario.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Lista de Objetivos y Progresión">
+Para navegar con éxito en Cobb Can Move, los jugadores deben completar una serie de objetivos, siendo la gestión del carbón un tema recurrente. Las actualizaciones del juego han refinado estos objetivos, haciendo que la progresión sea más clara pero no menos desafiante.
+
+<Checklist
+  id="game-objectives"
+  title="Objetivos Clave del Juego:"
+  items={[
+    "Recolectar y mover carbón continuamente al horno.",
+    "Gestionar el hambre del jugador consumiendo zanahorias.",
+    "Utilizar las piedras de manera efectiva para distraer y aturdir a Cobb.",
+    "Localizar y colocar las cuatro baterías para iniciar la tarea final.",
+    "Completar con éxito la tarea final en el alto horno.",
+    "Adaptarse a las reglas cambiantes y a las habilidades de Cobb en cada nivel."
+  ]}
+/>
+
+| Objetivo | Descripción | Actualización Relacionada | Impacto en el Jugador |
+|---|---|---|---|
+| Recolección de Carbón | Recurso principal para el horno y la luz. | v1.6: Menos carbón cerca del horno. | Requiere una búsqueda más amplia, más movimiento. |
+| Alimentación del Horno | Mantiene la luz y progresa en los objetivos. | N/A | Supervivencia directa, ciclo central. |
+| Interacción con el Interruptor | Objeto de mapa reconocible para utilidad. | v1.3: Sprite más notable. | Más fácil de detectar e interactuar. |
+| Colocación de Baterías | Activa la secuencia de final del juego. | v1.4: El texto de la tarea final cambia tras colocar 4. | Progresión más clara hacia el final. |
+| Tarea Final | Último objetivo antes de completar el juego. | v1.4/v1.5.2: Reequilibrios de velocidad. | Mantiene el final tenso pero justo. |
+
+</Section>
+
+<Section icon={Swords} title="Preguntas Frecuentes sobre el Carbón">
+
+<FAQ items={[
+  {
+    question: "¿Qué tan importante es el carbón en Cobb Can Move?",
+    answer: "El **carbón en Cobb Can Move** es críticamente importante. Alimenta el horno, que proporciona luz y es esencial para progresar a través de los niveles y completar objetivos. Sin carbón, los jugadores se sumergen en la oscuridad, lo que los hace altamente vulnerables a Cobb."
+  },
+  {
+    question: "¿Cambiaron los lugares de aparición del carbón?",
+    answer: "Sí, la actualización v1.6 hizo que el carbón fuera menos propenso a aparecer directamente al lado del horno. Este cambio anima a los jugadores a explorar más del mapa y planificar sus rutas con más cuidado para la recolección de carbón."
+  },
+  {
+    question: "¿Cuál es la mejor manera de transportar carbón al horno?",
+    answer: "La mejor manera es planificar una ruta segura, evitando las posiciones conocidas de Cobb y sus reglas sensoriales. Utilizar las cintas transportadoras puede reducir significativamente la carga del transporte manual. Mantente atento a las piedras para aturdir a Cobb si se acerca demasiado durante el transporte."
+  },
+  {
+    question: "¿Hay otros recursos tan importantes como el carbón?",
+    answer: "Si bien el carbón es central para alimentar el horno, las baterías son cruciales para llegar al final del juego. Las zanahorias son importantes para gestionar tu hambre, y las piedras sirven como valiosos objetos de utilidad para distracción y defensa contra Cobb."
+  }
+]} />
+
+</Section>

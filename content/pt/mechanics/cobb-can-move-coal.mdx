@@ -1,0 +1,156 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Cobb Can Move Carvão: Rotas Essenciais e Guia da Fornalha",
+  description: "Domine a coleta de carvão e a mecânica da fornalha em Cobb Can Move. Aprenda rotas ideais, interações de itens e dicas de sobrevivência para abastecer sua fuga.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/8B0000/fff?text=Cobb+Can+Move+Coal",
+  date: "2026-06-17",
+  author: "Equipe Wiki Cobb Can Move"
+}
+
+<Callout type="info" title="Guia Rápido">
+- O **carvão em Cobb Can Move** é um objetivo central para a sobrevivência e progressão.
+- As **fornalhas** são centrais para o ciclo de sobrevivência principal, exigindo entrega constante de carvão.
+- O **surgimento de carvão** foi ajustado na v1.6, tornando-o menos propenso a aparecer perto das fornalhas.
+- Utilize **esteiras transportadoras** para reduzir o fardo de transportar carvão.
+- Acompanhe o **progresso da bateria** para a tarefa final, que muda depois que quatro são colocadas.
+</Callout>
+
+<Section icon={Target} title="Dominando a Coleta de Carvão em Cobb Can Move">
+Em Cobb Can Move, o carvão não é apenas um recurso; é sua salvação. O ciclo principal do jogo gira em torno de localizar, coletar e depositar carvão em fornalhas para sobreviver. Compreender a mecânica do **carvão em Cobb Can Move** é fundamental para qualquer jogador que busca superar as regras em constante mudança do jogo e a busca implacável de Cobb. A sobrevivência no início do jogo e os objetivos no final do jogo dependem muito de um gerenciamento eficiente do carvão. Os devlogs oficiais destacam o quão centrais são as interações de carvão e fornalha para a experiência de jogo.
+
+<Callout type="tip">
+Sempre priorize a coleta de carvão, especialmente nos estágios iniciais de uma partida. Sem ele, sua fonte de luz diminui, e a vantagem de Cobb cresce significativamente.
+</Callout>
+
+**Destaques do Vídeo:**
+- Demonstra estratégias eficazes de roteamento de carvão.
+- Mostra a interação ideal da fornalha durante momentos de alta pressão.
+- Destaca erros comuns a serem evitados ao manusear carvão.
+
+</Section>
+
+<Section icon={Map} title="Estratégias de Surgimento e Roteamento de Carvão">
+A colocação do carvão é gerada dinamicamente, mas atualizações recentes influenciaram sua distribuição. Na v1.6, por exemplo, o carvão tornou-se menos propenso a surgir diretamente adjacente à fornalha, forçando os jogadores a se aventurarem mais fundo nos mapas gerados proceduralmente. Essa mudança aumenta a pressão de movimento e roteamento, tornando o planejamento estratégico essencial.
+
+| Local de Surgimento | Descrição | Estratégia do Jogador | Nota da Atualização |
+|---|---|---|---|
+| Perto da Fornalha (Pré-v1.6) | O carvão frequentemente aparecia perto da fornalha, reduzindo o tempo de viagem. | Coleta rápida, menos risco. | N/A |
+| Longe da Fornalha (Pós-v1.6) | O carvão agora surge mais longe, exigindo mais travessia do mapa. | Planejar rotas, usar distrações, gerenciar a luz. | Mudança da v1.6 |
+| Esteiras Transportadoras | Podem transportar carvão eficientemente por distâncias. | Identifique e ative as esteiras para facilitar o transporte. | Mecânica central inicial |
+
+<Callout type="warning">
+Cuidado com as regras sensoriais de Cobb ao procurar carvão. Se Cobb puder ouvir ou cheirar, seus movimentos e o próprio carvão podem denunciar sua posição.
+</Callout>
+
+O roteamento eficiente envolve não apenas encontrar carvão, mas também transportá-lo com segurança. Utilize o ambiente a seu favor e lembre-se de que cada passo conta quando Cobb está em seu encalço.
+
+</Section>
+
+<Section icon={Shield} title="Mecânica da Fornalha e Gerenciamento de Combustível">
+A fornalha é o coração da sua sobrevivência em Cobb Can Move. Mantê-la abastecida é inegociável. Entender como interagir com ela e gerenciar seu suprimento de carvão é uma habilidade de sobrevivência fundamental. O design do jogo garante que a fornalha permaneça um objeto central ligado ao ciclo de sobrevivência principal.
+
+<Steps>
+  <Step num="1" title="Localize a Fornalha">
+    Identifique a fornalha no mapa. É seu objetivo principal para a entrega de carvão.
+  </Step>
+  <Step num="2" title="Colete Carvão">
+    Reúna **carvão Cobb Can Move** de vários locais, prestando atenção aos padrões de surgimento.
+  </Step>
+  <Step num="3" title="Transporte Carvão com Segurança">
+    Mova o carvão em direção à fornalha. Considere usar pedras como distração se Cobb estiver por perto, pois a v1.6 as tornou mais eficazes para atordoar.
+  </Step>
+  <Step num="4" title="Deposite Carvão">
+    Interaja com a fornalha para depositar o carvão. Garanta um suprimento constante para manter a luz e o progresso.
+  </Step>
+  <Step num="5" title="Monitore os Níveis de Combustível">
+    Fique de olho no nível de combustível da fornalha. Ficar sem combustível leva à escuridão, aumentando a ameaça de Cobb.
+  </Step>
+</Steps>
+
+<Callout type="success">
+Abastecer a fornalha com sucesso não apenas o mantém seguro, mas também muitas vezes avança os objetivos, especialmente no modo história.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Interagindo com Outros Objetos Chave">
+Além do carvão e das fornalhas, vários outros itens desempenham papéis cruciais em sua sobrevivência e progressão em Cobb Can Move. Compreender sua utilidade é vital para uma partida bem-sucedida.
+
+<CardGrid cols={2}>
+  <Card title="Pedras: Utilidade e Distração">
+    Pedras são itens arremessáveis que podem ser usados para distrair Cobb. Na v1.6, acertos diretos com pedras podiam atordoar Cobb brevemente, e seu som foi amplificado para um feedback mais claro. A v1.7 corrigiu ainda mais instâncias em que as pedras falhavam em atordoar Cobb durante a perseguição, tornando-as uma ferramenta defensiva mais confiável.
+  </Card>
+  <Card title="Cenouras: Fonte de Alimento Renovável">
+    Após a atualização v1.3, as cenouras reaparecem quando comidas, tornando-as uma fonte de item repetível para gerenciar a mecânica de "fome" do jogador. Isso garante que você não esteja constantemente procurando por novas fontes de alimento.
+  </Card>
+  <Card title="Baterias: Progressão Final">
+    As baterias são críticas para a sequência final e a tarefa final. Há quatro baterias para coletar, e o texto da tarefa final muda assim que todas são colocadas. Acompanhar o progresso da sua bateria é essencial para completar o jogo.
+  </Card>
+  <Card title="Disjuntor: Visibilidade do Mapa">
+    O disjuntor é um objeto interativo do mapa. Na v1.3, seu sprite foi ligeiramente alterado para torná-lo mais perceptível, ajudando os jogadores a reconhecê-lo rapidamente durante uma partida. Saber sua localização às vezes pode ser crucial.
+  </Card>
+</CardGrid>
+
+<Callout type="info">
+A troca de itens está mais indulgente agora. A atualização v1.4 permite que os jogadores troquem itens mesmo que o local de descarte esteja sobre uma parede e seja mostrado em vermelho, reduzindo a frustração do gerenciamento de inventário.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Objetivos e Lista de Verificação de Progressão">
+Para navegar com sucesso em Cobb Can Move, os jogadores devem completar uma série de objetivos, sendo o gerenciamento de carvão um tema recorrente. As atualizações do jogo refinaram esses objetivos, tornando a progressão mais clara, mas não menos desafiadora.
+
+<Checklist
+  id="game-objectives"
+  title="Objetivos Chave do Jogo:"
+  items={[
+    "Coletar e mover carvão continuamente para a fornalha.",
+    "Gerenciar a fome do jogador consumindo cenouras.",
+    "Utilizar pedras efetivamente para distração e para atordoar Cobb.",
+    "Localizar e colocar todas as quatro baterias para iniciar a tarefa final.",
+    "Completar com sucesso a tarefa final na fornalha de explosão.",
+    "Adaptar-se às regras em constante mudança e às habilidades de Cobb em cada nível."
+  ]}
+/>
+
+| Objetivo | Descrição | Atualização Relacionada | Impacto no Jogador |
+|---|---|---|---|
+| Coleta de Carvão | Recurso primário para fornalha e luz. | v1.6: Menos carvão perto da fornalha. | Requer busca mais ampla, mais movimento. |
+| Abastecimento da Fornalha | Mantém a luz e avança os objetivos. | N/A | Sobrevivência direta, ciclo principal. |
+| Interação com o Disjuntor | Objeto de mapa reconhecível para utilidade. | v1.3: Sprite mais perceptível. | Mais fácil de identificar e interagir. |
+| Colocação da Bateria | Aciona a sequência de fim de jogo. | v1.4: Texto da tarefa final alterado após 4 colocadas. | Progressão mais clara para o final. |
+| Tarefa Final | Último objetivo antes da conclusão do jogo. | v1.4/v1.5.2: Reequilíbrios de velocidade. | Mantém o final tenso, mas justo. |
+
+</Section>
+
+<Section icon={Swords} title="Perguntas Frequentes sobre Carvão">
+
+<FAQ items={[
+  {
+    question: "Qual a importância do carvão em Cobb Can Move?",
+    answer: "O **carvão em Cobb Can Move** é criticamente importante. Ele abastece a fornalha, que fornece luz e é essencial para progredir nos níveis e completar objetivos. Sem carvão, os jogadores são mergulhados na escuridão, tornando-os altamente vulneráveis a Cobb."
+  },
+  {
+    question: "As localizações de surgimento de carvão mudaram?",
+    answer: "Sim, a atualização v1.6 tornou o carvão menos propenso a surgir diretamente ao lado da fornalha. Essa mudança incentiva os jogadores a explorar mais o mapa e planejar suas rotas com mais cuidado para a coleta de carvão."
+  },
+  {
+    question: "Qual a melhor maneira de transportar carvão para a fornalha?",
+    answer: "A melhor maneira é planejar uma rota segura, evitando as posições conhecidas de Cobb e as regras sensoriais. A utilização de esteiras transportadoras pode reduzir significativamente o fardo do transporte manual. Fique atento a pedras para atordoar Cobb se ele se aproximar demais durante o transporte."
+  },
+  {
+    question: "Existem outros recursos tão importantes quanto o carvão?",
+    answer: "Embora o carvão seja central para abastecer a fornalha, as baterias são cruciais para alcançar o final do jogo. As cenouras são importantes para gerenciar sua fome, e as pedras servem como itens utilitários valiosos para distração e defesa contra Cobb."
+  }
+]} />
+
+</Section>

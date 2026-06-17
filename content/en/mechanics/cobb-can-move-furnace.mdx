@@ -1,0 +1,167 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Cobb Can Move Furnace: Fueling Survival & Progression",
+  description: "Master the Cobb Can Move furnace mechanics, coal routes, and item interactions for optimal survival in the pixel horror game.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/8B0000/fff?text=Cobb+Can+Move+Furnace",
+  date: "2026-06-17",
+  author: "Cobb Can Move Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- The **furnace** is a central objective, requiring **coal** to keep the lights on and progress.
+- **Coal spawns** are now less likely to be directly next to the furnace, increasing routing challenges.
+- **Blast furnace** in the ending sequence has an enlarged hitbox for easier interaction.
+- Efficient **coal routes** and item management are crucial for survival.
+- Understanding **furnace mechanics** is key to managing Cobb's pressure in later levels.
+</Callout>
+
+<Section icon={Target} title="Furnace Mechanics and Core Objectives">
+The furnace in *Cobb Can Move* serves as the core objective, driving the player's survival loop. Your primary goal in many levels is to locate and fuel this furnace with coal to maintain light and progress. Without a functioning furnace, the darkness sets in, increasing Cobb's threat and making survival significantly harder.
+
+Recent updates have refined how the furnace interacts with other game elements, particularly coal placement and the ending sequence. These changes aim to enhance the challenge and strategic depth of the game.
+
+**Video Highlights:**
+- Demonstrates how to locate and interact with the furnace.
+- Shows effective coal collection and delivery routes.
+- Highlights the importance of light management around the furnace.
+
+<Callout type="tip">
+Always prioritize keeping the furnace fueled, especially in early levels. Running out of coal can quickly lead to an overwhelming situation.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Coal Collection and Routing Strategies">
+Coal is the essential fuel for the furnace. Its collection and efficient delivery are paramount to survival. The game's procedural generation means coal spawns vary, requiring players to adapt their routing strategies constantly.
+
+Historically, coal might spawn conveniently close to the furnace. However, the v1.6 update specifically made coal less likely to appear directly adjacent to the furnace, demanding more movement and strategic planning from players. This change significantly impacts early-game pressure and routing decisions.
+
+<Callout type="warning">
+Be aware of Cobb's sensory rules (e.g., "Cobb can smell") when planning your coal routes. A direct path might expose you to Cobb's detection.
+</Callout>
+
+Here's a breakdown of coal-related dynamics:
+
+| Item | Type | Gameplay Use | Official Update Note | Player Takeaway |
+|---|---|---|---|---|
+| **Coal** | Resource | Core survival resource connected to the furnace loop. | v1.6 made coal less likely to spawn right next to the furnace. | Expect more movement and routing pressure when collecting coal. |
+| **Furnace** | Core Objective | Central object tied to the main survival loop and coal routing. | v1.6 changed coal spawning so coal is less likely to appear right next to the furnace. | The furnace remains central, but the update pushes players to move farther for fuel. |
+
+</Section>
+
+<Section icon={Shield} title="Item Interactions Around the Furnace">
+Beyond coal, other interactable items play a crucial role in managing the environment around the furnace and surviving Cobb's pursuit. Rocks, for instance, can be used defensively, while carrots provide a renewable food source. Understanding how these items interact with your furnace objectives is vital.
+
+| Item | Type | Gameplay Use | Official Update Note | Player Takeaway |
+|---|---|---|---|---|
+| **Rocks** | Throwable / Utility | Can affect Cobb directly when used with a direct hit. | v1.6 made rocks stun Cobb briefly on a direct hit and made their sound louder. v1.7 fixed cases where rocks did not stun Cobb during pursuit. | Use rocks carefully during dangerous moments, especially near the furnace. |
+| **Carrots** | Respawning Item | A repeatable item source after the v1.3 update. | v1.3 made carrots respawn when eaten. | Carrots can sustain you during longer furnace runs. |
+| **Batteries** | Progression Item | Connected to the ending sequence and final task. | v1.4 changed the final task text after placing four batteries. | Track battery progress carefully, especially if the furnace is your final objective. |
+
+<Callout type="success">
+Utilize the louder sound of rocks (v1.6 update) to your advantage. A well-timed throw can distract Cobb, allowing you to safely fuel the furnace.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="The Blast Furnace in the Ending Sequence">
+The furnace takes on a critical, albeit slightly different, role in the ending sequence of *Cobb Can Move*. Here, it transforms into a "blast furnace," serving as the final interaction point after completing other objectives, such as placing all four batteries.
+
+The developers recognized that player interaction with this crucial end-game object needed to be smoother. The v1.6 update addressed this by enlarging the blast furnace's hitbox. This change ensures that players are less likely to struggle with interacting with it, especially during the intense final moments of a run.
+
+<Callout type="info">
+The enlarged hitbox for the blast furnace in the ending sequence (v1.6) is a quality-of-life improvement designed to prevent frustrating misses during high-pressure scenarios.
+</Callout>
+
+<CardGrid cols={2}>
+  <Card title="Pre-v1.6 Blast Furnace">
+    - Smaller hitbox, potentially difficult to interact with.
+    - Risk of getting lost behind other objects.
+    - Could lead to frustrating deaths in the final task.
+  </Card>
+  <Card title="Post-v1.6 Blast Furnace">
+    - **Larger, more forgiving hitbox.**
+    - Easier to locate and interact with during the ending.
+    - Reduces accidental misses, improving flow of the finale.
+  </Card>
+</CardGrid>
+
+</Section>
+
+<Section icon={Sparkles} title="Optimizing Furnace Operations for Survival">
+Mastering the furnace in *Cobb Can Move* goes beyond simply feeding it coal. It involves a strategic understanding of resource management, enemy behavior, and environmental awareness. Here's a step-by-step guide to optimizing your furnace operations:
+
+<Steps>
+  <Step num="1" title="Prioritize Coal Early">
+    In the initial stages of any run, your main goal should be to secure a steady supply of coal for the furnace. Scout nearby areas carefully, always keeping an eye on Cobb's movements.
+  </Step>
+  <Step num="2" title="Establish Efficient Coal Routes">
+    Once you've identified coal spawns, plan the safest and quickest routes to transport it back to the furnace. Avoid areas with high Cobb activity if possible. Remember, coal spawns are less predictable now.
+  </Step>
+  <Step num="3" title="Utilize Distractions">
+    If Cobb is too close to your coal supply or the furnace, use throwable items like rocks to create a distraction. A direct hit can briefly stun Cobb, giving you a window to act.
+  </Step>
+  <Step num="4" title="Manage Light Levels">
+    The furnace provides light. Keep it fueled to maintain visibility, which is crucial for avoiding Cobb and navigating the procedurally generated maps. Low light significantly increases the danger.
+  </Step>
+  <Step num="5" title="Adapt to Rule Changes">
+    Each run introduces changing rules. Some rules might affect Cobb's senses, making your trips to and from the furnace more perilous. Always read the active rule text and adjust your strategy accordingly.
+  </Step>
+</Steps>
+
+<Callout type="tip">
+Consider creating a small "safe zone" or temporary cache for coal near the furnace if the map layout permits. This minimizes exposure during crucial fueling moments.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Furnace-Related Objectives Checklist">
+To ensure successful progression and survival, keep track of these furnace-related objectives during your *Cobb Can Move* runs.
+
+<Checklist
+  id="furnace-objectives"
+  title="Furnace Survival Checklist:"
+  items={[
+    "Locate the furnace on the map.",
+    "Secure an initial coal supply.",
+    "Establish a safe and efficient coal delivery route.",
+    "Maintain consistent fuel levels to prevent darkness.",
+    "Utilize throwable items for Cobb distractions near the furnace.",
+    "Adapt furnace strategy based on active rule changes.",
+    "Successfully interact with the blast furnace in the ending sequence."
+  ]}
+/>
+
+</Section>
+
+<Section icon={Shield} title="Frequently Asked Questions about the Furnace">
+
+<FAQ items={[
+  {
+    question: "Why is the furnace so important in Cobb Can Move?",
+    answer: "The furnace is a central objective that provides light, which is crucial for survival. Keeping it fueled with coal helps ward off Cobb and allows you to navigate the dark environments."
+  },
+  {
+    question: "Did coal spawning locations change near the furnace?",
+    answer: "Yes, the v1.6 update made coal less likely to spawn directly next to the furnace, requiring players to move further and plan their routes more strategically."
+  },
+  {
+    question: "What is the blast furnace and how do I use it?",
+    answer: "The blast furnace is an object encountered in the game's ending sequence. After completing other objectives like placing batteries, you interact with it to complete the game. The v1.6 update enlarged its hitbox for easier interaction."
+  },
+  {
+    question: "Can I move the furnace in Cobb Can Move?",
+    answer: "No, the furnace itself is a static environmental objective. Your task is to bring coal to it, not to move the furnace."
+  }
+]} />
+
+</Section>

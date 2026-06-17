@@ -1,0 +1,167 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Forno de Cobb Can Move: Abastecendo a Sobrevivência e a Progressão",
+  description: "Domine as mecânicas do forno, rotas de carvão e interações de itens em Cobb Can Move para uma sobrevivência ideal no jogo de terror pixelado.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/8B0000/fff?text=Cobb+Can+Move+Furnace",
+  date: "2026-06-17",
+  author: "Equipe Wiki de Cobb Can Move"
+}
+
+<Callout type="info" title="Guia Rápido">
+- O **forno** é um objetivo central, exigindo **carvão** para manter as luzes acesas e progredir.
+- Os **pontos de surgimento de carvão** agora são menos propensos a estarem diretamente ao lado do forno, aumentando os desafios de rota.
+- O **alto-forno** na sequência final tem uma hitbox ampliada para uma interação mais fácil.
+- **Rotas de carvão** eficientes e gerenciamento de itens são cruciais para a sobrevivência.
+- Compreender as **mecânicas do forno** é fundamental para gerenciar a pressão de Cobb nos níveis posteriores.
+</Callout>
+
+<Section icon={Target} title="Mecânicas do Forno e Objetivos Principais">
+O forno em *Cobb Can Move* serve como o objetivo principal, impulsionando o ciclo de sobrevivência do jogador. Seu objetivo principal em muitos níveis é localizar e abastecer este forno com carvão para manter a luz e progredir. Sem um forno funcionando, a escuridão se instala, aumentando a ameaça de Cobb e tornando a sobrevivência significativamente mais difícil.
+
+Atualizações recentes refinaram a forma como o forno interage com outros elementos do jogo, particularmente o posicionamento do carvão e a sequência final. Essas mudanças visam aprimorar o desafio e a profundidade estratégica do jogo.
+
+**Destaques do Vídeo:**
+- Demonstra como localizar e interagir com o forno.
+- Mostra rotas eficazes de coleta e entrega de carvão.
+- Destaca a importância do gerenciamento de luz ao redor do forno.
+
+<Callout type="tip">
+Sempre priorize manter o forno abastecido, especialmente nos níveis iniciais. Ficar sem carvão pode rapidamente levar a uma situação avassaladora.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Estratégias de Coleta e Roteamento de Carvão">
+O carvão é o combustível essencial para o forno. Sua coleta e entrega eficiente são primordiais para a sobrevivência. A geração procedural do jogo significa que os pontos de surgimento de carvão variam, exigindo que os jogadores adaptem suas estratégias de roteamento constantemente.
+
+Historicamente, o carvão poderia surgir convenientemente perto do forno. No entanto, a atualização v1.6 tornou o carvão menos propenso a aparecer diretamente adjacente ao forno, exigindo mais movimento e planejamento estratégico dos jogadores. Essa mudança impacta significativamente a pressão no início do jogo e as decisões de roteamento.
+
+<Callout type="warning">
+Esteja ciente das regras sensoriais de Cobb (por exemplo, "Cobb pode cheirar") ao planejar suas rotas de carvão. Um caminho direto pode expô-lo à detecção de Cobb.
+</Callout>
+
+Aqui está um detalhamento da dinâmica relacionada ao carvão:
+
+| Item | Tipo | Uso no Jogo | Nota de Atualização Oficial | Conclusão do Jogador |
+|---|---|---|---|---|
+| **Carvão** | Recurso | Recurso de sobrevivência principal conectado ao ciclo do forno. | v1.6 tornou o carvão menos propenso a surgir bem ao lado do forno. | Espere mais movimento e pressão de roteamento ao coletar carvão. |
+| **Forno** | Objetivo Principal | Objeto central ligado ao ciclo principal de sobrevivência e roteamento de carvão. | v1.6 alterou o surgimento de carvão para que seja menos provável que apareça bem ao lado do forno. | O forno permanece central, mas a atualização impulsiona os jogadores a se moverem mais para obter combustível. |
+
+</Section>
+
+<Section icon={Shield} title="Interações de Itens ao Redor do Forno">
+Além do carvão, outros itens interativos desempenham um papel crucial no gerenciamento do ambiente ao redor do forno e na sobrevivência à perseguição de Cobb. Pedras, por exemplo, podem ser usadas defensivamente, enquanto cenouras fornecem uma fonte de alimento renovável. Compreender como esses itens interagem com seus objetivos do forno é vital.
+
+| Item | Tipo | Uso no Jogo | Nota de Atualização Oficial | Conclusão do Jogador |
+|---|---|---|---|---|
+| **Pedras** | Arremessável / Utilitário | Pode afetar Cobb diretamente quando usado com um acerto direto. | v1.6 fez as pedras atordoarem Cobb brevemente em um acerto direto e tornou seu som mais alto. v1.7 corrigiu casos em que as pedras não atordoavam Cobb durante a perseguição. | Use as pedras com cuidado durante momentos perigosos, especialmente perto do forno. |
+| **Cenouras** | Item que Reaparece | Uma fonte de item repetível após a atualização v1.3. | v1.3 fez as cenouras reaparecerem quando comidas. | Cenouras podem sustentá-lo durante corridas mais longas do forno. |
+| **Baterias** | Item de Progressão | Conectado à sequência final e à tarefa final. | v1.4 alterou o texto da tarefa final após colocar quatro baterias. | Acompanhe o progresso da bateria cuidadosamente, especialmente se o forno for seu objetivo final. |
+
+<Callout type="success">
+Utilize o som mais alto das pedras (atualização v1.6) a seu favor. Um arremesso bem-sucedido pode distrair Cobb, permitindo que você abasteça o forno com segurança.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="O Alto-Forno na Sequência Final">
+O forno assume um papel crítico, embora ligeiramente diferente, na sequência final de *Cobb Can Move*. Aqui, ele se transforma em um "alto-forno", servindo como o ponto de interação final após completar outros objetivos, como colocar todas as quatro baterias.
+
+Os desenvolvedores reconheceram que a interação do jogador com este objeto crucial de fim de jogo precisava ser mais suave. A atualização v1.6 abordou isso ampliando a hitbox do alto-forno. Essa mudança garante que os jogadores sejam menos propensos a ter dificuldades em interagir com ele, especialmente durante os momentos finais intensos de uma corrida.
+
+<Callout type="info">
+A hitbox ampliada para o alto-forno na sequência final (v1.6) é uma melhoria de qualidade de vida projetada para evitar erros frustrantes durante cenários de alta pressão.
+</Callout>
+
+<CardGrid cols={2}>
+  <Card title="Alto-Forno Pré-v1.6">
+    - Hitbox menor, potencialmente difícil de interagir.
+    - Risco de se perder atrás de outros objetos.
+    - Poderia levar a mortes frustrantes na tarefa final.
+  </Card>
+  <Card title="Alto-Forno Pós-v1.6">
+    - **Hitbox maior e mais tolerante.**
+    - Mais fácil de localizar e interagir durante o final.
+    - Reduz erros acidentais, melhorando o fluxo do final.
+  </Card>
+</CardGrid>
+
+</Section>
+
+<Section icon={Sparkles} title="Otimizando as Operações do Forno para Sobrevivência">
+Dominar o forno em *Cobb Can Move* vai além de simplesmente alimentá-lo com carvão. Envolve uma compreensão estratégica do gerenciamento de recursos, comportamento do inimigo e consciência ambiental. Aqui está um guia passo a passo para otimizar suas operações do forno:
+
+<Steps>
+  <Step num="1" title="Priorize o Carvão Cedo">
+    Nas fases iniciais de qualquer corrida, seu principal objetivo deve ser garantir um suprimento constante de carvão para o forno. Explore as áreas próximas cuidadosamente, sempre de olho nos movimentos de Cobb.
+  </Step>
+  <Step num="2" title="Estabeleça Rotas Eficientes de Carvão">
+    Depois de identificar os pontos de surgimento de carvão, planeje as rotas mais seguras e rápidas para transportá-lo de volta ao forno. Evite áreas com alta atividade de Cobb, se possível. Lembre-se, os pontos de surgimento de carvão são menos previsíveis agora.
+  </Step>
+  <Step num="3" title="Utilize Distrações">
+    Se Cobb estiver muito perto do seu suprimento de carvão ou do forno, use itens arremessáveis como pedras para criar uma distração. Um acerto direto pode atordoar Cobb brevemente, dando-lhe uma janela para agir.
+  </Step>
+  <Step num="4" title="Gerencie os Níveis de Luz">
+    O forno fornece luz. Mantenha-o abastecido para manter a visibilidade, o que é crucial para evitar Cobb e navegar pelos mapas gerados proceduralmente. A pouca luz aumenta significativamente o perigo.
+  </Step>
+  <Step num="5" title="Adapte-se às Mudanças de Regra">
+    Cada corrida introduz regras variáveis. Algumas regras podem afetar os sentidos de Cobb, tornando suas viagens de e para o forno mais perigosas. Sempre leia o texto da regra ativa e ajuste sua estratégia de acordo.
+  </Step>
+</Steps>
+
+<Callout type="tip">
+Considere criar uma pequena "zona segura" ou cache temporário para carvão perto do forno, se o layout do mapa permitir. Isso minimiza a exposição durante momentos cruciais de abastecimento.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Lista de Verificação de Objetivos Relacionados ao Forno">
+Para garantir a progressão e sobrevivência bem-sucedidas, acompanhe estes objetivos relacionados ao forno durante suas corridas em *Cobb Can Move*.
+
+<Checklist
+  id="furnace-objectives"
+  title="Lista de Verificação de Sobrevivência do Forno:"
+  items={[
+    "Localize o forno no mapa.",
+    "Garanta um suprimento inicial de carvão.",
+    "Estabeleça uma rota de entrega de carvão segura e eficiente.",
+    "Mantenha níveis consistentes de combustível para evitar a escuridão.",
+    "Utilize itens arremessáveis para distrair Cobb perto do forno.",
+    "Adapte a estratégia do forno com base nas mudanças de regra ativas.",
+    "Interaja com sucesso com o alto-forno na sequência final."
+  ]}
+/>
+
+</Section>
+
+<Section icon={Shield} title="Perguntas Frequentes sobre o Forno">
+
+<FAQ items={[
+  {
+    question: "Por que o forno é tão importante em Cobb Can Move?",
+    answer: "O forno é um objetivo central que fornece luz, o que é crucial para a sobrevivência. Mantê-lo abastecido com carvão ajuda a afastar Cobb e permite que você navegue pelos ambientes escuros."
+  },
+  {
+    question: "As localizações de surgimento de carvão mudaram perto do forno?",
+    answer: "Sim, a atualização v1.6 tornou o carvão menos propenso a surgir diretamente ao lado do forno, exigindo que os jogadores se movam mais e planejem suas rotas de forma mais estratégica."
+  },
+  {
+    question: "O que é o alto-forno e como eu o uso?",
+    answer: "O alto-forno é um objeto encontrado na sequência final do jogo. Depois de completar outros objetivos, como colocar baterias, você interage com ele para completar o jogo. A atualização v1.6 ampliou sua hitbox para facilitar a interação."
+  },
+  {
+    question: "Posso mover o forno em Cobb Can Move?",
+    answer: "Não, o forno em si é um objetivo ambiental estático. Sua tarefa é trazer carvão para ele, não mover o forno."
+  }
+]} />
+
+</Section>

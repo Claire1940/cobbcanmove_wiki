@@ -1,0 +1,156 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Cobb Can Move Coal: Essential Routes & Furnace Guide",
+  description: "Master coal collection and furnace mechanics in Cobb Can Move. Learn optimal routes, item interactions, and survival tips to fuel your escape.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/8B0000/fff?text=Cobb+Can+Move+Coal",
+  date: "2026-06-17",
+  author: "Cobb Can Move Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Cobb Can Move coal** is a core objective for survival and progression.
+- **Furnaces** are central to the main survival loop, requiring constant coal delivery.
+- **Coal spawning** was adjusted in v1.6, making it less likely to appear near furnaces.
+- Utilize **conveyor belts** to reduce the burden of transporting coal.
+- Track **battery progress** for the final task, which changes after four are placed.
+</Callout>
+
+<Section icon={Target} title="Mastering Coal Collection in Cobb Can Move">
+In Cobb Can Move, coal is not just a resource; it's your lifeline. The game's core loop revolves around locating, collecting, and depositing coal into furnaces to survive. Understanding the mechanics of **Cobb Can Move coal** is paramount for any player seeking to overcome the game's ever-changing rules and the relentless pursuit of Cobb. Early game survival and late-game objectives heavily depend on efficient coal management. The official devlogs highlight how central coal and furnace interactions are to the gameplay experience.
+
+<Callout type="tip">
+Always prioritize coal collection, especially in the early stages of a run. Without it, your light source dwindles, and Cobb's advantage grows significantly.
+</Callout>
+
+**Video Highlights:**
+- Demonstrates effective coal routing strategies.
+- Shows optimal furnace interaction during high-pressure moments.
+- Highlights common mistakes to avoid when handling coal.
+
+</Section>
+
+<Section icon={Map} title="Coal Spawning & Routing Strategies">
+The placement of coal is dynamically generated, but recent updates have influenced its distribution. In v1.6, for instance, coal became less likely to spawn directly adjacent to the furnace, forcing players to venture further into the procedurally generated maps. This change increases the movement and routing pressure, making strategic planning essential.
+
+| Spawn Location | Description | Player Strategy | Update Note |
+|---|---|---|---|
+| Near Furnace (Pre-v1.6) | Coal often appeared close to the furnace, reducing travel time. | Quick collection, less risk. | N/A |
+| Away from Furnace (Post-v1.6) | Coal now spawns further, requiring more map traversal. | Plan routes, use distractions, manage light. | v1.6 change |
+| Conveyor Belts | Can transport coal efficiently across distances. | Identify and activate belts to ease transport. | Early core mechanic |
+
+<Callout type="warning">
+Beware of Cobb's sensory rules when venturing for coal. If Cobb can hear or smell, your movements and the coal itself can betray your position.
+</Callout>
+
+Efficient routing involves not just finding coal but also safely transporting it. Utilize the environment to your advantage, and remember that every step counts when Cobb is on your trail.
+
+</Section>
+
+<Section icon={Shield} title="Furnace Mechanics & Fuel Management">
+The furnace is the heart of your survival in Cobb Can Move. Keeping it fueled is non-negotiable. Understanding how to interact with it and manage your coal supply is a key survival skill. The game's design ensures that the furnace remains a central object tied to the main survival loop.
+
+<Steps>
+  <Step num="1" title="Locate the Furnace">
+    Identify the furnace on the map. It's your primary objective for coal delivery.
+  </Step>
+  <Step num="2" title="Collect Coal">
+    Gather **Cobb Can Move coal** from various locations, paying attention to spawn patterns.
+  </Step>
+  <Step num="3" title="Transport Coal Safely">
+    Move coal towards the furnace. Consider using rocks as distractions if Cobb is nearby, as v1.6 made them more effective for stunning.
+  </Step>
+  <Step num="4" title="Deposit Coal">
+    Interact with the furnace to deposit the coal. Ensure a steady supply to maintain light and progress.
+  </Step>
+  <Step num="5" title="Monitor Fuel Levels">
+    Keep an eye on the furnace's fuel level. Running out of fuel leads to darkness, increasing Cobb's threat.
+  </Step>
+</Steps>
+
+<Callout type="success">
+Successfully fueling the furnace not only keeps you safe but also often progresses objectives, especially in story mode.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Interacting with Other Key Objects">
+Beyond coal and furnaces, several other items play crucial roles in your survival and progression within Cobb Can Move. Understanding their utility is vital for a successful run.
+
+<CardGrid cols={2}>
+  <Card title="Rocks: Utility & Distraction">
+    Rocks are throwable items that can be used to distract Cobb. In v1.6, direct hits with rocks could briefly stun Cobb, and their sound was made louder for clearer feedback. v1.7 further fixed instances where rocks failed to stun Cobb during pursuit, making them a more reliable defensive tool.
+  </Card>
+  <Card title="Carrots: Renewable Food Source">
+    After the v1.3 update, carrots respawn when eaten, making them a repeatable item source for managing the player's "starve" mechanic. This ensures you're not constantly searching for new food sources.
+  </Card>
+  <Card title="Batteries: Ending Progression">
+    Batteries are critical for the ending sequence and the final task. There are four batteries to collect, and the final task text changes once all of them are placed. Tracking your battery progress is essential for completing the game.
+  </Card>
+  <Card title="Breaker: Map Visibility">
+    The breaker is an interactable map object. In v1.3, its sprite was slightly changed to make it more noticeable, helping players recognize it quickly during a run. Knowing its location can sometimes be crucial.
+  </Card>
+</CardGrid>
+
+<Callout type="info">
+Item swapping is more forgiving now. The v1.4 update allows players to swap items even if the drop spot is over a wall and shown in red, reducing inventory management frustration.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Objectives & Progression Checklist">
+To successfully navigate Cobb Can Move, players must complete a series of objectives, with coal management being a recurring theme. The game's updates have refined these objectives, making the progression clearer but no less challenging.
+
+<Checklist
+  id="game-objectives"
+  title="Key Game Objectives:"
+  items={[
+    "Continuously collect and move coal to the furnace.",
+    "Manage player hunger by consuming carrots.",
+    "Utilize rocks effectively for distraction and stunning Cobb.",
+    "Locate and place all four batteries to initiate the final task.",
+    "Successfully complete the final task at the blast furnace.",
+    "Adapt to changing rules and Cobb's abilities each level."
+  ]}
+/>
+
+| Objective | Description | Related Update | Player Impact |
+|---|---|---|---|
+| Coal Collection | Primary resource for furnace and light. | v1.6: Less coal near furnace. | Requires wider search, more movement. |
+| Furnace Fueling | Maintains light and progresses objectives. | N/A | Direct survival, core loop. |
+| Breaker Interaction | Recognizable map object for utility. | v1.3: Sprite made more noticeable. | Easier to spot and interact with. |
+| Battery Placement | Triggers end-game sequence. | v1.4: Final task text changed after 4 placed. | Clearer progression to ending. |
+| Final Task | Last objective before game completion. | v1.4/v1.5.2: Speed rebalances. | Keeps ending tense but fair. |
+
+</Section>
+
+<Section icon={Swords} title="Frequently Asked Questions about Coal">
+
+<FAQ items={[
+  {
+    question: "How important is coal in Cobb Can Move?",
+    answer: "**Cobb Can Move coal** is critically important. It fuels the furnace, which provides light and is essential for progressing through levels and completing objectives. Without coal, players are plunged into darkness, making them highly vulnerable to Cobb."
+  },
+  {
+    question: "Did coal spawning locations change?",
+    answer: "Yes, the v1.6 update made coal less likely to spawn directly next to the furnace. This change encourages players to explore more of the map and plan their routes more carefully for coal collection."
+  },
+  {
+    question: "What's the best way to transport coal to the furnace?",
+    answer: "The best way is to plan a safe route, avoiding Cobb's known positions and sensory rules. Utilizing conveyor belts can significantly reduce the burden of manual transport. Keep an eye out for rocks to stun Cobb if he gets too close during transport."
+  },
+  {
+    question: "Are there other resources as important as coal?",
+    answer: "While coal is central to fueling the furnace, batteries are crucial for reaching the game's ending. Carrots are important for managing your hunger, and rocks serve as valuable utility items for distraction and defense against Cobb."
+  }
+]} />
+
+</Section>

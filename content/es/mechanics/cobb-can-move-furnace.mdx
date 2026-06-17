@@ -1,0 +1,168 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Horno de Cobb Can Move: Combustible para la Supervivencia y el Progreso",
+  description: "Domina las mecánicas del horno de Cobb Can Move, las rutas de carbón y las interacciones de objetos para una supervivencia óptima en este juego de terror de píxeles.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/8B0000/fff?text=Cobb+Can+Move+Furnace",
+  date: "2026-06-17",
+  author: "Equipo de la Wiki de Cobb Can Move",
+  keywords: "Cobb Can Move, horno, carbón, guía de supervivencia, terror de píxeles, alto horno"
+}
+
+<Callout type="info" title="Guía Rápida">
+- El **horno** es un objetivo central que requiere **carbón** para mantener las luces encendidas y progresar.
+- La **aparición de carbón** ahora es menos probable directamente al lado del horno, lo que aumenta los desafíos de las rutas.
+- El **alto horno** en la secuencia final tiene una hitbox ampliada para facilitar la interacción.
+- Las **rutas de carbón** eficientes y la gestión de objetos son cruciales para la supervivencia.
+- Comprender las **mecánicas del horno** es clave para gestionar la presión de Cobb en los niveles posteriores.
+</Callout>
+
+<Section icon={Target} title="Mecánicas del Horno y Objetivos Principales">
+El horno en *Cobb Can Move* sirve como el objetivo principal, impulsando el ciclo de supervivencia del jugador. Tu meta primordial en muchos niveles es localizar y alimentar este horno con carbón para mantener la luz y progresar. Sin un horno funcional, la oscuridad se apodera del lugar, aumentando la amenaza de Cobb y haciendo que la supervivencia sea significativamente más difícil.
+
+Las actualizaciones recientes han refinado cómo el horno interactúa con otros elementos del juego, particularmente la ubicación del carbón y la secuencia final. Estos cambios buscan mejorar el desafío y la profundidad estratégica del juego.
+
+**Puntos destacados del video:**
+- Demuestra cómo localizar e interactuar con el horno.
+- Muestra rutas efectivas de recolección y entrega de carbón.
+- Resalta la importancia de la gestión de la luz alrededor del horno.
+
+<Callout type="tip" title="Consejo">
+Prioriza siempre mantener el horno alimentado, especialmente en los niveles iniciales. Quedarse sin carbón puede llevar rápidamente a una situación abrumadora.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Recolección de Carbón y Estrategias de Ruta">
+El carbón es el combustible esencial para el horno. Su recolección y entrega eficiente son primordiales para la supervivencia. La generación procedural del juego significa que los puntos de aparición de carbón varían, lo que requiere que los jugadores adapten sus estrategias de ruta constantemente.
+
+Históricamente, el carbón podía aparecer convenientemente cerca del horno. Sin embargo, la actualización v1.6 hizo específicamente que el carbón sea menos propenso a aparecer directamente adyacente al horno, exigiendo más movimiento y planificación estratégica por parte de los jugadores. Este cambio impacta significativamente la presión del juego temprano y las decisiones de ruta.
+
+<Callout type="warning" title="Advertencia">
+Ten en cuenta las reglas sensoriales de Cobb (por ejemplo, "Cobb puede oler") al planificar tus rutas de carbón. Un camino directo podría exponerte a la detección de Cobb.
+</Callout>
+
+Aquí hay un desglose de las dinámicas relacionadas con el carbón:
+
+| Objeto | Tipo | Uso en el juego | Nota de actualización oficial | Conclusión para el jugador |
+|---|---|---|---|---|
+| **Carbón** | Recurso | Recurso de supervivencia central conectado al ciclo del horno. | La v1.6 hizo que el carbón sea menos propenso a aparecer justo al lado del horno. | Espera más presión de movimiento y rutas al recolectar carbón. |
+| **Horno** | Objetivo Principal | Objeto central ligado al ciclo principal de supervivencia y rutas de carbón. | La v1.6 cambió la aparición de carbón para que sea menos probable que aparezca justo al lado del horno. | El horno sigue siendo central, pero la actualización empuja a los jugadores a moverse más lejos por combustible. |
+
+</Section>
+
+<Section icon={Shield} title="Interacciones de Objetos Alrededor del Horno">
+Más allá del carbón, otros objetos interactuables juegan un papel crucial en la gestión del entorno alrededor del horno y en sobrevivir a la persecución de Cobb. Las piedras, por ejemplo, pueden usarse defensivamente, mientras que las zanahorias proporcionan una fuente de alimento renovable. Comprender cómo estos objetos interactúan con tus objetivos del horno es vital.
+
+| Objeto | Tipo | Uso en el juego | Nota de actualización oficial | Conclusión para el jugador |
+|---|---|---|---|---|
+| **Piedras** | Arrojadizo / Utilidad | Puede afectar a Cobb directamente cuando se usa con un golpe directo. | La v1.6 hizo que las piedras aturdan a Cobb brevemente con un golpe directo y aumentó su sonido. v1.7 corrigió casos donde las piedras no aturdían a Cobb. | Usa las piedras con cuidado durante momentos peligrosos, especialmente cerca del horno. |
+| **Zanahorias** | Objeto que reaparece | Una fuente de objetos repetible después de la actualización v1.3. | La v1.3 hizo que las zanahorias reaparezcan al ser ingeridas. | Las zanahorias pueden mantenerte durante recorridos más largos al horno. |
+| **Baterías** | Objeto de progresión | Conectado a la secuencia final y la tarea final. | La v1.4 cambió el texto de la tarea final después de colocar cuatro baterías. | Sigue el progreso de las baterías con cuidado, especialmente si el horno es tu objetivo final. |
+
+<Callout type="success" title="Éxito">
+Utiliza el sonido más fuerte de las piedras (actualización v1.6) a tu favor. Un lanzamiento bien temporizado puede distraer a Cobb, permitiéndote alimentar el horno de forma segura.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="El Alto Horno en la Secuencia Final">
+El horno adquiere un papel crítico, aunque ligeramente diferente, en la secuencia final de *Cobb Can Move*. Aquí, se transforma en un "alto horno", sirviendo como el punto de interacción final después de completar otros objetivos, como colocar las cuatro baterías.
+
+Los desarrolladores reconocieron que la interacción del jugador con este objeto crucial del final del juego necesitaba ser más fluida. La actualización v1.6 abordó esto ampliando la hitbox del alto horno. Este cambio asegura que los jugadores tengan menos probabilidades de tener problemas al interactuar con él, especialmente durante los intensos momentos finales de una partida.
+
+<Callout type="info" title="Información">
+La hitbox ampliada para el alto horno en la secuencia final (v1.6) es una mejora de calidad de vida diseñada para evitar fallos frustrantes durante escenarios de alta presión.
+</Callout>
+
+<CardGrid cols={2}>
+  <Card title="Alto Horno antes de la v1.6">
+    - Hitbox más pequeña, potencialmente difícil de interactuar.
+    - Riesgo de perderse detrás de otros objetos.
+    - Podía llevar a muertes frustrantes en la tarea final.
+  </Card>
+  <Card title="Alto Horno después de la v1.6">
+    - **Hitbox más grande y permisiva.**
+    - Más fácil de localizar e interactuar durante el final.
+    - Reduce los fallos accidentales, mejorando el flujo del final.
+  </Card>
+</CardGrid>
+
+</Section>
+
+<Section icon={Sparkles} title="Optimización de las Operaciones del Horno para la Supervivencia">
+Dominar el horno en *Cobb Can Move* va más allá de simplemente alimentarlo con carbón. Implica una comprensión estratégica de la gestión de recursos, el comportamiento del enemigo y la conciencia ambiental. Aquí tienes una guía paso a paso para optimizar las operaciones de tu horno:
+
+<Steps>
+  <Step num="1" title="Prioriza el Carbón Temprano">
+    En las etapas iniciales de cualquier partida, tu objetivo principal debe ser asegurar un suministro constante de carbón para el horno. Explora las áreas cercanas con cuidado, siempre vigilando los movimientos de Cobb.
+  </Step>
+  <Step num="2" title="Establece Rutas de Carbón Eficientes">
+    Una vez que hayas identificado los puntos de aparición de carbón, planifica las rutas más seguras y rápidas para transportarlo de regreso al horno. Evita áreas con alta actividad de Cobb si es posible. Recuerda, los puntos de aparición de carbón son menos predecibles ahora.
+  </Step>
+  <Step num="3" title="Utiliza Distracciones">
+    Si Cobb está demasiado cerca de tu suministro de carbón o del horno, usa objetos arrojadizos como piedras para crear una distracción. Un golpe directo puede aturdir brevemente a Cobb, dándote una ventana para actuar.
+  </Step>
+  <Step num="4" title="Gestiona los Niveles de Luz">
+    El horno proporciona luz. Manténlo alimentado para mantener la visibilidad, lo cual es crucial para evitar a Cobb y navegar por los mapas generados proceduralmente. La poca luz aumenta significativamente el peligro.
+  </Step>
+  <Step num="5" title="Adáptate a los Cambios de Reglas">
+    Cada partida introduce reglas cambiantes. Algunas reglas podrían afectar los sentidos de Cobb, haciendo que tus viajes hacia y desde el horno sean más peligrosos. Lee siempre el texto de la regla activa y ajusta tu estrategia en consecuencia.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Consejo">
+Considera crear una pequeña "zona segura" o un alijo temporal de carbón cerca del horno si el diseño del mapa lo permite. Esto minimiza la exposición durante los momentos cruciales de alimentación.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Lista de Objetivos Relacionados con el Horno">
+Para asegurar una progresión y supervivencia exitosas, mantén un seguimiento de estos objetivos relacionados con el horno durante tus partidas de *Cobb Can Move*.
+
+<Checklist
+  id="furnace-objectives"
+  title="Lista de Verificación de Supervivencia del Horno:"
+  items={[
+    "Localizar el horno en el mapa.",
+    "Asegurar un suministro inicial de carbón.",
+    "Establecer una ruta de entrega de carbón segura y eficiente.",
+    "Mantener niveles de combustible constantes para evitar la oscuridad.",
+    "Utilizar objetos arrojadizos para distraer a Cobb cerca del horno.",
+    "Adaptar la estrategia del horno basándose en los cambios de reglas activas.",
+    "Interactuar con éxito con el alto horno en la secuencia final."
+  ]}
+/>
+
+</Section>
+
+<Section icon={Shield} title="Preguntas Frecuentes sobre el Horno">
+
+<FAQ items={[
+  {
+    question: "¿Por qué es tan importante el horno en Cobb Can Move?",
+    answer: "El horno es un objetivo central que proporciona luz, la cual es crucial para la supervivencia. Mantenerlo alimentado con carbón ayuda a alejar a Cobb y te permite navegar por los entornos oscuros."
+  },
+  {
+    question: "¿Cambiaron los lugares de aparición de carbón cerca del horno?",
+    answer: "Sí, la actualización v1.6 hizo que el carbón sea menos propenso a aparecer directamente al lado del horno, lo que requiere que los jugadores se muevan más y planifiquen sus rutas de manera más estratégica."
+  },
+  {
+    question: "¿Qué es el alto horno y cómo lo uso?",
+    answer: "El alto horno es un objeto que se encuentra en la secuencia final del juego. Después de completar otros objetivos como colocar las baterías, interactúas con él para completar el juego. La actualización v1.6 amplió su hitbox para facilitar la interacción."
+  },
+  {
+    question: "¿Puedo mover el horno en Cobb Can Move?",
+    answer: "No, el horno en sí es un objetivo ambiental estático. Tu tarea es llevarle carbón, no mover el horno."
+  }
+]} />
+
+</Section>
