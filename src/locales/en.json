@@ -340,39 +340,31 @@
       "title": "Cobb Can Move Story Mode Levels and Ending",
       "displayType": "steps",
       "eyebrow": "Story and Ending",
-      "intro": "Cobb Can Move story mode is a sequence of rule-changing levels that build toward a final task and an ending. This guide covers progression, batteries, the blast furnace, and the level select menu you unlock after finishing the game.",
+      "intro": "Cobb Can Move builds story mode around short survival levels where the rules change and Cobb gains new pressure tools. The official patches changed Level 2 rule logic, Level 7 resources, final-task text, final-task speed, the ending furnace hitbox, and the post-clear level select menu.",
       "steps": [
         {
-          "title": "Read the active rule each level",
-          "description": "Each level changes the rules, so treat every level fresh instead of repeating the same approach from the previous one."
+          "title": "Level 2 introduces a guaranteed sensory rule",
+          "description": "The v1.4 update makes Level 2 always include a sensory rule: hear, smell, or see. Treat it as the point where Cobb stops being only a wandering threat and starts reacting to the player's position."
         },
         {
-          "title": "Expect sensory rules from level 2",
-          "description": "Level 2 guarantees a sensory rule such as hear, smell, or see, which is where Cobb's detection behavior becomes the main threat."
+          "title": "Death tips were added to reduce blind restarts",
+          "description": "After v1.4, dying can show tips. Use those hints to identify what the active rule is asking you to change before restarting the same route."
         },
         {
-          "title": "Gather coal and feed the furnace",
-          "description": "The early survival loop centers on collecting coal and routing it to the furnace, with coal now spawning farther away to push movement."
+          "title": "Level 7 received extra rocks",
+          "description": "The v1.5 update added rocks to Level 7. Later patches made rocks more useful, so Level 7 play should include scouting for throwables instead of only rushing coal and batteries."
         },
         {
-          "title": "Watch the breaker",
-          "description": "The breaker sprite was made more noticeable, so scan the map for it and treat it as a recognizable interactable object."
+          "title": "The ending final task was rebalanced",
+          "description": "The v1.4 patch changed the final task text after placing four batteries and slightly reduced Cobb's speed during that final task. The v1.5.2 update then buffed Cobb's ending speed slightly, keeping the finale tense without leaving it completely overpowering."
         },
         {
-          "title": "Place all four batteries",
-          "description": "The final task text changes after placing four batteries, so track your battery progress carefully through the run."
+          "title": "The ending furnace became easier to interact with",
+          "description": "The v1.6 update enlarged the blast furnace hitbox in the ending so players are less likely to lose it behind the furnace during the final sequence."
         },
         {
-          "title": "Complete the blast furnace ending",
-          "description": "The blast furnace in the ending has a larger hitbox so the interaction is easier to find and finish without it getting lost."
-        },
-        {
-          "title": "Unlock level select after beating the game",
-          "description": "A level select menu unlocks after you beat the story once, letting you revisit any story level you want to practice."
-        },
-        {
-          "title": "Replay and refine",
-          "description": "Use level select to practice difficult rule combinations and sharpen your reaction to each sensory rule."
+          "title": "Level select unlocks after a full clear",
+          "description": "After beating the game once, v1.5 adds a level select menu that lets players pick any story-mode level. Use it for replaying Level 7, practicing the ending, or revisiting specific rule combinations."
         }
       ],
       "quickTips": [
@@ -386,31 +378,31 @@
       "title": "Cobb Can Move Endless Mode and Replay Strategy",
       "displayType": "cards",
       "eyebrow": "Endless and Replay",
-      "intro": "Cobb Can Move Endless Mode keeps runs unpredictable because the rules keep changing. This guide explains how Endless works, why later levels raise the pressure, and how to adapt instead of memorizing one fixed route.",
+      "intro": "The official page tags Cobb Can Move as an Endless, Procedural Generation, Survival Horror game, and the developer devlog explains seeded randomness, random rule selection, and Cobb's rule-based behavior. Later updates also changed Endless pacing by starting Endless Mode at Level 3 and tuning Cobb's senses, pursuit speed, rocks, and duplicate behavior.",
       "cards": [
         {
-          "name": "Endless Starts at Level 3",
-          "description": "Endless mode begins at level 3, giving you a quick path into repeatable, rule-changing runs."
+          "name": "Endless starts at Level 3",
+          "description": "The v1.3 update changed Endless Mode so it starts at Level 3. Runs begin with more pressure than the earliest story levels, so first-room scouting matters immediately."
         },
         {
-          "name": "Changing Rules Every Run",
-          "description": "Rules change from level to level, so no single route stays optimal for long."
+          "name": "Procedural chunks with seeded randomness",
+          "description": "The developer described the map as a randomly generated environment built from chunk varieties, with seeded randomness implemented for Endless Mode. Routes, item positions, and safe habits can shift between runs."
         },
         {
-          "name": "Rising Pressure",
-          "description": "Later levels push harder, including faster long pursuits and more demanding sensory rules."
+          "name": "See, Hear, Smell, Reach, Duplicate",
+          "description": "Cobb's official rule list includes sight based on player light level, hearing based on sound, smell that points Cobb toward the player, longer reach, and duplicates that can stack after Level 5."
         },
         {
-          "name": "Adapt Over Memorize",
-          "description": "Win by reacting to the active rule instead of repeating a fixed path that worked once."
+          "name": "Freeze and Starve",
+          "description": "Player-side rules include freezing in low light and starving over time while carrots spawn across the map. These rules force movement even when hiding feels safer."
         },
         {
-          "name": "Level Select After Story",
-          "description": "Beating the story unlocks level select, useful for practicing rule combinations before long Endless pushes."
+          "name": "Direct hits can stun Cobb",
+          "description": "The v1.6 update made rocks stun Cobb briefly on direct hit and made rock noise more obvious. The v1.7 update fixed cases where rocks failed to stun Cobb during pursuit."
         },
         {
-          "name": "Use Items to Extend Runs",
-          "description": "Rocks, carrots, and clean coal routing all help you survive longer as pressure ramps up."
+          "name": "Long pursuits and duplicates raise danger",
+          "description": "v1.6 made Cobb faster during long pursuits, sped up random wandering in larger maps, and fixed duplicate Cobbs merging by making them push each other. The v1.7 update slightly reduced long-pursuit acceleration and nerfed smell, making the mode sharper but fairer."
         }
       ]
     },
@@ -418,37 +410,31 @@
       "title": "Cobb Can Move Updates and Patch Notes",
       "displayType": "timeline",
       "eyebrow": "Updates",
-      "intro": "Cobb Can Move received several 2026 updates after renewed player attention. This timeline tracks version notes, balance changes, quality-of-life additions, and bug fixes from the official devlog.",
+      "intro": "Cobb Can Move received several official itch.io updates after the original jam release, with v1.4 through v1.7 focusing on readability, story-mode tuning, ending balance, replay tools, controls, and Cobb behavior.",
       "entries": [
         {
           "title": "v1.7",
           "type": "Balance Hotfix",
           "date": "May 19, 2026",
-          "description": "Nerfed smell with less frequent sniffs, slightly reduced pursuit acceleration, and fixed rocks sometimes failing to stun Cobb during pursuit."
+          "description": "Small balance update: nerfed Cobb can smell with less frequent sniffs and less persistence at close range, slightly nerfed Cobb's long-pursuit acceleration, and fixed rocks sometimes not stunning Cobb while Cobb is in pursuit."
         },
         {
-          "title": "v1.6",
-          "type": "Balance Update",
-          "date": "2026",
-          "description": "Made Cobb faster in long pursuits, changed reach to larger steps with less speed, fixed duplicates merging, moved coal spawns away from the furnace, made rocks stun Cobb on a direct hit, enlarged the blast furnace hitbox, and improved international keyboard layouts."
+          "title": "v1.6 / v1.6.3",
+          "type": "Balance & QoL Update",
+          "date": "May 16, 2026",
+          "description": "Rocks, controls, pursuit behavior and ending hitbox: rocks can stun Cobb on a direct hit for a short time; rocks make louder sound so their noise is clearer; coal is less likely to spawn directly beside the furnace; Cobb gets slightly faster during long pursuits and wanders faster in larger maps; reach changes Cobb's step behavior with larger steps but less speed; AZERTY and other international keyboard layouts should feel more comfortable; duplicate Cobbs push each other instead of merging back together; and the ending blast furnace has a larger hitbox."
         },
         {
-          "title": "v1.5",
-          "type": "Content Update",
-          "date": "2026",
-          "description": "Adjusted the Cobb Can See range again and added a level select menu that unlocks after beating the game."
+          "title": "v1.5 / v1.5.2",
+          "type": "Content & Balance Update",
+          "date": "May 10, 2026",
+          "description": "Level 7 rocks, level select and ending message: added rocks to Level 7; adjusted Cobb can see range again; added a level select menu that unlocks after beating the game once; added a short message at the end of the game promoting the developer's next game; and slightly buffed Cobb's speed during the final task."
         },
         {
           "title": "v1.4",
-          "type": "Rule and QoL Update",
-          "date": "2026",
-          "description": "Guaranteed a sensory rule on level 2, slightly nerfed Cobb Can See, allowed item swapping over walls, added death tips, and changed the final task text after placing four batteries."
-        },
-        {
-          "title": "v1.3",
-          "type": "Content Update",
-          "date": "2026",
-          "description": "Started Endless mode at level 3, made carrots respawn after being eaten, and tweaked the breaker sprite to be more noticeable."
+          "type": "Rule & Ending Update",
+          "date": "May 9, 2026",
+          "description": "Death tips, Level 2 sensory rule and ending balance: items can be swapped even when the drop spot is over a wall and red; added tips after dying; Level 2 is guaranteed to include a sensory rule; slightly nerfed Cobb can see; fixed a bug where Cobb sometimes failed to kill the player after grabbing them; changed the final task text after placing four batteries; and slightly nerfed Cobb's speed during the final task."
         }
       ]
     },
@@ -456,31 +442,27 @@
       "title": "Cobb Can Move Codes, Rewards and Official Status",
       "displayType": "cards",
       "eyebrow": "Codes and Status",
-      "intro": "The official Cobb Can Move itch.io page does not show a public redeem-code system. This guide points you to the real ways to get the game and stay current: the name-your-own-price download and the official devlog for updates.",
+      "intro": "Use this section to answer code searches cleanly: there are no official active redeem codes listed on the itch.io game page, the devlog, or the Major Jam listing. Real player-facing rewards are access-based: browser play, the Windows download, official updates, and the Major Jam 7 winning version history.",
       "cards": [
         {
-          "name": "No Public Code System",
-          "description": "The official page does not list a redeem-code system, so there are no active Cobb Can Move codes to enter."
+          "name": "Active Codes",
+          "description": "No official active codes listed. The official itch.io page and devlog do not list a public redeem-code system or active code table for Cobb Can Move."
         },
         {
-          "name": "Name Your Own Price",
-          "description": "The official download uses itch.io's name-your-own-price model, including a free option, so price is never a barrier to playing."
+          "name": "Download Model",
+          "description": "Name your own price. The game can be run in browser from itch.io, and the official download section lists a Windows webview2 build for the current v1.7 release."
         },
         {
-          "name": "Official itch.io Page",
-          "description": "abho.itch.io/cobb-can-move is the official entry point for both the browser version and the Windows download."
+          "name": "Official Updates",
+          "description": "Devlog-based updates. Balance changes, bug fixes, and feature updates are posted through the official itch.io devlog, including v1.4, v1.5, v1.6, and v1.7."
         },
         {
-          "name": "Real Updates on the Devlog",
-          "description": "Version notes, balance changes, and bug fixes all appear on the official devlog rather than in any code drop."
+          "name": "Jam Result",
+          "description": "Major Jam 7 winner. Cobb Can Move ranked #1 overall in Major Jam 7: Wild, with #1 in Concept, #2 in Presentation, #2 in Enjoyment, and #6 in Use of the Limitation."
         },
         {
-          "name": "Ignore Fake Code Bait",
-          "description": "Third-party sites advertising active codes are not official, so treat them as noise and check the devlog instead."
-        },
-        {
-          "name": "Stay Current in the Community",
-          "description": "Join the official Discord for release news and devlog updates so you never miss a real Cobb Can Move change."
+          "name": "Real Reward Source",
+          "description": "Official page and devlog only. For this game, reward-related updates belong on the official itch.io page, the official devlog, and the Major Jam result page."
         }
       ],
       "ctaLabel": "Open Official Play Page",

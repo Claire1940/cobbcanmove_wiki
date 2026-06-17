@@ -25,6 +25,7 @@ import {
   Gift,
   Globe,
   Hash,
+  Infinity,
   Lightbulb,
   Map as MapIcon,
   MonitorSmartphone,
@@ -33,6 +34,8 @@ import {
   Radar,
   Repeat,
   Shuffle,
+  Skull,
+  Snowflake,
   Sparkles,
   Tag,
   TrendingUp,
@@ -121,7 +124,7 @@ const ITEMS_ICONS = [
   Zap,
   ArrowDownToLine,
 ];
-const ENDLESS_ICONS = [Repeat, Shuffle, TrendingUp, Lightbulb, MapIcon, Package];
+const ENDLESS_ICONS = [Infinity, Shuffle, TrendingUp, Snowflake, MapIcon, Skull];
 
 export default function HomePageClient({
   latestArticles,
