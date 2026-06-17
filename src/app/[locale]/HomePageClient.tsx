@@ -37,6 +37,7 @@ import {
   Tag,
   TrendingUp,
   Wind,
+  Zap,
 } from "lucide-react";
 import Link from "next/link";
 import { useMessages } from "next-intl";
