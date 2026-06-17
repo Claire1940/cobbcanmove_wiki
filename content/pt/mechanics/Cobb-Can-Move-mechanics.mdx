@@ -1,0 +1,193 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Mecânicas de Cobb Can Move: Entendendo as Habilidades e Regras de Cobb",
+  description: "Aprofunde-se nas mecânicas de Cobb Can Move, incluindo as habilidades sensoriais de Cobb, padrões de movimento, duplicação e como as regras do jogo mudam a cada partida.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/8B0000/fff?text=Cobb+Can+Move+Mechanics",
+  date: "2026-06-17",
+  author: "Equipe Wiki de Cobb Can Move"
+}
+
+<Callout type="info" title="Guia Rápido">
+- As **mecânicas de Cobb Can Move** definem a experiência de survival horror do jogo.
+- As **regras sensoriais** (Ver, Ouvir, Cheirar) são cruciais para a detecção do jogador.
+- As **regras de movimento**, como Alcance e aceleração de perseguição, afetam o comportamento de Cobb.
+- **Cobbs Duplicados** adicionam uma camada de complexidade, especialmente em níveis posteriores.
+- **Pedras** são um item utilitário vital para atordoar Cobb e criar distrações.
+</Callout>
+
+<Section icon={Target} title="Entendendo as Mecânicas de Cobb Can Move: As Regras Centrais">
+Cobb Can Move é um jogo de survival horror único onde as mecânicas centrais giram em torno de regras em constante mudança e habilidades evolutivas de Cobb. Cada partida apresenta um novo desafio, forçando os jogadores a adaptar suas estratégias em vez de depender de padrões fixos. Entender essas mecânicas dinâmicas é a chave para a sobrevivência.
+
+O design do jogo garante que nenhuma partida seja idêntica. Essa imprevisibilidade é uma característica central, tornando cada decisão crítica. Os jogadores devem prestar muita atenção ao texto da regra ativa no início de cada nível para antecipar o comportamento de Cobb e ajustar sua abordagem de acordo.
+
+<Callout type="tip">
+Sempre leia o texto da regra ativa no início de cada nível. O comportamento e os métodos de detecção de Cobb podem mudar drasticamente, tornando estratégias anteriores ineficazes.
+</Callout>
+
+<CardGrid cols={2}>
+  <Card title="Sistema de Regras Dinâmicas">
+    - As **regras mudam** por partida, influenciando a detecção e o movimento de Cobb.
+    - Impede a memorização mecânica, incentiva a **jogabilidade adaptativa**.
+    - Garante alta **rejogabilidade** e tensão constante.
+  </Card>
+  <Card title="A Ameaça Evolutiva de Cobb">
+    - As habilidades de Cobb, como **visão, olfato e alcance**, estão sujeitas a mudanças de equilíbrio.
+    - As atualizações frequentemente ajustam a velocidade de perseguição de Cobb e o comportamento dos duplicados.
+    - Força os jogadores a se manterem atualizados com as **notas de patch** para uma estratégia ótima.
+  </Card>
+</CardGrid>
+
+</Section>
+
+<Section icon={Shield} title="Habilidades Sensoriais de Cobb: Ver, Ouvir, Cheirar">
+A principal ameaça de Cobb vem de suas habilidades sensoriais, que são fortemente influenciadas pelas regras ativas. Essas regras ditam como Cobb detecta o jogador, tornando o movimento cuidadoso e a consciência ambiental primordiais. O jogo geralmente garante uma regra sensorial no Nível 2, garantindo que os jogadores aprendam rapidamente a respeitar os métodos de detecção de Cobb.
+
+### Cobb Pode Ver
+Esta regra faz com que Cobb detecte o jogador com base em sua visibilidade e nível de luz. As atualizações equilibraram ativamente essa habilidade, com a v1.4 enfraquecendo ligeiramente seu alcance e a v1.5 ajustando-o novamente. Os jogadores devem tratar "Cobb pode ver" como um grande modificador de perigo, exigindo furtividade e evitando áreas abertas.
+
+### Cobb Pode Cheirar
+Na v1.7, "Cobb pode cheirar" recebeu um enfraquecimento, resultando em cheiradas menos frequentes e persistência reduzida a curta distância. Embora menos implacável do que antes, o olfato continua sendo uma regra sensorial crítica. Os jogadores devem estar atentos aos seus movimentos, pois permanecer em um só lugar ainda pode atrair Cobb.
+
+### Cobb Pode Ouvir
+Embora não detalhado explicitamente em notas de patch recentes para enfraquecimentos ou melhorias, "Cobb pode ouvir" é uma regra sensorial fundamental. Movimentos ou interações barulhentas podem alertar Cobb sobre a presença do jogador, tornando a navegação silenciosa essencial quando essa regra está ativa.
+
+<Callout type="warning" title="Sobrecarga Sensorial">
+Ignorar as regras sensoriais é um erro comum de iniciante. Cada regra (Ver, Ouvir, Cheirar) exige uma abordagem distinta para o movimento e a interação. Não se adaptar levará a uma morte rápida.
+</Callout>
+
+| Regra Sensorial | Método de Detecção | Estratégia do Jogador | Notas de Atualização (v1.4 - v1.7) |
+|---|---|---|---|
+| **Cobb Pode Ver** | Visibilidade do jogador, nível de luz | Furtividade, usar escuridão, evitar áreas abertas | v1.4 & v1.5: Ajustes de alcance (enfraquecido) |
+| **Cobb Pode Cheirar** | Rastro de cheiro do jogador, proximidade | Evitar ficar parado, movimentos rápidos | v1.7: Cheiradas menos frequentes, menos persistência |
+| **Cobb Pode Ouvir** | Som do jogador, interações | Mover-se silenciosamente, minimizar ruído | N/A (regra fundamental) |
+
+</Section>
+
+<Section icon={Swords} title="Mecânicas de Movimento e Duplicação de Cobb">
+Além das habilidades sensoriais, os padrões de movimento de Cobb e a temida mecânica de duplicação adicionam camadas de complexidade a cada partida. As atualizações recentes refinaram essas mecânicas, influenciando como os jogadores navegam pelos mapas gerados proceduralmente e interagem com o monstro.
+
+### Comportamento de Perseguição
+A velocidade de perseguição de Cobb sofreu vários ajustes. A v1.6 tornou Cobb ligeiramente mais rápido durante perseguições longas, aumentando a pressão em perseguições estendidas. No entanto, a v1.7 enfraqueceu ligeiramente a aceleração de Cobb durante essas perseguições longas, tornando-as um pouco mais gerenciáveis sem remover o perigo inerente. A velocidade de perambulação aleatória em mapas maiores também aumentou na v1.6.
+
+### Regra de Alcance
+Quando a regra "Alcance" está ativa, o movimento de Cobb muda significativamente. A v1.6 implementou uma mecânica onde Cobb dá passos maiores, mas com uma velocidade geral ligeiramente menor. Isso altera a sensação do movimento de Cobb, exigindo que os jogadores mantenham um espaçamento maior e antecipem ataques maiores em vez de apenas movimentos mais rápidos.
+
+### Cobbs Duplicados
+A mecânica de duplicação introduz múltiplos Cobbs no mapa. A v1.6 abordou especificamente um problema onde Cobbs duplicados podiam se fundir novamente em um, fazendo-os se empurrar. Essa mudança garante que os Cobbs duplicados se comportem de forma mais distinta e previsível, tornando as situações de múltiplos Cobbs mais claras e menos confusas para o jogador. Duplicatas podem se acumular após o Nível 5 no Modo Infinito.
+
+<Callout type="success" title="Adaptando-se aos Movimentos de Cobb">
+Dominar os padrões de movimento de Cobb, especialmente sob diferentes regras, é um passo significativo para a sobrevivência consistente. Aprenda a reconhecer as pistas visuais e auditivas para cada habilidade.
+</Callout>
+
+| Mecânica | Descrição | Impacto no Jogador | Notas Chave de Atualização |
+|---|---|---|---|
+| **Velocidade de Perseguição Longa** | Cobb ganha velocidade durante perseguições estendidas. | Força evasão estratégica, quebra linha de visão. | v1.6: Mais rápido; v1.7: Aceleração ligeiramente enfraquecida. |
+| **Regra de Alcance** | Cobb dá passos maiores e mais lentos. | Manter distância maior, antecipar ataques. | v1.6: Passos maiores, menos velocidade. |
+| **Comportamento de Duplicados** | Múltiplos Cobbs aparecem, comportam-se distintamente. | Ameaça aumentada, exige gerenciamento de múltiplas ameaças. | v1.6: Duplicados se empurram; acumulam após o Nível 5 (Infinito). |
+| **Perambulação Aleatória** | Movimento geral de Cobb em mapas maiores. | Consciência do mapa, previsão de rotas de patrulha. | v1.6: Perambulação mais rápida em mapas maiores. |
+
+</Section>
+
+<Section icon={Sparkles} title="Interações com Itens Chave e Mecânicas Ambientais">
+A sobrevivência em Cobb Can Move não se trata apenas de evitar Cobb; trata-se também de utilizar eficazmente o ambiente e os itens interativos. Pedras, carvão, cenouras e as cruciais mecânicas de fornalha e disjuntor desempenham um papel no seu ciclo de sobrevivência. As atualizações recentes ajustaram o funcionamento desses elementos, impactando a estratégia do jogador.
+
+### Pedras
+As pedras são mais do que apenas lixo ambiental. A v1.6 tornou as pedras capazes de atordoar Cobb por um curto período em um acerto direto e aumentou sua clareza sonora. A v1.7 solidificou ainda mais sua utilidade corrigindo instâncias em que as pedras não conseguiam atordoar Cobb durante a perseguição. Isso torna as pedras uma ferramenta defensiva confiável em situações desesperadoras.
+
+### Carvão e Fornalhas
+O ciclo de sobrevivência principal geralmente envolve coletar carvão para alimentar fornalhas. A v1.6 ajustou o surgimento de carvão, tornando menos provável que apareça diretamente ao lado da fornalha. Essa mudança aumenta a pressão de roteamento e força os jogadores a se moverem mais, aumentando o desafio. A Fornalha de Explosão no final também recebeu uma hitbox maior na v1.6 para uma interação mais fácil.
+
+### Disjuntores e Baterias
+O disjuntor é um objeto visível no mapa que os jogadores precisam reconhecer. A v1.3 atualizou seu sprite para torná-lo mais perceptível. As baterias são essenciais para a progressão, especificamente ligadas à sequência final. A v1.4 alterou o texto da tarefa final após colocar quatro baterias, e o equilíbrio geral da tarefa final foi ajustado nas v1.4 e v1.5.2.
+
+<Callout type="info">
+O gerenciamento eficaz de itens e a consciência ambiental são tão vitais quanto entender os comportamentos de Cobb. Use todas as ferramentas à sua disposição para aumentar suas chances de sobrevivência.
+</Callout>
+
+| Item/Mecânica | Uso no Jogo | Notas Chave de Atualização | Aprendizado do Jogador |
+|---|---|---|---|
+| **Pedras** | Atordoar Cobb, distração | v1.6: Atordoamento em acerto direto, som mais alto; v1.7: Correção de atordoamento durante perseguição. | Ferramenta defensiva e de distração essencial. |
+| **Carvão** | Combustível para fornalhas | v1.6: Menos provável de surgir perto da fornalha. | Planeje rotas mais longas para coleta de combustível. |
+| **Cenouras** | Sustento do jogador | v1.3: Cenouras reaparecem quando comidas. | Fonte de alimento confiável e repetível. |
+| **Baterias** | Progressão final | v1.4: Mudança no texto da tarefa final após colocar quatro. | Acompanhe o progresso; as tarefas finais mudam. |
+| **Fornalha** | Objetivo principal | v1.6: Mudanças no surgimento de carvão. | Central para a sobrevivência, requer gerenciamento de recursos. |
+| **Fornalha de Explosão** | Interação final | v1.6: Hitbox maior no final. | Mais fácil de interagir durante a sequência final. |
+| **Disjuntor** | Objeto do mapa | v1.3: Sprite mais perceptível. | Procure o visual atualizado para localizar rapidamente. |
+| **Local de Descarte de Item** | Manuseio de inventário | v1.4: Permite trocar itens sobre paredes (local de descarte vermelho). | Gerenciamento de itens mais flexível. |
+
+</Section>
+
+<Section icon={Trophy} title="Dominando a Sobrevivência: Dicas e Estratégias Avançadas">
+Para realmente dominar Cobb Can Move, os jogadores devem integrar sua compreensão das mecânicas de Cobb com a jogabilidade estratégica. Isso envolve não apenas reagir a ameaças imediatas, mas também planejar desafios futuros e alavancar recursos do jogo, como dicas de morte e seleção de nível.
+
+<Steps>
+  <Step num="1" title="Priorize a Consciência das Regras">
+    Antes de fazer qualquer movimento significativo, sempre confirme a regra ativa. Isso dita o método de detecção principal de Cobb e deve influenciar fortemente o planejamento de sua rota e o uso de itens. Uma regra "Cobb pode ver" exige escuridão e cobertura, enquanto "Cobb pode cheirar" requer movimento rápido através de áreas.
+  </Step>
+  <Step num="2" title="Uso Estratégico de Pedras">
+    As pedras são sua ferramenta de contra-ataque mais confiável. Use-as não apenas como último recurso, mas proativamente para criar desvios ou atordoar Cobb por segundos cruciais. Pratique acertos diretos para maximizar seu potencial de atordoamento, especialmente durante perseguições onde a velocidade de Cobb pode ser avassaladora.
+  </Step>
+  <Step num="3" title="Gerenciamento Eficiente de Recursos">
+    O carvão é sua tábua de salvação. Planeje rotas que coletem carvão de forma eficiente, minimizando a exposição a Cobb. Lembre-se de que os surgimentos de carvão agora estão mais distantes das fornalhas, então leve em conta um tempo de viagem extra. As cenouras reaparecem, fornecendo uma fonte de alimento sustentável se você puder alcançá-las com segurança.
+  </Step>
+  <Step num="4" title="Aprenda com Cada Morte">
+    A atualização v1.4 introduziu dicas de morte. Elas são ferramentas de aprendizado inestimáveis. Em vez de reiniciar imediatamente, reserve um momento para ler a dica. Ela frequentemente destaca uma mecânica específica ou um erro relevante para sua última partida, ajudando você a refinar sua estratégia.
+  </Step>
+  <Step num="5" title="Utilize a Seleção de Nível para Praticar">
+    Após completar o modo história, a atualização v1.5 desbloqueia um menu de seleção de nível. Use-o para praticar níveis difíceis ou combinações de regras específicas. Essa prática focada pode melhorar significativamente sua capacidade de lidar com várias mecânicas de Cobb sem a pressão de uma partida completa.
+  </Step>
+</Steps>
+
+<Callout type="warning">
+Memorizar layouts de mapa é menos eficaz do que entender e se adaptar às mecânicas dinâmicas de Cobb. A geração procedural do jogo garante imprevisibilidade.
+</Callout>
+
+<Checklist
+  id="survival-checklist"
+  title="Lista de Verificação Essencial para Sobrevivência:"
+  items={[
+    "Sempre verifique as regras ativas",
+    "Domine o tempo de atordoamento com pedras",
+    "Otimize as rotas de coleta de carvão",
+    "Leia as dicas de morte para insights",
+    "Pratique níveis desafiadores através do menu de seleção"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Map} title="FAQ: Aprofundando nas Mecânicas de Cobb Can Move">
+
+<FAQ items={[
+  {
+    question: "Como as mecânicas de Cobb Can Move tornam cada partida única?",
+    answer: "O jogo apresenta um sistema de regras dinâmicas onde novas regras são selecionadas aleatoriamente para cada nível, alterando fundamentalmente o comportamento e os métodos de detecção de Cobb. Isso força os jogadores a adaptar suas estratégias constantemente em vez de depender da memorização mecânica."
+  },
+  {
+    question: "Quais são as principais habilidades sensoriais de Cobb?",
+    answer: "Cobb detecta principalmente os jogadores através da visão ('Cobb pode ver'), olfato ('Cobb pode cheirar') e audição ('Cobb pode ouvir'). Cada uma dessas habilidades é governada por regras específicas e passou por ajustes de equilíbrio em atualizações, impactando como os jogadores devem se mover e interagir com o ambiente."
+  },
+  {
+    question: "Como os Cobbs duplicados se comportam de forma diferente agora?",
+    answer: "Na v1.6, os Cobbs duplicados foram atualizados para se empurrar em vez de se fundir novamente em um. Essa mudança torna as situações de múltiplos Cobbs mais claras e garante que cada duplicado atue como uma ameaça distinta, aumentando o desafio e a clareza visual."
+  },
+  {
+    question: "As pedras são uma ferramenta eficaz contra Cobb?",
+    answer: "Sim, as pedras são altamente eficazes. A v1.6 permitiu que acertos diretos atordoassem Cobb brevemente, e a v1.7 corrigiu instâncias em que as pedras não conseguiam atordoar durante a perseguição. Isso torna as pedras uma ferramenta defensiva e de distração confiável, crucial para escapar de encontros perigosos."
+  },
+  {
+    question: "Qual é o propósito das dicas de morte?",
+    answer: "Introduzidas na v1.4, as dicas de morte aparecem depois que um jogador morre, oferecendo insights sobre o que deu errado ou como lidar com mecânicas específicas. Elas são projetadas para ajudar os jogadores a aprender com seus erros e refinar suas estratégias para as partidas subsequentes."
+  }
+]} />
+
+</Section>

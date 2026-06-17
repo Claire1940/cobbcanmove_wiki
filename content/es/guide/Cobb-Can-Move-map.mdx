@@ -1,0 +1,164 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Activity, Layers } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Mapa de Cobb Can Move: Supervivencia Procedural y Guía del Nivel 7",
+  description: "Navega por el mapa de Cobb Can Move con nuestra guía sobre generación procedural, estrategias del Nivel 7 y reglas sensoriales en la última actualización v1.7 de 2026.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1a1a1a/ff4444?text=Cobb+Can+Move+Map+Guide",
+  date: "2026-06-17",
+  author: "Equipo de Wiki de Cobb Can Move"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Mapa de Cobb Can Move**: El entorno utiliza generación procedural basada en variedades de bloques, lo que significa que no hay dos partidas idénticas.
+- **Cambios de Reglas**: Cada nivel introduce una nueva regla (Ver, Oír, Oler, Alcanzar) que altera fundamentalmente cómo navegas por el mapa.
+- **Objetos Clave**: La supervivencia depende de localizar rápidamente el **Horno**, el **Disyuntor** y los puntos de aparición de **Carbón** dentro del entorno de píxeles oscuros.
+- **Estrategia del Nivel 7**: Este nivel presenta una presión aumentada y requiere usar **Rocas** para aturdir a Cobb durante la tarea final de la batería.
+- **Versión Oficial**: Asegúrate de estar jugando la v1.7 (lanzada en mayo de 2026) para los últimos ajustes de equilibrio del mapa y correcciones de hitboxes.
+</Callout>
+
+<Section icon={Map} title="Mecánicas del Mapa de Cobb Can Move y Acceso Oficial">
+
+Comprender el **mapa de Cobb Can Move** requiere reconocer que el juego está construido sobre una base de imprevisibilidad. Desarrollado por abho y alojado oficialmente en itch.io, este título de terror de supervivencia utiliza un estilo de arte pixelado de vista superior donde el diseño cambia entre partidas. A diferencia de los juegos de terror tradicionales con pasillos estáticos, el mapa aquí es un rompecabezas viviente que reacciona al conjunto de reglas activas.
+
+**Puntos Destacados del Video:**
+- **Navegación del Mapa**: Observa cómo los jugadores de alto nivel navegan por los rincones oscuros y utilizan el horno como centro neurálgico.
+- **Detección de Cobb**: Observa las señales visuales cuando Cobb detecta al jugador a través de la vista o el olfato.
+- **Interacción con Objetos**: Ve la forma correcta de soltar carbón y lanzar rocas para maximizar el tiempo de supervivencia.
+
+<YouTubeEmbed videoId="7uE6M0V3rW4" title="COBB CAN MOVE - Markiplier Gameplay" />
+
+<Callout type="success" title="Verificación de Plataforma Oficial">
+Las únicas versiones oficiales del juego son la versión de navegador HTML5 y la descarga para Windows disponible en abho.itch.io. Evita los sitios "espejo" de terceros para asegurarte de que estás jugando la compilación v1.7 equilibrada.
+</Callout>
+
+<CardGrid cols={2}>
+  <Card title="Versión de Navegador (HTML5)">
+    - Juego instantáneo a través de itch.io
+    - Compatible con teclado y mando
+    - Ideal para partidas rápidas en Modo Infinito
+  </Card>
+  <Card title="Compilación para Windows (v1.7)">
+    - Paquete webview2.zip de 15 MB
+    - Rendimiento más estable para el Nivel 7
+    - Compatibilidad total con diseños internacionales (AZERTY)
+  </Card>
+</CardGrid>
+
+</Section>
+
+<Section icon={Layers} title="Generación de Mapas Procedural y Lógica de Bloques">
+
+El **mapa de Cobb Can Move** no es una única imagen dibujada a mano, sino una colección de bloques procedurales. El desarrollador ha implementado aleatoriedad basada en semillas, particularmente para el Modo Infinito, lo que asegura que, si bien la "atmósfera" de la mazmorra permanece consistente, las rutas específicas hacia el horno o el disyuntor cambian.
+
+| Componente del Mapa | Lógica de Generación | Impacto en el Jugador |
+| :--- | :--- | :--- |
+| **Bloques de Habitación** | Conexiones aleatorias | Evita memorizar un único camino de escape |
+| **Apariciones de Carbón** | Equilibrio v1.6: Menos probable cerca del horno | Fuerza a los jugadores a explorar más profundamente el mapa |
+| **Ubicación del Disyuntor** | Colocado aleatoriamente por nivel | Requiere exploración inmediata al inicio de una partida |
+| **Agrupaciones de Objetos** | Aleatoriedad basada en semillas | Las rocas y zanahorias aparecen en densidades variables |
+
+<Callout type="tip" title="Estrategia de Exploración">
+En los primeros 30 segundos de cualquier nivel, prioriza encontrar el **Disyuntor** y el **Horno**. Conocer la distancia entre estos dos puntos es crucial para gestionar tus niveles de luz y calor.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Progresión del Modo Historia: Del Nivel 1 al Final">
+
+El Modo Historia sirve como un tutorial para las mecánicas del **mapa de Cobb Can Move**, introduciendo gradualmente reglas más complejas y peligros ambientales. Para cuando llegas al Nivel 7, el mapa se convierte en un desafío de trampas sensoriales.
+
+<Steps>
+  <Step num="1" title="Introducción al Bucle">
+    Los niveles 1 y 2 se centran en la supervivencia básica. El Nivel 2 garantiza la introducción de una regla sensorial (Oír, Oler o Ver), obligándote a aprender a moverte en silencio o a mantenerte fuera de la línea de visión de Cobb dentro de los pasillos del mapa.
+  </Step>
+  <Step num="2" title="El Aumento de Dificultad del Nivel 3">
+    El Modo Infinito comienza oficialmente en el Nivel 3. El tamaño del mapa aumenta y debes gestionar las mecánicas de "Congelación" y "Hambre" mientras navegas por distancias más largas para conseguir carbón.
+  </Step>
+  <Step num="3" title="Nivel 5 y Duplicados">
+    En el Nivel 5, la regla de "Duplicados" puede activarse. El mapa ahora contiene múltiples Cobbs. La actualización v1.6 asegura que los duplicados se empujen entre sí en lugar de fusionarse, haciendo que el mapa se sienta mucho más concurrido y peligroso.
+  </Step>
+  <Step num="4" title="Nivel 7: El Desafío Final">
+    El Nivel 7 fue reequilibrado en la v1.5 para incluir rocas adicionales. Debes localizar cuatro baterías y transportarlas al área de la tarea final. El diseño del mapa aquí está diseñado para embotellar a los jugadores, haciendo que la mecánica de aturdimiento con rocas sea esencial.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Consejo para la Batería del Nivel 7">
+No recojas todas las baterías a la vez. Suéltalas cerca del área de la tarea final primero, luego instálalas en rápida sucesión para minimizar el tiempo que Cobb pasa en su modo de agresión de "Tarea Final".
+</Callout>
+
+</Section>
+
+<Section icon={Activity} title="Objetos Clave e Interacciones del Mapa">
+
+Navegar por el **mapa de Cobb Can Move** es tanto sobre la gestión de objetos como sobre el movimiento. Cada objeto tiene un papel específico en el ciclo de supervivencia, y las recientes actualizaciones de 2026 han refinado sus hitboxes y lógica de aparición.
+
+| Objeto | Uso Principal | Comportamiento en el Mapa | Nota de Actualización (v1.6/v1.7) |
+| :--- | :--- | :--- | :--- |
+| **Carbón** | Combustible para el horno | Aparece en rincones oscuros | Aumentada la distancia de aparición desde el horno |
+| **Rocas** | Aturdimiento de Cobb | Proyectil arrojadizo | Los impactos directos ahora aturden a Cobb durante la persecución |
+| **Zanahorias** | Hambre/Hambruna | Fuente de alimento que reaparece | La actualización v1.3 habilitó la reaparición de zanahorias |
+| **Baterías** | Progresión de la historia | Objetos de misión pesados | Necesarias para el final del Nivel 7 |
+| **Disyuntor** | Luz/Visibilidad | Interactivo estático | Sprite actualizado para una mejor visibilidad en la oscuridad |
+
+<Callout type="info" title="Gestión de Inventario">
+La actualización v1.4 te permite intercambiar objetos incluso si el punto de caída es "rojo" (sobre una pared). Esto es un salvavidas cuando Cobb te acorrala y necesitas cambiar un trozo de carbón por una roca.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Supervivencia en Modo Infinito y Estrategia de Rejugabilidad">
+
+Una vez que hayas completado la historia, el **mapa de Cobb Can Move** se expande al Modo Infinito. Aquí, la generación procedural es llevada al límite y el conjunto de reglas se vuelve cada vez más caótico.
+
+<Checklist
+  id="endless-goals"
+  title="Lista de Verificación del Modo Infinito:"
+  items={[
+    "Explora la ubicación del Disyuntor inmediatamente al aparecer",
+    "Identifica la regla sensorial activa (Ver/Oír/Oler) mostrada en pantalla",
+    "Acumula al menos dos rocas cerca del Horno para aturdimientos de emergencia",
+    "Completa el Nivel 3 para desbloquear la escala estándar del Modo Infinito",
+    "Usa el menú de Selección de Nivel (desbloqueado después de completar la historia) para practicar reglas específicas"
+  ]}
+/>
+
+<Callout type="tip" title="Dominando la Regla del Olfato">
+En la v1.7, la regla "Cobb Puede Oler" fue nerfeada. Cobb olfatea con menos frecuencia y es menos persistente. Aprovecha esto haciendo movimientos en forma de "L" para romper su rastro de olor en el mapa.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Preguntas Frecuentes y Solución de Problemas del Mapa">
+
+<FAQ items={[
+  {
+    question: "¿Cómo encuentro la salida en el mapa de Cobb Can Move?",
+    answer: "No hay una 'salida' en el sentido tradicional para la mayoría de los niveles. Tu objetivo es cumplir el objetivo del nivel (como llenar el horno o colocar baterías). Una vez completado, el nivel termina automáticamente."
+  },
+  {
+    question: "¿Por qué el carbón aparece tan lejos del horno?",
+    answer: "Este fue un cambio de equilibrio en la v1.6. El desarrollador aumentó la distancia mínima de aparición para evitar que los jugadores 'acamparan' en el horno, forzando una mayor exploración del mapa."
+  },
+  {
+    question: "¿Puedo usar una semilla para obtener el mismo diseño de mapa?",
+    answer: "Sí, el desarrollador ha implementado aleatoriedad basada en semillas para el Modo Infinito. Aunque aún no existe una base de datos pública de semillas, el sistema está diseñado para permitir un juego competitivo consistente."
+  },
+  {
+    question: "¿Qué cambió en la actualización del mapa del Nivel 7?",
+    answer: "El Nivel 7 recibió apariciones de rocas adicionales y un hitbox más grande para el alto horno final. Esto hace que la interacción final sea mucho más fiable bajo presión."
+  }
+]} />
+
+<Callout type="success" title="Consejo Final de Supervivencia">
+Lee siempre el texto al inicio del nivel. El 'mapa' cambia su comportamiento según si Cobb puede verte, oírte u olerte. Adaptar tu ruta a estas reglas es la diferencia entre una puntuación alta y una muerte rápida.
+</Callout>
+
+</Section>

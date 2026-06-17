@@ -1,0 +1,181 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, AlertTriangle } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Cobb Can Move starvation death: Survival Guide & Tactics",
+  description: "Master the hunger mechanics to avoid Cobb Can Move starvation death. Learn carrot locations, rule changes, and survival tips for the 2026 horror hit.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1a1a1a/e11d48?text=Starvation+Survival+Guide",
+  date: "2026-06-17",
+  author: "Cobb Can Move Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Cobb Can Move starvation death** occurs when the "Starve" rule is active and the player fails to consume carrots.
+- **Carrot Management** is essential; since the v1.3 update, carrots respawn after being eaten.
+- **Rule Adaptation** is the core of survival, as player-side rules like "Starve" or "Freeze" change every level.
+- **Energy Conservation** involves balancing coal runs for the furnace with the urgent need to scout for food.
+- **Cobb Detection** becomes more lethal when you are forced to move while hungry, triggering "Hear" or "See" rules.
+</Callout>
+
+In the procedurally generated corridors of abho's pixel-horror hit, the **Cobb Can Move starvation death** is a constant threat that forces players out of the shadows. Unlike the direct threat of Cobb himself, starvation acts as a mechanical clock, punishing passive playstyles and requiring a deep understanding of resource routing. To survive level 3 and beyond, players must navigate the shifting rules of the dungeon while maintaining their character's vitals.
+
+<Section icon={Shield} title="Understanding Cobb Can Move starvation death Mechanics">
+
+The "Starve" mechanic is one of the primary player-side rules that can appear during any given run. When this rule is active, your survival is no longer just about avoiding the red monster; it is about managing a depleting hunger meter that leads to an immediate game over if ignored. This creates a "push-pull" dynamic where the safety of darkness is often traded for the necessity of finding food.
+
+**Video Highlights:**
+- **Visual Cues**: Watch how the screen effects change as hunger increases.
+- **Carrot Locations**: Identification of the pixel-art carrot sprites in dark corners.
+- **Cobb Interference**: How Cobb reacts when the player is forced to sprint for food.
+- **Ending Pressure**: Managing hunger during the final battery task.
+
+<YouTubeEmbed videoId="XN1Uv4XfT-k" title="COBB CAN MOVE - Markiplier Gameplay" />
+
+The starvation death is particularly dangerous because it often coincides with sensory rules like "Cobb can smell" or "Cobb can hear." In v1.7, while Cobb's smell was nerfed to be less persistent, the pressure to move for carrots still makes you a prime target for detection.
+
+| Rule Type | Effect on Player | Survival Requirement | Death Condition |
+| :--- | :--- | :--- | :--- |
+| **Starve** | Depleting hunger meter | Consume Carrots | Meter reaches zero |
+| **Freeze** | Temperature drop in dark | Stay near Furnace / Light | Body temperature reaches zero |
+| **Hear** | Sound attracts Cobb | Move slowly / Crouch | Detection by Cobb |
+| **See** | Light attracts Cobb | Stay in shadows | Detection by Cobb |
+
+<Callout type="warning" title="Critical Warning">
+Starvation ignores your proximity to the furnace. Even if you have a full coal supply, failing to forage for carrots will result in a starvation death regardless of your light level.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Carrot Foraging and Resource Routing">
+
+To avoid a **Cobb Can Move starvation death**, you must master the map's procedural chunks. Carrots are the only item that can stave off hunger, and their behavior was significantly improved in the v1.3 update. Previously, food was a finite resource, but the current version allows for a more sustainable, albeit high-risk, survival strategy.
+
+**The v1.3 Carrot Update**
+The developer implemented a respawn mechanic for carrots, which changed the meta for long-term survival in Endless Mode. Once a carrot is consumed, it will eventually reappear elsewhere in the generated map chunks. This prevents "dead runs" where a player is trapped in a level with no possible way to satisfy hunger.
+
+| Item | Spawn Logic | v1.6 Update Change | Player Takeaway |
+| :--- | :--- | :--- | :--- |
+| **Carrot** | Randomly in map chunks | No longer one-and-done | Memorize spawn points for later |
+| **Coal** | Near walls/corners | Less likely to spawn near furnace | Requires more travel to refuel |
+| **Rocks** | Scattered on floor | Can now stun Cobb on hit | Use to clear path to food |
+| **Battery** | Fixed level objectives | Hitbox enlarged for ending | Focus on these only after eating |
+
+<Callout type="tip" title="Pro Strategy">
+Use the "Item Swap" buff from v1.4. You can now swap items even if the drop spot is red (over a wall). This is vital when you are carrying coal but see a carrot; you can drop the coal through a corner to grab the food immediately without losing your resource.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Step-by-Step Survival Checklist">
+
+Preventing a **Cobb Can Move starvation death** requires a methodical approach to every new level. Since the rules are randomized, your first ten seconds in a room are the most important for setting up a successful run.
+
+<Steps>
+  <Step num="1" title="Initial Rule Assessment">
+    Immediately check the top of the screen for the active rules. If "Starve" is listed, your priority shifts from coal collection to scouting for at least two carrot locations before the hunger meter becomes critical.
+  </Step>
+  <Step num="2" title="Scout the Perimeter">
+    Move along the outer walls of the procedural chunks. Carrots often spawn in the "dead zones" far from the central furnace. Use rocks to distract Cobb if he is patrolling the transition zones between chunks.
+  </Step>
+  <Step num="3" title="The Half-Meter Rule">
+    Never let your hunger meter drop below 50% if you are far from a known carrot spawn. The movement penalty and visual distortion at low hunger make it nearly impossible to dodge Cobb's "Reach" or "See" abilities.
+  </Step>
+  <Step num="4" title="Coordinate with the Breaker">
+    If the "Starve" rule is paired with "Freeze," you must time your carrot runs with the breaker status. Use the updated v1.3 breaker sprites to keep the lights on while you forage, preventing a double-death scenario.
+  </Step>
+  <Step num="5" title="Utilize Rock Stuns">
+    In v1.7, rocks were fixed to reliably stun Cobb during pursuit. If Cobb is camping a carrot you desperately need, throw a rock for a direct hit. This provides a 2-3 second window to eat and retreat.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Developer Note">
+The v1.4 update added "Death Tips." If you die from starvation, the game will explicitly tell you. Use these hints to determine if your failure was due to poor routing or simply missing a respawned carrot.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Cobb Sense Balancing and Hunger Risks">
+
+The difficulty of avoiding a **Cobb Can Move starvation death** is directly tied to how Cobb is currently "sensing" you. The developer has released several balance patches (v1.4 through v1.7) that alter how dangerous it is to move around while looking for food.
+
+<CardGrid cols={2}>
+  <Card title="The Smell Factor">
+    - **v1.7 Update**: Cobb's smell was nerfed.
+    - **Impact**: You can now linger near food sources longer.
+    - **Strategy**: If Cobb "smells" you while you're eating, he is less likely to stay on your trail indefinitely.
+  </Card>
+  <Card title="The Sight Factor">
+    - **v1.5 Update**: Adjusted Cobb's vision range.
+    - **Impact**: Brightly lit carrot patches are more dangerous.
+    - **Strategy**: Approach food in the dark if "Cobb can see" is active, as light levels determine his detection radius.
+  </Card>
+  <Card title="The Pursuit Factor">
+    - **v1.6 Update**: Cobb accelerates during long chases.
+    - **Impact**: You cannot kite Cobb while searching for food.
+    - **Strategy**: Break line of sight before attempting to pick up or eat a carrot.
+  </Card>
+  <Card title="The Duplicate Factor">
+    - **Level 5+**: Cobb can duplicate himself.
+    - **Impact**: Higher chance of being cornered in food-rich zones.
+    - **Strategy**: Use the v1.6 "Push" mechanic where duplicates push each other to squeeze through tight gaps.
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Survival Tip">
+Level 7 received extra rocks in v1.5. If you are struggling with starvation on the final levels, use these rocks as a defensive perimeter. A stunned Cobb cannot stop you from reaching the respawning carrots.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Endless Mode and Final Objectives">
+
+In Endless Mode, which starts at Level 3 as of v1.3, the **Cobb Can Move starvation death** becomes the primary run-ender. As the maps grow larger and the procedural generation adds more "dead-end" chunks, the distance between carrots increases.
+
+**Endless Mode Scaling:**
+- **Level 3-5**: Standard starvation rate; carrots are plentiful.
+- **Level 6-10**: Hunger depletes 15% faster; carrots spawn further from the furnace.
+- **Level 10+**: Multiple Cobbs (Duplicates) patrol carrot spawn points; rocks become mandatory for survival.
+
+<Checklist
+  id="starvation-survival"
+  title="Expert Survival Goals:"
+  items={[
+    "Locate three carrot spawns before Level 5",
+    "Successfully stun Cobb with a rock while at <10% hunger",
+    "Complete Level 7 without letting hunger drop below 50%",
+    "Unlock the Level Select menu by beating Story Mode",
+    "Survive an Endless run where 'Starve' and 'Smell' are both active"
+  ]}
+/>
+
+<Callout type="info" title="Final Task Note">
+During the final task (after placing 4 batteries), Cobb's speed was slightly nerfed in v1.4 but buffed again in v1.5.2. Do not neglect your hunger during this sequence. Many players suffer a **Cobb Can Move starvation death** inches away from the blast furnace because they ignored their meter during the finale.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "How do I know if I am about to die from starvation?",
+    answer: "The game provides visual and auditory cues. Your screen will begin to darken or blur, and the 'Starve' rule text at the top of the screen may flash. In v1.4, death tips were added to confirm the cause of death after the run ends."
+  },
+  {
+    question: "Do carrots respawn in Cobb Can Move?",
+    answer: "Yes. Since the v1.3 update, carrots respawn after they are eaten. This is essential for surviving Level 7 and Endless Mode, where you may be trapped in the dungeon for extended periods."
+  },
+  {
+    question: "Can Cobb see me while I am eating?",
+    answer: "Eating itself doesn't attract Cobb, but the light level of the area does. If 'Cobb can see' is active, being in a lit area near a carrot makes you highly visible. In v1.5, his sight range was specifically adjusted to balance this."
+  },
+  {
+    question: "What is the best way to avoid starvation during the ending?",
+    answer: "Before placing the fourth battery, ensure your hunger meter is at 100%. The final task requires interacting with the blast furnace (which had its hitbox enlarged in v1.6), and you won't have time to forage once the finale begins."
+  }
+]} />
+
+</Section>

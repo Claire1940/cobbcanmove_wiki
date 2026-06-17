@@ -1,0 +1,160 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Cobb Can Move Free: Official Play Options & Survival Guide",
+  description: "Discover how to play Cobb Can Move for free via the official itch.io page, including browser play, downloads, and essential survival tips for new players.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/8B0000/fff?text=Cobb+Can+Move+Free",
+  date: "2026-06-17",
+  author: "Cobb Can Move Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Cobb Can Move Free**: Access the game directly from its **official itch.io page**.
+- **Browser Play**: Play instantly in your browser via **HTML5 support**.
+- **Windows Download**: Download the **v1.7 webview2.zip** for offline play.
+- **Price Model**: Utilize the **name-your-own-price** option for free access.
+- **Key Survival Tip**: Always **read the changing rule text** at the start of each run.
+</Callout>
+
+<Section icon={Map} title="Cobb Can Move Free: Official Play Options">
+For players looking to experience **Cobb Can Move free**, the official itch.io page by developer abho is the definitive source. This pixel-art survival horror game offers both browser-based play and a downloadable Windows build, ensuring accessibility for a wide range of players. The game's unique name-your-own-price model also allows users to acquire it without cost.
+
+<CardGrid cols={2}>
+  <Card title="Browser Play (HTML5)">
+    - **Instant Access**: Play directly in your web browser.
+    - **No Installation**: Skip downloads and dive straight into the game.
+    - **Platform Agnostic**: Works on any device with a modern browser.
+  </Card>
+  <Card title="Windows Download (v1.7)">
+    - **Offline Play**: Enjoy the game without an internet connection.
+    - **Full Control**: Potentially better performance and stability.
+    - **Latest Version**: Download the current v1.7 webview2.zip build.
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Official Source is Key">
+Always use the official abho.itch.io/cobb-can-move page to ensure you're playing the legitimate version of **Cobb Can Move free**, avoiding unofficial mirrors or outdated builds.
+</Callout>
+
+The game is currently in version v1.7, released on May 19, 2026, and supports both keyboard and gamepad inputs. Its core tags include 2D, Endless, Horror, Pixel Art, Procedural Generation, Singleplayer, and Survival Horror.
+
+</Section>
+
+<Section icon={Target} title="Getting Started: Beginner's Guide to Survival">
+**Cobb Can Move free** challenges players with a constantly changing rule set. Understanding the basic survival loop is crucial for new players to overcome the initial learning curve. This guide focuses on essential steps to help you navigate your first few runs.
+
+<Steps>
+  <Step num="1" title="Access the Official Game">
+    Launch the game from the official itch.io page. You can either play the browser version or download the latest Windows build (v1.7) to your system.
+    <Callout type="info">
+      The browser version is the fastest way to start playing and test the game's mechanics without any installation.
+    </Callout>
+  </Step>
+  <Step num="2" title="Master Your Controls">
+    The game supports both keyboard and gamepad inputs. Experiment to find which control method feels most comfortable for precise movement, as rushed actions are often penalized.
+  </Step>
+  <Step num="3" title="Read the Rule Text">
+    Crucially, **read the active rule text at the start of every run**. The game's central mechanic involves rules changing each level, impacting Cobb's behavior and your strategy. Don't assume every level plays the same.
+    <Callout type="warning">
+      Ignoring the rule text is a common beginner mistake that leads to quick failures. Cobb's sensory rules (see, hear, smell) are particularly vital.
+    </Callout>
+  </Step>
+  <Step num="4" title="Manage Items Efficiently">
+    Interact with objects like coal, rocks, and carrots. v1.4 improved item swapping, allowing you to switch items even if the drop spot is over a wall. Focus on clean and deliberate item actions.
+  </Step>
+  <Step num="5" title="Learn from Death Tips">
+    After v1.4, dying provides helpful tips. Read these tips carefully; they offer insights into the active rules or mistakes made, turning each failed run into a valuable learning experience.
+  </Step>
+</Steps>
+
+</Section>
+
+<Section icon={Shield} title="Understanding Cobb's Abilities and Game Rules">
+**Cobb Can Move free** is defined by its dynamic rule system and Cobb's evolving abilities. Adapting to these changes is paramount for survival. Recent updates have refined Cobb's sensory capabilities and pursuit behaviors.
+
+<Callout type="tip" title="Dynamic Ruleset">
+The game's rules are not static. Each run presents a new challenge based on randomly selected rules, making memorized routes less effective than quick adaptation.
+</Callout>
+
+| Rule/Ability | Description | Impact on Gameplay | Latest Update Note |
+|---|---|---|---|
+| **Changing Rules** | Game rules are randomized each run. | Forces adaptive strategies; no two runs are identical. | Core design, constantly balanced. |
+| **Sensory Rules** | Level 2 guarantees a sensory rule (hear, smell, see). | Teaches Cobb's detection early; dictates movement. | v1.4 guarantee for Level 2. |
+| **Cobb Can See** | Cobb detects players based on light levels. | Requires careful light management and stealth. | v1.4 nerfed, v1.5 adjusted range. |
+| **Cobb Can Smell** | Cobb tracks players by scent. | Less frequent sniffs, reduced persistence at close range. | v1.7 nerfed frequency and persistence. |
+| **Long Pursuit** | Cobb gains speed during extended chases. | Avoid prolonged direct confrontations. | v1.6 faster, v1.7 slightly nerfed acceleration. |
+| **Reach Rule** | Cobb takes larger steps with less speed. | Maintain greater distance when this rule is active. | v1.6 changed step behavior. |
+| **Duplicate Behavior** | Multiple Cobbs can appear, pushing each other. | Clarifies multiple-Cobb situations, prevents merging. | v1.6 duplicates push each other. |
+| **Rock Stun** | Rocks can briefly stun Cobb on direct hit. | Provides a valuable defensive tool during chases. | v1.7 fixed stun reliability during pursuit. |
+
+</Section>
+
+<Section icon={Swords} title="Key Items, Objectives & Their Impact">
+Interacting with objects and completing objectives are central to surviving in **Cobb Can Move free**. Each item and objective plays a critical role in your progression and ability to manage pressure.
+
+<Callout type="success" title="Resource Management is Key">
+Efficiently managing resources like coal and understanding how items like rocks and carrots function can significantly extend your survival time.
+</Callout>
+
+| Item/Objective | Type | Gameplay Use | Official Update Note | Player Takeaway |
+|---|---|---|---|---|
+| **Coal** | Resource | Core fuel for the furnace. | v1.6: Less likely to spawn next to furnace. | Expect to travel further for fuel. |
+| **Rocks** | Throwable / Utility | Distraction; can stun Cobb. | v1.6: Stun on direct hit, louder sound. v1.7: Fixed stun during pursuit. | Use strategically for defense. |
+| **Carrots** | Respawning Item | Repeatable food source. | v1.3: Carrots respawn when eaten. | Reliable sustenance over time. |
+| **Batteries** | Progression | Required for the ending sequence. | v1.4: Final task text changes after placing four. | Track progress carefully for finale. |
+| **Furnace** | Core Objective | Main survival loop, requires coal. | v1.6: Coal spawns further away. | Central to survival, demands movement. |
+| **Blast Furnace** | Ending Object | Used in the ending sequence. | v1.6: Larger hitbox in ending. | Easier interaction during the finale. |
+| **Breaker** | Map Object | Visible interactable, needs recognition. | v1.3: Slightly changed sprite for visibility. | Look for updated appearance on map. |
+| **Item Drop Spot** | Inventory | Affects item swapping and management. | v1.4: Allows swapping over red walls. | More forgiving inventory handling. |
+
+</Section>
+
+<Section icon={Trophy} title="Endless Mode, Story Progression & FAQs">
+Beyond the initial challenge of **Cobb Can Move free**, players can delve into the story mode and the relentless Endless mode. Both offer distinct experiences that test your adaptive skills.
+
+<Callout type="info" title="Post-Game Content">
+After beating the story, a level select menu unlocks, allowing players to revisit specific levels or rule combinations for practice or score chasing.
+</Callout>
+
+<Checklist
+  id="endless-mode-survival"
+  title="Endless Mode Survival Checklist:"
+  items={[
+    "Adapt to procedural maps and seeded randomness.",
+    "Be aware of Cobb's core rule set (See, Hear, Smell, Reach, Duplicate).",
+    "Manage player pressure from Freezing and Starving.",
+    "Utilize rocks effectively for stuns and distractions.",
+    "Anticipate increased danger from long pursuits and duplicates in later stages."
+  ]}
+/>
+
+### Frequently Asked Questions about Cobb Can Move Free
+
+<FAQ items={[
+  {
+    question: "Is Cobb Can Move truly free to play?",
+    answer: "Yes, Cobb Can Move is available on itch.io with a name-your-own-price model, allowing players to download or play the browser version without cost."
+  },
+  {
+    question: "Where can I play the official version of Cobb Can Move?",
+    answer: "The most reliable official source is the developer abho's itch.io page: abho.itch.io/cobb-can-move. It offers both HTML5 browser play and a Windows downloadable build."
+  },
+  {
+    question: "Are there any codes or rewards for Cobb Can Move?",
+    answer: "The official itch.io page and devlogs do not list any public redeem-code system. Rewards are access-based, including browser play, Windows downloads, and official updates."
+  },
+  {
+    question: "What platforms is Cobb Can Move available on?",
+    answer: "Cobb Can Move officially supports HTML5 (for browser play) and Windows. It is not available on Roblox or Steam."
+  }
+]} />
+
+</Section>

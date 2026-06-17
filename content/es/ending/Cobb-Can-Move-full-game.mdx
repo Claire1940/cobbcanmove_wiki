@@ -1,0 +1,179 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Juego completo Cobb Can Move: Guía oficial de juego y supervivencia",
+  description: "Explora la experiencia completa del juego Cobb Can Move: enlaces oficiales, última versión, mecánicas principales, reglas y consejos de supervivencia para este horror de píxeles.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/8B0000/fff?text=Cobb+Can+Move+Full+Game",
+  date: "2026-06-17",
+  author: "Equipo de la Wiki de Cobb Can Move"
+}
+
+<Callout type="info" title="Guía rápida">
+- Descubre la experiencia oficial del **juego completo Cobb Can Move** en itch.io para navegador o Windows.
+- Domina las **reglas cambiantes** y las habilidades únicas de Cobb para sobrevivir.
+- Utiliza estratégicamente **objetos del entorno** como carbón, rocas y hornos.
+- Progresa a través de los **niveles del modo historia** y desbloquea el desafío infinito.
+- Mantente al día con las **últimas notas del parche v1.7** para cambios de equilibrio.
+</Callout>
+
+<Section icon={Map} title="Acceso oficial al juego completo Cobb Can Move">
+Acceder al **juego completo Cobb Can Move** es sencillo, principalmente a través de su página oficial en itch.io. Este juego de survival horror pixel art, desarrollado por abho, ofrece tanto juego en el navegador como una versión descargable para Windows. Asegurarse de jugar la versión oficial es crucial para vivir la experiencia tal como fue concebida, con las últimas actualizaciones y funciones.
+
+**Video destacado:**
+- Demuestra el bucle de juego principal y el estilo pixel art.
+- Muestra el movimiento de Cobb y las interacciones del jugador.
+- Destaca los elementos oscuros y atmosféricos de terror.
+
+<YouTubeEmbed videoId="m2pP4V99d2Y" title="COBB CAN MOVE - Markiplier" />
+
+El juego es compatible con entradas de teclado y mando, lo que lo hace accesible para una amplia gama de jugadores. La versión actual, v1.7, incluye varios ajustes de equilibrio y mejoras de calidad de vida, garantizando una experiencia de terror refinada.
+
+<CardGrid cols={2}>
+  <Card title="Opciones de juego oficial">
+    - **Plataforma:** HTML5 (Navegador), Windows
+    - **Versión actual:** v1.7 (a partir del 19 de mayo de 2026)
+    - **Modelo de precio:** Paga lo que quieras
+    - **Página oficial:** [abho.itch.io/cobb-can-move](https://abho.itch.io/cobb-can-move)
+  </Card>
+  <Card title="Características clave">
+    - **Género:** 2D, Infinito, Terror, Pixel Art, Survival Horror
+    - **Mecánicas:** Generación procedimental, Jugabilidad con reglas cambiantes
+    - **Entrada:** Teclado, Mando
+    - **Idioma:** Inglés
+  </Card>
+</CardGrid>
+
+<Callout type="tip">
+Inicia siempre el juego desde la página oficial de itch.io para asegurarte de tener la última versión y acceso a las actualizaciones del desarrollador. Evita sitios espejo no oficiales que puedan ofrecer versiones desactualizadas o modificadas.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Dominando las reglas y habilidades de Cobb">
+El núcleo de la experiencia del **juego completo Cobb Can Move** reside en su sistema de reglas dinámicas y las habilidades evolutivas de Cobb. Cada partida presenta nuevos desafíos a medida que las reglas cambian, obligando a los jugadores a adaptar sus estrategias sobre la marcha. Comprender las capacidades sensoriales y los patrones de movimiento de Cobb es clave para la supervivencia.
+
+| Tipo de regla | Descripción | Impacto en el jugador | Nota de la última actualización (v1.7) |
+| :--- | :--- | :--- | :--- |
+| **Sensorial** | Capacidad de Cobb para detectar al jugador (Ver, Oír, Oler). | Dicta las estrategias de movimiento y ocultación. | Olfato nerfeado (olfateos menos frecuentes). |
+| **Movimiento** | Cómo Cobb navega por el mapa y persigue. | Afecta a las tácticas de evasión y rutas. | Aceleración en persecución larga ligeramente nerfeada. |
+| **Duplicado** | Capacidad de Cobb para dividirse en múltiples entidades. | Aumenta la amenaza, requiere un posicionamiento cuidadoso. | Los duplicados se empujan entre sí (v1.6). |
+| **Alcance** | Rango de ataque extendido de Cobb. | Mantener mayor distancia durante los encuentros. | Pasos más largos, menos velocidad (v1.6). |
+
+<Steps>
+  <Step num="1" title="Leer el texto de la regla">
+    Al comienzo de cada nivel, lee atentamente el texto de la regla activa. Estas reglas no son cosméticas; alteran fundamentalmente el comportamiento de Cobb y tu estrategia de supervivencia.
+  </Step>
+  <Step num="2" title="Adaptar el movimiento">
+    Ajusta tu movimiento según las reglas sensoriales activas de Cobb. Si Cobb puede oír, minimiza el ruido. Si Cobb puede ver, mantente fuera de su vista. El juego equilibra activamente esto, por lo que las experiencias previas podrían no aplicarse.
+  </Step>
+  <Step num="3" title="Utilizar rocas">
+    Las rocas no son solo distracciones. Un impacto directo puede aturdir brevemente a Cobb, ofreciendo una ventana crucial para escapar o completar un objetivo. La v1.7 corrigió casos en los que las rocas no aturdían a Cobb durante la persecución, haciéndolas más fiables.
+  </Step>
+</Steps>
+
+<Callout type="warning">
+No confíes en rutas memorizadas. La generación procedimental y las reglas cambiantes significan que cada partida requiere una nueva evaluación y adaptación. Apegarse a una sola estrategia llevará rápidamente al fracaso.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Objetos y objetivos esenciales">
+La supervivencia en el **juego completo Cobb Can Move** depende de la interacción efectiva con objetos clave y la finalización de objetivos. Desde recolectar carbón para el horno hasta lidiar con interruptores y baterías, cada objeto juega un papel vital en tu progresión y eventual escape.
+
+| Objeto | Tipo | Uso en el juego | Nota de actualización oficial (v1.7) | Conclusión para el jugador |
+| :--- | :--- | :--- | :--- | :--- |
+| **Carbón** | Recurso | Recurso básico de supervivencia para el bucle del horno. | Menos probable que aparezca junto al horno (v1.6). | Planifica rutas más largas para el combustible. |
+| **Rocas** | Arrojadizo/Utilidad | Puede aturdir a Cobb con un impacto directo; crea ruido. | Fiabilidad de aturdimiento corregida (v1.7); sonido más fuerte (v1.6). | Crucial para defensa/distracción. |
+| **Zanahorias** | Objeto reaparecible | Fuente de alimento repetible. | Las zanahorias reaparecen al ser comidas (v1.3). | Fuente constante de sustento. |
+| **Baterías** | Objeto de progresión | Requeridas para la secuencia final. | El texto de la tarea final cambió tras colocar cuatro (v1.4). | Rastrea el progreso para anticipar el final. |
+| **Horno** | Objetivo principal | Punto de interacción principal para el carbón. | Aparición de carbón ajustada (v1.6). | Central para la supervivencia, pero requiere más esfuerzo. |
+| **Alto horno** | Objeto final | Usado en la secuencia final. | Hitbox más grande para una interacción más fácil (v1.6). | Secuencia final más fluida. |
+| **Interruptor** | Objeto del mapa | Objeto interactuable en el mapa. | Sprite cambiado para ser más visible (v1.3). | Más fácil de detectar en momentos de tensión. |
+
+<Callout type="info">
+El diseño del juego garantiza que incluso los objetos simples tengan un valor táctico significativo. Aprende sus usos y los cambios de equilibrio recientes para maximizar tus posibilidades de supervivencia.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Progresión del modo historia y desafíos infinitos">
+El **juego completo Cobb Can Move** ofrece un modo historia estructurado que introduce progresivamente mecánicas y dificultad, culminando en un Modo Infinito desbloqueable. Comprender la progresión y cómo escala el juego es esencial para el compromiso a largo plazo.
+
+<Checklist
+  id="game-progression"
+  title="Hitos de progresión:"
+  items={[
+    "Completa los niveles 1-6 para experimentar las mecánicas principales.",
+    "Navega por el nivel 7, ahora con rocas añadidas para un juego estratégico (v1.5).",
+    "Completa con éxito la secuencia final, incluyendo la tarea final reequilibrada (v1.4, v1.5.2).",
+    "Desbloquea y domina el menú de Selección de Nivel para práctica específica (v1.5).",
+    "Sobrevive al Modo Infinito, comenzando directamente en el nivel 3 para una presión inmediata (v1.3)."
+  ]}
+/>
+
+El modo historia te introduce a las reglas de Cobb y al bucle de supervivencia, con el nivel 2 garantizando una regla sensorial para enseñar rápidamente los comportamientos de detección. La secuencia final ha recibido múltiples pases de equilibrio para asegurar que siga siendo tensa pero justa. Después de superar la historia, el menú de selección de nivel permite a los jugadores volver a visitar cualquier nivel, perfecto para practicar combinaciones de reglas específicas o etapas difíciles.
+
+<CardGrid cols={3}>
+  <Card title="Enfoque del modo historia">
+    - **Curva de aprendizaje guiada**
+    - Introduce mecánicas gradualmente
+    - Culmina en un final narrativo
+  </Card>
+  <Card title="Enfoque del modo infinito">
+    - **Partidas impredecibles**
+    - Generación de mapas procedimentales
+    - Escala la dificultad con el tiempo
+  </Card>
+  <Card title="Rejugabilidad">
+    - **Selección de nivel (post-historia)**
+    - Adaptarse a diversas combinaciones de reglas
+    - Perfeccionar habilidades de supervivencia
+  </Card>
+</CardGrid>
+
+<Callout type="tip">
+Una vez que hayas completado el modo historia, utiliza la función de Selección de Nivel para practicar niveles o conjuntos de reglas específicos. Esto es invaluable para prepararse para la naturaleza impredecible del Modo Infinito.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Últimas actualizaciones e información de la comunidad">
+El **juego completo Cobb Can Move** ha tenido un refinamiento continuo a través de actualizaciones de los desarrolladores, con parches recientes centrados en equilibrar las habilidades de Cobb y mejorar la experiencia del jugador. Mantenerse informado sobre estos cambios es vital para mantener la ventaja en este juego de terror en constante evolución.
+
+| Versión | Fecha | Cambios clave |
+| :--- | :--- | :--- |
+| **v1.7** | 2026-05-19 | Olfato de Cobb nerfeado (olfateos menos frecuentes, menos persistencia); Aceleración de persecución larga ligeramente nerfeada; Corregido que las rocas no aturdieran a Cobb a veces durante la persecución. |
+| **v1.6** | 2026-05-16 | Las rocas pueden aturdir a Cobb directamente y suenan más fuerte; El carbón es menos propenso a aparecer junto al horno; Cobb es más rápido en persecuciones largas y deambula más rápido en mapas grandes; El alcance cambia el comportamiento de los pasos; Soporte para AZERTY; Los duplicados de Cobb se empujan; Hitbox del alto horno más grande. |
+| **v1.5** | 2026-05-10 | Rocas añadidas al nivel 7; Rango de visión de Cobb ajustado; Menú de selección de nivel añadido (se desbloquea al ganar); Mensaje de promoción del próximo juego del desarrollador; Velocidad de Cobb ligeramente mejorada durante la tarea final. |
+| **v1.4** | 2026-05-09 | Intercambio de objetos permitido incluso a través de paredes; Consejos de muerte añadidos; El nivel 2 garantiza una regla sensorial; Visión de Cobb ligeramente nerfeada; Error de agarre de Cobb corregido; Texto de la tarea final cambiado; Velocidad de Cobb ligeramente nerfeada durante la tarea final. |
+
+El desarrollador, abho, comunica activamente estos cambios a través del devlog de itch.io, que sirve como la fuente principal de información oficial. Aunque no hay códigos oficiales ni sistemas de canje, el modelo de "paga lo que quieras" y las actualizaciones continuas son las verdaderas recompensas para los jugadores.
+
+<Callout type="info">
+El devlog oficial de itch.io es tu mejor recurso para entender las mecánicas actuales y el equilibrio del juego. Consúltalo regularmente para adaptar tus estrategias al último parche.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "¿Dónde puedo jugar al juego completo Cobb Can Move?",
+    answer: "El juego completo oficial Cobb Can Move está disponible en la página de itch.io de abho, donde puedes jugarlo en tu navegador (HTML5) o descargar la versión para Windows."
+  },
+  {
+    question: "¿Hay códigos para Cobb Can Move?",
+    answer: "No, la página oficial de itch.io y los devlogs de Cobb Can Move no enumeran ningún sistema de códigos de canje público ni códigos activos. Las recompensas se basan principalmente en el acceso, como el juego en sí y las actualizaciones oficiales."
+  },
+  {
+    question: "¿Cómo afectan las reglas cambiantes a la jugabilidad en Cobb Can Move?",
+    answer: "Las reglas cambiantes son una mecánica central que altera las habilidades de Cobb (como la vista, el olfato o la velocidad) y la interacción del jugador con el entorno. Debes adaptar tu estrategia en cada partida, haciendo que las rutas memorizadas sean ineficaces."
+  }
+]} />
+
+</Section>

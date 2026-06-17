@@ -1,0 +1,162 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Teoria de Cobb Can Move: Regras, Habilidades e Táticas de Sobrevivência",
+  description: "Explore as teorias subjacentes às regras mutáveis de Cobb Can Move, as habilidades de Cobb e táticas eficazes de sobrevivência neste jogo de pixel horror.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/8B0000/fff?text=Cobb+Can+Move+Theory",
+  date: "2026-06-17",
+  author: "Equipe Wiki de Cobb Can Move"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Teoria de Cobb Can Move**: Entenda as principais mecânicas de mudança de regras do jogo.
+- **Habilidades de Cobb**: Aprenda como **Mover**, **Ver**, **Ouvir**, **Cheirar**, **Alcançar** e **Duplicar** impactam a jogabilidade.
+- **Táticas de sobrevivência**: Adapte-se à geração procedural e às regras dinâmicas para jogadas bem-sucedidas.
+- **Gerenciamento de recursos**: Priorize **carvão**, **pedras** e **cenouras** de forma eficaz.
+- **Impacto das atualizações**: Mantenha-se informado sobre a v1.7 e outras mudanças de patch no comportamento de Cobb.
+</Callout>
+
+<Section icon={Map} title="Compreendendo as Teorias Centrais de Cobb Can Move">
+
+Cobb Can Move é um jogo de pixel horror onde a regra fundamental é a própria mudança. Cada partida introduz novos parâmetros, desafiando os jogadores a se adaptarem em vez de memorizarem. O design central do jogo gira em torno da geração procedural e de regras dinâmicas, garantindo que nenhuma experiência seja idêntica. Esta seção aprofunda as teorias fundamentais que governam a jogabilidade, desde os layouts de mapa mutáveis até as habilidades em evolução de Cobb.
+
+**Destaques do Vídeo:**
+- Demonstra a jogabilidade inicial e a introdução de regras.
+- Mostra como o comportamento de Cobb muda com as regras ativas.
+- Destaca as reações dos jogadores a mudanças ambientais inesperadas.
+
+<YouTubeEmbed videoId="VIDEO_ID_HERE" title="Vídeo Popular de Jogabilidade de Cobb Can Move" />
+
+A filosofia de design enfatiza a imprevisibilidade, transformando cada nível em um novo quebra-cabeça. Os desenvolvedores refinaram consistentemente este sistema, garantindo que o desafio do jogo provém da adaptação em tempo real.
+
+<Callout type="tip">
+Sempre leia o texto da regra ativa no início de cada nível. Ignorar esses parâmetros dinâmicos é uma causa comum de falhas precoces.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Habilidades de Cobb: Estrutura Teórica e Impacto Prático">
+
+A eficácia aterrorizante de Cobb deriva de suas habilidades variadas e adaptáveis. Compreender os fundamentos teóricos de cada habilidade – e como elas interagem com as regras mutáveis do jogo – é crucial para a sobrevivência. Essas habilidades não são estáticas; atualizações recentes ajustaram consistentemente seu equilíbrio e comportamento.
+
+<CardGrid cols={2}>
+  <Card title="Habilidades Sensoriais">
+    - **Cobb Pode Ver**: Detecta jogadores com base no nível de luz e linha de visão direta. As versões v1.4 e v1.5 ajustaram seu alcance, tornando-o menos opressor, mas ainda perigoso.
+    - **Cobb Pode Ouvir**: Reage a sons gerados pelo jogador. Requer movimento cuidadoso e silencioso.
+    - **Cobb Pode Cheirar**: Persegue jogadores com base em trilhas de cheiro. A v1.7 reduziu sua persistência e frequência, mas continua sendo uma ferramenta de rastreamento potente.
+  </Card>
+  <Card title="Habilidades Físicas e de Replicação">
+    - **Cobb Pode Mover**: Movimento básico, mas a velocidade de perseguição pode acelerar durante longas perseguições (v1.6, ligeiramente reduzida na v1.7).
+    - **Cobb Pode Alcançar**: Aumenta o alcance de ataque de Cobb, exigindo maior espaçamento. A v1.6 mudou isso para passos maiores com velocidade reduzida.
+    - **Cobb Pode Duplicar**: Cria cópias, especialmente após o Nível 5. A v1.6 corrigiu a fusão de duplicatas fazendo-as se empurrarem, garantindo ameaças distintas.
+  </Card>
+</CardGrid>
+
+A interação entre essas habilidades e a seleção aleatória de regras forma o cerne da jogabilidade emergente de Cobb Can Move. Por exemplo, uma regra "Cobb Pode Cheirar" combinada com "Velocidade de Perseguição Longa" cria um desafio significativamente diferente de "Cobb Pode Ver" em um ambiente escuro.
+
+<Callout type="warning" title="Ameaça Emergente">
+As habilidades de Cobb se combinam de maneiras imprevisíveis devido às regras mutáveis. Nunca presuma que uma única estratégia funcionará para todas as partidas.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Táticas de Sobrevivência: Adaptando-se à Geração Procedural e Regras Dinâmicas">
+
+A sobrevivência eficaz em Cobb Can Move não se trata de memorização; trata-se de adaptação dinâmica. A geração procedural do jogo garante layouts de mapa únicos, enquanto o sistema de mudança de regras exige estratégias flexíveis. Aqui está um detalhamento de táticas para navegar neste horror em constante mudança.
+
+<Steps>
+  <Step num="1" title="Priorize a Avaliação de Regras">
+    Ao entrar em um novo nível, identifique imediatamente a regra ativa. Isso dita sua principal ameaça e os ajustes necessários para o movimento e o uso de recursos. Por exemplo, uma regra "Cobb Pode Ouvir" exige movimento silencioso, enquanto "Cobb Pode Ver" exige que você permaneça fora das linhas de visão.
+  </Step>
+  <Step num="2" title="Domine o Gerenciamento de Recursos">
+    **Carvão** é central para os objetivos. **Pedras** podem distrair ou atordoar Cobb (v1.6, correções da v1.7). **Cenouras** fornecem sustento e agora reaparecem (v1.3). Colete e use esses itens de forma eficiente com base na situação atual e nas habilidades ativas de Cobb.
+  </Step>
+  <Step num="3" title="Utilize Elementos Ambientais">
+    O mapa possui **fornalhas** para entrega de carvão, **disjuntores** para interagir (v1.3 os tornou mais perceptíveis) e vários obstáculos. Aprenda a usar esses elementos a seu favor, criando barreiras ou rotas de fuga.
+  </Step>
+  <Step num="4" title="Aprenda com Dicas de Morte">
+    A v1.4 introduziu dicas de morte, fornecendo feedback valioso sobre o que deu errado. Analise essas dicas para refinar sua abordagem para as próximas partidas, transformando o fracasso em uma oportunidade de aprendizado.
+  </Step>
+  <Step num="5" title="Adapte-se à Perseguição de Cobb">
+    O comportamento de perseguição de Cobb varia. Perseguições longas podem tornar Cobb mais rápido (v1.6), embora a v1.7 tenha reduzido ligeiramente a aceleração. Entenda quando quebrar a linha de visão, usar distrações ou se comprometer com um sprint.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Jogo Adaptativo">
+Os jogadores mais bem-sucedidos são aqueles que conseguem avaliar rapidamente as regras atuais e adaptar seu movimento, uso de recursos e interação com o ambiente.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Teorias de Uso de Itens e Objetivos">
+
+Os itens e objetivos em Cobb Can Move são projetados para criar tensão e forçar o envolvimento do jogador com as habilidades de Cobb. Compreender seu uso ideal e como foram equilibrados através das atualizações é fundamental para a progressão.
+
+| Item / Objeto | Uso Principal | Notas Chave da Atualização | Conclusão do Jogador |
+| :------------ | :---------- | :--------------- | :-------------- |
+| **Carvão**      | Combustível para fornalha, objetivo principal | v1.6: Menos provável de aparecer perto da fornalha | Aumenta a pressão de movimento/roteamento. |
+| **Pedras**     | Distração, atordoar Cobb | v1.6: Atordoamento em acerto direto, som mais alto; v1.7: Atordoamento corrigido durante perseguição | Utilidade essencial para defesa e evasão. |
+| **Cenouras**   | Sustento do jogador | v1.3: Cenouras reaparecem quando comidas | Fonte de alimento confiável e repetível. |
+| **Baterias** | Progressão final | v1.4: Alterou o texto da tarefa final após colocar quatro | Acompanhe o progresso para o objetivo final. |
+| **Fornalha**   | Objetivo principal | v1.6: Geração de carvão alterada | Ainda central, mas requer mais deslocamento para combustível. |
+| **Alto-forno** | Sequência final | v1.6: Hitbox maior para interação mais fácil | Conclusão mais suave da tarefa final. |
+| **Disjuntor**   | Interação com o mapa | v1.3: Sprite mais perceptível | Mais fácil de identificar e interagir com elementos críticos do mapa. |
+| **Ponto de Descarte de Item** | Manuseio de inventário | v1.4: Permite trocar itens sobre paredes (vermelho) | Gerenciamento de itens mais tolerante em situações apertadas. |
+
+O equilíbrio cuidadoso da disponibilidade de itens e das habilidades de Cobb cria um constante cabo de guerra. Por exemplo, as cenouras que reaparecem aliviam a pressão de fome a longo prazo, permitindo que os jogadores se concentrem mais em Cobb e nos objetivos. Enquanto isso, as mudanças na geração de carvão e na utilidade das pedras influenciam diretamente as decisões de roteamento e combate.
+
+<Callout type="info">
+A economia de itens do jogo é intencionalmente enxuta para enfatizar elementos de survival horror. Cada escolha de item tem peso.
+</Callout>
+
+<Checklist
+  id="objective-checklist"
+  title="Lista de Verificação de Progressão de Objetivos:"
+  items={[
+    "Reúna carvão suficiente para ativar as fornalhas.",
+    "Utilize pedras para distrair ou atordoar Cobb quando necessário.",
+    "Colete cenouras para evitar a fome.",
+    "Localize e interaja com os disjuntores para progredir.",
+    "Coloque todas as quatro baterias para a tarefa final.",
+    "Interaja com sucesso com o alto-forno no final."
+  ]}
+/>
+
+</Section>
+
+<Section icon={Sparkles} title="Teoria de Cobb Can Move: Perguntas Frequentes">
+
+Compreender as teorias subjacentes de Cobb Can Move pode melhorar significativamente sua jogabilidade e taxa de sobrevivência. Estas perguntas frequentes abordam dúvidas comuns sobre a mecânica e o design do jogo.
+
+<FAQ items={[
+  {
+    question: "Qual é a teoria central por trás das regras mutáveis de Cobb Can Move?",
+    answer: "A teoria central é evitar a memorização do jogador e promover a jogabilidade adaptativa. Ao atribuir aleatoriamente regras como 'Cobb Pode Ver' ou 'Cobb Pode Cheirar' em cada partida, o jogo força os jogadores a reavaliar constantemente seu ambiente e estratégias, tornando cada sessão única e desafiadora."
+  },
+  {
+    question: "Como as habilidades de Cobb, como 'Mover' e 'Alcançar', interagem com as regras dinâmicas?",
+    answer: "As habilidades de Cobb são a base sobre a qual as regras dinâmicas são construídas. Por exemplo, 'Cobb Pode Mover' define sua velocidade base, mas uma regra como 'Velocidade de Perseguição Longa' (v1.6, reduzida na v1.7) modifica esse comportamento durante perseguições prolongadas. 'Cobb Pode Alcançar' altera seu alcance de ataque e padrão de movimento, impactando diretamente o quanto os jogadores precisam manter de espaço."
+  },
+  {
+    question: "Existe uma estratégia 'melhor' para lidar com teorias específicas de Cobb Can Move?",
+    answer: "Não existe uma estratégia 'melhor' devido à geração procedural e às regras mutáveis. No entanto, a abordagem mais eficaz é a adaptação contínua. Isso envolve identificar rapidamente a regra ativa, gerenciar recursos de forma eficiente e aprender com as dicas de morte para refinar suas táticas para a próxima partida."
+  },
+  {
+    question: "Como as atualizações do jogo afetam a teoria de escala de dificuldade de Cobb Can Move?",
+    answer: "As atualizações do jogo frequentemente ajustam a escala de dificuldade, modificando as habilidades de Cobb e as interações com os itens. Por exemplo, a v1.7 reduziu 'Cobb Pode Cheirar' e a aceleração em perseguições longas, enquanto a v1.6 tornou as pedras mais eficazes. Essas mudanças visam equilibrar o desafio, tornando o jogo mais nítido, mas menos injustamente punitivo, incentivando o engajamento consistente do jogador."
+  }
+]} />
+
+<Callout type="tip">
+Engajar-se com os devlogs do jogo e discussões da comunidade pode oferecer insights mais profundos sobre as teorias de design dos desenvolvedores e as próximas mudanças.
+</Callout>
+
+</Section>

@@ -1,0 +1,145 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Cobb Can Move: Todos os Atributos – Entendendo as Habilidades de Cobb",
+  description: "Explore todos os atributos e habilidades de Cobb em Cobb Can Move, incluindo regras sensoriais, movimento, duplicação e como eles impactam as estratégias de sobrevivência.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/8B0000/fff?text=Cobb+Can+Move+Attributes",
+  date: "2026-06-17",
+  author: "Equipe Wiki de Cobb Can Move"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Cobb Can Move – todos os atributos**: Entenda as habilidades centrais de Cobb para sobreviver.
+- **Regras Sensoriais**: Aprenda como "Cobb Pode Ver", "Ouvir" e "Cheirar" afetam a jogabilidade.
+- **Movimento e Duplicação**: Adapte-se à velocidade de perseguição, alcance e comportamentos de duplicação de Cobb.
+- **Atordoamento com Pedras**: Utilize pedras de forma eficaz para atordoar Cobb temporariamente.
+- **Atualizações**: Mantenha-se informado sobre as recentes mudanças de equilíbrio nos atributos de Cobb.
+</Callout>
+
+<Section icon={Target} title="Compreendendo os Atributos Essenciais de Cobb">
+
+No survival horror pixelizado de Cobb Can Move, compreender os vários atributos de Cobb é fundamental para a sua sobrevivência. Ao contrário de jogos com padrões de inimigos fixos, as habilidades de Cobb mudam dinamicamente a cada partida, tornando a adaptabilidade o seu maior trunfo. Esta seção detalha os atributos essenciais de Cobb, focando em como eles se manifestam na jogabilidade e como as atualizações recentes refinaram seu comportamento.
+
+**Destaques do Vídeo:**
+- Demonstra a detecção de "Cobb Pode Ver".
+- Mostra a reação do jogador a "Cobb Pode Cheirar".
+- Ilustra o comportamento de perseguição de Cobb.
+
+<YouTubeEmbed videoId="No official trailer found for Cobb Can Move. A popular gameplay video by Markiplier exists but is not an official trailer. No video embedded as per instructions." title="Vídeo de Gameplay Popular - Não é um Trailer Oficial" />
+
+A mecânica central do jogo gira em torno de regras aleatórias que ditam o comportamento de Cobb. Essas regras não são meras mudanças cosméticas; elas alteram fundamentalmente como você deve abordar cada nível. Desde como Cobb detecta sua presença até a rapidez com que ele o persegue, cada partida apresenta um desafio único.
+
+<Callout type="tip">
+Sempre verifique o texto da regra ativa no início de cada nível. Este texto é o seu principal indicador dos atributos atuais de Cobb e como você precisa ajustar sua estratégia. Ignorá-lo frequentemente leva a uma morte rápida.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Atributos Sensoriais: Ver, Ouvir, Cheirar">
+
+Os atributos sensoriais de Cobb estão entre os mais críticos para entender, pois influenciam diretamente sua capacidade de detectar e rastrear o jogador. O jogo frequentemente garante uma regra sensorial até o Nível 2, forçando os jogadores a aprender rapidamente como evitar a detecção.
+
+| Atributo        | Descrição                                                                      | Impacto no Jogador                                                              | Nota da Última Atualização                                                                                                   |
+| :-------------- | :----------------------------------------------------------------------------- | :------------------------------------------------------------------------------ | :-------------------------------------------------------------------------------------------------------------------- |
+| **Cobb Pode Ver** | Cobb detecta jogadores com base em seu nível de luz e visibilidade.            | Requer movimento cuidadoso em áreas iluminadas e uso estratégico da escuridão.  | v1.4 o enfraqueceu ligeiramente, v1.5 ajustou o alcance novamente para equilíbrio.                                    |
+| **Cobb Pode Ouvir** | Cobb detecta jogadores com base em sons feitos (ex: passos, itens derrubados). | Exige movimento mais silencioso e planejamento cuidadoso das interações com itens. | Sem enfraquecimentos recentes específicos, permanece uma ameaça constante.                                             |
+| **Cobb Pode Cheirar** | Cobb rastreia jogadores através de um rastro de cheiro, frequentemente levando à sua localização. | Força movimento contínuo e evita ficar parado em um só lugar.                    | v1.7 enfraqueceu com cheiradas menos frequentes e persistência reduzida a curta distância.                              |
+
+<Callout type="warning" title="Alerta Crítico">
+Embora "Cobb Pode Cheirar" tenha recebido um enfraquecimento na v1.7, ele continua sendo uma ameaça potente. Não subestime sua capacidade de levar Cobb diretamente à sua posição, especialmente em áreas mais apertadas.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Habilidades de Movimento e Duplicação">
+
+Além da detecção sensorial, os atributos físicos de Cobb e sua habilidade única de duplicação adicionam camadas de complexidade à sobrevivência. Compreender como ele se move e se multiplica é crucial para uma evasão eficaz e uso estratégico de recursos.
+
+<CardGrid cols={2}>
+  <Card title="Velocidade de Perseguição">
+    - **Cobb fica mais rápido durante perseguições longas.**
+    - v1.6 aumentou a velocidade de perseguição longa.
+    - v1.7 enfraqueceu ligeiramente a aceleração durante perseguições longas, tornando-o um pouco menos implacável.
+    - Exige que os jogadores quebrem a linha de visão ou criem uma distância significativa.
+  </Card>
+  <Card title="Regra de Alcance">
+    - **Cobb dá passos maiores quando "alcance" está ativo.**
+    - v1.6 mudou esse comportamento; Cobb percorre mais terreno, mas com menos velocidade.
+    - Os jogadores devem manter um espaçamento maior para evitar serem pegos.
+    - Altera o ritmo da evasão, enfatizando o jogo posicional.
+  </Card>
+  <Card title="Comportamento de Duplicação">
+    - **Cobb pode criar duplicatas, especialmente após o Nível 5.**
+    - v1.6 fez com que as duplicatas se empurrassem, impedindo-as de se fundirem novamente em uma.
+    - Isso esclarece situações com múltiplos Cobbs, tornando-os ameaças distintas.
+    - Aumenta a pressão nos níveis posteriores, exigindo consciência de múltiplas ameaças.
+  </Card>
+  <Card title="Correção de Atordoamento com Pedras">
+    - **Pedras podem atordoar Cobb brevemente com um acerto direto.**
+    - v1.6 fez com que as pedras atordoassem Cobb e soassem mais alto.
+    - v1.7 corrigiu instâncias em que as pedras falhavam em atordoar Cobb durante a perseguição.
+    - Pedras agora são uma ferramenta defensiva mais confiável, crucial para escapar de perseguições.
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Vantagem Estratégica">
+A confiabilidade dos atordoamentos com pedras após a v1.7 significa que os jogadores podem usar objetos arremessáveis estrategicamente para criar fugas momentâneas durante perseguições intensas. Pratique sua mira!
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Adaptando-se aos Atributos Evolutivos de Cobb">
+
+Cobb Can Move é projetado para manter os jogadores alertas, com atualizações contínuas refinando os atributos de Cobb e o equilíbrio geral da jogabilidade. Manter-se ciente dessas mudanças faz parte da meta de sobrevivência.
+
+<Steps>
+  <Step num="1" title="Monitore os Devlogs">
+    Verifique regularmente o devlog oficial do itch.io para Cobb Can Move. O desenvolvedor, abho, frequentemente publica atualizações sobre mudanças de equilíbrio, correções de bugs e novos recursos. Esta é a fonte mais confiável para entender os atributos atuais de Cobb.
+  </Step>
+  <Step num="2" title="Pratique a Adaptabilidade">
+    Dada a natureza de mudança de regras do jogo, evite memorizar rotas fixas. Em vez disso, concentre-se em adaptar seu estilo de jogo com base nas regras ativas exibidas no início de cada partida. Isso inclui movimento, uso de itens e táticas de evasão.
+  </Step>
+  <Step num="3" title="Utilize Dicas de Morte">
+    Após a v1.4, o jogo fornece dicas ao morrer. Elas são inestimáveis para entender qual atributo ou regra específica levou à sua morte, oferecendo feedback direto para sua próxima tentativa. Aprenda com cada falha.
+  </Step>
+  <Step num="4" title="Domine as Interações com Itens">
+    Itens como pedras e cenouras têm interações específicas com os atributos de Cobb. Saber quando e como usá-los (por exemplo, jogar uma pedra para atordoar um Cobb em perseguição) pode mudar o rumo de uma partida difícil.
+  </Step>
+</Steps>
+
+<Callout type="info">
+A natureza dinâmica do jogo significa que, embora os atributos essenciais permaneçam, sua intensidade ou mecânicas específicas podem ser ajustadas. Um "enfraquecimento" em um atributo não remove a ameaça, mas muda como você pode combatê-la.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="FAQ sobre os Atributos de Cobb">
+
+<FAQ items={[
+  {
+    question: "Os atributos de Cobb mudam aleatoriamente a cada partida?",
+    answer: "Sim, a ideia central de Cobb Can Move é que as regras, que definem os atributos e o comportamento de Cobb, mudam aleatoriamente a cada partida. Isso exige que os jogadores se adaptem constantemente, em vez de dependerem de padrões memorizados."
+  },
+  {
+    question: "Como posso saber quais atributos Cobb tem em um determinado nível?",
+    answer: "No início de cada nível, o jogo exibe o texto da regra ativa. Este texto declara explicitamente os atributos atuais de Cobb, como 'Cobb pode ver' ou 'Cobb pode cheirar'. Sempre leia isso antes de prosseguir."
+  },
+  {
+    question: "Existem atributos que tornam Cobb invulnerável?",
+    answer: "Não, embora Cobb possa ser incrivelmente perigoso com certas combinações de atributos, sempre há maneiras de interagir ou evadi-lo. Por exemplo, pedras podem atordoar Cobb, e o movimento estratégico pode contornar a detecção sensorial."
+  },
+  {
+    question: "Todos os atributos de Cobb Can Move foram equilibrados recentemente?",
+    answer: "Sim, atualizações recentes como a v1.7 equilibraram atributos como 'Cobb pode cheirar' (frequência e persistência enfraquecidas) e aceleração de perseguição (ligeiramente enfraquecida). As pedras também receberam correções para garantir um comportamento de atordoamento consistente."
+  }
+]} />
+
+</Section>

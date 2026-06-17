@@ -1,0 +1,187 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Cobb Can Move all modifiers: 2026 Survival Guide & Tips",
+  description: "Master all Cobb Can Move modifiers with our 2026 guide. Learn sensory rules, movement abilities, and survival tactics for the latest v1.7 update.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/8b0000/fff?text=Cobb+Can+Move+Modifiers",
+  date: "2026-06-17",
+  author: "Cobb Can Move Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Cobb Can Move all modifiers** dictate how the monster detects and pursues the player in every procedural level.
+- **Sensory rules** like See, Hear, and Smell are guaranteed to appear starting from Level 2 in Story Mode.
+- **Movement modifiers** such as Reach and Duplicate significantly alter Cobb’s physical threat and spacing requirements.
+- **v1.7 Updates** in 2026 nerfed the Smell modifier and pursuit acceleration to improve survival balance.
+- **Rocks and Carrots** are essential items used to counter specific modifiers through stunning or stamina management.
+</Callout>
+
+<Section icon={Map} title="Understanding the Rule-Changing System">
+
+Cobb Can Move is defined by its unpredictable nature, where the core gameplay mechanics shift every time you enter a new level. Unlike traditional horror games with fixed monster AI, this title uses a procedural rule system. **Cobb Can Move all modifiers** are the variables that the game selects to determine Cobb's behavior, the player's physical needs, and environmental hazards. In the 2026 v1.7 update, these modifiers have been finely tuned to ensure that while the game remains difficult, it provides clear feedback through death tips and visual cues.
+
+**Video Highlights:**
+- **Modifier Identification**: How to read the active rule text at the start of a run.
+- **Survival Loop**: Managing coal and the furnace while avoiding Cobb's detection.
+- **Item Interaction**: Using rocks to stun Cobb during high-pressure pursuit modifiers.
+
+<YouTubeEmbed videoId="f_3ZJ_7t_W0" title="COBB CAN MOVE - Markiplier Gameplay" />
+
+The rule system isn't just cosmetic; it changes your fundamental strategy. For example, a "Cobb can see" modifier requires you to stay in the dark or break line of sight, whereas "Cobb can hear" demands slow, crouched movement. Understanding these shifts is the difference between a successful escape and a quick restart.
+
+| Modifier Category | Core Function | Impact Level |
+| :--- | :--- | :--- |
+| **Sensory** | Determines how Cobb finds the player | High |
+| **Movement** | Alters Cobb's speed, reach, or count | Critical |
+| **Player** | Adds survival needs like hunger or warmth | Medium |
+| **Environmental** | Changes item spawns or map visibility | Low |
+
+<Callout type="info" title="Modifier Persistence">
+In Story Mode, modifiers are introduced gradually, but in Endless Mode (unlocked after Level 3), multiple modifiers can stack, creating lethal combinations that require rapid adaptation.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Sensory Modifiers: Detection Mechanics">
+
+The most common **Cobb Can Move all modifiers** are the sensory rules. These determine the "logic" Cobb uses to track you through the dark corridors. Since the v1.4 update in May 2026, Level 2 is guaranteed to introduce at least one sensory rule, ensuring players learn these mechanics early in their progression.
+
+| Modifier | Detection Trigger | 2026 Balance Change |
+| :--- | :--- | :--- |
+| **Cobb can see** | Line of sight + Player light level | Range nerfed in v1.5 for fairness |
+| **Cobb can hear** | Running, dropping items, or rock noise | Rock noise increased in v1.6 to distract |
+| **Cobb can smell** | Proximity and standing still too long | Sniff frequency reduced in v1.7 |
+
+The "Smell" modifier was historically the most difficult to counter. However, the v1.7 patch implemented a significant nerf, making Cobb's sniffs less frequent and reducing his persistence when he smells a player at close range. This allows for more "clutch" escapes where you can double back and lose the trail.
+
+<Callout type="warning" title="Stealth Warning">
+When "Cobb can hear" is active, even the sound of the furnace or the breaker can mask your footsteps, but dropping a heavy piece of coal will immediately alert Cobb to your exact coordinates.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Movement and Behavior Modifiers">
+
+When Cobb isn't just searching for you, he is physically changing how he moves. These modifiers affect the "chase" phase of the game. If you fail to account for a movement modifier, you will likely find yourself caught in a corner because you misjudged the distance between you and the monster.
+
+<CardGrid cols={3}>
+  <Card title="Reach Modifier">
+    - **Large Steps**: Cobb takes massive strides.
+    - **Speed Trade-off**: He moves slower overall but covers distance in bursts.
+    - **Spacing**: Requires 2x the normal safety distance.
+  </Card>
+  <Card title="Duplicate Modifier">
+    - **Multiple Cobbs**: Two or more monsters roam the map.
+    - **v1.6 Fix**: Duplicates now push each other instead of merging.
+    - **Strategy**: Use rocks to stun one while you slip past the other.
+  </Card>
+  <Card title="Pursuit Modifiers">
+    - **Acceleration**: Cobb gets faster the longer he chases you.
+    - **v1.7 Nerf**: Long-pursuit acceleration was reduced to prevent "infinite speed."
+    - **Counter**: Break line of sight to reset his speed.
+  </Card>
+</CardGrid>
+
+The "Duplicate" modifier is particularly dangerous in Endless Mode after Level 5. Because the map is built from procedural chunks, having two monsters can effectively "pincer" the player in a narrow hallway. Always keep a rock in your inventory when you see the "Duplicate" rule text.
+
+<Callout type="success" title="2026 Pro Strategy">
+The v1.6 update made rocks much more viable. A direct hit with a rock will now stun Cobb for a short duration, regardless of his active movement modifiers. This is your best tool for surviving the "Reach" or "Duplicate" rules.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Survival and Item Modifiers">
+
+Not all **Cobb Can Move all modifiers** are about the monster. Some focus on the player's survival needs or the availability of resources. These rules force you to move and take risks rather than hiding in a safe corner indefinitely.
+
+<Checklist
+  id="survival-items"
+  title="Critical Items for Modifier Management:"
+  items={[
+    "Coal: Essential for the furnace loop to maintain light and warmth.",
+    "Rocks: Used to stun Cobb or create noise distractions (v1.6 buff).",
+    "Carrots: Respawning food source to counter the 'Starve' modifier.",
+    "Batteries: Required for Level 7 and the final story task.",
+    "Breaker: Interaction points that restore map visibility."
+  ]}
+/>
+
+In v1.6, the developer adjusted the "Coal" spawn logic. Coal is now less likely to spawn directly next to the furnace, forcing players to navigate further into the dark zones. This change directly interacts with the "Freeze" modifier, which punishes players who spend too much time away from a heat source.
+
+| Item | Interaction Modifier | Survival Tip |
+| :--- | :--- | :--- |
+| **Carrots** | Starve | Carrots respawn after v1.3; don't hoard them. |
+| **Rocks** | Hear / Stun | Rocks now sound louder (v1.6) for better distractions. |
+| **Coal** | Freeze | Use the furnace to reset your freeze meter. |
+| **Batteries** | Final Task | Placing 4 batteries changes the final task text. |
+
+<Callout type="tip" title="Inventory Trick">
+Since v1.4, you can swap items even if the drop spot is "red" (over a wall). This is helpful when you are being chased and need to quickly drop a battery for a rock.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Progression and Mode Modifiers">
+
+The way **Cobb Can Move all modifiers** are applied depends heavily on whether you are playing Story Mode or Endless Mode. The 2026 updates have refined the difficulty curve to ensure that the ending of the game feels earned rather than frustrating.
+
+<Steps>
+  <Step num="1" title="Early Story Levels">
+    Levels 1 and 2 introduce basic movement and a single sensory rule. Use these to learn how to crouch and manage your light.
+  </Step>
+  <Step num="2" title="The Mid-Game Shift">
+    Levels 3 through 6 introduce stacking rules. You might face "Cobb can hear" and "Reach" simultaneously.
+  </Step>
+  <Step num="3" title="Level 7 and The Finale">
+    Level 7 was updated in v1.5 to include more rocks. The ending requires placing four batteries and interacting with a blast furnace, which now has a larger hitbox (v1.6).
+  </Step>
+  <Step num="4" title="Endless Mode Mastery">
+    Starts at Level 3 (v1.3 update). Modifiers are randomized and use seeded randomness. Survival is about adapting to the "fresh nonsense" Cobb does each floor.
+  </Step>
+</Steps>
+
+After beating the game once, you unlock the Level Select menu (added in v1.5). This allows you to practice specific levels or rule combinations without restarting the entire story. It is the best way to master high-level play before diving into the leaderboards of Endless Mode.
+
+| Feature | Story Mode | Endless Mode |
+| :--- | :--- | :--- |
+| **Difficulty** | Linear progression | Scaling pressure |
+| **Modifiers** | Fixed introduction | Random / Seeded |
+| **Goal** | Reach the ending | Survive as many levels as possible |
+| **Rocks** | Placed for puzzles | Randomly generated |
+
+<Callout type="info" title="Final Task Balance">
+The final task speed was slightly nerfed in v1.4 and then buffed in v1.5.2. In 2026, the finale is considered a "stress test" of everything you have learned about Cobb's movement modifiers.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Cobb Can Move FAQ">
+
+<FAQ items={[
+  {
+    question: "How do I know which Cobb Can Move all modifiers are active?",
+    answer: "At the start of every level, the game displays a text box on the screen describing the current rules. Additionally, if you die, the v1.4 update added 'Death Tips' that explain the rule you likely failed to follow."
+  },
+  {
+    question: "Can I stun Cobb with a rock if he has the 'Reach' modifier?",
+    answer: "Yes. As of the v1.6 and v1.7 updates, rocks are a universal defensive tool. A direct hit will stun Cobb for a short period, allowing you to escape his reach or break line of sight."
+  },
+  {
+    question: "What is the best way to counter 'Cobb can smell'?",
+    answer: "In the 2026 v1.7 update, the smell modifier was nerfed. You should keep moving and avoid staying in the same procedural chunk for too long. If you see Cobb 'sniffing,' change your direction immediately."
+  },
+  {
+    question: "Do modifiers stack in Story Mode?",
+    answer: "Yes, but they stack in a controlled way. By Level 7, you will face multiple modifiers including sensory rules and movement buffs, requiring you to manage batteries and coal simultaneously."
+  }
+]} />
+
+</Section>

@@ -1,0 +1,164 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Cobb Can Move: Entendiendo las Habilidades y el Comportamiento de Cobb",
+  description: "Explora las habilidades únicas y los patrones de comportamiento de Cobb en Cobb Can Move, el juego de supervivencia de terror pixelado. Aprende cómo Cobb se mueve, detecta, se duplica y cómo sobrevivir a sus reglas cambiantes.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/8B0000/fff?text=Cobb+Can+Move+Abilities",
+  date: "2026-06-17",
+  author: "Equipo de Wiki de Cobb Can Move"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Cobb Can Move** es un juego de terror pixelado donde las reglas y las habilidades de Cobb cambian en cada partida.
+- Las **habilidades centrales de Cobb** incluyen Moverse, Ver, Oír, Oler, Alcanzar y Duplicarse, cada una con efectos distintos.
+- Las **reglas sensoriales** (Ver, Oír, Oler) son cruciales para la detección de Cobb y dictan el movimiento del jugador.
+- Las **rocas** se pueden usar para aturdir a Cobb, ofreciendo una utilidad defensiva crítica en situaciones peligrosas.
+- Las **actualizaciones** equilibran frecuentemente el comportamiento de Cobb, haciendo que la adaptación sea clave para la supervivencia.
+</Callout>
+
+<Section icon={Target} title="¿Quién es Cobb en Cobb Can Move?">
+Cobb es el antagonista principal en el juego de supervivencia de terror pixelado, *Cobb Can Move*. Esta ominosa entidad es la amenaza central que los jugadores deben sortear y evadir a través de niveles generados proceduralmente donde las reglas cambian constantemente. Cobb no es un monstruo estático con patrones predecibles; sus habilidades y comportamientos se adaptan según las reglas activas de cada partida, forzando a los jugadores a reevaluar constantemente sus estrategias de supervivencia.
+
+**Puntos Destacados del Video:**
+- Demuestra el movimiento impredecible y las habilidades sensoriales de Cobb.
+- Muestra cómo los factores ambientales influyen en la detección de Cobb.
+- Resalta la tensión y el miedo generados por la presencia de Cobb.
+
+<YouTubeEmbed videoId="7TzL7lJp6A0" title="COBB CAN MOVE - Markiplier" />
+
+El diseño de Cobb, un pequeño monstruo rojo con largos brazos que se arrastran y ojos blancos brillantes en un estilo de terror de mazmorras de vista cenital, está específicamente diseñado para evocar una sensación de pavor y vulnerabilidad. Comprender las habilidades dinámicas de Cobb es primordial para progresar a través de los desafiantes niveles del juego y, en última instancia, sobrevivir.
+
+<Callout type="warning" title="Amenaza Dinámica">
+Las habilidades de Cobb no son fijas. La mecánica central del juego gira en torno a **reglas cambiantes** que impactan directamente en cómo se comporta Cobb y detecta al jugador. Siempre lee el texto de la regla activa al inicio de cada nivel.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Habilidades y Comportamientos Centrales de Cobb">
+Cobb posee una serie de habilidades que lo convierten en un enemigo formidable e impredecible. Estas habilidades a menudo son modificadas por las reglas cambiantes del juego, lo que requiere que los jugadores permanezcan vigilantes y adapten su enfoque.
+
+<CardGrid cols={2}>
+  <Card title="Cobb Puede Moverse">
+    El movimiento básico de Cobb está influenciado por sus reglas sensoriales actuales y su estado de persecución. Vaga aleatoriamente, pero se vuelve más enfocado y rápido durante persecuciones largas.
+  </Card>
+  <Card title="Cobb Puede Ver">
+    Cuando esta regla está activa, Cobb detecta a los jugadores basándose en su nivel de luz y visibilidad. Las actualizaciones han equilibrado su rango de visión, haciendo que el movimiento cuidadoso en áreas iluminadas sea crucial.
+  </Card>
+  <Card title="Cobb Puede Oír">
+    Cobb reacciona a los sonidos hechos por el jugador. Movimientos ruidosos, lanzar objetos o interactuar con ciertos objetos pueden alertar a Cobb sobre tu posición.
+  </Card>
+  <Card title="Cobb Puede Oler">
+    Esta habilidad permite a Cobb rastrear a los jugadores por el olor. Las actualizaciones recientes (v1.7) han reducido su frecuencia y persistencia, pero sigue siendo una amenaza significativa a corta distancia.
+  </Card>
+  <Card title="Cobb Puede Alcanzar">
+    Cuando "alcanzar" está activo, Cobb da pasos más grandes, cubriendo efectivamente más terreno con cada movimiento, aunque a menudo con velocidad reducida. Esto cambia la sensación de su movimiento.
+  </Card>
+  <Card title="Cobb Puede Duplicarse">
+    En etapas posteriores, Cobb puede duplicarse a sí mismo. Estos duplicados se empujan entre sí, evitando que se fusionen y haciendo que los encuentros con múltiples Cobbs sean más distintos y desafiantes.
+  </Card>
+</CardGrid>
+
+<Callout type="tip">
+**Aprende las señales:** Cada una de las habilidades sensoriales de Cobb a menudo tiene una sutil señal visual o auditiva. Prestar atención a estas puede darte una ventaja crítica para anticipar el rango de detección de Cobb.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Tácticas de Supervivencia Contra las Habilidades de Cobb">
+Sobrevivir contra Cobb requiere una combinación de conciencia, movimiento estratégico y uso efectivo de los elementos ambientales. Aquí hay tácticas clave para emplear:
+
+<Steps>
+  <Step num="1" title="Lee las Reglas Cuidadosamente">
+    Al comienzo de cada partida, se introduce una nueva regla. Esta regla dicta el método principal de detección o movimiento de Cobb. **Comprender esta regla** es el consejo de supervivencia más importante.
+  </Step>
+  <Step num="2" title="Domina el Movimiento y el Sigilo">
+    Si Cobb puede ver, permanece en las sombras o detrás de la cubierta. Si Cobb puede oír, muévete lentamente y evita acciones innecesarias. Si Cobb puede oler, considera tu ruta para evitar permanecer en su camino.
+  </Step>
+  <Step num="3" title="Utiliza Rocas para Distracción o Aturdimiento">
+    Las rocas no son solo estorbo. Se pueden lanzar para crear distracciones, alejando a Cobb de tu camino. Más importante aún, un golpe directo de una roca puede aturdir brevemente a Cobb, proporcionando una ventana crucial para escapar.
+  </Step>
+  <Step num="4" title="Gestiona los Recursos Eficientemente">
+    El carbón es esencial para el horno, pero recolectarlo puede exponerte. Planifica tus rutas de carbón para minimizar el contacto con Cobb, especialmente cuando las reglas sensoriales están activas. Las zanahorias pueden reaparecer, proporcionando una fuente de alimento renovable para contrarrestar el hambre.
+  </Step>
+  <Step num="5" title="Adáptate a los Cambios de Equilibrio">
+    El desarrollador actualiza frecuentemente el comportamiento de Cobb. Por ejemplo, la v1.7 redujo la eficacia de "Cobb puede oler" y ligeramente su aceleración en persecuciones largas, mientras que la v1.6 mejoró la fiabilidad del aturdimiento con rocas. Mantenerse informado sobre los parches puede refinar tus tácticas.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Uso Efectivo de las Rocas">
+Las rocas se convirtieron en una herramienta defensiva más fiable después de que la v1.7 corrigiera problemas donde a veces no lograban aturdir a Cobb durante la persecución. Úsalas estratégicamente como último recurso o para crear oportunidades de escape.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Cómo el Entorno de Cobb Modela su Comportamiento">
+La interacción de Cobb con el entorno es un aspecto crítico de su comportamiento. La generación procedural de niveles, junto con objetos de juego específicos, dicta cómo se mueve Cobb y cómo los jugadores pueden influir en él.
+
+| Factor Ambiental     | Impacto en el Comportamiento de Cobb                       | Estrategia del Jugador                                 | Notas de Actualización Relevantes                    |
+| :------------------- | :--------------------------------------------------------- | :----------------------------------------------------- | :--------------------------------------------------- |
+| **Mapas Procedurales** | Las rutas y las posiciones de los objetos cambian, evitando la memorización. | Adapta el trazado a la disposición actual, no dependas de rutas fijas. | Etiquetas oficiales: Generación Procedural, Modo Infinito. |
+| **Niveles de Luz**   | Afecta directamente la detección de "Cobb puede ver".       | Permanece en la oscuridad; evita áreas abiertas y bien iluminadas. | Rango de "Cobb puede ver" ajustado en v1.4 y v1.5.   |
+| **Fuentes de Sonido** | Activa "Cobb puede oír" cuando el jugador hace ruido.     | Muévete lentamente, evita lanzar objetos a menos que sea para distraer. | Las rocas hacen un sonido más fuerte (v1.6).         |
+| **Colocación de Objetos** | La aparición de carbón puede forzar a los jugadores a áreas peligrosas. | Planifica rutas eficientes para la recolección de recursos. | Es menos probable que el carbón aparezca cerca del horno (v1.6). |
+| **Paredes y Obstáculos**| Pueden bloquear la línea de visión de "Cobb puede ver" y proporcionar cobertura. | Usa esquinas y paredes para romper la persecución o esconderte. | El intercambio de objetos a través de las paredes se facilitó (v1.4). |
+
+<Callout type="info">
+La naturaleza dinámica del juego significa que incluso los detalles ambientales aparentemente menores pueden volverse cruciales para la supervivencia cuando se combinan con las reglas activas de Cobb. Siempre escanea tu entorno.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Evolución de Cobb: Actualizaciones y Cambios de Equilibrio">
+El desarrollador, abho, equilibra y refina activamente el comportamiento de Cobb a través de varias actualizaciones, asegurando que el juego siga siendo desafiante y fresco. Estos cambios a menudo impactan directamente en cómo funcionan las habilidades de Cobb.
+
+<Checklist
+  id="cobb-updates"
+  title="Actualizaciones Clave del Comportamiento de Cobb:"
+  items={[
+    "**v1.7**: Se redujo la eficacia de 'Cobb puede oler' (menos olfateos frecuentes, menos persistencia).",
+    "**v1.7**: Se redujo ligeramente la aceleración de Cobb en persecuciones largas.",
+    "**v1.7**: Se corrigió la fiabilidad del aturdimiento con rocas durante la persecución.",
+    "**v1.6**: Las rocas pueden aturdir a Cobb con un golpe directo; sonido de roca más fuerte.",
+    "**v1.6**: Cobb se vuelve ligeramente más rápido durante persecuciones largas y deambula más rápido en mapas más grandes.",
+    "**v1.6**: 'Alcanzar' cambia el comportamiento de los pasos de Cobb (pasos más grandes, menos velocidad).",
+    "**v1.6**: Los Cobbs duplicados se empujan entre sí, evitando la fusión.",
+    "**v1.5**: Se ajustó de nuevo el rango de 'Cobb puede ver'.",
+    "**v1.4**: Se redujo ligeramente la eficacia de 'Cobb puede ver'.",
+    "**v1.4**: Se redujo ligeramente la velocidad de Cobb durante la tarea final."
+  ]}
+/>
+
+Estas actualizaciones continuas significan que las estrategias que funcionaron en versiones anteriores podrían necesitar ajustes. La idea principal es mantener a los jugadores alerta, adaptándose constantemente a la amenaza evolutiva de Cobb.
+
+</Section>
+
+<Section icon={Trophy} title="Preguntas Frecuentes: Entendiendo Cobb Can Move">
+
+<FAQ items={[
+  {
+    question: "¿Qué es Cobb Can Move?",
+    answer: "Cobb Can Move es un juego de terror de supervivencia pixel art desarrollado por abho, disponible en itch.io. Su mecánica central implica navegar por niveles oscuros y generados proceduralmente mientras se evade a un monstruo llamado Cobb, cuyas habilidades y las reglas del juego cambian con cada partida."
+  },
+  {
+    question: "¿Cómo cambia el comportamiento de Cobb?",
+    answer: "El comportamiento de Cobb está dictado por reglas dinámicas que se activan al inicio de cada nivel. Estas reglas pueden mejorar habilidades específicas como la vista, el olfato o el movimiento, haciendo que los patrones de detección y persecución de Cobb sean impredecibles. Las actualizaciones oficiales equilibran frecuentemente estas habilidades."
+  },
+  {
+    question: "¿Cuáles son las habilidades principales de Cobb?",
+    answer: "Las habilidades principales de Cobb incluyen Moverse (movimiento general), Ver (detección por luz/visibilidad), Oír (detección por sonido), Oler (rastreo por olor), Alcanzar (pasos más grandes) y Duplicarse (crear copias de sí mismo en etapas posteriores). Cada habilidad requiere una respuesta diferente del jugador."
+  },
+  {
+    question: "¿Puedo aturdir a Cobb?",
+    answer: "Sí, las rocas se pueden usar para aturdir a Cobb. Después de las actualizaciones recientes (v1.6 y v1.7), un golpe directo de una roca lanzada puede aturdir brevemente a Cobb, proporcionando una ventana crítica para escapar o reposicionarse estratégicamente. Las rocas también hacen sonidos más fuertes para una mejor utilidad."
+  }
+]} />
+
+</Section>

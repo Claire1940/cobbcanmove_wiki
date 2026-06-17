@@ -1,0 +1,138 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Cobb Can Move Modifiers: Rules, Abilities & Balance Changes",
+  description: "Explore Cobb Can Move modifiers including sensory rules, movement behaviors, and duplicate mechanics, along with recent balance updates for optimal survival.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/8B0000/fff?text=Cobb+Can+Move+Modifiers",
+  date: "2026-06-17",
+  author: "Cobb Can Move Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Cobb Can Move modifiers** are dynamic rules changing each run, crucial for survival.
+- **Sensory rules** like "Cobb can see" or "Cobb can smell" dictate Cobb's detection methods.
+- **Movement rules** define Cobb's pursuit speed, reach, and wandering behavior.
+- **Duplicate mechanics** involve Cobb creating copies and how they interact.
+- Recent **balance updates** have refined these modifiers for a sharper, fairer challenge.
+</Callout>
+
+<Section icon={Map} title="Understanding Cobb Can Move Modifiers">
+In Cobb Can Move, survival hinges on adapting to constantly changing rules, known as **Cobb Can Move modifiers**. These aren't just cosmetic changes; they fundamentally alter Cobb's behavior and the player's strategy. Each run presents a unique challenge, making rote memorization less effective than quick adaptation. The core design ensures that every encounter with Cobb feels fresh and unpredictable.
+
+**Video Highlights:**
+- Demonstrates how different sensory rules affect gameplay.
+- Shows player reactions to Cobb's varied movement patterns.
+- Illustrates the impact of duplicate Cobb behavior in later levels.
+
+<Callout type="tip" title="Always Check the Rules">
+Before starting each level, always take a moment to read the active rule text. This is the single most important action to avoid unexpected dangers and plan your immediate strategy effectively.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Sensory Rules: See, Hear, and Smell">
+Cobb's ability to detect the player is governed by specific sensory rules, which are critical **Cobb Can Move modifiers**. These rules often appear early in a run, with v1.4 guaranteeing a sensory rule by Level 2. Understanding each rule is paramount for effective evasion.
+
+| Sensory Rule | Description | Key Behavior | Update Notes | Player Takeaway |
+|:-------------|:------------|:-------------|:-------------|:----------------|
+| **Cobb Can See** | Cobb detects players based on light level and direct line of sight. | Avoid open spaces, stay in shadows. | v1.4 and v1.5 adjusted range. | Treat as a major visibility modifier; prioritize stealth. |
+| **Cobb Can Hear** | Cobb reacts to player-generated sounds (walking, item drops). | Move silently, minimize noise. | Not explicitly balanced in recent patches. | Every step can be a risk; plan movements carefully. |
+| **Cobb Can Smell** | Cobb tracks players via scent, pointing him towards their location. | Keep distance, avoid prolonged exposure. | v1.7 nerfed frequency and persistence. | Still a threat, but less relentless than before. |
+
+<Callout type="warning" title="Sensory Overload">
+Neglecting sensory rules is a common beginner mistake. A "Cobb can hear" rule means even dropping a rock can draw unwanted attention, turning a safe moment into a deadly chase.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Movement and Pursuit Modifiers">
+Beyond senses, Cobb's movement and pursuit behavior are also dynamic **Cobb Can Move modifiers**. These dictate how Cobb navigates the map and pressures the player during a chase. Recent updates have refined these mechanics to ensure a balanced, yet intense, experience.
+
+<CardGrid cols={2}>
+  <Card title="Long Pursuit Speed">
+    - **v1.6:** Cobb gets slightly faster during long pursuits.
+    - **v1.7:** Slightly nerfed Cobb's acceleration during long pursuits.
+    - **Impact:** Extended chases remain dangerous but are now slightly less oppressive.
+  </Card>
+  <Card title="Reach Rule">
+    - **v1.6:** Cobb takes larger steps when 'reach' is active, with reduced speed.
+    - **Impact:** Requires greater spacing from Cobb; changes evasion tactics.
+  </Card>
+  <Card title="Random Wandering">
+    - **v1.6:** Sped up random wandering in larger maps.
+    - **Impact:** Increased map coverage and encounter frequency in bigger areas.
+  </Card>
+  <Card title="Duplicate Behavior">
+    - **v1.6:** Duplicates now push each other, preventing merging.
+    - **Impact:** Multiple Cobbs behave more distinctly, making encounters clearer.
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Adapting to Movement">
+Understanding Cobb's movement modifiers allows for better pathing and evasion. For instance, knowing when Cobb has "reach" active can prompt you to create more distance than usual.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Balance Changes and Rock Interaction">
+The developers of Cobb Can Move actively balance the game through updates, often modifying Cobb's abilities and player tools. These balance changes are crucial **Cobb Can Move modifiers** that influence overall gameplay and strategy. Rocks, for example, have received significant attention.
+
+<Steps>
+  <Step num="1" title="Initial Rock Utility (v1.1)">
+    Rocks could be used as distractions to lure Cobb away from your path. Their primary role was tactical misdirection.
+  </Step>
+  <Step num="2" title="Stun Mechanic Introduced (v1.6)">
+    v1.6 updated rocks to allow them to stun Cobb for a short period on a direct hit. This added a defensive utility beyond mere distraction. Rocks also became louder, making their sound clearer.
+  </Step>
+  <Step num="3" title="Rock Stun Fix (v1.7)">
+    v1.7 addressed issues where rocks sometimes failed to stun Cobb, especially when he was actively in pursuit. This made rocks a more reliable defensive tool when used precisely during a chase.
+  </Step>
+</Steps>
+
+| Item | Gameplay Use | Official Update Note | Player Takeaway |
+|:-----|:-------------|:---------------------|:----------------|
+| **Rocks** | Throwable / Utility object; can stun Cobb. | v1.6: Stun on direct hit, louder sound. v1.7: Fixed stun during pursuit. | Essential for defense and distraction; use wisely. |
+| **Coal** | Core survival resource for the furnace. | v1.6: Less likely to spawn next to furnace. | Requires more movement and routing for fuel. |
+| **Carrots** | Respawning food item. | v1.3: Carrots respawn after being eaten. | Reliable, repeatable source of sustenance. |
+
+<Callout type="info" title="Latest Updates">
+The latest balance update, v1.7, focused on slightly nerfing "Cobb can smell" and long-pursuit acceleration, making encounters slightly less punishing while maintaining tension.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="FAQ on Cobb Can Move Modifiers">
+Players often have questions about how **Cobb Can Move modifiers** work and how to best adapt to them. Here are some common inquiries.
+
+<FAQ items={[
+  {
+    question: "How do I know which modifiers are active in a level?",
+    answer: "Always read the rule text displayed at the start of each level. This text explicitly states the active modifiers for that run, guiding your strategy."
+  },
+  {
+    question: "Are some Cobb modifiers more dangerous than others?",
+    answer: "Sensory rules like 'Cobb can see' and 'Cobb can smell' can be immediately dangerous as they dictate Cobb's detection. Movement modifiers like 'Long pursuit speed' increase pressure during chases. All modifiers require adaptation."
+  },
+  {
+    question: "Can I use rocks to counter all Cobb modifiers?",
+    answer: "Rocks are most effective against Cobb's pursuit and can provide a brief stun. They are less useful against passive detection rules if Cobb hasn't spotted you yet. Always combine rock usage with careful movement based on active rules."
+  },
+  {
+    question: "Do modifiers change during a single run?",
+    answer: "The primary rules for a level are set at the beginning. However, Cobb's behavior can evolve based on player actions (e.g., duplicates appearing after certain conditions) and the procedural nature of the game, adding to the dynamic challenge."
+  }
+]} />
+
+<Callout type="tip" title="Practice Makes Perfect">
+The best way to master Cobb Can Move modifiers is through repeated play. Each death offers a learning opportunity; pay attention to the death tips for insights into what went wrong and how to adjust your approach for the next run.
+</Callout>
+
+</Section>

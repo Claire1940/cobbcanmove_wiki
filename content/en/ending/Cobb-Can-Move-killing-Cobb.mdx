@@ -1,0 +1,160 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Cobb Can Move Killing Cobb: Strategies & Mechanics",
+  description: "Explore the mechanics of 'killing' Cobb in Cobb Can Move, understanding stun, distraction, and survival tactics against the changing rules.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/8B0000/fff?text=Killing+Cobb",
+  date: "2026-06-17",
+  author: "Cobb Can Move Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **"Killing Cobb"** typically refers to stunning or evading rather than permanent elimination.
+- **Rocks** are the primary tool for temporarily stunning Cobb.
+- Understanding **Cobb's abilities** (Smell, See, Hear, Reach, Duplicate) is crucial for effective evasion.
+- **Rule changes** impact how you interact with Cobb each run.
+- **Survival tactics** focus on resource management and strategic movement.
+</Callout>
+
+<Section icon={Swords} title="Understanding 'Killing' Cobb in Cobb Can Move">
+In the pixel horror game *Cobb Can Move*, the concept of "killing" Cobb is less about permanent elimination and more about temporary incapacitation or effective evasion. Cobb is the central antagonist, a relentless entity whose abilities and behavior change with each run, making direct confrontation a non-option. Instead, players must rely on smart movement, environmental interaction, and exploiting Cobb's temporary vulnerabilities to survive.
+
+The game's core design revolves around adapting to changing rules, which directly influences how you can "deal with" Cobb. Since v1.4, the game has emphasized learning from death tips and adapting to Cobb's various sensory rules. Mastering these mechanics is key to navigating the dark, procedurally generated levels and ultimately surviving Cobb's pursuit.
+
+**Video Highlights:**
+- Demonstrates effective rock usage for stunning Cobb.
+- Shows how different rules impact Cobb's detection.
+- Provides examples of successful evasion tactics.
+
+<Callout type="tip">
+Focus on **temporary incapacitation** and **evasion** rather than attempting to "kill" Cobb in the traditional sense. The game rewards strategic thinking over brute force.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Cobb's Abilities and Their Counterplay">
+Cobb's behavior is dynamic, with each run introducing new rules that modify its abilities. Understanding these abilities is fundamental to developing effective counter-strategies. The game's official devlogs have detailed several of Cobb's core senses and movement patterns.
+
+<CardGrid cols={3}>
+  <Card title="Cobb Can See">
+    - **Vision-based detection**
+    - Affected by player light level
+    - Range adjusted in v1.4 and v1.5
+  </Card>
+  <Card title="Cobb Can Smell">
+    - **Scent-based tracking**
+    - Points Cobb towards player
+    - Nerfed in v1.7 (less frequent sniffs, less persistence)
+  </Card>
+  <Card title="Cobb Can Hear">
+    - **Sound-based detection**
+    - Triggered by player movement or item usage
+    - Requires quiet movement
+  </Card>
+  <Card title="Cobb Can Reach">
+    - **Extended attack range**
+    - Cobb takes larger steps (v1.6)
+    - Less speed, but requires wider spacing
+  </Card>
+  <Card title="Cobb Duplicates">
+    - **Multiple Cobbs appear**
+    - Can push each other (v1.6 fix)
+    - Stacking after Level 5 in Endless Mode
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Dynamic Threat">
+Always check the active rule text at the start of each level. Cobb's abilities are not static, and what worked in one run might lead to immediate death in the next.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Strategic Use of Items Against Cobb">
+While you can't permanently defeat Cobb, certain items provide crucial defensive and evasive capabilities. Rocks are particularly important, offering a temporary reprieve when directly hit.
+
+| Item Type | Primary Use Against Cobb | Official Update Note | Player Takeaway |
+| :-------- | :----------------------- | :------------------- | :-------------- |
+| **Rocks** | Temporary stun, distraction | v1.6: Stun on direct hit, louder sound. v1.7: Fixed stun consistency during pursuit. | Essential for breaking line of sight or creating escape windows. |
+| **Coal** | Objective item, can distract | v1.6: Less likely to spawn near furnace, increasing routing pressure. | Primarily for objectives, but dropping can create noise, potentially drawing Cobb. |
+| **Carrots** | Player sustenance | v1.3: Carrots respawn when eaten. | Maintain player stats to avoid "Starve" rule, which can impair movement and focus. |
+| **Batteries** | Ending progression | v1.4: Changes final task text. | Focus on objectives; indirect impact on Cobb by progressing the game. |
+
+<Callout type="info">
+**Rocks** are your best offensive tool against Cobb. Practice aiming and timing direct hits to maximize their stun effect, especially during high-pressure pursuits.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Effective Evasion and Survival Tactics">
+Surviving against Cobb means mastering movement, resource management, and adapting to the game's unpredictable nature. The game's updates have consistently refined these aspects to ensure a challenging yet fair experience.
+
+<Steps>
+  <Step num="1" title="Read the Rule Text">
+    At the start of every run, pay close attention to the active rule. This dictates Cobb's current primary detection method and how you should adjust your strategy. For example, a "Cobb can see" rule requires staying out of its line of sight, while "Cobb can hear" demands silent movement.
+  </Step>
+  <Step num="2" title="Master Item Usage">
+    Utilize rocks for stunning Cobb when cornered or to create a diversion. Remember that v1.7 fixed rock stun consistency, making them more reliable. Drop items strategically; v1.4 improved item swapping, allowing for quicker inventory management even in tight spots.
+  </Step>
+  <Step num="3" title="Control Your Movement">
+    Cobb's pursuit speed increases over time (v1.6), although v1.7 slightly nerfed its acceleration. Avoid extended chases. Learn to "kite" Cobb around obstacles and through choke points to buy time. If "Cobb can smell" is active, change directions frequently to break its scent trail.
+  </Step>
+  <Step num="4" title="Manage Resources Efficiently">
+    Gather coal for the furnace and eat carrots to prevent starvation. These objectives often force you into dangerous areas. Plan your routes carefully to minimize exposure to Cobb's detection zones.
+  </Step>
+  <Step num="5" title="Learn from Death Tips">
+    Since v1.4, the game provides tips after you die. These are invaluable for understanding what went wrong and adapting your approach for the next run. Each death is a learning opportunity to refine your survival strategy.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Adaptation is Key">
+The most successful players are those who can rapidly adapt their tactics based on the current rules and Cobb's behavior. Don't rely on a single fixed strategy.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Impact of Updates on Cobb's Behavior">
+The developers of *Cobb Can Move* have consistently updated the game, with many patches directly influencing Cobb's behavior and the player's ability to survive. These updates often balance Cobb's senses and pursuit mechanics, making the gameplay experience continuously fresh.
+
+| Version | Date       | Key Changes Affecting Cobb | Player Impact |
+| :------ | :--------- | :------------------------- | :------------ |
+| **v1.7**  | 2026-05-19 | Nerfed 'Cobb can smell', slightly nerfed long-pursuit acceleration, fixed rock stun during pursuit. | **Less relentless pursuit**, more reliable rock usage. |
+| **v1.6**  | 2026-05-16 | Rocks stun Cobb, louder rock sound, Cobb gets faster during long pursuits, 'Reach' changes step behavior, duplicates push each other. | **Rocks become a core defensive tool**, longer chases are more dangerous, duplicate management improves. |
+| **v1.5**  | 2026-05-10 | Adjusted 'Cobb can see' range again, slightly buffed Cobb's speed during final task. | **Sight rules remain critical**, ending sequence becomes more challenging. |
+| **v1.4**  | 2026-05-09 | Guaranteed sensory rule on Level 2, slightly nerfed 'Cobb can see', fixed Cobb failing to kill player after grab, nerfed Cobb's speed during final task. | **Early game introduces sensory rules earlier**, some bugs affecting Cobb's kills fixed, easier final task. |
+
+<Callout type="tip">
+Staying informed about the latest patch notes can give you a significant advantage, as developer adjustments directly impact how you should approach Cobb.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Frequently Asked Questions About Cobb and Survival">
+
+<FAQ items={[
+  {
+    question: "Can you permanently kill Cobb in Cobb Can Move?",
+    answer: "No, Cobb cannot be permanently killed. The game focuses on survival, evasion, and temporary incapacitation through items like rocks. The goal is to outsmart and outlast Cobb, not to defeat it in combat."
+  },
+  {
+    question: "What is the most effective way to stun Cobb?",
+    answer: "Direct hits with rocks are the most effective way to stun Cobb temporarily. The v1.7 update improved their reliability, making them a crucial defensive tool, especially during pursuits."
+  },
+  {
+    question: "How do Cobb's changing rules affect survival?",
+    answer: "Cobb's rules dynamically alter its detection methods (sight, smell, hear) and movement (reach, duplicates). Players must read the active rule at the start of each run and adapt their movement, hiding, and item usage strategies accordingly to survive."
+  },
+  {
+    question: "Are there any cheats or exploits to make 'killing' Cobb easier?",
+    answer: "There are no official cheats or exploits to make dealing with Cobb easier. The game is designed around its core mechanics of rule changes and adaptation. Focusing on learning Cobb's abilities and using environmental elements is the intended path to survival."
+  }
+]} />
+
+</Section>

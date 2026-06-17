@@ -1,0 +1,193 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Cobb Can Move Mechanics: Understanding Cobb's Abilities & Rules",
+  description: "Dive deep into Cobb Can Move mechanics, including Cobb's sensory abilities, movement patterns, duplication, and how game rules change each run.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/8B0000/fff?text=Cobb+Can+Move+Mechanics",
+  date: "2026-06-17",
+  author: "Cobb Can Move Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Cobb Can Move mechanics** define the game's survival horror experience.
+- **Sensory rules** (See, Hear, Smell) are crucial for player detection.
+- **Movement rules** like Reach and pursuit acceleration affect Cobb's behavior.
+- **Duplicate Cobbs** add a layer of complexity, especially in later levels.
+- **Rocks** are a vital utility item for stunning Cobb and creating distractions.
+</Callout>
+
+<Section icon={Target} title="Understanding Cobb Can Move Mechanics: The Core Rules">
+Cobb Can Move is a unique survival horror game where the core mechanics revolve around constantly changing rules and Cobb's evolving abilities. Each run presents a new challenge, forcing players to adapt their strategies rather than relying on fixed patterns. Understanding these dynamic mechanics is key to survival.
+
+The game's design ensures that no two runs are identical. This unpredictability is a central feature, making every decision critical. Players must pay close attention to the active rule text at the start of each level to anticipate Cobb's behavior and adjust their approach accordingly.
+
+<Callout type="tip">
+Always read the active rule text at the beginning of each level. Cobb's behavior and detection methods can drastically change, making previous strategies ineffective.
+</Callout>
+
+<CardGrid cols={2}>
+  <Card title="Dynamic Rule System">
+    - **Rules change** per run, influencing Cobb's detection and movement.
+    - Prevents rote memorization, encourages **adaptive gameplay**.
+    - Ensures high **replayability** and constant tension.
+  </Card>
+  <Card title="Cobb's Evolving Threat">
+    - Cobb's abilities like **sight, smell, and reach** are subject to balance changes.
+    - Updates often tweak Cobb's pursuit speed and duplicate behavior.
+    - Forces players to stay updated with **patch notes** for optimal strategy.
+  </Card>
+</CardGrid>
+
+</Section>
+
+<Section icon={Shield} title="Cobb's Sensory Abilities: See, Hear, Smell">
+Cobb's primary threat comes from its sensory abilities, which are heavily influenced by the active rules. These rules dictate how Cobb detects the player, making careful movement and environmental awareness paramount. The game often guarantees a sensory rule by Level 2, ensuring players quickly learn to respect Cobb's detection methods.
+
+### Cobb Can See
+This rule makes Cobb detect the player based on their visibility and light level. Updates have actively balanced this ability, with v1.4 slightly nerfing its range and v1.5 adjusting it again. Players should treat "Cobb can see" as a major modifier to danger, requiring stealth and avoiding open areas.
+
+### Cobb Can Smell
+In v1.7, "Cobb can smell" received a nerf, resulting in less frequent sniffs and reduced persistence at close range. While less relentless than before, smell remains a critical sensory rule. Players should be mindful of their movements, as lingering in one spot can still attract Cobb.
+
+### Cobb Can Hear
+Although not explicitly detailed in recent patch notes for nerfs or buffs, "Cobb can hear" is a fundamental sensory rule. Loud movements or interactions can alert Cobb to the player's presence, making quiet navigation essential when this rule is active.
+
+<Callout type="warning" title="Sensory Overload">
+Ignoring sensory rules is a common beginner mistake. Each rule (See, Hear, Smell) demands a distinct approach to movement and interaction. Failing to adapt will lead to quick demise.
+</Callout>
+
+| Sensory Rule | Detection Method | Player Strategy | Update Notes (v1.4 - v1.7) |
+|---|---|---|---|
+| **Cobb Can See** | Player visibility, light level | Stealth, use darkness, avoid open areas | v1.4 & v1.5: Range adjustments (nerfed) |
+| **Cobb Can Smell** | Player's scent trail, proximity | Avoid lingering, quick movements | v1.7: Less frequent sniffs, less persistence |
+| **Cobb Can Hear** | Player's sound, interactions | Move quietly, minimize noise | N/A (fundamental rule) |
+
+</Section>
+
+<Section icon={Swords} title="Cobb's Movement & Duplication Mechanics">
+Beyond sensory abilities, Cobb's movement patterns and the dreaded duplication mechanic add layers of complexity to each run. Recent updates have refined these mechanics, influencing how players navigate the procedurally generated maps and engage with the monster.
+
+### Pursuit Behavior
+Cobb's pursuit speed has seen several adjustments. V1.6 made Cobb slightly faster during long pursuits, increasing pressure in extended chases. However, v1.7 slightly nerfed Cobb's acceleration during these long pursuits, making them a bit more manageable without removing the inherent danger. Random wandering speed in larger maps also increased in v1.6.
+
+### Reach Rule
+When the "Reach" rule is active, Cobb's movement changes significantly. V1.6 implemented a mechanic where Cobb takes larger steps but with slightly less overall speed. This alters the feel of Cobb's movement, requiring players to maintain greater spacing and anticipate larger lunges rather than just faster movement.
+
+### Duplicate Cobbs
+The duplication mechanic introduces multiple Cobbs to the map. V1.6 specifically addressed an issue where duplicate Cobbs could merge back into one, by making them push each other. This change ensures that duplicate Cobbs behave more distinctly and predictably, making multi-Cobb situations clearer and less confusing for the player. Duplicates can stack after Level 5 in Endless Mode.
+
+<Callout type="success" title="Adapting to Cobb's Movements">
+Mastering Cobb's movement patterns, especially under different rules, is a significant step towards consistent survival. Learn to recognize the visual and auditory cues for each ability.
+</Callout>
+
+| Mechanic | Description | Impact on Player | Key Update Notes |
+|---|---|---|---|
+| **Long Pursuit Speed** | Cobb gains speed during extended chases. | Forces strategic evasion, breaks line of sight. | v1.6: Faster; v1.7: Acceleration slightly nerfed. |
+| **Reach Rule** | Cobb takes larger, slower steps. | Maintain wider distance, anticipate lunges. | v1.6: Larger steps, less speed. |
+| **Duplicate Behavior** | Multiple Cobbs appear, behave distinctly. | Increased threat, requires multi-threat management. | v1.6: Duplicates push each other; stack after Level 5 (Endless). |
+| **Random Wandering** | Cobb's general movement in larger maps. | Map awareness, predicting patrol routes. | v1.6: Faster wandering in larger maps. |
+
+</Section>
+
+<Section icon={Sparkles} title="Key Item Interactions & Environmental Mechanics">
+Survival in Cobb Can Move isn't just about avoiding Cobb; it's also about effectively utilizing the environment and interactable items. Rocks, coal, carrots, and the crucial furnace and breaker mechanics all play a role in your survival loop. Recent updates have fine-tuned how these elements function, impacting player strategy.
+
+### Rocks
+Rocks are more than just environmental clutter. V1.6 made rocks capable of stunning Cobb for a short period on a direct hit and increased their sound clarity. V1.7 further solidified their utility by fixing instances where rocks failed to stun Cobb during pursuit. This makes rocks a reliable defensive tool in desperate situations.
+
+### Coal and Furnaces
+The core survival loop often involves collecting coal to power furnaces. V1.6 adjusted coal spawning, making it less likely to appear directly next to the furnace. This change increases the routing pressure and forces players to move further, adding to the challenge. The Blast Furnace in the ending also received a larger hitbox in v1.6 for easier interaction.
+
+### Breakers and Batteries
+The breaker is a visible map object players need to recognize. V1.3 updated its sprite to make it more noticeable. Batteries are essential for progression, specifically tied to the ending sequence. V1.4 changed the final task text after placing four batteries, and the overall final task balance was tweaked in v1.4 and v1.5.2.
+
+<Callout type="info">
+Effective item management and environmental awareness are as vital as understanding Cobb's behaviors. Use every tool at your disposal to increase your chances of survival.
+</Callout>
+
+| Item/Mechanic | Gameplay Use | Key Update Notes | Player Takeaway |
+|---|---|---|---|
+| **Rocks** | Stun Cobb, distraction | v1.6: Stun on direct hit, louder sound; v1.7: Stun fix during pursuit. | Essential defensive and distraction tool. |
+| **Coal** | Fuel for furnaces | v1.6: Less likely to spawn near furnace. | Plan longer routes for fuel collection. |
+| **Carrots** | Player sustenance | v1.3: Carrots respawn when eaten. | Reliable, repeatable food source. |
+| **Batteries** | Ending progression | v1.4: Final task text change after placing four. | Track progress; final task changes. |
+| **Furnace** | Core objective | v1.6: Coal spawn changes. | Central to survival, requires resource management. |
+| **Blast Furnace** | Ending interaction | v1.6: Larger hitbox in ending. | Easier to interact with during final sequence. |
+| **Breaker** | Map object | v1.3: Sprite made more noticeable. | Look for updated visual to locate quickly. |
+| **Item Drop Spot** | Inventory handling | v1.4: Allows swapping over walls (red drop spot). | More forgiving item management. |
+
+</Section>
+
+<Section icon={Trophy} title="Mastering Survival: Advanced Tips & Strategies">
+To truly master Cobb Can Move, players must integrate their understanding of Cobb's mechanics with strategic gameplay. This involves not only reacting to immediate threats but also planning for future challenges and leveraging game features like death tips and level select.
+
+<Steps>
+  <Step num="1" title="Prioritize Rule Awareness">
+    Before making any significant move, always confirm the active rule. This dictates Cobb's primary detection method and should heavily influence your route planning and item usage. A "Cobb can see" rule demands darkness and cover, while "Cobb can smell" requires rapid movement through areas.
+  </Step>
+  <Step num="2" title="Strategic Rock Usage">
+    Rocks are your most reliable counter-play tool. Use them not just as a last resort, but proactively to create diversions or stun Cobb for crucial seconds. Practice direct hits to maximize their stun potential, especially during pursuits where Cobb's speed can be overwhelming.
+  </Step>
+  <Step num="3" title="Efficient Resource Management">
+    Coal is your lifeline. Plan routes that efficiently gather coal while minimizing exposure to Cobb. Remember that coal spawns are now further from furnaces, so factor in extra travel time. Carrots respawn, providing a sustainable food source if you can safely reach them.
+  </Step>
+  <Step num="4" title="Learn from Every Death">
+    The v1.4 update introduced death tips. These are invaluable learning tools. Instead of immediately restarting, take a moment to read the tip. It often highlights a specific mechanic or mistake relevant to your last run, helping you refine your strategy.
+  </Step>
+  <Step num="5" title="Utilize Level Select for Practice">
+    After completing the story mode, the v1.5 update unlocks a level select menu. Use this to practice difficult levels or specific rule combinations. This focused practice can significantly improve your ability to handle various Cobb mechanics without the pressure of a full run.
+  </Step>
+</Steps>
+
+<Callout type="warning">
+Memorizing map layouts is less effective than understanding and adapting to Cobb's dynamic mechanics. The game's procedural generation ensures unpredictability.
+</Callout>
+
+<Checklist
+  id="survival-checklist"
+  title="Essential Survival Checklist:"
+  items={[
+    "Always check active rules",
+    "Master rock stun timing",
+    "Optimize coal collection routes",
+    "Read death tips for insights",
+    "Practice challenging levels via select menu"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Map} title="FAQ: Deep Dive into Cobb Can Move Mechanics">
+
+<FAQ items={[
+  {
+    question: "How do Cobb Can Move mechanics make each run unique?",
+    answer: "The game features a dynamic rule system where new rules are randomly selected for each level, fundamentally altering Cobb's behavior and detection methods. This forces players to adapt their strategies constantly instead of relying on rote memorization."
+  },
+  {
+    question: "What are Cobb's key sensory abilities?",
+    answer: "Cobb primarily detects players through sight ('Cobb can see'), smell ('Cobb can smell'), and hearing ('Cobb can hear'). Each of these abilities is governed by specific rules and has seen balance adjustments in updates, impacting how players should move and interact with the environment."
+  },
+  {
+    question: "How do duplicate Cobbs behave differently now?",
+    answer: "In v1.6, duplicate Cobbs were updated to push each other instead of merging back into one. This change makes multi-Cobb situations clearer and ensures that each duplicate acts as a distinct threat, enhancing the challenge and visual clarity."
+  },
+  {
+    question: "Are rocks an effective tool against Cobb?",
+    answer: "Yes, rocks are highly effective. V1.6 enabled direct hits to stun Cobb briefly, and v1.7 fixed instances where rocks failed to stun during pursuit. This makes rocks a reliable defensive and distraction tool, crucial for escaping dangerous encounters."
+  },
+  {
+    question: "What is the purpose of death tips?",
+    answer: "Introduced in v1.4, death tips appear after a player dies, offering insights into what went wrong or how to handle specific mechanics. They are designed to help players learn from their mistakes and refine their strategies for subsequent runs."
+  }
+]} />
+
+</Section>

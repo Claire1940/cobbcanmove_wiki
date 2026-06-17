@@ -1,0 +1,160 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Cobb Can Move Senses: Mastering Detection Rules & Tactics",
+  description: "Understand Cobb Can Move's sensory abilities (See, Hear, Smell) and how to adapt your survival tactics to each rule for optimal play.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/8B0000/fff?text=Cobb+Senses+Guide",
+  date: "2026-06-17",
+  author: "Cobb Can Move Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Cobb Can Move senses**: Adapt to **See**, **Hear**, and **Smell** rules each run.
+- **Sensory rules** are guaranteed from Level 2, forcing early adaptation.
+- **Smell** was recently nerfed, reducing persistence and sniff frequency.
+- **Sight** (Cobb Can See) has been balanced across multiple updates.
+- Use **rocks** as a defensive tool, especially during pursuits, for stunning Cobb.
+</Callout>
+
+<Section icon={Target} title="Understanding Cobb's Sensory Abilities">
+Cobb's ability to detect the player is central to the survival horror experience in Cobb Can Move. The game's core mechanic revolves around constantly changing rules, and these often include sensory rules that dictate how Cobb perceives your presence. Mastering these rules is crucial for long-term survival. The official devlog highlights Cobb's abilities as Move, See, Hear, Smell, Reach, and Duplicate. Here, we focus on the sensory aspects.
+
+**Video Highlights:**
+- Demonstrates how Cobb's senses change gameplay.
+- Shows player reactions to different sensory rules.
+- Offers visual examples of successful evasion tactics.
+
+<Callout type="tip">
+Always check the active rule text at the start of each level. Cobb's behavior, and your survival strategy, will drastically change based on whether he can See, Hear, or Smell you.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Cobb Can See: Navigating Visibility Rules">
+The "Cobb Can See" rule significantly impacts how you move through the dark environments. Cobb's line of sight becomes your primary concern, making careful navigation and strategic use of environmental cover paramount.
+
+<CardGrid cols={2}>
+  <Card title="Cobb Can See Behavior">
+    - Cobb detects players within his visual cone.
+    - Light levels influence detection range.
+    - Requires players to stay out of direct sight.
+  </Card>
+  <Card title="Update History & Balance">
+    - v1.4 slightly nerfed "Cobb can see."
+    - v1.5 adjusted the "Cobb can see" range again.
+    - Developers actively balance this rule to maintain challenge.
+  </Card>
+</CardGrid>
+
+When "Cobb Can See" is active, prioritize staying in shadows and behind obstacles. Rushing through open areas is a death sentence.
+
+<Callout type="warning" title="Visibility Is Key">
+Treat visibility-related rules as major danger modifiers. Any movement in Cobb's direct line of sight, especially in illuminated areas, will likely lead to detection and pursuit.
+</Callout>
+
+### Strategies for "Cobb Can See"
+
+<Steps>
+  <Step num="1" title="Utilize Darkness and Cover">
+    Stay in dimly lit areas and use walls, furniture, or any available cover to break Cobb's line of sight. Avoid open corridors.
+  </Step>
+  <Step num="2" title="Slow, Deliberate Movement">
+    Fast movements can draw attention even if you're partially obscured. Move slowly and deliberately, peeking around corners before proceeding.
+  </Step>
+  <Step num="3" title="Observe Cobb's Patrol Patterns">
+    Learn Cobb's common patrol routes within a level. This allows you to anticipate his movements and plan your path accordingly, minimizing exposure.
+  </Step>
+</Steps>
+
+</Section>
+
+<Section icon={Sparkles} title="Cobb Can Smell: Adapting to Scent Detection">
+The "Cobb Can Smell" rule introduces a different layer of threat, as Cobb can track players by scent. This ability bypasses visual and auditory hiding spots, forcing players to manage their presence in a new way.
+
+| Scent Detection Aspect | Description                                                                        | Official Update Note (v1.7)                                     | Player Takeaway                                               |
+| :--------------------- | :--------------------------------------------------------------------------------- | :-------------------------------------------------------------- | :------------------------------------------------------------ |
+| **Detection Mechanism**  | Cobb tracks player scent, independent of line of sight or sound.                   | Nerfed with less frequent sniffs and less persistence at close range. | Less relentless than before, but still a significant threat.  |
+| **Persistence**        | Scent trails can linger, allowing Cobb to follow your past path.                   | Reduced persistence at close range.                              | Moving quickly out of an area can reduce tracking effectiveness. |
+| **Engagement Range**   | Triggers when Cobb is within a certain proximity of your scent.                    | Less frequent sniffs mean fewer initial detections.             | Maintain distance and avoid loitering in one spot.             |
+| **Counterplay**        | No direct counter besides continuous movement and avoiding prolonged presence.      | Focus on rapid movement and environmental changes.              | Constant repositioning is key; don't rely on static hiding.   |
+
+The v1.7 update specifically targeted "Cobb Can Smell," making it less oppressive. This means players have a slightly larger window to escape detection once scented, but it remains a potent threat.
+
+<Callout type="info">
+While "Cobb Can Smell" was nerfed in v1.7, it remains an important sensory rule. Don't underestimate its ability to track you, especially in tighter spaces.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Cobb Can Hear: Responding to Sound Cues">
+The "Cobb Can Hear" rule makes noise a critical factor in your survival. Every step, item interaction, or dropped object can alert Cobb to your position, demanding extreme caution and silent movement.
+
+| Sound Source      | Effect on Cobb's Hearing | Player Strategy                                          | Update Significance (v1.6)                                 |
+| :---------------- | :----------------------- | :------------------------------------------------------- | :--------------------------------------------------------- |
+| **Player Footsteps** | Louder movement increases detection range. | Move slowly; avoid running unless absolutely necessary.  | No specific updates, but base sound mechanics apply.       |
+| **Dropped Items** | Creates a distinct sound cue. | Drop items only when Cobb is far or distracted.          | Item swapping is more forgiving (v1.4), but sound still matters. |
+| **Rocks**         | Can be thrown to create sound. | Use rocks as a distraction or to stun Cobb (v1.6).        | v1.6 made rock sounds louder, improving their utility.     |
+| **Furnace/Breaker** | Interaction sounds are localized. | Engage with objectives only when the path is clear.      | No specific updates on sound, but interaction is inherent. |
+| **Cobb's Movement** | Cobb's own sounds indicate proximity. | Listen carefully for Cobb's steps to gauge his location. | Cobb's pursuit speed adjusted in v1.6/v1.7.                 |
+
+Rocks play a particularly interesting role when "Cobb Can Hear" is active. They can be thrown to create diversions, drawing Cobb away from your intended path. The v1.6 update made rock sounds louder, making them more effective for this purpose.
+
+<Callout type="tip">
+When "Cobb Can Hear" is active, rocks are your best friend. Use them to create distractions, lure Cobb away, or even stun him if he's in pursuit.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Integrating Sensory Rules into Overall Strategy">
+Successfully navigating Cobb Can Move requires a dynamic approach, constantly adjusting your strategy based on the active sensory rules. The game is designed to keep you on your toes, and understanding how Cobb's senses operate is the first step towards survival.
+
+<Checklist
+  id="sensory-survival-checklist"
+  title="Cobb's Sensory Survival Checklist:"
+  items={[
+    "Read the active rule text at the start of every run.",
+    "Prioritize stealth and cover when 'Cobb Can See' is active.",
+    "Maintain constant movement and avoid lingering when 'Cobb Can Smell' is active.",
+    "Utilize sound distractions (e.g., rocks) effectively when 'Cobb Can Hear' is active.",
+    "Learn from death tips to understand how each sensory rule impacts gameplay."
+  ]}
+/>
+
+The official devlogs emphasize the importance of adapting to these rules. For instance, v1.4 guarantees a sensory rule on Level 2, pushing players to learn these mechanics early. The ongoing balance changes, like the v1.7 nerf to "Cobb Can Smell," indicate that the developers are refining the sensory experience to ensure a challenging yet fair gameplay loop.
+
+<Callout type="success">
+The most successful players are those who treat each run as a unique puzzle, with Cobb's current sensory rules providing the key parameters. Adapt, observe, and survive.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="FAQ on Cobb's Senses">
+
+<FAQ items={[
+  {
+    question: "How do Cobb's sensory rules change gameplay?",
+    answer: "Cobb's sensory rules (See, Hear, Smell) fundamentally alter how he detects the player. For example, 'Cobb Can See' makes visual stealth crucial, while 'Cobb Can Smell' forces players to keep moving to avoid being tracked by scent."
+  },
+  {
+    question: "Are sensory rules always active?",
+    answer: "No, the rules change each run. However, v1.4 guarantees that Level 2 will always include a sensory rule (Hear, Smell, or See) to introduce players to these mechanics early."
+  },
+  {
+    question: "What was the most recent balance change to Cobb's senses?",
+    answer: "In v1.7, 'Cobb Can Smell' was nerfed with less frequent sniffs and reduced persistence when a player is smelled at close range, making it slightly less relentless than before."
+  },
+  {
+    question: "Can I use items to counter Cobb's senses?",
+    answer: "Yes, particularly with 'Cobb Can Hear' active, rocks can be thrown to create distractions, luring Cobb away from your position. Rocks can also stun Cobb on a direct hit."
+  }
+]} />
+
+</Section>

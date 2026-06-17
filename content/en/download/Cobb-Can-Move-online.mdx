@@ -1,0 +1,174 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Cobb Can Move Online: Official Play & Survival Guide",
+  description: "Discover where to play Cobb Can Move online, including official itch.io links, browser play, and essential survival tips for this pixel horror game.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/8B0000/fff?text=Cobb+Can+Move+Online",
+  date: "2026-06-17",
+  author: "Cobb Can Move Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Cobb Can Move online** is officially available on itch.io for browser play and Windows download.
+- The game features **changing rules** each run, demanding adaptive survival strategies.
+- Master **Cobb's abilities** like sight, smell, and reach to anticipate threats.
+- Utilize **interactive items** such as coal, rocks, and carrots for progression and distraction.
+- Stay updated with **official devlogs** for balance changes and new features.
+</Callout>
+
+<Section icon={Map} title="Official Ways to Play Cobb Can Move Online">
+
+Playing **Cobb Can Move online** is straightforward through its official platform. The developer, abho, hosts the game on itch.io, offering both browser-based gameplay and a downloadable Windows build. This ensures players access the legitimate version, avoiding unofficial mirror sites. The game is currently at v1.7, featuring continuous updates and balance adjustments.
+
+**Video Highlights:**
+- Demonstrates initial gameplay and core mechanics.
+- Shows the pixel art horror aesthetic.
+- Highlights the dark, procedural environments.
+
+<YouTubeEmbed videoId="R_23r0_u32U" title="COBB CAN MOVE - Markiplier" />
+
+The official itch.io page provides a direct and secure way to experience this unique pixel survival horror. It supports both keyboard and gamepad inputs, making it accessible for various playstyles.
+
+<CardGrid cols={2}>
+  <Card title="Browser Play (HTML5)">
+    - **Instant Access**: Play directly in your web browser without any downloads.
+    - **Official Source**: Guaranteed to be the genuine game from abho.
+    - **Cross-Platform**: Accessible on any device with a compatible browser.
+  </Card>
+  <Card title="Windows Download">
+    - **Offline Access**: Play without an internet connection once downloaded.
+    - **Stable Performance**: Optimized for Windows, offering a smoother experience.
+    - **Latest Version**: Always updated to the most recent patch (currently v1.7).
+  </Card>
+</CardGrid>
+
+<Callout type="tip">
+Always use the official itch.io page at `abho.itch.io/cobb-can-move` to play Cobb Can Move online or download the game. This ensures you receive legitimate updates and support the developer directly.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Mastering Survival: Beginner's Guide to Cobb Can Move">
+
+Survival in **Cobb Can Move online** hinges on understanding its core mechanics and adapting to its ever-changing rules. New players should prioritize learning the basic loop of resource management, objective completion, and monster avoidance. Each run introduces new challenges, making quick learning and strategic thinking paramount.
+
+<Steps>
+  <Step num="1" title="Start from the Official itch.io Page">
+    Launch the game directly from `abho.itch.io/cobb-can-move` to ensure you're playing the authentic experience. The browser version is excellent for quick starts.
+  </Step>
+  <Step num="2" title="Read the Rule Text Every Run">
+    Before starting, always check the active rule for the level. Rules change how Cobb detects you (e.g., "Cobb can see," "Cobb can smell"), dictating your approach.
+  </Step>
+  <Step num="3" title="Move Carefully Around Cobb's Senses">
+    Cobb's sensory abilities are critical threats. Adapt your movement based on the active rule. For instance, if "Cobb can hear" is active, minimize noise.
+  </Step>
+  <Step num="4" title="Utilize Items Strategically">
+    Items like coal, rocks, and carrots are vital. Coal fuels furnaces, rocks can stun Cobb, and carrots can respawn, providing sustained resources.
+  </Step>
+  <Step num="5" title="Learn from Death Tips">
+    The game provides valuable tips after each death. These insights highlight mistakes or new mechanics, helping you improve on subsequent runs.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Critical Survival Note">
+Never assume the rules or Cobb's behavior will be the same as your last run. The procedural generation and changing rules are designed to keep you on your toes, demanding constant adaptation.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Cobb's Abilities and Dynamic Rules in Cobb Can Move Online">
+
+The heart of **Cobb Can Move online** lies in its dynamic rule system and Cobb's evolving abilities. The game constantly introduces new sensory and movement rules, ensuring no two runs are exactly alike. Understanding these variations is key to predicting Cobb's behavior and formulating effective counter-strategies.
+
+<CardGrid cols={3}>
+  <Card title="Sensory Rules">
+    - **Cobb Can See**: Influenced by player light levels.
+    - **Cobb Can Hear**: Triggered by player movement and actions.
+    - **Cobb Can Smell**: Points Cobb towards the player, even through walls.
+  </Card>
+  <Card title="Movement & Pursuit">
+    - **Cobb Can Move**: Basic movement speed.
+    - **Long Pursuit Speed**: Cobb gets faster during extended chases (though v1.7 slightly nerfed acceleration).
+    - **Reach Rule**: Cobb takes larger steps but with reduced speed, changing movement feel.
+  </Card>
+  <Card title="Special Behaviors">
+    - **Duplicate Behavior**: Duplicates push each other, preventing merging (v1.6 fix).
+    - **Rock Stun Fix**: Rocks reliably stun Cobb on direct hit, even during pursuit (v1.7 fix).
+  </Card>
+</CardGrid>
+
+<Callout type="info">
+The developer frequently balances Cobb's abilities through updates. For example, "Cobb can smell" was nerfed in v1.7 for less frequent sniffs, making it less relentless. Always check the latest patch notes.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Key Items and Objectives for Progression">
+
+Navigating **Cobb Can Move online** requires a keen understanding of its interactive items and primary objectives. From fueling furnaces to managing batteries, each element plays a crucial role in your survival and progression through the game's challenging levels.
+
+| Item/Object | Type | Gameplay Use | Official Update Note | Player Takeaway |
+| :---------- | :--- | :----------- | :------------------- | :-------------- |
+| **Coal** | Resource | Fuels furnaces, core survival loop. | v1.6: Less likely to spawn next to furnace. | Expect more movement for fuel. |
+| **Rocks** | Throwable | Can stun Cobb, creates noise. | v1.7: Fixed stun during pursuit, louder sound. | Use for defense and distraction. |
+| **Carrots** | Respawning | Sustains player, forces movement. | v1.3: Respawn when eaten. | Reliable, repeatable item source. |
+| **Batteries** | Progression | Required for ending sequence. | v1.4: Changed final task text after placing four. | Track progress carefully for final task. |
+| **Furnace** | Objective | Central to coal routing and survival. | v1.6: Coal spawns farther away. | Plan routes for efficient fuel delivery. |
+| **Breaker** | Map Object | Visible interactable. | v1.3: Slightly changed sprite for noticeability. | Look for updated appearance on map. |
+
+<Callout type="success" title="Efficient Item Management">
+Mastering item drops and swaps is crucial. v1.4 allows item swapping even over walls, which significantly improves inventory handling in tight situations.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Endless Mode, Updates, and Community Insights">
+
+Beyond the story mode, **Cobb Can Move online** offers an Endless Mode for continuous challenge, alongside regular updates that keep the gameplay fresh. The community, though unofficial on platforms like Reddit, is a testament to the game's engaging design and replayability.
+
+<Checklist
+  id="endless-mode-strategy"
+  title="Endless Mode Survival Checklist:"
+  items={[
+    "Adapt to Level 3 start point with increased pressure.",
+    "Understand procedural map generation and seeded randomness.",
+    "Master all of Cobb's sensory and movement rules.",
+    "Utilize rocks effectively for stuns and distractions.",
+    "Manage player pressures like freezing and starving."
+  ]}
+/>
+
+The developer, abho, maintains an active devlog on itch.io, detailing every update from v1.4 through v1.7. These notes cover critical balance changes, bug fixes, and quality-of-life improvements that directly impact both story and endless modes.
+
+<Callout type="tip">
+Official updates are crucial for staying competitive in Cobb Can Move online. Keep an eye on the devlog for the latest balance changes to Cobb's senses and pursuit behavior, which directly affect your survival strategies.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "Where can I play Cobb Can Move online?",
+    answer: "You can play Cobb Can Move online directly from the official itch.io page: abho.itch.io/cobb-can-move. It offers both a browser version and a downloadable Windows build."
+  },
+  {
+    question: "Are there any official codes for Cobb Can Move?",
+    answer: "No, there are no official active redeem codes listed on the itch.io game page or devlog for Cobb Can Move. The game uses a 'name your own price' model for downloads."
+  },
+  {
+    question: "What platforms is Cobb Can Move available on?",
+    answer: "Cobb Can Move is officially available for HTML5 (browser play) and Windows. It is not currently available on Roblox or Steam."
+  },
+  {
+    question: "How often does Cobb Can Move receive updates?",
+    answer: "Cobb Can Move has received several updates, particularly in 2026, focusing on balance, bug fixes, and new features. The latest listed version is v1.7, released on May 19, 2026."
+  }
+]} />
+
+</Section>

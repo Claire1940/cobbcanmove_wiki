@@ -1,0 +1,230 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Monitor, Cpu } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Cobb Can Move Platforms: Official Browser and Windows Setup Guide",
+  description: "Explore Cobb Can Move platforms. Learn how to play the official itch.io browser version or download the Windows build with this 2026 setup guide.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/0a0a0a/ff4444?text=Cobb+Can+Move+Platforms+Setup",
+  date: "2026-06-17",
+  author: "Cobb Can Move Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Cobb Can Move platforms**: Currently available exclusively on **HTML5 (Browser)** and **Windows** via itch.io.
+- **Official Source**: Always use the developer abho's official itch.io page to avoid malware or fake mirrors.
+- **System Requirements**: Minimal; the game runs in most modern browsers and requires a small 15MB download for Windows.
+- **Controller Support**: Fully supports both **Keyboard** and **Gamepad** inputs for precise movement.
+- **Cost Model**: Uses a **Name Your Own Price** model, allowing players to play for free or support the creator.
+</Callout>
+
+<Section icon={Monitor} title="Cobb Can Move Platforms and Official Access">
+
+Understanding the available **Cobb Can Move platforms** is the first step toward surviving the darkness. Unlike many modern indie titles that rush to mobile or console, this Major Jam 7 winner focuses on a tight, responsive experience for PC and web users. The game is officially hosted on itch.io by the developer, abho.
+
+**Video Highlights:**
+- Detailed look at the pixel art horror atmosphere.
+- Demonstration of the "Rules Change" mechanic in real-time.
+- Visual guide to navigating the dark corridors and handling the furnace.
+
+<YouTubeEmbed videoId="7u66-uX7XNo" title="COBB CAN MOVE - Markiplier Gameplay" />
+
+While searching for the game, you may encounter various third-party "play online" sites. It is critical to stick to the official itch.io portal to ensure you are playing the latest version (v1.7 as of May 2026) and to support the developer directly.
+
+| Platform Type | Access Method | Current Version | Format |
+| :--- | :--- | :--- | :--- |
+| **Web Browser** | itch.io "Run Game" button | v1.7 | HTML5 |
+| **Windows PC** | Downloadable ZIP | v1.7 | .exe (Webview2) |
+| **Roblox** | Not Available | N/A | Fake mirrors exist |
+| **Steam** | Not Available | N/A | Project VOIDFACE only |
+
+<Callout type="warning" title="Avoid Fake Platforms">
+Beware of sites claiming to host "Cobb Can Move Roblox" or "Cobb Can Move Steam." These are unofficial and often contain outdated builds or intrusive ads. The developer has confirmed that itch.io is the only official distribution point.
+</Callout>
+
+</Section>
+
+<Section icon={Cpu} title="Technical Requirements and Performance">
+
+Because the game is built on a specialized HTML5 framework, the hardware requirements for **Cobb Can Move platforms** are remarkably low. This makes it accessible to players on older laptops and budget workstations. However, for the best experience, especially in the intense Level 7 or Endless Mode, certain browser settings are recommended.
+
+<CardGrid cols={2}>
+  <Card title="Browser Recommended">
+    - **Chrome / Edge / Firefox**
+    - Hardware Acceleration: **Enabled**
+    - Memory: 4GB RAM minimum
+    - Resolution: 1920x1080 for clarity
+  </Card>
+  <Card title="Windows Build Specs">
+    - OS: Windows 10/11 (64-bit)
+    - Storage: 20MB available space
+    - Graphics: Integrated graphics compatible
+    - Additional: Webview2 Runtime
+  </Card>
+</CardGrid>
+
+The Windows build typically offers slightly better input latency compared to the browser version. If you find the keyboard response sluggish during high-speed pursuits, switching to the downloadable ZIP is highly recommended.
+
+| Component | Minimum Requirement | Recommended for 2026 |
+| :--- | :--- | :--- |
+| **Processor** | Dual Core 2.0GHz | Quad Core 3.0GHz+ |
+| **Graphics** | DirectX 10 Compatible | DirectX 12 / Vulkan |
+| **Storage** | 15 MB | 50 MB (for updates) |
+| **Input** | Keyboard | Gamepad (Xbox/PS5) |
+
+<Callout type="tip" title="Performance Optimization">
+If you experience frame drops in the browser version, try closing background tabs or disabling browser extensions that interact with page rendering. The HTML5 version is highly sensitive to CPU interruptions.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Control Schemes Across Platforms">
+
+Whether you are playing on the web or the desktop build, the control scheme remains consistent. The developer has optimized the game for international accessibility, including support for various keyboard layouts in recent 2026 updates.
+
+<Steps>
+  <Step num="1" title="Movement and Navigation">
+    Use **WASD** or **Arrow Keys** to move. In v1.6, the developer added support for **AZERTY** layouts, making it easier for European players to navigate without remapping.
+  </Step>
+  <Step num="2" title="Interacting with Objects">
+    Use **E** or **Left Click** to pick up items like coal, rocks, and batteries. Dropping items is handled via the same key or a dedicated drop button.
+  </Step>
+  <Step num="3" title="Using Throwables">
+    Rocks are your primary defense. Aim with your cursor and use the action key to throw. v1.7 fixed a bug where rocks would fail to stun Cobb during a pursuit.
+  </Step>
+  <Step num="4" title="Managing the Environment">
+    Interact with the **Breaker** to restore visibility and the **Furnace** to maintain heat. These interactions are context-sensitive and require you to be standing directly adjacent to the object.
+  </Step>
+</Steps>
+
+| Action | Keyboard Mapping | Gamepad Mapping (Standard) |
+| :--- | :--- | :--- |
+| **Move** | WASD / Arrows | Left Stick / D-Pad |
+| **Interact / Pick Up** | E / Left Click | South Button (A/Cross) |
+| **Throw Item** | Right Click / Q | Right Trigger / East Button |
+| **Pause Menu** | Esc | Start / Options |
+| **Level Select** | Mouse (Menu only) | Navigation Buttons |
+
+<Callout type="success" title="Gamepad Advantage">
+Many top-tier players prefer using a Gamepad for Endless Mode. The analog sticks allow for more nuanced "stealth walking," which is vital when the **Cobb Can Hear** rule is active.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Survival Mechanics and Rule Systems">
+
+The core of the game is its dynamic rule system. On all **Cobb Can Move platforms**, the game generates a random rule at the start of each level. You must adapt your playstyle immediately based on the text displayed at the top of the screen.
+
+<CardGrid cols={3}>
+  <Card title="Sensory Rules">
+    - **Cobb Can See**: Visibility matters.
+    - **Cobb Can Hear**: Noise is fatal.
+    - **Cobb Can Smell**: Proximity is tracked.
+  </Card>
+  <Card title="Movement Rules">
+    - **Cobb Can Reach**: Larger steps.
+    - **Cobb Can Move**: Standard pursuit.
+    - **Duplicate**: Multiple Cobbs appear.
+  </Card>
+  <Card title="Player Constraints">
+    - **Freeze**: Stay near light.
+    - **Starve**: Collect carrots.
+    - **Darkness**: Limited field of view.
+  </Card>
+</CardGrid>
+
+Survival depends on your ability to recognize these rules. For instance, if the rule is "Cobb Can Smell," hiding behind a wall won't save you for long. You must keep moving to stay ahead of his tracking.
+
+| Rule Name | Player Strategy | Cobb Behavior Change |
+| :--- | :--- | :--- |
+| **Cobb Can See** | Stay in shadows / Break LOS | Targets player when in light |
+| **Cobb Can Hear** | Walk slowly / Use rocks | Investigates loud noises |
+| **Cobb Can Smell** | Constant movement | Slowly drifts toward player |
+| **Duplicate** | Monitor all directions | Spawns 2+ Cobbs after Level 5 |
+| **Reach** | Maintain extra distance | Takes large, lunging steps |
+
+<Callout type="info" title="v1.7 Balance Changes">
+The latest update in May 2026 nerfed the "Cobb Can Smell" rule. Cobb now sniffs less frequently and is less persistent if he loses your trail at close range, giving you a better chance to escape.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Installation and Setup Checklist">
+
+If you choose to use the Windows build of the **Cobb Can Move platforms**, follow this checklist to ensure a clean installation and optimal performance. The desktop version is often preferred for long-term play and unlocking the "Level Select" menu.
+
+<Checklist
+  id="setup-checklist"
+  title="PC Installation Steps:"
+  items={[
+    "Download the 'COBB CAN MOVE v1.7 webview2.zip' from itch.io",
+    "Extract the contents to a dedicated folder (do not run from ZIP)",
+    "Ensure your Windows Webview2 Runtime is updated to the 2026 version",
+    "Check that your antivirus isn't blocking the .exe (common for indie games)",
+    "Launch the game and verify that your Gamepad is recognized in the settings",
+    "Beat the story mode once to unlock the Level Select menu"
+  ]}
+/>
+
+| File Name | Size | Purpose |
+| :--- | :--- | :--- |
+| **CobbCanMove.exe** | ~5 MB | Main executable |
+| **data.unity3d** | ~8 MB | Game assets and textures |
+| **UnityPlayer.dll** | ~1 MB | Engine runtime library |
+| **Version.txt** | < 1 KB | Version tracking (v1.7) |
+
+<Callout type="warning" title="Save Data Portability">
+Note that save data (such as your story progress and Level Select unlocks) may not sync between the browser and Windows versions. If you plan to switch platforms, you may need to restart your progress.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Version History and 2026 Updates">
+
+The developer has been active throughout early 2026, providing several "quality of life" updates and balance patches. These updates have significantly refined the experience on all **Cobb Can Move platforms**, particularly regarding the final boss encounter and resource spawning.
+
+| Version | Release Date | Key Changes |
+| :--- | :--- | :--- |
+| **v1.7** | May 19, 2026 | Smell nerf, pursuit acceleration nerf, rock stun fix |
+| **v1.6** | May 16, 2026 | Rock stun mechanic, coal spawn logic, larger ending hitbox |
+| **v1.5** | May 10, 2026 | Level Select added, Level 7 rocks, Cobb sight adjustment |
+| **v1.4** | May 09, 2026 | Death tips added, item swap fix, final task rebalance |
+
+<Callout type="success" title="Major Jam 7 Winner">
+Cobb Can Move was the overall winner of Major Jam 7: Wild. It ranked #1 in Concept and #2 in Presentation, proving that its unique rule-changing mechanic is a hit with both players and critics.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "Is Cobb Can Move available on mobile platforms?",
+    answer: "Currently, there is no official mobile app. However, because the game is available on HTML5 platforms, some high-end mobile browsers may be able to run it, though touch controls are not officially supported."
+  },
+  {
+    question: "Can I play Cobb Can Move on Steam or Roblox?",
+    answer: "No. The only official platforms are itch.io (Browser and Windows). Any versions found on Steam or Roblox are unofficial mirrors and should be avoided for security reasons."
+  },
+  {
+    question: "How do I unlock the Level Select menu?",
+    answer: "You must complete the Story Mode (all 7 levels and the final task) at least once. After the credits, the Level Select option will appear in the main menu."
+  },
+  {
+    question: "Does the game support controllers?",
+    answer: "Yes, the official itch.io page confirms support for both Keyboard and any standard Gamepad. This is available on both the browser and Windows versions."
+  }
+]} />
+
+<Callout type="tip" title="Stay Updated">
+Follow the developer abho on itch.io or join the official Discord to get notifications about future platform expansions or version v1.8 updates expected later in 2026.
+</Callout>
+
+</Section>

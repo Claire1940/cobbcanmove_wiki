@@ -1,0 +1,175 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Activity, Zap } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Cobb Can Move Species: 2026 Ability Guide & Survival Tactics",
+  description: "Master the Cobb Can Move species behavior. Learn how sight, smell, and duplicate rules affect survival in this procedural horror guide.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1a1a1a/ff4444?text=Cobb+Species+Guide",
+  date: "2026-06-17",
+  author: "Cobb Can Move Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Cobb Can Move species**: A procedural horror entity whose behavior is dictated by randomized rules each level.
+- **Sensory Mechanics**: Cobb can see, hear, or smell the player depending on the active rule displayed at the start.
+- **Defensive Utility**: Rocks are the primary tool for stunning the species, especially after the v1.7 reliability fixes.
+- **Environmental Interaction**: Survival requires balancing coal management, battery placement, and breaker visibility.
+- **Endless Scaling**: The species becomes more aggressive and numerous in Endless Mode, which officially starts at Level 3.
+</Callout>
+
+<Section icon={Activity} title="Understanding the Cobb Can Move Species">
+
+The **Cobb Can Move species** represents the singular, terrifying threat in abho's procedural survival horror title. Unlike traditional horror monsters with fixed patterns, Cobb is a rule-bound entity. Every level introduces a fresh set of "nonsense" that players must adapt to. Whether the entity is hunting by scent or duplicating itself into a swarm, understanding its biological and mechanical constraints is the only way to reach the final task.
+
+**Video Highlights:**
+- Demonstrating the intense pursuit mechanics of the Cobb species.
+- Visualizing how rules like "Cobb Can See" affect player stealth.
+- Showcasing the high-stakes resource management required to survive Level 7.
+
+<YouTubeEmbed videoId="7X_3_U1_0Is" title="COBB CAN MOVE - Markiplier Gameplay" />
+
+<CardGrid cols={3}>
+  <Card title="Sensory Variants">
+    - **Sight**: Based on light levels
+    - **Sound**: Triggered by running
+    - **Smell**: Persistent tracking
+  </Card>
+  <Card title="Physical Traits">
+    - **Reach**: Extended step distance
+    - **Speed**: Scales during pursuit
+    - **Stun**: Vulnerable to rocks
+  </Card>
+  <Card title="Multiplicity">
+    - **Duplicates**: Multiple entities
+    - **Collision**: Entities push each other
+    - **Spawn**: Stacks after Level 5
+  </Card>
+</CardGrid>
+
+<Callout type="info" title="Species Origins">
+Cobb originated as a winning entry for Major Jam 7: Wild. Its design philosophy centers on the limitation that "rules change," making the species a living embodiment of unpredictable gameplay mechanics.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Sensory Rules and Behavioral Evolution">
+
+The core difficulty of the **Cobb Can Move species** lies in its sensory adaptation. In 2026 updates, specifically v1.4 through v1.7, the developer refined these senses to ensure a fair but punishing experience. Level 2 is now a guaranteed "sensory level," forcing players to learn how Cobb detects them early in the run.
+
+| Rule Name | Detection Mechanic | 2026 Balance Changes | Survival Strategy |
+| :--- | :--- | :--- | :--- |
+| **Cobb Can See** | Detects player in lit areas | Range nerfed in v1.4 and v1.5 | Stay in shadows; manage your light |
+| **Cobb Can Hear** | Triggered by noise/running | Sound cues clarified | Walk slowly; use rocks as distraction |
+| **Cobb Can Smell** | Persistent tracking | Nerfed in v1.7; less frequent sniffs | Keep moving; do not linger in one spot |
+| **Cobb Can Reach** | Longer physical reach | v1.6: Larger steps, lower base speed | Maintain more distance than usual |
+
+<Callout type="warning" title="Smell Mechanic Alert">
+As of the v1.7 update on May 19, 2026, the "Cobb Can Smell" rule is less relentless. The species sniffs less frequently and loses interest faster if you are smelled at close range, giving you a small window to escape.
+</Callout>
+
+Beyond senses, the species exhibits complex movement patterns. In v1.6, a "long pursuit" mechanic was enhanced, making Cobb gradually faster the longer it chases the player. This prevents players from simply kiting the monster indefinitely without a plan.
+
+</Section>
+
+<Section icon={Zap} title="Defensive Tactics: How to Counter the Species">
+
+Surviving an encounter with the **Cobb Can Move species** requires more than just running. You must utilize the environment and items effectively. The most critical tool in your arsenal is the Rock, which underwent significant utility upgrades in the 2026 patches.
+
+<Steps>
+  <Step num="1" title="Scout for Rocks">
+    Level 7 and Endless levels contain rocks. In v1.5, the developer specifically added more rocks to Level 7 to assist with the difficulty spike.
+  </Step>
+  <Step num="2" title="Aim for a Direct Hit">
+    Since v1.6, a direct hit with a rock will stun Cobb for a short period. This is essential for resetting a pursuit or clearing a path to the furnace.
+  </Step>
+  <Step num="3" title="Listen for the Impact">
+    The v1.6 update increased the volume of rock sounds. This helps you confirm if a distraction toss worked or if a stun was successful in the dark.
+  </Step>
+  <Step num="4" title="Exploit the Stun Window">
+    In v1.7, a bug was fixed where rocks failed to stun Cobb during an active pursuit. Now, a hit is a guaranteed window to break line of sight.
+  </Step>
+</Steps>
+
+| Item | Interaction Type | Effect on Species | Player Takeaway |
+| :--- | :--- | :--- | :--- |
+| **Coal** | Resource | Indirectly increases pressure | Coal spawns further from the furnace now |
+| **Rocks** | Throwable | Short-term physical stun | Your primary defensive tool in 2026 |
+| **Carrots** | Consumable | Prevents player starvation | Carrots now respawn after being eaten |
+| **Breaker** | Map Object | Controls visibility | Sprite updated in v1.3 for better visibility |
+
+<Callout type="tip" title="Inventory Management">
+The v1.4 update allows you to swap items even if the drop spot is highlighted in red (over a wall). Use this to quickly drop coal and pick up a rock if the species suddenly appears.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Story Progression and the Final Task">
+
+The **Cobb Can Move species** reaches its peak aggression during the final story levels. Players searching for the ending must navigate Level 7 and the subsequent battery-fueled finale. The developer has adjusted these levels multiple times to balance the "tense but possible" atmosphere.
+
+<Checklist
+  id="ending-milestones"
+  title="Final Task Requirements:"
+  items={[
+    "Complete Level 2 to master sensory rules",
+    "Reach Level 7 and locate the extra rocks",
+    "Find and place all four batteries",
+    "Interact with the Blast Furnace (hitbox enlarged in v1.6)",
+    "Survive the final pursuit (Cobb speed buffed in v1.5.2)"
+  ]}
+/>
+
+<Callout type="success" title="Post-Game Rewards">
+After beating the game once, you unlock the Level Select menu (added in v1.5). This allows you to revisit specific rule combinations or practice the Level 7 resource route without restarting the entire story.
+</Callout>
+
+The ending sequence involves a "final task" that triggers after placing four batteries. The v1.4 update changed the text of this task for clarity, while v1.5.2 slightly buffed Cobb's speed during this phase to keep the finale challenging. If you find the ending too difficult, remember that the v1.6 update made the Blast Furnace hitbox larger, making it much easier to interact with while being chased.
+
+</Section>
+
+<Section icon={Sparkles} title="Evolution of the Game: 2026 Update History">
+
+The current state of the **Cobb Can Move species** is the result of several iterative updates. Tracking these changes helps players understand which legacy strategies (like kiting forever) no longer work and which new tools (like rock stuns) are mandatory.
+
+| Version | Release Date | Major Changes to the Species |
+| :--- | :--- | :--- |
+| **v1.7** | May 19, 2026 | Smell nerfed; pursuit acceleration reduced; rock stun fixed |
+| **v1.6** | May 16, 2026 | Rock stuns added; pursuit speed scaling; duplicate collision |
+| **v1.5** | May 10, 2026 | Level 7 rocks added; Level Select unlocked; ending speed buff |
+| **v1.4** | May 09, 2026 | Death tips added; Level 2 sensory guarantee; See rule nerfed |
+
+<Callout type="info" title="Endless Mode Pacing">
+Endless Mode is tagged as procedural and seeded. Since v1.3, it officially starts at Level 3, meaning you bypass the "tutorial" levels and jump straight into high-pressure rule sets involving duplicates and starvation.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Cobb Species FAQ">
+
+<FAQ items={[
+  {
+    question: "How do I stop the Cobb Can Move species from chasing me?",
+    answer: "You cannot permanently stop Cobb, but you can break line of sight or use a Rock to stun the entity. In the v1.7 update, rocks are more reliable for stopping a pursuit."
+  },
+  {
+    question: "What is the most dangerous rule for the Cobb species?",
+    answer: "Many players find 'Cobb Can Smell' the most difficult because it allows the entity to track you without line of sight. However, the v1.7 update nerfed this rule by making sniffs less frequent."
+  },
+  {
+    question: "Can there be more than one Cobb at a time?",
+    answer: "Yes, the 'Duplicate' rule allows multiple entities to spawn. Since v1.6, duplicates will push each other rather than merging, making them more distinct and harder to avoid in tight corridors."
+  },
+  {
+    question: "What happens if I die to the species?",
+    answer: "After v1.4, dying displays 'Death Tips' that explain the active rule. Use these hints to adjust your strategy for the next attempt."
+  }
+]} />
+
+</Section>

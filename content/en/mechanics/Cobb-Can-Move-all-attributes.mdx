@@ -1,0 +1,145 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Cobb Can Move All Attributes: Understanding Cobb's Abilities",
+  description: "Explore all of Cobb's attributes and abilities in Cobb Can Move, including sensory rules, movement, duplication, and how they impact survival strategies.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/8B0000/fff?text=Cobb+Can+Move+Attributes",
+  date: "2026-06-17",
+  author: "Cobb Can Move Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Cobb Can Move all attributes**: Understand Cobb's core abilities for survival.
+- **Sensory Rules**: Learn how "Cobb Can See," "Hear," and "Smell" affect gameplay.
+- **Movement & Duplication**: Adapt to Cobb's pursuit speed, reach, and duplicate behaviors.
+- **Rock Stun**: Utilize rocks effectively to temporarily stun Cobb.
+- **Updates**: Stay informed on recent balance changes to Cobb's attributes.
+</Callout>
+
+<Section icon={Target} title="Understanding Cobb's Core Attributes">
+
+In the pixelated survival horror of Cobb Can Move, understanding Cobb's various attributes is paramount to your survival. Unlike games with fixed enemy patterns, Cobb's abilities dynamically change with each run, making adaptability your strongest asset. This section breaks down Cobb's core attributes, focusing on how they manifest in gameplay and how recent updates have refined his behavior.
+
+**Video Highlights:**
+- Demonstrates "Cobb Can See" detection.
+- Shows player reaction to "Cobb Can Smell."
+- Illustrates Cobb's pursuit behavior.
+
+<YouTubeEmbed videoId="No official trailer found for Cobb Can Move. A popular gameplay video by Markiplier exists but is not an official trailer. No video embedded as per instructions." title="Popular Gameplay Video - Not Official Trailer" />
+
+The game's core mechanic revolves around random rules that dictate Cobb's behavior. These rules are not mere cosmetic changes; they fundamentally alter how you must approach each level. From how Cobb detects your presence to how quickly he pursues you, every run presents a unique challenge.
+
+<Callout type="tip">
+Always check the active rule text at the beginning of each level. This text is your primary indicator of Cobb's current attributes and how you need to adjust your strategy. Ignoring it often leads to a quick demise.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Sensory Attributes: See, Hear, Smell">
+
+Cobb's sensory attributes are among the most critical to understand, as they directly influence his ability to detect and track the player. The game frequently guarantees a sensory rule by Level 2, forcing players to quickly learn how to evade detection.
+
+| Attribute       | Description                                                                 | Impact on Player                                                                 | Latest Update Note                                                                                                    |
+| :-------------- | :-------------------------------------------------------------------------- | :------------------------------------------------------------------------------- | :-------------------------------------------------------------------------------------------------------------------- |
+| **Cobb Can See** | Cobb detects players based on their light level and visibility.             | Requires careful movement in lit areas and strategic use of darkness.            | v1.4 slightly nerfed it, v1.5 adjusted range again for balance.                                                       |
+| **Cobb Can Hear** | Cobb detects players based on sounds made (e.g., footsteps, item drops).    | Demands quieter movement and careful planning of item interactions.              | No specific recent nerfs, remains a consistent threat.                                                                |
+| **Cobb Can Smell** | Cobb tracks players via a scent trail, often leading to their location.     | Forces continuous movement and avoidance of lingering in one spot.               | v1.7 nerfed with less frequent sniffs and reduced persistence at close range.                                         |
+
+<Callout type="warning" title="Critical Alert">
+While "Cobb Can Smell" received a nerf in v1.7, it remains a potent threat. Do not underestimate its ability to lead Cobb directly to your position, especially in tighter areas.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Movement and Duplication Abilities">
+
+Beyond sensory detection, Cobb's physical attributes and unique duplication ability add layers of complexity to survival. Understanding how he moves and multiplies is crucial for effective evasion and strategic resource use.
+
+<CardGrid cols={2}>
+  <Card title="Pursuit Speed">
+    - **Cobb gets faster during long chases.**
+    - v1.6 increased long pursuit speed.
+    - v1.7 slightly nerfed acceleration during long pursuits, making it slightly less relentless.
+    - Requires players to break line of sight or create significant distance.
+  </Card>
+  <Card title="Reach Rule">
+    - **Cobb takes larger steps when "reach" is active.**
+    - v1.6 changed this behavior; Cobb covers more ground but with less speed.
+    - Players must maintain greater spacing to avoid getting caught.
+    - Alters the rhythm of evasion, emphasizing positional play.
+  </Card>
+  <Card title="Duplicate Behavior">
+    - **Cobb can create duplicates, especially after Level 5.**
+    - v1.6 made duplicates push each other, preventing them from merging back into one.
+    - This clarifies situations with multiple Cobbs, making them distinct threats.
+    - Increases pressure in later levels, requiring awareness of multiple threats.
+  </Card>
+  <Card title="Rock Stun Fix">
+    - **Rocks can briefly stun Cobb on a direct hit.**
+    - v1.6 made rocks stun Cobb and sound louder.
+    - v1.7 fixed instances where rocks failed to stun Cobb during pursuit.
+    - Rocks are now a more reliable defensive tool, crucial for escaping chases.
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Strategic Advantage">
+The reliability of rock stuns after v1.7 means players can strategically use throwable objects to create momentary escapes during intense pursuits. Practice your aim!
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Adapting to Cobb's Evolving Attributes">
+
+Cobb Can Move is designed to keep players on their toes, with continuous updates refining Cobb's attributes and overall gameplay balance. Staying aware of these changes is part of the survival meta.
+
+<Steps>
+  <Step num="1" title="Monitor Devlogs">
+    Regularly check the official itch.io devlog for Cobb Can Move. The developer, abho, frequently posts updates on balance changes, bug fixes, and new features. This is the most reliable source for understanding Cobb's current attributes.
+  </Step>
+  <Step num="2" title="Practice Adaptability">
+    Given the rule-changing nature of the game, avoid memorizing fixed routes. Instead, focus on adapting your playstyle based on the active rules displayed at the start of each run. This includes movement, item usage, and evasion tactics.
+  </Step>
+  <Step num="3" title="Utilize Death Tips">
+    After v1.4, the game provides tips upon death. These are invaluable for understanding what specific attribute or rule led to your demise, offering direct feedback for your next attempt. Learn from every failure.
+  </Step>
+  <Step num="4" title="Master Item Interactions">
+    Items like rocks and carrots have specific interactions with Cobb's attributes. Knowing when and how to use them (e.g., throwing a rock to stun a pursuing Cobb) can turn the tide of a difficult run.
+  </Step>
+</Steps>
+
+<Callout type="info">
+The game's dynamic nature means that while core attributes remain, their intensity or specific mechanics might be tweaked. A "nerf" to an attribute doesn't remove the threat, but changes how you might counter it.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="FAQ on Cobb's Attributes">
+
+<FAQ items={[
+  {
+    question: "Do Cobb's attributes change randomly every run?",
+    answer: "Yes, the core idea of Cobb Can Move is that rules, which define Cobb's attributes and behavior, change randomly each run. This requires players to adapt constantly rather than relying on memorized patterns."
+  },
+  {
+    question: "How can I tell which attributes Cobb has in a given level?",
+    answer: "At the start of each level, the game displays the active rule text. This text explicitly states Cobb's current attributes, such as 'Cobb can see' or 'Cobb can smell.' Always read this before proceeding."
+  },
+  {
+    question: "Are there any attributes that make Cobb invulnerable?",
+    answer: "No, while Cobb can be incredibly dangerous with certain attribute combinations, there are always ways to interact with or evade him. For example, rocks can stun Cobb, and strategic movement can bypass sensory detection."
+  },
+  {
+    question: "Have Cobb Can Move all attributes been balanced recently?",
+    answer: "Yes, recent updates like v1.7 have balanced attributes such as 'Cobb can smell' (nerfed frequency and persistence) and pursuit acceleration (slightly nerfed). Rocks also received fixes to ensure consistent stunning behavior."
+  }
+]} />
+
+</Section>

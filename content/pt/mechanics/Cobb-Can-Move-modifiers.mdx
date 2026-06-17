@@ -1,0 +1,138 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Modificadores Cobb Can Move: Regras, Habilidades e Mudanças de Equilíbrio",
+  description: "Explore os modificadores de Cobb Can Move, incluindo regras sensoriais, comportamentos de movimento e mecânicas de duplicação, juntamente com as atualizações de equilíbrio recentes para uma sobrevivência ideal.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/8B0000/fff?text=Cobb+Can+Move+Modifiers",
+  date: "2026-06-17",
+  author: "Equipe Wiki Cobb Can Move"
+}
+
+<Callout type="info" title="Guia Rápido">
+- Os **modificadores Cobb Can Move** são regras dinâmicas que mudam a cada rodada, cruciais para a sobrevivência.
+- As **regras sensoriais**, como "Cobb pode ver" ou "Cobb pode cheirar", ditam os métodos de detecção de Cobb.
+- As **regras de movimento** definem a velocidade de perseguição, alcance e comportamento de perambulação de Cobb.
+- As **mecânicas de duplicação** envolvem Cobb criando cópias e como elas interagem.
+- As **atualizações de equilíbrio** recentes refinaram esses modificadores para um desafio mais nítido e justo.
+</Callout>
+
+<Section icon={Map} title="Compreendendo os Modificadores Cobb Can Move">
+Em Cobb Can Move, a sobrevivência depende da adaptação a regras em constante mudança, conhecidas como **modificadores Cobb Can Move**. Estas não são apenas mudanças cosméticas; elas alteram fundamentalmente o comportamento de Cobb e a estratégia do jogador. Cada rodada apresenta um desafio único, tornando a memorização menos eficaz do que a adaptação rápida. O design central garante que cada encontro com Cobb pareça novo e imprevisível.
+
+**Destaques do Vídeo:**
+- Demonstra como diferentes regras sensoriais afetam a jogabilidade.
+- Mostra as reações dos jogadores aos variados padrões de movimento de Cobb.
+- Ilustra o impacto do comportamento de duplicação de Cobb em níveis posteriores.
+
+<Callout type="tip" title="Sempre Verifique as Regras">
+Antes de iniciar cada nível, sempre reserve um momento para ler o texto da regra ativa. Esta é a ação mais importante para evitar perigos inesperados e planejar sua estratégia imediata de forma eficaz.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Regras Sensoriais: Ver, Ouvir e Cheirar">
+A capacidade de Cobb de detectar o jogador é governada por regras sensoriais específicas, que são **modificadores Cobb Can Move** críticos. Essas regras geralmente aparecem no início de uma rodada, com a v1.4 garantindo uma regra sensorial até o Nível 2. Compreender cada regra é fundamental para uma evasão eficaz.
+
+| Regra Sensorial | Descrição | Comportamento Chave | Notas de Atualização | Conclusão para o Jogador |
+|:-------------|:------------|:-------------|:-------------|:----------------|
+| **Cobb Pode Ver** | Cobb detecta jogadores com base no nível de luz e linha de visão direta. | Evite espaços abertos, permaneça nas sombras. | v1.4 e v1.5 ajustaram o alcance. | Trate como um grande modificador de visibilidade; priorize a furtividade. |
+| **Cobb Pode Ouvir** | Cobb reage a sons gerados pelo jogador (caminhar, itens caindo). | Mova-se silenciosamente, minimize o ruído. | Não foi explicitamente equilibrado em patches recentes. | Cada passo pode ser um risco; planeje os movimentos com cuidado. |
+| **Cobb Pode Cheirar** | Cobb rastreia jogadores pelo cheiro, apontando-o para a localização deles. | Mantenha distância, evite exposição prolongada. | v1.7 reduziu a frequência e persistência. | Ainda é uma ameaça, mas menos implacável do que antes. |
+
+<Callout type="warning" title="Sobrecarga Sensorial">
+Negligenciar as regras sensoriais é um erro comum de iniciante. Uma regra de "Cobb pode ouvir" significa que até mesmo derrubar uma pedra pode atrair atenção indesejada, transformando um momento seguro em uma perseguição mortal.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Modificadores de Movimento e Perseguição">
+Além dos sentidos, o movimento e o comportamento de perseguição de Cobb também são **modificadores Cobb Can Move** dinâmicos. Eles ditam como Cobb navega pelo mapa e pressiona o jogador durante uma perseguição. Atualizações recentes refinaram essas mecânicas para garantir uma experiência equilibrada, porém intensa.
+
+<CardGrid cols={2}>
+  <Card title="Velocidade de Perseguição Longa">
+    - **v1.6:** Cobb fica ligeiramente mais rápido durante perseguições longas.
+    - **v1.7:** Aceleração de Cobb ligeiramente nerfada durante perseguições longas.
+    - **Impacto:** Perseguições prolongadas continuam perigosas, mas agora são um pouco menos opressivas.
+  </Card>
+  <Card title="Regra de Alcance">
+    - **v1.6:** Cobb dá passos maiores quando 'alcance' está ativo, com velocidade reduzida.
+    - **Impacto:** Requer maior espaçamento de Cobb; muda as táticas de evasão.
+  </Card>
+  <Card title="Perambulação Aleatória">
+    - **v1.6:** Aumentou a velocidade da perambulação aleatória em mapas maiores.
+    - **Impacto:** Maior cobertura do mapa e frequência de encontros em áreas maiores.
+  </Card>
+  <Card title="Comportamento de Duplicação">
+    - **v1.6:** Duplicatas agora se empurram, evitando a fusão.
+    - **Impacto:** Múltiplos Cobbs se comportam de forma mais distinta, tornando os encontros mais claros.
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Adaptando-se ao Movimento">
+Compreender os modificadores de movimento de Cobb permite um melhor trajeto e evasão. Por exemplo, saber quando Cobb tem "alcance" ativo pode levá-lo a criar mais distância do que o usual.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Mudanças de Equilíbrio e Interação com Pedras">
+Os desenvolvedores de Cobb Can Move equilibram ativamente o jogo através de atualizações, muitas vezes modificando as habilidades de Cobb e as ferramentas do jogador. Essas mudanças de equilíbrio são **modificadores Cobb Can Move** cruciais que influenciam a jogabilidade e a estratégia geral. Pedras, por exemplo, receberam atenção significativa.
+
+<Steps>
+  <Step num="1" title="Utilidade Inicial da Pedra (v1.1)">
+    Pedras podiam ser usadas como distrações para atrair Cobb para longe do seu caminho. Seu papel principal era a desorientação tática.
+  </Step>
+  <Step num="2" title="Mecânica de Atordoamento Introduzida (v1.6)">
+    A v1.6 atualizou as pedras para permitir que atordoassem Cobb por um curto período com um acerto direto. Isso adicionou uma utilidade defensiva além da mera distração. As pedras também ficaram mais barulhentas, tornando seu som mais claro.
+  </Step>
+  <Step num="3" title="Correção de Atordoamento de Pedra (v1.7)">
+    A v1.7 abordou problemas em que as pedras às vezes falhavam em atordoar Cobb, especialmente quando ele estava ativamente em perseguição. Isso tornou as pedras uma ferramenta defensiva mais confiável quando usadas precisamente durante uma perseguição.
+  </Step>
+</Steps>
+
+| Item | Uso no Jogo | Nota Oficial de Atualização | Conclusão para o Jogador |
+|:-----|:-------------|:---------------------|:----------------|
+| **Pedras** | Objeto arremessável / de utilidade; pode atordoar Cobb. | v1.6: Atordoamento com acerto direto, som mais alto. v1.7: Atordoamento corrigido durante a perseguição. | Essencial para defesa e distração; use com sabedoria. |
+| **Carvão** | Recurso essencial de sobrevivência para a fornalha. | v1.6: Menos provável de aparecer ao lado da fornalha. | Requer mais movimento e roteamento para combustível. |
+| **Cenouras** | Item alimentar que reaparece. | v1.3: Cenouras reaparecem depois de serem comidas. | Fonte de sustento confiável e repetível. |
+
+<Callout type="info" title="Últimas Atualizações">
+A última atualização de equilíbrio, v1.7, focou em reduzir ligeiramente o "Cobb pode cheirar" e a aceleração em perseguições longas, tornando os encontros um pouco menos punitivos, mantendo a tensão.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="FAQ sobre Modificadores Cobb Can Move">
+Os jogadores frequentemente têm perguntas sobre como os **modificadores Cobb Can Move** funcionam e como melhor se adaptar a eles. Aqui estão algumas perguntas comuns.
+
+<FAQ items={[
+  {
+    question: "Como sei quais modificadores estão ativos em um nível?",
+    answer: "Sempre leia o texto da regra exibido no início de cada nível. Este texto declara explicitamente os modificadores ativos para aquela rodada, guiando sua estratégia."
+  },
+  {
+    question: "Alguns modificadores de Cobb são mais perigosos que outros?",
+    answer: "Regras sensoriais como 'Cobb pode ver' e 'Cobb pode cheirar' podem ser imediatamente perigosas, pois ditam a detecção de Cobb. Modificadores de movimento como 'Velocidade de perseguição longa' aumentam a pressão durante as perseguições. Todos os modificadores exigem adaptação."
+  },
+  {
+    question: "Posso usar pedras para combater todos os modificadores de Cobb?",
+    answer: "As pedras são mais eficazes contra a perseguição de Cobb e podem proporcionar um breve atordoamento. Elas são menos úteis contra regras de detecção passiva se Cobb ainda não o avistou. Sempre combine o uso de pedras com movimentos cuidadosos com base nas regras ativas."
+  },
+  {
+    question: "Os modificadores mudam durante uma única rodada?",
+    answer: "As regras primárias para um nível são definidas no início. No entanto, o comportamento de Cobb pode evoluir com base nas ações do jogador (por exemplo, duplicatas aparecendo após certas condições) e na natureza procedural do jogo, adicionando ao desafio dinâmico."
+  }
+]} />
+
+<Callout type="tip" title="A Prática Leva à Perfeição">
+A melhor maneira de dominar os modificadores Cobb Can Move é através da repetição do jogo. Cada morte oferece uma oportunidade de aprendizado; preste atenção às dicas de morte para obter insights sobre o que deu errado e como ajustar sua abordagem para a próxima rodada.
+</Callout>
+
+</Section>

@@ -1,0 +1,139 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Cobb Can Move Story: Levels, Ending & Progression Guide",
+  description: "Navigate the Cobb Can Move story mode, understand level progression, ending mechanics, and key changes in recent updates.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/8B0000/fff?text=Cobb+Can+Move+Story",
+  date: "2026-06-17",
+  author: "Cobb Can Move Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Story Mode**: Progress through levels with **changing rules** and evolving Cobb abilities.
+- **Level 7**: Features **extra rocks** for strategic play in later stages.
+- **Ending Rebalance**: The final task and Cobb's speed were adjusted in **v1.4 and v1.5.2**.
+- **Level Select**: Unlocked after **beating the game once** for practice and replayability.
+- **Death Tips**: Added in **v1.4** to help players understand active rules and learn from mistakes.
+</Callout>
+
+<Section icon={Map} title="Understanding Cobb Can Move Story Mode Progression">
+Cobb Can Move's story mode is built around a series of short survival levels where the core rules change with each run, and Cobb gains new pressure tools. Official patches have refined various aspects, including Level 2 rule logic, Level 7 resources, final task text, ending speed, and the post-clear level select menu.
+
+**Video Highlights:**
+- Demonstrates early level gameplay.
+- Shows Cobb's initial behaviors.
+- Provides context for rule changes.
+
+<Callout type="tip" title="Always Read the Rules">
+The game's central mechanic is its changing rules. Before each level, carefully read the active rule text to understand Cobb's current abilities and how they affect your survival strategy. Ignoring these can lead to swift defeat.
+</Callout>
+
+The progression is designed to gradually introduce players to Cobb's various abilities and the unpredictable nature of the game. Early levels serve as a tutorial, while later stages demand a deeper understanding of mechanics and adaptability.
+
+</Section>
+
+<Section icon={Target} title="Key Story Levels and Balancing Changes">
+The story mode features distinct levels, each presenting unique challenges. Developers have made several adjustments through updates to fine-tune difficulty and player experience, particularly for critical levels and the ending sequence.
+
+| Level Feature       | Update Version | Description                                                                 | Player Takeaway                                               |
+| :------------------ | :------------- | :-------------------------------------------------------------------------- | :------------------------------------------------------------ |
+| **Level 2 Rule**    | v1.4           | Guaranteed sensory rule (hear, smell, or see).                              | Early runs quickly teach Cobb's detection mechanics.          |
+| **Level 7 Rocks**   | v1.5           | Added extra rocks to the level.                                             | Scout for throwables; rocks are now more useful for stunning. |
+| **Final Task Text** | v1.4           | Changed text after placing four batteries.                                  | Monitor battery progress; final task text indicates readiness.|
+| **Ending Furnace**  | v1.6           | Enlarged blast furnace hitbox.                                              | Easier interaction with the furnace during the final sequence. |
+| **Cobb's Ending Speed** | v1.4 / v1.5.2 | Slightly nerfed in v1.4, then slightly buffed in v1.5.2.                  | The finale remains tense but is less unfairly punishing.      |
+
+<Callout type="warning" title="Anticipate Sensory Rules">
+Level 2 is specifically designed to introduce a sensory rule. This means Cobb will react to sight, sound, or smell, forcing players to adjust their movement and actions much earlier than they might expect.
+</Callout>
+
+These changes aim to create a challenging yet fair experience, ensuring that players have the tools and information needed to adapt to Cobb's evolving threats.
+
+</Section>
+
+<Section icon={Shield} title="Navigating the Ending Sequence and Post-Game Content">
+The culmination of Cobb Can Move's story mode involves a tense ending sequence and unlocks post-game features. Understanding the flow of the final task and what happens after beating the game is crucial for completionists and those looking to practice specific scenarios.
+
+<Steps>
+  <Step num="1" title="Level 2 Sensory Rule Introduction">
+    The v1.4 update ensures Level 2 always includes a sensory rule (hear, smell, or see). This is the point where Cobb transitions from a passive threat to an actively reactive one, demanding heightened awareness from players.
+  </Step>
+  <Step num="2" title="Utilize Death Tips">
+    After v1.4, dying now displays helpful tips. These hints are invaluable for understanding the active rule and identifying mistakes, preventing repeated failures on the same route. Read them carefully before restarting.
+  </Step>
+  <Step num="3" title="Strategic Rock Usage in Level 7">
+    The v1.5 update added rocks to Level 7. With later patches making rocks more effective for stunning Cobb, players should actively scout for and use throwables instead of solely focusing on coal and batteries.
+  </Step>
+  <Step num="4" title="Rebalanced Final Task">
+    The v1.4 patch adjusted the final task text after all four batteries are placed, and slightly reduced Cobb's speed. The v1.5.2 update then slightly buffed Cobb's speed, maintaining a balanced and tense finale.
+  </Step>
+  <Step num="5" title="Easier Ending Furnace Interaction">
+    The v1.6 update enlarged the blast furnace hitbox in the ending. This change makes it less likely for players to lose the furnace behind other objects during the high-pressure final sequence, ensuring smoother interaction.
+  </Step>
+  <Step num="6" title="Unlock Level Select">
+    Upon successfully beating the game once, v1.5 adds a level select menu. This allows players to replay any story-mode level, perfect for practicing difficult sections, re-experiencing specific rule combinations, or mastering the ending.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Post-Game Practice">
+The Level Select feature, unlocked after completing the story, is your best friend for mastering the game. Use it to practice challenging levels like Level 7 or perfect your ending strategy without having to play through the entire story again.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Impact of Updates on Story Mode Experience">
+Recent updates have significantly refined the Cobb Can Move story experience, focusing on player feedback and balancing. These changes impact everything from early-game learning to the intensity of the final challenge.
+
+| Update Feature      | Version | Story Mode Impact                                                                  |
+| :------------------ | :------ | :--------------------------------------------------------------------------------- |
+| **Item Swapping**   | v1.4    | Allows item swapping even over walls (red drop spot), reducing inventory management punishment. |
+| **Cobb Can See Nerf** | v1.4    | Slightly reduced Cobb's sight range, making early sensory rules more manageable.    |
+| **Bug Fixes**       | v1.4    | Fixed instances where Cobb failed to kill players after grabbing them, ensuring consistent threat. |
+| **AZERTY Support**  | v1.6    | Improved international keyboard layout support, enhancing playability for more users. |
+| **Duplicate Cobb Physics** | v1.6    | Duplicates now push each other, preventing them from merging and clarifying multiple-Cobb scenarios. |
+| **Rock Stun Reliability** | v1.7    | Fixed rocks sometimes not stunning Cobb during pursuit, making them a more consistent defensive tool. |
+| **Cobb Can Smell Nerf** | v1.7    | Less frequent sniffs and reduced persistence at close range, balancing the smell mechanic. |
+
+<Callout type="info" title="Developer Focus">
+The developers continuously refine Cobb Can Move based on player experience. Updates often focus on improving clarity, balancing difficulty, and adding quality-of-life features to make the survival horror experience more engaging and fair.
+</Callout>
+
+These updates demonstrate a commitment to creating a well-rounded and challenging story mode, ensuring that each playthrough offers a unique and evolving horror experience.
+
+</Section>
+
+<Section icon={Trophy} title="Cobb Can Move Story Mode FAQ">
+Players often have questions about the Cobb Can Move story mode, its progression, and how to successfully navigate its challenges. Here are some common inquiries.
+
+<FAQ items={[
+  {
+    question: "How does the story mode in Cobb Can Move progress?",
+    answer: "The story mode progresses through a series of levels, each introducing new rule changes and intensifying Cobb's abilities. You'll need to adapt your strategy constantly to survive."
+  },
+  {
+    question: "What is the significance of Level 2's sensory rule?",
+    answer: "The v1.4 update guarantees Level 2 introduces a sensory rule (hear, smell, or see). This is a critical learning point where Cobb starts actively reacting to your presence, forcing you to adjust your movement and noise levels."
+  },
+  {
+    question: "How do I unlock level select in Cobb Can Move?",
+    answer: "The level select menu is unlocked after you successfully beat the game's story mode once. This feature, added in v1.5, allows you to replay specific levels for practice or to re-experience particular rule combinations."
+  },
+  {
+    question: "Were there any changes to the Cobb Can Move ending?",
+    answer: "Yes, the ending has been rebalanced across several updates. v1.4 changed the final task text and slightly nerfed Cobb's speed, while v1.5.2 slightly buffed his speed again. v1.6 also enlarged the blast furnace hitbox for easier interaction during the finale."
+  }
+]} />
+
+<Callout type="tip">
+Don't be afraid to die! The game includes death tips (added in v1.4) that provide valuable insights into the active rules and what went wrong, turning each failure into a learning opportunity for your next run.
+</Callout>
+
+</Section>

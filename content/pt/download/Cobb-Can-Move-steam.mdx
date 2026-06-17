@@ -1,0 +1,188 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Cobb Can Move Steam: Guia de Plataforma e Detonado de Sobrevivência",
+  description: "Descubra se Cobb Can Move está no Steam, como baixar a versão oficial v1.7 e domine as regras mutáveis deste jogo de survival horror pixel-art.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/0f172a/f8fafc?text=Cobb+Can+Move+Steam+Guide",
+  date: "2026-06-17",
+  author: "Equipe Wiki Cobb Can Move"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Cobb Can Move Steam**: Atualmente, o jogo oficial está **disponível exclusivamente no itch.io** pelo desenvolvedor abho, não no Steam ou Roblox.
+- **Versão Mais Recente**: A versão mais estável é a **v1.7 (Maio de 2026)**, apresentando nerfs significativos na habilidade de cheiro de Cobb.
+- **Mecânica Principal**: A sobrevivência depende de **ler as regras ativas** que mudam a cada nível, afetando os sentidos e o movimento de Cobb.
+- **Plataformas**: Suporta **HTML5 (Navegador)** e **Windows (Download)** com entrada de teclado e gamepad.
+- **Fonte Oficial**: Sempre use a página oficial [abho.itch.io](https://abho.itch.io/cobb-can-move) para evitar malware de espelhos de terceiros.
+</Callout>
+
+<Section icon={Map} title="Cobb Can Move Steam e Status Oficial da Plataforma">
+
+Se você está procurando por **Cobb Can Move Steam**, é importante esclarecer que, a partir de junho de 2026, o jogo não foi lançado oficialmente na plataforma Steam. Embora o desenvolvedor, abho, tenha outros projetos como *VOIDFACE* no Steam, este título premiado do Major Jam 7 permanece um item básico do itch.io. Essa distinção é vital porque muitos sites de terceiros "jogar online" e listagens falsas do Steam frequentemente hospedam versões desatualizadas ou maliciosas do jogo.
+
+**Destaques do Vídeo:**
+- **Sobrevivendo à Escuridão**: Veja como jogadores profissionais gerenciam os níveis de carvão e luz.
+- **Comportamento de Cobb**: Veja as regras "Cobb pode ver" e "Cobb pode cheirar" em ação.
+- **O Final**: Um vislumbre da tarefa final e das mecânicas do alto-forno.
+
+<YouTubeEmbed videoId="XQd6Y-YmN6M" title="COBB CAN MOVE - Gameplay de Markiplier" />
+
+Para garantir que você está jogando a versão autêntica com as últimas atualizações v1.7, você deve acessar o jogo apenas por meio de canais oficiais. A grade a seguir compara as fontes oficiais com equívocos comuns encontrados nos resultados de pesquisa.
+
+<CardGrid cols={2}>
+  <Card title="Página Oficial do itch.io">
+    - **Host**: abho.itch.io
+    - **Status**: Lançado e Atualizado (v1.7)
+    - **Formato**: Navegador (HTML5) e Download para Windows
+    - **Preço**: Pague o quanto quiser
+  </Card>
+  <Card title="Status do Steam e Roblox">
+    - **Steam**: Não disponível atualmente
+    - **Roblox**: Nenhuma versão oficial existe
+    - **Aviso**: Evite clones de "Cobb Can Move" nessas plataformas
+    - **Desenvolvedor**: Verifique se o autor é "abho"
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Aviso Anti-Malware">
+Não baixe arquivos .zip de servidores não oficiais do Discord ou sites de "jogos grátis" que afirmam ser a versão do Steam. Estes são frequentemente armadilhas digitais. Use o botão oficial "Run Game" do itch.io para a experiência mais segura.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Guia de Sobrevivência e Controles para Iniciantes">
+
+Dominar o início do jogo nas pesquisas por **Cobb Can Move Steam** exige entender que o jogo é um survival horror de "regras mutáveis". Você não pode jogar o Nível 2 da mesma forma que jogou o Nível 1. O jogo força você a se adaptar a um novo conjunto de restrições cada vez que você desce mais fundo na masmorra.
+
+| Tipo de Controle | Entrada de Teclado | Entrada de Gamepad | Função |
+| :--- | :--- | :--- | :--- |
+| **Movimento** | WASD / Setas | Joystick Esquerdo | Mover personagem |
+| **Interagir** | E / Espaço | Botão Sul | Pegar / Soltar / Usar |
+| **Lançar** | G / Q | Botão Oeste | Lançar item segurado (Pedras) |
+| **Menu** | Esc | Start / Menu | Pausar e Selecionar Nível |
+
+<Steps>
+  <Step num="1" title="Leia o Texto da Regra">
+    Toda vez que um nível começa, um prompt de texto aparece. Esta é a informação mais crítica do jogo. Ele informa se Cobb pode vê-lo, ouvi-lo ou se você está morrendo de fome.
+  </Step>
+  <Step num="2" title="Estabeleça uma Rota de Carvão">
+    Localize o forno e encontre o ponto de surgimento de carvão mais próximo. A v1.6 atualizou a geração do mapa para que o carvão tenha menos probabilidade de surgir bem ao lado do forno, forçando você a viajar mais longe.
+  </Step>
+  <Step num="3" title="Gerencie o Disjuntor">
+    Se as luzes se apagarem, suas chances de sobrevivência diminuem. Localize o disjuntor (atualizado com um sprite mais visível na v1.3) para manter o ambiente iluminado e a visão de Cobb gerenciável.
+  </Step>
+  <Step num="4" title="Aprenda com Dicas de Morte">
+    Se você morrer, não pule a tela de morte. A v1.4 adicionou dicas específicas que explicam a regra que você falhou em seguir, o que é essencial para progredir além de níveis sensoriais difíceis.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Estratégia de Movimento">
+Na v1.7, a aceleração de Cobb durante perseguições longas foi nerfada. Se Cobb estiver te perseguindo, tente quebrar a linha de visão ou usar uma esquina em vez de apenas correr em linha reta, pois ele ainda ganha velocidade com o tempo.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Habilidades e Regras Sensoriais de Cobb">
+
+O cerne do desafio envolve os sentidos de Cobb. Ao contrário dos monstros de terror tradicionais com IA fixa, os métodos de detecção de Cobb mudam com base nas regras ativas do nível. Entender essas regras é a diferença entre uma corrida bem-sucedida e um susto rápido.
+
+| Nome da Regra | Comportamento de Cobb | Contramedida do Jogador | Nota da Atualização |
+| :--- | :--- | :--- | :--- |
+| **Cobb Pode Ver** | Detecta o jogador na luz | Fique nas sombras ou mantenha distância | Nerfado na v1.4/v1.5 |
+| **Cobb Pode Ouvir** | Detecta corrida/lançamento | Ande devagar (Shift) | Pedras podem distraí-lo |
+| **Cobb Pode Cheirar** | Rastreia a posição do jogador | Mantenha-se em movimento constante | Nerf pesado na v1.7 |
+| **Cobb Pode Alcançar** | Passos mais longos e lentos | Mantenha uma distância maior | Ajustado na v1.6 |
+| **Cobb Duplicado** | Múltiplos Cobbs surgem | Evite ser encurralado | Fusão corrigida na v1.6 |
+
+A atualização v1.7 visou especificamente a regra "Cobb pode cheirar", que muitos jogadores consideraram muito punitiva. Cobb agora cheira com menos frequência e perde seu cheiro mais rapidamente se você conseguir colocar distância entre você e o monstro.
+
+<Callout type="info" title="Garantia Sensorial">
+Desde a atualização v1.4, o Nível 2 é garantido para incluir pelo menos uma regra sensorial (Ouvir, Cheirar ou Ver). Isso serve como um tutorial para prepará-lo para as combinações mais complexas nos níveis posteriores.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Itens, Fornalhas e Objetivos Principais">
+
+A sobrevivência na jogabilidade estilo **Cobb Can Move Steam** não é apenas sobre se esconder; é sobre gerenciamento de recursos. Você deve equilibrar sua fome, seu calor e seus itens de progressão enquanto é caçado.
+
+| Nome do Item | Uso Principal | Mecânicas | Estratégia |
+| :--- | :--- | :--- | :--- |
+| **Carvão** | Abastecer Fornalha | Queima com o tempo | Sempre mantenha um perto do forno |
+| **Pedras** | Defesa/Distração | Atordoa Cobb com acerto direto | Guarde para perseguições (correção v1.7) |
+| **Cenouras** | Gerenciamento de Fome | Renasce quando comida | Memorize locais de surgimento |
+| **Baterias** | Progressão Final | 4 necessárias para a tarefa final | Colete-as como prioridade máxima |
+| **Disjuntor** | Visibilidade | Restaura a luz | Use apenas quando a visibilidade estiver baixa |
+
+<Checklist
+  id="objective-checklist"
+  title="Lista de Verificação de Conclusão de Nível:"
+  items={[
+    "Leia a regra ativa imediatamente ao surgir",
+    "Localize o ponto de surgimento de cenoura mais próximo para segurança alimentar",
+    "Identifique o forno e os níveis atuais de carvão",
+    "Verifique se há pedras para usar como atordoamento defensivo",
+    "Localize a saída do nível ou progrida a tarefa final"
+  ]}
+/>
+
+<Callout type="success" title="Mecânica de Atordoamento com Pedra">
+A partir das v1.6 e v1.7, as pedras não são mais apenas para fazer barulho. Um acerto direto atordoará Cobb por vários segundos. A v1.7 corrigiu um bug em que as pedras não conseguiam atordoá-lo durante uma perseguição ativa, tornando-as uma ferramenta defensiva confiável agora.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Progressão do Modo História e Modo Infinito">
+
+O jogo oferece duas maneiras distintas de jogar. O Modo História segue uma progressão fixa de níveis (incluindo o difícil Nível 7), enquanto o Modo Infinito oferece desafios procedurais para jogadores veteranos.
+
+| Recurso | Modo História | Modo Infinito |
+| :--- | :--- | :--- |
+| **Progressão** | Nível 1 ao Final | Níveis infinitos |
+| **Dificuldade** | Curva definida | Escala com o tempo |
+| **Seleção de Nível** | Desbloqueia após a conclusão | Começa no Nível 3 (v1.3) |
+| **Final** | Inclui Tarefa Final | Sem final fixo |
+| **Tipo de Mapa** | Blocos feitos à mão | Geração procedural |
+
+Para jogadores que lutam com o final, a atualização v1.6 aumentou a hitbox do "Alto-Forno" usado na sequência final. Isso evita que os jogadores falhem no nível simplesmente porque não conseguiram interagir com o objetivo durante uma perseguição de alto estresse.
+
+<Callout type="info" title="Rejogabilidade">
+Depois de zerar o jogo uma vez, você desbloqueia o menu **Seleção de Nível**. Isso é perfeito para praticar as combinações de regras específicas que aparecem nos níveis da história posteriores e mais difíceis, sem reiniciar o jogo inteiro.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Cobb Can Move FAQ">
+
+<FAQ items={[
+  {
+    question: "Cobb Can Move está disponível no Steam?",
+    answer: "Não, Cobb Can Move não está no Steam. A versão oficial está hospedada no itch.io pelo desenvolvedor abho. Quaisquer listagens no Steam são provavelmente não oficiais."
+  },
+  {
+    question: "Como eu atordoo Cobb?",
+    answer: "Você pode atordoar Cobb jogando uma Pedra e acertando-o diretamente. Isso foi melhorado na v1.6 e corrigido na v1.7 para garantir que funcione mesmo durante perseguições."
+  },
+  {
+    question: "O que a regra 'Cobb pode cheirar' faz?",
+    answer: "Esta regra permite que Cobb rastreie sua posição mesmo que ele não possa vê-lo ou ouvi-lo. No entanto, a v1.7 nerfou isso tornando seus farejos menos frequentes."
+  },
+  {
+    question: "Como eu desbloqueio a Seleção de Nível?",
+    answer: "A Seleção de Nível é desbloqueada automaticamente depois que você completa o Modo História e termina a tarefa final na sequência de encerramento."
+  }
+]} />
+
+<Callout type="tip" title="Nota Final de Sobrevivência">
+Sempre fique de olho na temperatura e na fome do seu personagem. Mesmo que você esteja evitando Cobb com sucesso, as regras de "Congelar" e "Morrer de Fome" podem encerrar sua corrida tão rapidamente quanto o monstro.
+</Callout>
+
+</Section>

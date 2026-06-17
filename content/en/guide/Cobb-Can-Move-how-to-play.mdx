@@ -1,0 +1,184 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Gamepad, Lightbulb, ScrollText } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Cobb Can Move How to Play: Beginner's Survival Guide",
+  description: "Learn how to play Cobb Can Move, a pixel horror game where rules change. Master controls, understand Cobb's abilities, and survive each run.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/8B0000/fff?text=Cobb+Can+Move+How+To+Play",
+  date: "2026-06-17",
+  author: "Cobb Can Move Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Cobb Can Move** offers a unique pixel horror experience with constantly changing rules.
+- **Official play** is available on itch.io for HTML5 and Windows, supporting keyboard and gamepad.
+- **Master rules** and Cobb's senses (See, Hear, Smell, Reach, Duplicate) for survival.
+- **Utilize items** like coal, rocks, and carrots strategically to manage resources and distract Cobb.
+- **Learn from death tips** to adapt your strategy for future runs and overcome challenges.
+</Callout>
+
+<Section icon={Gamepad} title="Getting Started: Controls and Basic Survival">
+Cobb Can Move thrusts players into a dark, pixelated survival horror world where adaptability is key. The game's core loop involves navigating dynamic environments, managing resources, and reacting to Cobb's evolving abilities. Understanding the basic controls and initial survival steps will significantly improve your chances against the ever-present threat. The official itch.io page confirms support for both keyboard and gamepad inputs, ensuring a comfortable experience regardless of your preferred method.
+
+**Video Highlights:**
+- Demonstrates initial movement and interaction.
+- Shows how to pick up and drop items effectively.
+- Highlights the importance of careful exploration.
+
+<YouTubeEmbed videoId="7Tz-0XnIeWw" title="COBB CAN MOVE - Markiplier" />
+
+The game's design emphasizes short, intense runs, making each death a learning opportunity rather than a setback. Pay close attention to the on-screen rule text and post-death tips to quickly grasp the mechanics.
+
+<Callout type="tip">
+Always launch **Cobb Can Move** from the official itch.io page to ensure you're playing the legitimate, updated version. Browser play (HTML5) is the quickest way to get into the action.
+</Callout>
+
+### Input Options
+
+| Input Type | Supported | Description |
+| :--------- | :-------- | :---------- |
+| Keyboard   | Yes       | Standard movement and interaction keys. v1.6 includes AZERTY layout optimization. |
+| Gamepad    | Yes       | Any gamepad is supported for movement and actions. |
+| Mouse      | No        | Primarily a keyboard/gamepad-driven experience. |
+
+</Section>
+
+<Section icon={ScrollText} title="Understanding the Rules and Cobb's Abilities">
+The defining feature of Cobb Can Move is its dynamic rule system. Each run presents a new set of challenges, with rules that directly influence Cobb's behavior and your survival strategy. Instead of memorizing fixed patterns, players must constantly adapt to the active rule set. Cobb possesses several sensory abilities that dictate how it detects and pursues you.
+
+<Callout type="warning" title="Dynamic Rules are Key">
+Do not treat every level the same way. Cobb's active rule changes what is dangerous and how you should approach movement and interaction. Always read the rule text at the start of each run.
+</Callout>
+
+### Cobb's Core Abilities and Rule Changes
+
+| Ability       | Description                                                 | Latest Update Impact (v1.7)                                  |
+| :------------ | :---------------------------------------------------------- | :----------------------------------------------------------- |
+| **Move**      | Basic movement and pursuit.                                 | v1.6: Faster during long pursuits. v1.7: Slightly nerfed long-pursuit acceleration. |
+| **See**       | Detects players based on light levels.                      | v1.4: Slightly nerfed. v1.5: Range adjusted again.           |
+| **Hear**      | Detects players based on sound.                             | v1.4 guarantees Level 2 has a sensory rule (Hear, Smell, or See). |
+| **Smell**     | Points Cobb towards the player.                             | v1.7: Nerfed with less frequent sniffs and less persistence at close range. |
+| **Reach**     | Allows Cobb to take larger steps.                           | v1.6: Takes larger steps with less speed when active.        |
+| **Duplicate** | Cobb can create copies of itself.                           | v1.6: Duplicates push each other, preventing merging.        |
+
+<Callout type="info">
+Level 2 is guaranteed to introduce a sensory rule (hear, smell, or see), forcing early adaptation to Cobb's detection methods.
+</Callout>
+
+</Section>
+
+<Section icon={Lightbulb} title="Essential Items and Objective Management">
+Survival in Cobb Can Move hinges on effective resource management and completing specific objectives. Simple items like coal, rocks, and carrots become crucial tools, while furnaces and breakers represent key interaction points. Understanding their functions and how recent updates have affected their mechanics is vital for progression.
+
+### Key Interactable Objects and Their Use
+
+| Item/Object    | Type               | Gameplay Use                                    | Official Update Notes                                       | Player Takeaway                                                     |
+| :------------- | :----------------- | :---------------------------------------------- | :---------------------------------------------------------- | :------------------------------------------------------------------ |
+| **Coal**       | Resource           | Core survival resource for the furnace loop.    | v1.6: Less likely to spawn next to the furnace.             | Expect more movement to collect fuel.                               |
+| **Rocks**      | Throwable / Utility | Can stun Cobb on direct hit.                    | v1.6: Stun Cobb briefly, louder sound. v1.7: Fixed stun issues during pursuit. | Use strategically for defense or distraction.                       |
+| **Carrots**    | Respawning item    | Repeatable food source.                         | v1.3: Carrots respawn when eaten.                           | No longer a one-time use; plan routes around them.                  |
+| **Batteries**  | Progression item   | Connected to the ending sequence and final task. | v1.4: Final task text changes after placing four batteries. | Track battery progress for the endgame.                             |
+| **Furnace**    | Core Objective     | Central to survival loop; requires coal.        | v1.6: Coal less likely to spawn nearby.                     | Still central, but fuel collection requires more effort.            |
+| **Blast Furnace** | Ending Object     | Used in the ending sequence.                    | v1.6: Larger hitbox for easier interaction.                 | Easier to interact with during the tense finale.                    |
+| **Breaker**    | Map Object         | Visible interactable to manage power.           | v1.3: Sprite slightly changed for better visibility.        | Look for the updated appearance to quickly identify it.             |
+| **Item Drop Spot** | Inventory Handling | Affects swapping carried objects.               | v1.4: Allows swapping even over walls (red).                | More forgiving item management, even in awkward spots.              |
+
+<Callout type="success">
+Item swapping is more forgiving after v1.4, allowing you to drop items even if the spot is red (over a wall). This makes inventory management less punishing.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Story Mode Progression and Endings">
+Cobb Can Move's story mode features a series of levels that gradually increase in difficulty, introducing new mechanics and intensifying Cobb's pressure. The developers have consistently refined the experience through updates, balancing challenges and providing tools for players to learn and adapt.
+
+### Story Mode Milestones
+
+<Steps>
+  <Step num="1" title="Level 2's Sensory Introduction">
+    The v1.4 update ensures Level 2 always features a sensory rule (hear, smell, or see). This is where Cobb transitions from a wandering threat to an actively reactive monster, demanding careful movement.
+  </Step>
+  <Step num="2" title="Learning from Death">
+    Post-v1.4, dying triggers helpful tips. These hints are designed to guide you on how to adapt to the active rule or correct common mistakes, making each failed run a valuable lesson.
+  </Step>
+  <Step num="3" title="Level 7's Enhanced Utility">
+    The v1.5 update added extra rocks to Level 7. With subsequent patches making rocks more effective (e.g., stunning Cobb), scouting for throwables in Level 7 is crucial, not just rushing for coal or batteries.
+  </Step>
+  <Step num="4" title="Rebalanced Final Task">
+    The final task, triggered after placing four batteries, saw text changes and speed adjustments for Cobb in v1.4. v1.5.2 slightly buffed Cobb's ending speed, ensuring the finale remains tense and challenging.
+  </Step>
+  <Step num="5" title="Easier Ending Interaction">
+    v1.6 enlarged the blast furnace hitbox in the ending sequence. This makes it easier to interact with during high-pressure moments, preventing frustrating misses behind the main furnace.
+  </Step>
+  <Step num="6" title="Post-Clear Level Select">
+    After successfully beating the game once, v1.5 unlocks a level select menu. This feature allows you to revisit any story-mode level, perfect for practicing difficult sections or experimenting with specific rule combinations.
+  </Step>
+</Steps>
+
+<Callout type="info">
+The level select menu is a valuable tool for practicing specific scenarios or rule combinations after your first full game clear.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Endless Mode Strategy and Replayability">
+Beyond the story, Cobb Can Move offers an Endless Mode, providing an unpredictable and ever-escalating challenge. This mode thrives on procedural generation and constantly changing rules, making rote memorization ineffective. Success in Endless Mode relies on quick adaptation and understanding the underlying mechanics of increasing pressure.
+
+### Endless Mode Dynamics
+
+<CardGrid cols={2}>
+  <Card title="Start Point">
+    **Endless mode begins at Level 3** from v1.3 onwards. This means runs start with immediate pressure, making initial room scouting critical.
+  </Card>
+  <Card title="Map Logic">
+    Maps are procedurally generated from various chunks with **seeded randomness**. Routes, item placements, and safe spots will vary between runs.
+  </Card>
+  <Card title="Core Rule Set">
+    Cobb's core abilities (See, Hear, Smell, Reach, Duplicate) are the foundation. **Sight** depends on player light, **hearing** on sound, **smell** guides Cobb, **reach** alters step behavior, and **duplicates** stack after Level 5.
+  </Card>
+  <Card title="Player Pressure">
+    Player-side rules like **freezing in low light** and **starving over time** force constant movement, even when hiding seems safer. Carrots are your key to staving off starvation.
+  </Card>
+  <Card title="Rock Usage">
+    Rocks can **stun Cobb on direct hits** (v1.6) and are audibly clearer. v1.7 fixed instances where rocks failed to stun Cobb during pursuit, making them a more reliable defensive tool.
+  </Card>
+  <Card title="Late-Run Threat">
+    **Long pursuits** make Cobb faster (v1.6), and duplicates push each other instead of merging. v1.7 slightly reduced long-pursuit acceleration and nerfed smell, making the late game challenging but fairer.
+  </Card>
+</CardGrid>
+
+<Callout type="tip">
+In Endless Mode, prioritize adaptability over rigid plans. The procedural nature and changing rules mean no two runs are identical.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Frequently Asked Questions about Cobb Can Move">
+
+<FAQ items={[
+  {
+    question: "What platforms is Cobb Can Move available on?",
+    answer: "Cobb Can Move is officially available on itch.io for HTML5 (browser play) and Windows. It is not on Roblox or Steam."
+  },
+  {
+    question: "How do I deal with Cobb's changing rules?",
+    answer: "Always read the rule text displayed at the start of each level. The rules directly impact Cobb's behavior and your optimal strategy. Adapt your movement and actions based on the active rule."
+  },
+  {
+    question: "Are there any codes or rewards in Cobb Can Move?",
+    answer: "No, there are no official active redeem codes listed for Cobb Can Move on its itch.io page or devlogs. The game uses a 'name your own price' download model."
+  },
+  {
+    question: "What are the most important items to manage?",
+    answer: "Coal is essential for powering the furnace, rocks can be used to stun Cobb, and carrots provide a respawning food source to prevent starvation. Batteries are critical for story mode progression."
+  }
+]} />
+
+</Section>

@@ -1,0 +1,124 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Cobb Can Move Fase Final: Finais, Rebalanceamento e Seleção de Nível",
+  description: "Domine a fase final de Cobb Can Move com nosso guia sobre rebalanceamento de finais, estratégias do Nível 7 e o menu de seleção de nível pós-conclusão.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/8B0000/fff?text=Cobb+Final+Stage",
+  date: "2026-06-17",
+  author: "Equipe Wiki Cobb Can Move"
+}
+
+<Callout type="info" title="Guia Rápido">
+- A **fase final de Cobb Can Move** envolve uma tarefa final rebalanceada após colocar quatro baterias.
+- O **Nível 7** agora inclui pedras adicionais, cruciais para atordoar Cobb.
+- A **velocidade final** de Cobb foi ligeiramente aprimorada na v1.5.2, mantendo a tensão.
+- A **hitbox do alto-forno** na sequência final foi ampliada para facilitar a interação na v1.6.
+- Um **menu de seleção de nível** é desbloqueado após uma conclusão total, permitindo a prática de fases difíceis.
+</Callout>
+
+<Section icon={Trophy} title="Entendendo a Fase Final e os Finais de Cobb Can Move">
+As fases finais de Cobb Can Move apresentam desafios e mecânicas únicas que foram refinadas através de várias atualizações. Os jogadores devem navegar por esses níveis com uma compreensão dos comportamentos ajustados de Cobb e dos objetivos rebalanceados para alcançar uma conclusão bem-sucedida. A sequência final do jogo está ligada à conclusão de uma tarefa final após colocar estrategicamente quatro baterias.
+
+**Destaques do Vídeo:**
+- Demonstra a tarefa final em Cobb Can Move.
+- Mostra movimento e uso de itens eficazes durante o final.
+- Destaca o comportamento de perseguição de Cobb nos momentos finais.
+
+</Section>
+
+<Section icon={Target} title="Rebalanceamento da Tarefa Final e Comportamento de Cobb">
+A tarefa final em Cobb Can Move passou por vários ajustes para garantir uma conclusão tensa, mas justa. Essas mudanças focam principalmente no texto exibido ao jogador, na velocidade de Cobb durante a perseguição final e na interatividade de objetos chave.
+
+<Callout type="warning" title="Momento Crítico">
+Durante a tarefa final, a velocidade de Cobb é ligeiramente aumentada, tornando o movimento cuidadoso e as reações rápidas primordiais. Qualquer hesitação pode levar a um fim rápido da sua corrida.
+</Callout>
+
+| Versão da Atualização | Mudança na Tarefa Final                                               | Ajuste de Velocidade de Cobb                                       | Impacto no Jogador                                                              |
+|:--------------------|:----------------------------------------------------------------------|:-------------------------------------------------------------------|:--------------------------------------------------------------------------------|
+| **v1.4**            | Texto da tarefa final alterado após colocar quatro baterias.          | Velocidade de Cobb ligeiramente enfraquecida durante a tarefa final. | Forneceu instruções mais claras e uma perseguição ligeiramente menos punitiva.  |
+| **v1.5.2**          | Nenhuma mudança de texto.                                             | Velocidade de Cobb ligeiramente aprimorada durante a tarefa final. | Aumentou a tensão, exigindo execução mais precisa.                             |
+| **v1.6**            | Nenhuma mudança de texto.                                             | Cobb fica ligeiramente mais rápido durante perseguições longas, mas a velocidade final é estável. | Manteve a dificuldade final, tornando a perseguição final intensa.             |
+
+</Section>
+
+<Section icon={Map} title="Estratégias do Nível 7: Gerenciamento de Recursos e Uso de Pedras">
+O Nível 7 serve como um obstáculo significativo antes da fase final, exigindo gerenciamento eficiente de recursos e uso estratégico de itens. Atualizações recentes tornaram as pedras uma ferramenta defensiva mais viável, especialmente neste nível de fim de jogo.
+
+<Callout type="tip" title="Vantagem da Pedra no Nível 7">
+Com as pedras agora capazes de atordoar Cobb em um acerto direto e fazer sons mais altos, os jogadores do Nível 7 devem procurá-las ativamente. Use pedras para criar aberturas momentâneas ou distrações quando Cobb estiver em perseguição.
+</Callout>
+
+<Steps>
+  <Step num="1" title="Priorize a Colocação da Bateria">
+    Seu objetivo principal no Nível 7 é coletar e colocar as quatro baterias. Planeje sua rota para minimizar a exposição a Cobb enquanto garante esses itens críticos.
+  </Step>
+  <Step num="2" title="Utilize Pedras Adicionais">
+    A atualização v1.5 adicionou pedras ao Nível 7. Não corra apenas pelas baterias; procure por esses itens arremessáveis. Uma pedra bem-mirada pode atordoar Cobb, dando-lhe segundos preciosos para escapar ou reposicionar-se.
+  </Step>
+  <Step num="3" title="Monitore as Regras de Cobb">
+    Mesmo no Nível 7, as regras de Cobb podem mudar. Sempre verifique o texto da regra ativa no início do nível e adapte sua estratégia de acordo. Uma regra "Cobb pode ver" exige táticas diferentes de "Cobb pode cheirar".
+  </Step>
+</Steps>
+
+</Section>
+
+<Section icon={Shield} title="Interação Aprimorada: Hitbox do Alto-Forno">
+Uma melhoria crucial na qualidade de vida para a sequência final veio com a v1.6, que abordou as frustrações dos jogadores em relação à interação com o alto-forno.
+
+| Característica              | Estado Anterior                                                     | Atualização v1.6                                                    | Benefício para o Jogador                                                        |
+|:--------------------------|:--------------------------------------------------------------------|:--------------------------------------------------------------------|:--------------------------------------------------------------------------------|
+| **Hitbox do Alto-Forno**  | Pequena, muitas vezes perdida atrás do forno principal, difícil de interagir. | Hitbox ampliada para o alto-forno na sequência final.              | Reduziu a frustração, garantindo que os jogadores possam interagir de forma confiável com o forno durante momentos finais de alta pressão. |
+
+</Section>
+
+<Section icon={Sparkles} title="Conteúdo Pós-Conclusão: Menu de Seleção de Nível">
+Após completar o jogo com sucesso uma vez, os jogadores são recompensados com um novo recurso que aprimora a rejogabilidade e permite a prática focada: o menu de seleção de nível.
+
+<Callout type="success" title="Desbloquear Rejogabilidade">
+Concluir o jogo desbloqueia o menu de seleção de nível, uma ferramenta valiosa para praticar níveis desafiadores específicos ou experimentar diferentes combinações de regras sem iniciar uma nova campanha.
+</Callout>
+
+<CardGrid cols={2}>
+  <Card title="Benefícios da Seleção de Nível">
+    - **Pratique níveis específicos:** Revisite fases desafiadoras como o Nível 7 para aprimorar suas habilidades.
+    - **Experimente regras:** Teste diferentes combinações de regras para entender melhor os comportamentos de Cobb.
+    - **Tentativas de speedrun:** Ideal para otimizar rotas e estratégias para conclusões mais rápidas.
+  </Card>
+  <Card title="Como Desbloquear">
+    - **Complete o jogo uma vez:** O menu fica disponível após alcançar e completar com sucesso a tarefa final.
+    - **Acesse pelo menu principal:** Procure a nova opção no menu principal após sua primeira corrida bem-sucedida.
+  </Card>
+</CardGrid>
+
+</Section>
+
+<Section icon={Swords} title="Perguntas Frequentes Sobre a Fase Final">
+
+<FAQ items={[
+  {
+    question: "Qual é o objetivo principal na fase final de Cobb Can Move?",
+    answer: "O objetivo principal na fase final é completar uma tarefa específica após colocar com sucesso quatro baterias ao longo dos níveis anteriores. Isso aciona a sequência de perseguição final com Cobb."
+  },
+  {
+    question: "Como a velocidade de Cobb foi ajustada na tarefa final?",
+    answer: "A velocidade de Cobb durante a tarefa final foi inicialmente ligeiramente enfraquecida na v1.4, mas depois ligeiramente aprimorada na v1.5.2 para manter a tensão. Na v1.6, Cobb também fica ligeiramente mais rápido durante perseguições longas, o que se aplica à perseguição final."
+  },
+  {
+    question: "As pedras são úteis no Nível 7 ou na fase final?",
+    answer: "Sim, as pedras são muito úteis. A atualização v1.5 adicionou mais pedras ao Nível 7, e a v1.6 as tornou capazes de atordoar Cobb em um acerto direto. Isso pode proporcionar um respiro crucial durante momentos intensos no Nível 7 e na perseguição final."
+  },
+  {
+    question: "Qual é o propósito do menu de seleção de nível?",
+    answer: "O menu de seleção de nível, desbloqueado após completar o jogo uma vez, permite que os jogadores repitam qualquer nível do modo história. Isso é perfeito para praticar seções difíceis, entender combinações de regras específicas ou experimentar novas estratégias."
+  }
+]} />
+
+</Section>

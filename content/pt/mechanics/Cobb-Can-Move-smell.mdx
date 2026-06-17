@@ -1,0 +1,139 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, AlertTriangle, Lightbulb, Info, CheckCircle } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Cobb Can Move Smell: Entendendo e Combatendo a Habilidade Olfativa de Cobb",
+  description: "Domine a habilidade 'pode cheirar' de Cobb em Cobb Can Move. Aprenda como funciona, nerfs recentes e estratégias eficazes para sobreviver a esta regra sensorial no jogo de terror pixelizado.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/8B0000/fff?text=Cobb+Can+Move+Smell",
+  date: "2026-06-17",
+  author: "Equipe Wiki de Cobb Can Move"
+}
+
+<Callout type="info" title="Guia Rápido">
+- O **Cobb Can Move cheiro** é uma regra sensorial chave que determina a detecção de Cobb.
+- A **atualização v1.7** **nerfou** significativamente o cheiro de Cobb, tornando-o menos persistente.
+- **Evite a detecção de perto** e use elementos ambientais para quebrar a perseguição.
+- **Ler o texto da regra** no início de cada partida é crucial para se adaptar aos sentidos ativos de Cobb.
+- **Movimento e posicionamento** são vitais para combater as habilidades sensoriais de Cobb de forma eficaz.
+</Callout>
+
+<Section icon={Lightbulb} title="Compreendendo a Habilidade 'Cobb Pode Cheirar'">
+Em **Cobb Can Move**, o monstro titular, Cobb, possui várias habilidades aterrorizantes que ditam como ele caça o jogador. Uma das mais impactantes é a regra "Cobb Pode Cheirar". Quando esta regra está ativa, Cobb usa seus sentidos olfativos para detectar o jogador, adicionando uma camada de tensão e profundidade estratégica a cada partida. Esta habilidade, como outras, pode alterar significativamente suas táticas de sobrevivência, enfatizando o movimento cuidadoso e a gestão de recursos.
+
+**Destaques do Vídeo:**
+- Demonstra o comportamento de rastreamento de Cobb quando o 'cheiro' está ativo.
+- Mostra estratégias do jogador para evadir Cobb usando elementos ambientais.
+- Destaca a importância da luz e do som em conjunto com o cheiro.
+
+<Callout type="tip">
+Sempre verifique o texto da regra no início de cada nível. A regra sensorial ativa de Cobb é uma informação crítica que influencia diretamente sua estratégia de sobrevivência imediata.
+</Callout>
+
+</Section>
+
+<Section icon={AlertTriangle} title="Nerfs Recentes e Mudanças de Balanceamento no Cheiro de Cobb">
+Os desenvolvedores de Cobb Can Move têm equilibrado ativamente as habilidades de Cobb em várias atualizações para refinar a experiência de jogo. A habilidade "Cobb Pode Cheirar" passou por ajustes significativos, particularmente no patch v1.7. Essas mudanças visam tornar o jogo desafiador sem ser excessivamente punitivo, especialmente em cenários onde a detecção de Cobb parecia implacável.
+
+| Versão | Descrição da Mudança | Conclusão do Jogador |
+| :------ | :----------------- | :-------------- |
+| **v1.7** | Nerfou 'Cobb pode cheirar' com farejadas menos frequentes e menos persistência de perto. | O cheiro agora é menos implacável; a detecção de perto é mais perdoável. |
+| **v1.4** | Nível 2 garantido para incluir uma regra sensorial (ouvir, cheirar ou ver). | As primeiras partidas rapidamente ensinarão como os sentidos de Cobb funcionam. |
+| **Geral** | Regras sensoriais como o cheiro são ativamente balanceadas. | Espere ajustes contínuos; a adaptabilidade é fundamental. |
+
+<Callout type="warning" title="Aviso de Persistência">
+Apesar dos nerfs na v1.7, 'Cobb pode cheirar' continua sendo uma ameaça potente. Menos persistência não significa nenhuma persistência; Cobb ainda o rastreará se você demorar ou fizer muito barulho.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Estratégias para Combater o Cheiro de Cobb">
+Sobreviver quando Cobb pode cheirar exige uma abordagem diferenciada, combinando movimento cuidadoso, consciência ambiental e uso eficiente de itens. Compreender como o mecanismo de cheiro de Cobb funciona e adaptar seu estilo de jogo de acordo é crucial para a sobrevivência a longo prazo.
+
+<Steps>
+  <Step num="1" title="Manter Distância">
+    O cheiro de Cobb é mais eficaz a curta distância. Priorize manter uma distância segura sempre que possível. Se Cobb estiver rastreando você, tente quebrar a linha de visão e criar obstáculos entre você e o monstro.
+  </Step>
+  <Step num="2" title="Minimizar Ruído e Luz">
+    Embora o 'cheiro' seja o método de detecção principal, outras regras sensoriais podem estar ativas simultaneamente ou complementar o rastreamento de Cobb. Reduzir sua emissão de luz e mover-se silenciosamente pode evitar a detecção acidental de outros sentidos que possam anular ou aprimorar o cheiro de Cobb.
+  </Step>
+  <Step num="3" title="Utilizar Pedras para Distração/Atordoamento">
+    Pedras, especialmente após as atualizações v1.6 e v1.7, são ferramentas valiosas. Um golpe direto pode atordoar Cobb brevemente, dando-lhe segundos preciosos para escapar ou se reposicionar, especialmente útil quando Cobb está rastreando por cheiro. Lançar pedras também pode criar distrações de ruído.
+  </Step>
+  <Step num="4" title="Aprender Layouts e Rotas do Mapa">
+    Familiarize-se com os padrões de geração procedural. Conhecer possíveis rotas de fuga, pontos de estrangulamento e locais de recursos ajuda você a planejar seus movimentos de forma mais eficaz quando está sendo caçado por um Cobb que cheira.
+  </Step>
+  <Step num="5" title="Adaptar-se a Regras Combinadas">
+    As habilidades de Cobb podem se acumular. Uma partida onde "Cobb pode cheirar" está ativo também pode ter "Cobb pode ouvir" ou "Cobb pode ver". Esteja preparado para combinar estratégias, pois uma corrida barulhenta pode evadir o cheiro, mas acionar a audição.
+  </Step>
+</Steps>
+
+<Callout type="success">
+Evadir Cobb com sucesso quando ele pode cheirar geralmente se resume a uma tomada de decisão rápida e uso eficiente do ambiente. Não tenha medo de experimentar diferentes caminhos e distrações.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Impacto na Jogabilidade e Modo Infinito">
+A regra "Cobb Pode Cheirar" molda significativamente a experiência de jogo tanto no modo história quanto no Modo Infinito. No Modo Infinito, onde a pressão aumenta constantemente, compreender e combater as habilidades sensoriais de Cobb torna-se ainda mais crítico para alcançar pontuações altas.
+
+| Aspecto | Impacto de 'Cobb Pode Cheirar' | Estratégia no Modo Infinito |
+| :----- | :------------------------- | :----------------------- |
+| **Início do Jogo** | Ensina a mecânica central de detecção no Nível 2. | Concentre-se em movimentos lentos e deliberados; aprenda os padrões de farejar de Cobb. |
+| **Meio do Jogo** | Aumenta a pressão à medida que os mapas ficam maiores e mais complexos. | Priorize rotas de carvão que ofereçam cobertura e opções de fuga. |
+| **Fim do Jogo** | Combinado com outras regras (por exemplo, duplicatas), torna a evasão mais difícil. | Use pedras e recursos ambientais para gerenciar múltiplas ameaças; conserve a resistência. |
+| **Gestão de Recursos** | Força um roteamento mais cuidadoso para carvão e cenouras. | Planeje a coleta de recursos para evitar viagens longas e expostas que atraiam Cobb. |
+| **Comportamento do Jogador** | Pune rotas previsíveis e esconderijos estáticos. | Varie constantemente seus padrões de movimento e use distrações estrategicamente. |
+
+<Callout type="info">
+O nerf da v1.7 no 'Cobb pode cheirar' torna o Modo Infinito um pouco menos punitivo, mas não elimina a necessidade de jogar com cuidado. A adaptabilidade continua sendo a ferramenta de sobrevivência definitiva.
+</Callout>
+
+</Section>
+
+<Section icon={CheckCircle} title="Lista de Habilidades de Cobb">
+Além do **cheiro de Cobb Can Move**, Cobb possui uma série de habilidades que mantêm os jogadores alertas. Dominar essas habilidades e compreender suas nuances é fundamental para a sobrevivência a longo prazo nas masmorras de pixel sombrias.
+
+<Checklist
+  id="cobb-abilities"
+  title="Habilidades Centrais de Cobb:"
+  items={[
+    "**Cobb Pode Mover**: A habilidade básica de movimento, muitas vezes acelerada durante longas perseguições.",
+    "**Cobb Pode Ver**: Detecção baseada na visão, equilibrada em todas as atualizações (v1.4, v1.5).",
+    "**Cobb Pode Ouvir**: Detecção baseada no som, exigindo movimento silencioso.",
+    "**Cobb Pode Cheirar**: Detecção olfativa, nerfeada na v1.7 para menor persistência.",
+    "**Cobb Pode Alcançar**: Estende o alcance de ataque de Cobb com passos maiores e mais lentos (v1.6).",
+    "**Cobb Pode Duplicar**: Gera múltiplos Cobbs, que agora se empurram (v1.6).",
+  ]}
+/>
+
+<Callout type="tip">
+Cada habilidade adiciona um desafio único. Preste muita atenção às regras ativas exibidas no início de cada nível para adaptar sua estratégia ao perfil de ameaça atual de Cobb.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "Como funciona 'Cobb Pode Cheirar' em Cobb Can Move?",
+    answer: "Quando 'Cobb pode cheirar' está ativo, Cobb usa seu sentido de olfato para rastrear o jogador. Ele irá se direcionar para sua localização, especialmente se você estiver a curta distância ou demorar muito em um só lugar. A atualização v1.7 o tornou menos persistente."
+  },
+  {
+    question: "A habilidade de cheiro de Cobb foi nerfeada?",
+    answer: "Sim, a atualização v1.7 para Cobb Can Move nerfou 'Cobb pode cheirar' ao tornar as farejadas menos frequentes e reduzir sua persistência ao detectar jogadores a curta distância. Isso torna a evasão um pouco mais gerenciável."
+  },
+  {
+    question: "Qual é a melhor maneira de evitar Cobb quando ele pode cheirar?",
+    answer: "As melhores estratégias envolvem manter distância, mover-se deliberadamente e silenciosamente, e usar pedras arremessáveis para distrações ou atordoamentos. Esteja sempre ciente do seu ambiente para quebrar a linha de visão e escapar."
+  },
+  {
+    question: "Outras regras sensoriais estão ativas com 'Cobb Can Move cheiro'?",
+    answer: "Sim, as habilidades de Cobb podem se combinar. Embora 'Cobb pode cheirar' possa ser a regra principal, 'Cobb pode ouvir' ou 'Cobb pode ver' também podem estar ativas. Sempre verifique o texto da regra no início do nível e adapte sua estratégia de acordo."
+  }
+]} />
+
+</Section>

@@ -1,0 +1,187 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Cobb Can Move todos los modificadores: Guía de Supervivencia y Consejos 2026",
+  description: "Domina todos los modificadores de Cobb Can Move con nuestra guía de 2026. Aprende las reglas sensoriales, habilidades de movimiento y tácticas de supervivencia para la última actualización v1.7.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/8b0000/fff?text=Cobb+Can+Move+Modifiers",
+  date: "2026-06-17",
+  author: "Equipo de Wiki de Cobb Can Move"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Todos los modificadores de Cobb Can Move** dictan cómo el monstruo detecta y persigue al jugador en cada nivel procedural.
+- Las **reglas sensoriales** como Ver, Oír y Oler están garantizadas a aparecer a partir del Nivel 2 en el Modo Historia.
+- Los **modificadores de movimiento** como Alcance y Duplicado alteran significativamente la amenaza física de Cobb y los requisitos de espacio.
+- Las **actualizaciones v1.7** en 2026 redujeron el modificador de Olor y la aceleración de la persecución para mejorar el equilibrio de la supervivencia.
+- Las **rocas y zanahorias** son elementos esenciales utilizados para contrarrestar modificadores específicos mediante aturdimiento o gestión de la resistencia.
+</Callout>
+
+<Section icon={Map} title="Entendiendo el Sistema de Cambio de Reglas">
+
+Cobb Can Move se define por su naturaleza impredecible, donde las mecánicas centrales del juego cambian cada vez que entras en un nuevo nivel. A diferencia de los juegos de terror tradicionales con IA de monstruos fija, este título utiliza un sistema de reglas procedurales. **Todos los modificadores de Cobb Can Move** son las variables que el juego selecciona para determinar el comportamiento de Cobb, las necesidades físicas del jugador y los peligros ambientales. En la actualización v1.7 de 2026, estos modificadores han sido ajustados para asegurar que, si bien el juego sigue siendo difícil, proporciona una retroalimentación clara a través de consejos de muerte y señales visuales.
+
+**Puntos destacados del video:**
+- **Identificación de modificadores**: Cómo leer el texto de la regla activa al inicio de una partida.
+- **Bucle de supervivencia**: Gestionar el carbón y el horno mientras evitas la detección de Cobb.
+- **Interacción con objetos**: Usar rocas para aturdir a Cobb durante modificadores de persecución de alta presión.
+
+<YouTubeEmbed videoId="f_3ZJ_7t_W0" title="COBB CAN MOVE - Markiplier Gameplay" />
+
+El sistema de reglas no es solo cosmético; cambia tu estrategia fundamental. Por ejemplo, un modificador "Cobb puede ver" requiere que te mantengas en la oscuridad o rompas la línea de visión, mientras que "Cobb puede oír" exige un movimiento lento y agachado. Entender estos cambios es la diferencia entre un escape exitoso y un reinicio rápido.
+
+| Categoría de Modificador | Función Principal | Nivel de Impacto |
+| :--- | :--- | :--- |
+| **Sensorial** | Determina cómo Cobb encuentra al jugador | Alto |
+| **Movimiento** | Altera la velocidad, alcance o número de Cobb | Crítico |
+| **Jugador** | Añade necesidades de supervivencia como hambre o calor | Medio |
+| **Ambiental** | Cambia la aparición de objetos o la visibilidad del mapa | Bajo |
+
+<Callout type="info" title="Persistencia del Modificador">
+En el Modo Historia, los modificadores se introducen gradualmente, pero en el Modo Infinito (desbloqueado después del Nivel 3), múltiples modificadores pueden apilarse, creando combinaciones letales que requieren una rápida adaptación.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Modificadores Sensoriales: Mecánicas de Detección">
+
+Los **modificadores más comunes de Cobb Can Move** son las reglas sensoriales. Estas determinan la "lógica" que usa Cobb para rastrearte a través de los pasillos oscuros. Desde la actualización v1.4 en mayo de 2026, el Nivel 2 garantiza la introducción de al menos una regla sensorial, asegurando que los jugadores aprendan estas mecánicas al principio de su progresión.
+
+| Modificador | Disparador de Detección | Cambio de Equilibrio 2026 |
+| :--- | :--- | :--- |
+| **Cobb puede ver** | Línea de visión + Nivel de luz del jugador | Alcance nerfeado en v1.5 para mayor equidad |
+| **Cobb puede oír** | Correr, soltar objetos o ruido de rocas | El ruido de las rocas aumentó en v1.6 para distraer |
+| **Cobb puede oler** | Proximidad y permanecer quieto demasiado tiempo | Frecuencia de olfateo reducida en v1.7 |
+
+El modificador "Olor" fue históricamente el más difícil de contrarrestar. Sin embargo, el parche v1.7 implementó un nerfeo significativo, haciendo que los olfateos de Cobb fueran menos frecuentes y reduciendo su persistencia cuando huele a un jugador a corta distancia. Esto permite escapes más "milagrosos" donde puedes dar la vuelta y perder el rastro.
+
+<Callout type="warning" title="Advertencia de Sigilo">
+Cuando "Cobb puede oír" está activo, incluso el sonido del horno o del interruptor puede enmascarar tus pasos, pero soltar un trozo pesado de carbón alertará inmediatamente a Cobb de tus coordenadas exactas.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Modificadores de Movimiento y Comportamiento">
+
+Cuando Cobb no solo te está buscando, está cambiando físicamente cómo se mueve. Estos modificadores afectan la fase de "persecución" del juego. Si no tienes en cuenta un modificador de movimiento, es probable que te encuentres atrapado en una esquina porque juzgaste mal la distancia entre tú y el monstruo.
+
+<CardGrid cols={3}>
+  <Card title="Modificador de Alcance">
+    - **Pasos Grandes**: Cobb da zancadas enormes.
+    - **Compensación de Velocidad**: Se mueve más lento en general, pero cubre distancias en ráfagas.
+    - **Espaciado**: Requiere el doble de la distancia de seguridad normal.
+  </Card>
+  <Card title="Modificador de Duplicado">
+    - **Múltiples Cobbs**: Dos o más monstruos deambulan por el mapa.
+    - **Corrección v1.6**: Los duplicados ahora se empujan entre sí en lugar de fusionarse.
+    - **Estrategia**: Usa rocas para aturdir a uno mientras te deslizas junto al otro.
+  </Card>
+  <Card title="Modificadores de Persecución">
+    - **Aceleración**: Cobb se vuelve más rápido cuanto más tiempo te persigue.
+    - **Nerfeo v1.7**: La aceleración de persecución prolongada se redujo para evitar la "velocidad infinita".
+    - **Contrarrestar**: Rompe la línea de visión para restablecer su velocidad.
+  </Card>
+</CardGrid>
+
+El modificador "Duplicado" es particularmente peligroso en el Modo Infinito después del Nivel 5. Debido a que el mapa está construido a partir de fragmentos procedurales, tener dos monstruos puede "pinzar" efectivamente al jugador en un pasillo estrecho. Mantén siempre una roca en tu inventario cuando veas el texto de la regla "Duplicado".
+
+<Callout type="success" title="Estrategia Profesional 2026">
+La actualización v1.6 hizo que las rocas fueran mucho más viables. Un golpe directo con una roca ahora aturdirá a Cobb por un corto período, independientemente de sus modificadores de movimiento activos. Esta es tu mejor herramienta para sobrevivir a las reglas de "Alcance" o "Duplicado".
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Modificadores de Supervivencia y Objetos">
+
+No todos los **modificadores de Cobb Can Move** tratan sobre el monstruo. Algunos se centran en las necesidades de supervivencia del jugador o en la disponibilidad de recursos. Estas reglas te obligan a moverte y a tomar riesgos en lugar de esconderte en un rincón seguro indefinidamente.
+
+<Checklist
+  id="survival-items"
+  title="Elementos Críticos para la Gestión de Modificadores:"
+  items={[
+    "Carbón: Esencial para el bucle del horno para mantener la luz y el calor.",
+    "Rocas: Se usan para aturdir a Cobb o crear distracciones de ruido (mejora v1.6).",
+    "Zanahorias: Fuente de alimento que reaparece para contrarrestar el modificador 'Hambre'.",
+    "Baterías: Requeridas para el Nivel 7 y la tarea final de la historia.",
+    "Interruptor: Puntos de interacción que restauran la visibilidad del mapa."
+  ]}
+/>
+
+En la v1.6, el desarrollador ajustó la lógica de aparición de "Carbón". Ahora es menos probable que el carbón aparezca directamente junto al horno, lo que obliga a los jugadores a navegar más profundamente en las zonas oscuras. Este cambio interactúa directamente con el modificador "Congelación", que castiga a los jugadores que pasan demasiado tiempo lejos de una fuente de calor.
+
+| Objeto | Modificador de Interacción | Consejo de Supervivencia |
+| :--- | :--- | :--- |
+| **Zanahorias** | Hambre | Las zanahorias reaparecen después de la v1.3; no las acumules. |
+| **Rocas** | Oír / Aturdir | Las rocas ahora suenan más fuerte (v1.6) para mejores distracciones. |
+| **Carbón** | Congelación | Usa el horno para restablecer tu medidor de congelación. |
+| **Baterías** | Tarea Final | Colocar 4 baterías cambia el texto de la tarea final. |
+
+<Callout type="tip" title="Truco de Inventario">
+Desde la v1.4, puedes intercambiar objetos incluso si el lugar de soltar es "rojo" (sobre una pared). Esto es útil cuando te persiguen y necesitas soltar rápidamente una batería por una roca.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Modificadores de Progresión y Modo">
+
+La forma en que se aplican **todos los modificadores de Cobb Can Move** depende en gran medida de si estás jugando al Modo Historia o al Modo Infinito. Las actualizaciones de 2026 han refinado la curva de dificultad para asegurar que el final del juego se sienta ganado en lugar de frustrante.
+
+<Steps>
+  <Step num="1" title="Primeros Niveles de la Historia">
+    Los niveles 1 y 2 introducen movimientos básicos y una única regla sensorial. Úsalos para aprender a agacharte y gestionar tu luz.
+  </Step>
+  <Step num="2" title="El Cambio de Mitad de Juego">
+    Los niveles 3 a 6 introducen reglas apiladas. Podrías enfrentarte a "Cobb puede oír" y "Alcance" simultáneamente.
+  </Step>
+  <Step num="3" title="Nivel 7 y el Final">
+    El Nivel 7 se actualizó en la v1.5 para incluir más rocas. El final requiere colocar cuatro baterías e interactuar con un alto horno, que ahora tiene una hitbox más grande (v1.6).
+  </Step>
+  <Step num="4" title="Dominio del Modo Infinito">
+    Comienza en el Nivel 3 (actualización v1.3). Los modificadores son aleatorios y utilizan aleatoriedad sembrada. La supervivencia se trata de adaptarse a las "nuevas tonterías" que hace Cobb en cada piso.
+  </Step>
+</Steps>
+
+Después de terminar el juego una vez, desbloqueas el menú de Selección de Nivel (añadido en la v1.5). Esto te permite practicar niveles específicos o combinaciones de reglas sin reiniciar toda la historia. Es la mejor manera de dominar el juego de alto nivel antes de sumergirte en las tablas de clasificación del Modo Infinito.
+
+| Característica | Modo Historia | Modo Infinito |
+| :--- | :--- | :--- |
+| **Dificultad** | Progresión lineal | Presión escalada |
+| **Modificadores** | Introducción fija | Aleatorio / Sembrado |
+| **Objetivo** | Alcanzar el final | Sobrevivir tantos niveles como sea posible |
+| **Rocas** | Colocadas para puzles | Generadas aleatoriamente |
+
+<Callout type="info" title="Equilibrio de la Tarea Final">
+La velocidad de la tarea final fue ligeramente nerfeada en la v1.4 y luego mejorada en la v1.5.2. En 2026, el final se considera una "prueba de estrés" de todo lo que has aprendido sobre los modificadores de movimiento de Cobb.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Preguntas Frecuentes de Cobb Can Move">
+
+<FAQ items={[
+  {
+    question: "¿Cómo sé qué modificadores de Cobb Can Move están activos?",
+    answer: "Al inicio de cada nivel, el juego muestra un cuadro de texto en pantalla describiendo las reglas actuales. Además, si mueres, la actualización v1.4 añadió 'Consejos de Muerte' que explican la regla que probablemente no seguiste."
+  },
+  {
+    question: "¿Puedo aturdir a Cobb con una roca si tiene el modificador 'Alcance'?",
+    answer: "Sí. A partir de las actualizaciones v1.6 y v1.7, las rocas son una herramienta defensiva universal. Un golpe directo aturdirá a Cobb por un corto período, permitiéndote escapar de su alcance o romper la línea de visión."
+  },
+  {
+    question: "¿Cuál es la mejor manera de contrarrestar 'Cobb puede oler'?",
+    answer: "En la actualización v1.7 de 2026, el modificador de olor fue nerfeado. Debes seguir moviéndote y evitar permanecer en el mismo fragmento procedural por mucho tiempo. Si ves a Cobb 'olfateando', cambia de dirección inmediatamente."
+  },
+  {
+    question: "¿Se apilan los modificadores en el Modo Historia?",
+    answer: "Sí, pero se apilan de manera controlada. Para el Nivel 7, te enfrentarás a múltiples modificadores, incluyendo reglas sensoriales y mejoras de movimiento, lo que te obligará a gestionar baterías y carbón simultáneamente."
+  }
+]} />
+
+</Section>

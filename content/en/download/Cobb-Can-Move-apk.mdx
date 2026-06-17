@@ -1,0 +1,213 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Activity, Settings } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Cobb Can Move apk: Official Download & Survival Setup Guide",
+  description: "Get the official Cobb Can Move download info for 2026. Learn about v1.7 updates, changing rules, sensory abilities, and the final furnace task guide.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/7c0a0a/fff?text=Cobb+Can+Move+Guide",
+  date: "2026-06-17",
+  author: "Cobb Can Move Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Cobb Can Move apk**: Currently, the official game is released for **HTML5 and Windows** via itch.io. Beware of unofficial APK mirrors.
+- **Latest Version**: The current stable build is **v1.7 (May 19, 2026)**, featuring balanced smell mechanics and pursuit fixes.
+- **Core Gameplay**: Survive a red monster named Cobb in a procedural dungeon where **rules change every level**.
+- **Survival Goal**: Manage coal, furnaces, and breakers while adapting to Cobb's evolving senses (See, Hear, Smell).
+- **Control Support**: Fully compatible with **Keyboard and Gamepad** inputs for precision movement.
+</Callout>
+
+<Section icon={Settings} title="Official Download and Version Status">
+
+When searching for a **Cobb Can Move apk**, it is vital to understand that the developer, **abho**, maintains the official project primarily on itch.io. While many third-party sites claim to offer mobile ports or APK files, these are often unverified mirrors that may contain outdated builds or security risks. The most reliable way to experience the game in 2026 is through the official Windows download or the HTML5 browser version.
+
+The game has seen significant post-launch support throughout 2026, evolving from a jam winner into a polished survival horror experience. The transition from v1.4 to v1.7 has introduced critical quality-of-life features, such as death tips and a level select menu, ensuring that the difficulty remains fair yet terrifying.
+
+| Feature | Official Specification |
+|:---|:---|
+| **Primary Platform** | HTML5 (Browser) and Windows (PC) |
+| **Latest Release** | v1.7 (Released May 2026) |
+| **Price Model** | Name your own price (Free option available) |
+| **File Size** | Approx. 15 MB (Compressed ZIP) |
+| **Input Methods** | Keyboard (WASD/Arrows), Gamepad (Full Support) |
+| **Language** | English |
+
+<Callout type="warning" title="Security Alert">
+Always verify you are on **abho.itch.io/cobb-can-move**. Avoid "APK" sites that require suspicious permissions or offer "Unlimited Money" mods, as the game does not feature an in-game currency system.
+</Callout>
+
+### Version History Table (2026 Updates)
+
+| Version | Key Changes | Impact on Gameplay |
+|:---|:---|:---|
+| **v1.7** | Smell nerf, rock stun fix, pursuit nerf | Cobb is less relentless in close quarters |
+| **v1.6** | Rock stuns added, coal spawn logic, AZERTY support | More defensive options for players |
+| **v1.5** | Level 7 rocks, Level Select menu, ending buff | Improved replayability and late-game challenge |
+| **v1.4** | Death tips, sensory rule guarantee, item swapping | Better learning curve for new players |
+
+</Section>
+
+<Section icon={Map} title="Beginner Survival Setup and Rules">
+
+The core of the experience is the "Rule-Changing" mechanic. Unlike traditional horror games where the monster follows a fixed AI pattern, Cobb's behavior is dictated by the active rule displayed at the start of each run. Understanding these rules is the difference between a successful escape and a swift death.
+
+<Steps>
+  <Step num="1" title="Initialize the Run">
+    Launch the game via the official itch.io page. If you are on Windows, use the standalone build for better performance. Upon starting, immediately read the text displayed on the screen. This text defines the "Rule" for the current level.
+  </Step>
+  <Step num="2" title="Identify Sensory Rules">
+    As of v1.4, Level 2 is guaranteed to introduce a sensory rule. You must determine if Cobb can **See**, **Hear**, or **Smell** you. Each requires a different movement strategy to avoid detection.
+  </Step>
+  <Step num="3" title="Manage Resources">
+    Locate the furnace. Your primary objective is to keep the heat or power active. Scout the nearby rooms for **Coal**. Avoid dropping coal in red "invalid" zones, though v1.4 now allows for more forgiving item swapping near walls.
+  </Step>
+  <Step num="4" title="Utilize Defensive Tools">
+    Keep an eye out for **Rocks**. In v1.6 and v1.7, rocks have been buffed to stun Cobb on a direct hit. If you are being pursued, a well-timed throw can buy you the seconds needed to reach a safe zone or the next objective.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Death is a Teacher">
+Pay attention to the **Death Tips** introduced in v1.4. If you die, the game provides a specific hint about the active rule you failed to follow. Use this to adjust your tactics for the next attempt.
+</Callout>
+
+</Section>
+
+<Section icon={Activity} title="Cobb Abilities and Sensory Mechanics">
+
+Cobb is a red, long-armed entity that adapts to the dungeon's environment. The 2026 updates have meticulously balanced these abilities to ensure that while Cobb is powerful, he is not invincible.
+
+<CardGrid cols={3}>
+  <Card title="Cobb Can See">
+    - **Trigger**: Player light level and line-of-sight.
+    - **Strategy**: Stay in shadows and use walls to break vision.
+    - **Update**: v1.4 and v1.5 slightly nerfed his vision range.
+  </Card>
+  <Card title="Cobb Can Smell">
+    - **Trigger**: Proximity and time spent in one area.
+    - **Strategy**: Keep moving; do not camp in one room for too long.
+    - **Update**: v1.7 significantly reduced the frequency of sniffs.
+  </Card>
+  <Card title="Cobb Can Hear">
+    - **Trigger**: Running, throwing rocks, or interacting with objects.
+    - **Strategy**: Walk instead of running when Cobb is nearby.
+    - **Update**: Rock noise was increased in v1.6 to help distract him.
+  </Card>
+</CardGrid>
+
+### Ability Comparison and Counters
+
+| Ability Rule | Cobb's Behavior | Player Counter-Action |
+|:---|:---|:---|
+| **Reach** | Cobb takes larger steps but moves slower | Maintain a wider gap than usual |
+| **Duplicate** | Multiple Cobbs spawn (Level 5+) | Avoid getting cornered; Cobbs now push each other |
+| **Pursuit** | Cobb accelerates during long chases | Use Rocks to stun or break line-of-sight |
+| **Wander** | Random movement in large maps | Listen for audio cues to track his location |
+
+<Callout type="success" title="Mechanical Fix">
+The v1.7 update fixed a bug where rocks failed to stun Cobb during an active pursuit. You can now reliably use throwables as a last-resort defensive measure.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Item Database and Object Utility">
+
+Interaction with the environment is your only way to progress. Items in the game serve specific roles, from basic survival to triggering the final ending sequence.
+
+| Item | Type | Primary Use | Update Note |
+|:---|:---|:---|:---|
+| **Coal** | Resource | Fuel for the furnace loop | v1.6 prevents spawns right next to furnaces |
+| **Rocks** | Utility | Stun Cobb or create noise distractions | v1.6 added stun; v1.7 fixed pursuit stun |
+| **Carrots** | Food | Prevents the "Starve" condition | v1.3 made carrots respawn after being eaten |
+| **Batteries** | Progression | Required for the Level 7 final task | 4 batteries are needed to trigger the end |
+| **Breaker** | Map Object | Restores power/visibility | v1.3 updated the sprite for better visibility |
+
+<Callout type="info" title="Environmental Strategy">
+In v1.6, the **Blast Furnace** used in the ending sequence received a larger hitbox. This makes it much easier to interact with during the high-pressure finale when Cobb is actively hunting you.
+</Callout>
+
+### Control Configuration
+
+| Action | Keyboard Input | Gamepad Input |
+|:---|:---|:---|
+| **Movement** | WASD / Arrow Keys | Left Analog Stick |
+| **Interact / Pick Up** | E / Space | Bottom Face Button (A/Cross) |
+| **Throw Item** | Q / Shift | Right Trigger / Face Button |
+| **Menu / Pause** | Esc | Start / Options |
+
+</Section>
+
+<Section icon={Trophy} title="Story Mode Progression and Endings">
+
+Story mode consists of 7 distinct levels, culminating in a final task that tests everything you have learned about Cobb's movement and sensory rules.
+
+<Checklist
+  id="story-milestones"
+  title="Story Mode Completion Goals:"
+  items={[
+    "Complete Level 2 to master basic sensory rules",
+    "Reach Level 5 to encounter the Duplicate mechanic",
+    "Collect all 4 Batteries in Level 7",
+    "Interact with the Blast Furnace to trigger the finale",
+    "Unlock the Level Select menu by beating the game once"
+  ]}
+/>
+
+The final task in Level 7 is the most difficult challenge. After placing the four batteries, the game text changes to indicate the final objective. In v1.4 and v1.5, the developer balanced Cobb's speed during this phase—initially nerfing it, then slightly buffing it (v1.5.2) to maintain the horror atmosphere without making it impossible.
+
+<Callout type="tip" title="Level Select Utility">
+Once you unlock the **Level Select** menu (v1.5), use it to practice Level 7. It is the best way to learn the layout and battery spawn points without having to replay the entire story mode.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Endless Mode and Replay Strategy">
+
+For players seeking the ultimate challenge, Endless Mode starts at **Level 3** (as of v1.3) and features procedural map generation. Every run is unique, using a "chunk-based" generation system that keeps the layout unpredictable.
+
+**Key Replay Strategies:**
+- **Seeded Randomness**: While the map is procedural, the logic follows specific seeds. Learning the "types" of rooms (chunks) helps you navigate faster.
+- **Rule Adaptation**: In Endless Mode, rules can combine in brutal ways. Always prioritize the "Smell" and "See" rules, as they are the most direct threats to your position.
+- **Rock Management**: Since Level 7 and Endless Mode provide more rocks, always keep one in your inventory. A stun is more valuable than a spare coal if Cobb is already on your trail.
+
+<Callout type="warning" title="Long Pursuit Risk">
+In v1.6, Cobb was updated to move faster during long pursuits. Do not try to outrun him indefinitely. You must use the environment to lose him or a rock to stop him.
+</Callout>
+
+### Endless Mode Scaling
+
+| Level Range | Difficulty Spike | New Threat |
+|:---|:---|:---|
+| **Levels 3-5** | Moderate | Guaranteed Sensory Rules |
+| **Levels 6-10** | High | Duplicate Cobbs and Reach Rules |
+| **Levels 11+** | Extreme | Rapid Rule Changes and Faster Pursuit |
+
+</Section>
+
+<Section icon={Sparkles} title="FAQ: Cobb Can Move Common Questions">
+
+<FAQ items={[
+  {
+    question: "Is there an official Cobb Can Move apk for Android?",
+    answer: "No. The developer abho has only released the game for HTML5 and Windows. Any APK file found online is an unofficial port and should be handled with extreme caution to avoid malware."
+  },
+  {
+    question: "How do I stun Cobb with a rock?",
+    answer: "You must score a direct hit on Cobb's character model. As of v1.6, this will stun him for a short duration. v1.7 fixed a bug where this didn't work during chases, so it is now a reliable defensive tool."
+  },
+  {
+    question: "What changed in the v1.7 update?",
+    answer: "The v1.7 update (May 2026) nerfed Cobb's smell ability, making him sniff less frequently. It also slightly reduced his acceleration during long pursuits and fixed the rock stun mechanic."
+  },
+  {
+    question: "How do I unlock the Level Select menu?",
+    answer: "You must complete the story mode (Level 7 and the final task) at least once. After the credits, the Level Select option will appear in the main menu, allowing you to replay any specific stage."
+  }
+]} />
+
+</Section>

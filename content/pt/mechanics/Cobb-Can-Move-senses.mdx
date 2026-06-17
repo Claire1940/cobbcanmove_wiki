@@ -1,0 +1,160 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Cobb Can Move Senses: Dominando as Regras e Táticas de Detecção",
+  description: "Entenda as habilidades sensoriais de Cobb Can Move (Ver, Ouvir, Cheirar) e como adaptar suas táticas de sobrevivência a cada regra para uma jogabilidade ideal.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/8B0000/fff?text=Cobb+Senses+Guide",
+  date: "2026-06-17",
+  author: "Equipe Wiki do Cobb Can Move"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Sentidos de Cobb Can Move**: Adapte-se às regras de **Ver**, **Ouvir** e **Cheirar** a cada partida.
+- As **regras sensoriais** são garantidas a partir do Nível 2, forçando uma adaptação precoce.
+- O **Olfato** foi recentemente enfraquecido, reduzindo a persistência e a frequência de farejadas.
+- A **Visão** (Cobb Can See) foi balanceada em várias atualizações.
+- Use **pedras** como ferramenta defensiva, especialmente durante perseguições, para atordoar Cobb.
+</Callout>
+
+<Section icon={Target} title="Compreendendo as Habilidades Sensoriais de Cobb">
+A capacidade de Cobb de detectar o jogador é central para a experiência de survival horror em Cobb Can Move. A mecânica principal do jogo gira em torno de regras em constante mudança, e estas frequentemente incluem regras sensoriais que ditam como Cobb percebe sua presença. Dominar essas regras é crucial para a sobrevivência a longo prazo. O diário de desenvolvimento oficial destaca as habilidades de Cobb como Mover, Ver, Ouvir, Cheirar, Alcançar e Duplicar. Aqui, focamos nos aspectos sensoriais.
+
+**Destaques do Vídeo:**
+- Demonstra como os sentidos de Cobb mudam a jogabilidade.
+- Mostra as reações dos jogadores a diferentes regras sensoriais.
+- Oferece exemplos visuais de táticas de evasão bem-sucedidas.
+
+<Callout type="tip">
+Sempre verifique o texto da regra ativa no início de cada nível. O comportamento de Cobb, e sua estratégia de sobrevivência, mudarão drasticamente com base em se ele pode vê-lo, ouvi-lo ou cheirá-lo.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Cobb Pode Ver: Navegando pelas Regras de Visibilidade">
+A regra "Cobb Pode Ver" impacta significativamente como você se move pelos ambientes escuros. A linha de visão de Cobb se torna sua principal preocupação, tornando a navegação cuidadosa e o uso estratégico de cobertura ambiental primordiais.
+
+<CardGrid cols={2}>
+  <Card title="Comportamento de Cobb Pode Ver">
+    - Cobb detecta jogadores dentro de seu cone visual.
+    - Níveis de luz influenciam o alcance de detecção.
+    - Exige que os jogadores fiquem fora da visão direta.
+  </Card>
+  <Card title="Histórico de Atualizações e Balanceamento">
+    - v1.4 enfraqueceu ligeiramente "Cobb pode ver".
+    - v1.5 ajustou novamente o alcance de "Cobb pode ver".
+    - Os desenvolvedores balanceiam ativamente esta regra para manter o desafio.
+  </Card>
+</CardGrid>
+
+Quando "Cobb Pode Ver" está ativo, priorize ficar nas sombras e atrás de obstáculos. Correr por áreas abertas é uma sentença de morte.
+
+<Callout type="warning" title="A Visibilidade é Fundamental">
+Trate as regras relacionadas à visibilidade como grandes modificadores de perigo. Qualquer movimento na linha de visão direta de Cobb, especialmente em áreas iluminadas, provavelmente levará à detecção e perseguição.
+</Callout>
+
+### Estratégias para "Cobb Pode Ver"
+
+<Steps>
+  <Step num="1" title="Utilize a Escuridão e a Cobertura">
+    Fique em áreas pouco iluminadas e use paredes, móveis ou qualquer cobertura disponível para quebrar a linha de visão de Cobb. Evite corredores abertos.
+  </Step>
+  <Step num="2" title="Movimento Lento e Deliberado">
+    Movimentos rápidos podem chamar a atenção, mesmo que você esteja parcialmente obscurecido. Mova-se lenta e deliberadamente, espiando em torno dos cantos antes de prosseguir.
+  </Step>
+  <Step num="3" title="Observe os Padrões de Patrulha de Cobb">
+    Aprenda as rotas de patrulha comuns de Cobb dentro de um nível. Isso permite que você antecipe seus movimentos e planeje seu caminho de acordo, minimizando a exposição.
+  </Step>
+</Steps>
+
+</Section>
+
+<Section icon={Sparkles} title="Cobb Pode Cheirar: Adaptando-se à Detecção de Cheiro">
+A regra "Cobb Pode Cheirar" introduz uma camada diferente de ameaça, pois Cobb pode rastrear jogadores pelo cheiro. Essa habilidade ignora esconderijos visuais e auditivos, forçando os jogadores a gerenciar sua presença de uma nova maneira.
+
+| Aspecto da Detecção de Cheiro | Descrição                                                                          | Nota Oficial da Atualização (v1.7)                               | Conclusão do Jogador                                           |
+| :---------------------------- | :--------------------------------------------------------------------------------- | :--------------------------------------------------------------- | :------------------------------------------------------------- |
+| **Mecanismo de Detecção**     | Cobb rastreia o cheiro do jogador, independente da linha de visão ou som.          | Enfrequecido com farejadas menos frequentes e menos persistência a curta distância. | Menos implacável do que antes, mas ainda uma ameaça significativa. |
+| **Persistência**              | Rastros de cheiro podem permanecer, permitindo que Cobb siga seu caminho anterior. | Persistência reduzida a curta distância.                         | Mover-se rapidamente para fora de uma área pode reduzir a eficácia do rastreamento. |
+| **Alcance de Engajamento**    | Aciona quando Cobb está a uma certa proximidade do seu cheiro.                     | Farejadas menos frequentes significam menos detecções iniciais.  | Mantenha distância e evite ficar parado em um só lugar.        |
+| **Contramedida**              | Nenhuma contramedida direta além do movimento contínuo e evitando presença prolongada. | Concentre-se no movimento rápido e nas mudanças ambientais.       | O reposicionamento constante é fundamental; não confie em esconderijos estáticos. |
+
+A atualização v1.7 visou especificamente "Cobb Pode Cheirar", tornando-o menos opressor. Isso significa que os jogadores têm uma janela ligeiramente maior para escapar da detecção uma vez cheirados, mas ainda permanece uma ameaça potente.
+
+<Callout type="info">
+Embora "Cobb Pode Cheirar" tenha sido enfraquecido na v1.7, continua sendo uma regra sensorial importante. Não subestime sua capacidade de rastreá-lo, especialmente em espaços mais apertados.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Cobb Pode Ouvir: Respondendo a Sinais Sonoros">
+A regra "Cobb Pode Ouvir" torna o ruído um fator crítico para sua sobrevivência. Cada passo, interação com itens ou objeto caído pode alertar Cobb sobre sua posição, exigindo extrema cautela e movimento silencioso.
+
+| Fonte Sonora        | Efeito na Audição de Cobb | Estratégia do Jogador                                        | Significado da Atualização (v1.6)                                |
+| :------------------ | :------------------------ | :----------------------------------------------------------- | :--------------------------------------------------------------- |
+| **Passos do Jogador** | Movimento mais alto aumenta o alcance de detecção. | Mova-se lentamente; evite correr a menos que seja absolutamente necessário. | Nenhuma atualização específica, mas as mecânicas sonoras básicas se aplicam. |
+| **Itens Caídos**    | Cria um sinal sonoro distinto. | Solte itens apenas quando Cobb estiver longe ou distraído.    | A troca de itens é mais indulgente (v1.4), mas o som ainda importa. |
+| **Pedras**          | Podem ser jogadas para criar som. | Use pedras como distração ou para atordoar Cobb (v1.6).      | A v1.6 tornou os sons das pedras mais altos, melhorando sua utilidade. |
+| **Forno/Disjuntor** | Sons de interação são localizados. | Interaja com os objetivos apenas quando o caminho estiver livre. | Nenhuma atualização específica sobre som, mas a interação é inerente. |
+| **Movimento de Cobb** | Os próprios sons de Cobb indicam proximidade. | Ouça atentamente os passos de Cobb para avaliar sua localização. | A velocidade de perseguição de Cobb foi ajustada na v1.6/v1.7.     |
+
+As pedras desempenham um papel particularmente interessante quando "Cobb Pode Ouvir" está ativo. Elas podem ser jogadas para criar desvios, afastando Cobb do seu caminho pretendido. A atualização v1.6 tornou os sons das pedras mais altos, tornando-as mais eficazes para esse propósito.
+
+<Callout type="tip">
+Quando "Cobb Pode Ouvir" está ativo, as pedras são suas melhores amigas. Use-as para criar distrações, afastar Cobb ou até mesmo atordoá-lo se ele estiver em perseguição.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Integrando Regras Sensoriais na Estratégia Geral">
+Navegar com sucesso em Cobb Can Move requer uma abordagem dinâmica, ajustando constantemente sua estratégia com base nas regras sensoriais ativas. O jogo é projetado para mantê-lo alerta, e entender como os sentidos de Cobb operam é o primeiro passo para a sobrevivência.
+
+<Checklist
+  id="sensory-survival-checklist"
+  title="Lista de Verificação de Sobrevivência Sensorial de Cobb:"
+  items={[
+    "Leia o texto da regra ativa no início de cada partida.",
+    "Priorize a furtividade e a cobertura quando 'Cobb Pode Ver' estiver ativo.",
+    "Mantenha movimento constante e evite demorar quando 'Cobb Pode Cheirar' estiver ativo.",
+    "Utilize distrações sonoras (por exemplo, pedras) eficazmente quando 'Cobb Pode Ouvir' estiver ativo.",
+    "Aprenda com as dicas de morte para entender como cada regra sensorial impacta a jogabilidade."
+  ]}
+/>
+
+Os devlogs oficiais enfatizam a importância de se adaptar a essas regras. Por exemplo, a v1.4 garante uma regra sensorial no Nível 2, impulsionando os jogadores a aprenderem essas mecânicas cedo. As mudanças de balanceamento em andamento, como o enfraquecimento de "Cobb Pode Cheirar" na v1.7, indicam que os desenvolvedores estão refinando a experiência sensorial para garantir um ciclo de jogo desafiador, mas justo.
+
+<Callout type="success">
+Os jogadores mais bem-sucedidos são aqueles que tratam cada partida como um quebra-cabeça único, com as regras sensoriais atuais de Cobb fornecendo os parâmetros-chave. Adapte-se, observe e sobreviva.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="FAQ sobre os Sentidos de Cobb">
+
+<FAQ items={[
+  {
+    question: "Como as regras sensoriais de Cobb mudam a jogabilidade?",
+    answer: "As regras sensoriais de Cobb (Ver, Ouvir, Cheirar) alteram fundamentalmente como ele detecta o jogador. Por exemplo, 'Cobb Pode Ver' torna a furtividade visual crucial, enquanto 'Cobb Pode Cheirar' força os jogadores a se manterem em movimento para evitar serem rastreados pelo cheiro."
+  },
+  {
+    question: "As regras sensoriais estão sempre ativas?",
+    answer: "Não, as regras mudam a cada partida. No entanto, a v1.4 garante que o Nível 2 sempre incluirá uma regra sensorial (Ouvir, Cheirar ou Ver) para introduzir os jogadores a essas mecânicas precocemente."
+  },
+  {
+    question: "Qual foi a mudança de balanceamento mais recente nos sentidos de Cobb?",
+    answer: "Na v1.7, 'Cobb Pode Cheirar' foi enfraquecido com farejadas menos frequentes e persistência reduzida quando um jogador é cheirado a curta distância, tornando-o ligeiramente menos implacável do que antes."
+  },
+  {
+    question: "Posso usar itens para contra-atacar os sentidos de Cobb?",
+    answer: "Sim, particularmente com 'Cobb Pode Ouvir' ativo, pedras podem ser jogadas para criar distrações, atraindo Cobb para longe de sua posição. Pedras também podem atordoar Cobb com um acerto direto."
+  }
+]} />
+
+</Section>

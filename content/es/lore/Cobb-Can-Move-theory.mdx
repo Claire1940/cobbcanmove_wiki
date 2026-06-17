@@ -1,0 +1,163 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Teoría de Cobb Can Move: Reglas, Habilidades y Tácticas de Supervivencia",
+  description: "Explora las teorías fundamentales de las reglas cambiantes de Cobb Can Move, las habilidades de Cobb y tácticas de supervivencia efectivas en este juego de terror pixelado.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/8B0000/fff?text=Cobb+Can+Move+Theory",
+  date: "2026-06-17",
+  author: "Equipo de la Wiki de Cobb Can Move",
+  keywords: "teoría de cobb can move, habilidades de cobb, guía de supervivencia, terror pixelado"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Teoría de Cobb Can Move**: Entiende la mecánica central de cambio de reglas del juego.
+- **Habilidades de Cobb**: Aprende cómo **Moverse**, **Ver**, **Oír**, **Oler**, **Alcanzar** y **Duplicarse** afectan la jugabilidad.
+- **Tácticas de supervivencia**: Adáptate a la generación procedimental y a las reglas dinámicas para tener éxito.
+- **Gestión de recursos**: Prioriza el **carbón**, las **piedras** y las **zanahorias** de manera efectiva.
+- **Impacto de las actualizaciones**: Mantente informado sobre la v1.7 y otros cambios en el comportamiento de Cobb.
+</Callout>
+
+<Section icon={Map} title="Entendiendo las Teorías Centrales de Cobb Can Move">
+
+Cobb Can Move es un juego de terror pixelado donde la regla fundamental es el cambio mismo. Cada partida introduce nuevos parámetros, desafiando a los jugadores a adaptarse en lugar de memorizar. El diseño central del juego gira en torno a la generación procedimental y las reglas dinámicas, asegurando que no haya dos experiencias idénticas. Esta sección profundiza en las teorías fundacionales que rigen la jugabilidad, desde los diseños cambiantes del mapa hasta las habilidades evolutivas de Cobb.
+
+**Puntos Destacados del Video:**
+- Demuestra la jugabilidad inicial y la introducción de las reglas.
+- Muestra cómo cambia el comportamiento de Cobb con las reglas activas.
+- Resalta las reacciones de los jugadores ante cambios ambientales inesperados.
+
+<YouTubeEmbed videoId="VIDEO_ID_HERE" title="Video de Jugabilidad Popular de Cobb Can Move" />
+
+La filosofía de diseño enfatiza la imprevisibilidad, convirtiendo cada nivel en un rompecabezas fresco. Los desarrolladores han refinado constantemente este sistema, asegurando que el desafío del juego provenga de la adaptación en tiempo real.
+
+<Callout type="tip">
+Lee siempre el texto de la regla activa al comienzo de cada nivel. Ignorar estos parámetros dinámicos es una causa común de fallos tempranos.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Habilidades de Cobb: Marco Teórico e Impacto Práctico">
+
+La terrorífica efectividad de Cobb proviene de sus habilidades variadas y adaptables. Comprender los fundamentos teóricos de cada habilidad —y cómo interactúan con las reglas cambiantes del juego— es crucial para la supervivencia. Estas habilidades no son estáticas; actualizaciones recientes han ajustado constantemente su equilibrio y comportamiento.
+
+<CardGrid cols={2}>
+  <Card title="Habilidades Sensoriales">
+    - **Cobb Can See (Cobb Puede Ver)**: Detecta a los jugadores según el nivel de luz y la línea de visión directa. Las versiones v1.4 y v1.5 ajustaron su alcance, haciéndolo menos opresivo pero aún peligroso.
+    - **Cobb Can Hear (Cobb Puede Oír)**: Reacciona a los sonidos generados por el jugador. Requiere un movimiento cuidadoso y silencioso.
+    - **Cobb Can Smell (Cobb Puede Oler)**: Persigue a los jugadores basándose en rastros de olor. La v1.7 redujo su persistencia y frecuencia, pero sigue siendo una herramienta de rastreo potente.
+  </Card>
+  <Card title="Habilidades Físicas y de Replicación">
+    - **Cobb Can Move (Cobb Puede Moverse)**: Movimiento básico, pero la velocidad de persecución puede aumentar durante persecuciones largas (v1.6, ligeramente reducida en v1.7).
+    - **Cobb Can Reach (Cobb Puede Alcanzar)**: Aumenta el alcance de ataque de Cobb, requiriendo mayor distanciamiento. La v1.6 cambió esto a pasos más largos con velocidad reducida.
+    - **Cobb Can Duplicate (Cobb Puede Duplicarse)**: Crea copias, especialmente después del Nivel 5. La v1.6 corrigió la fusión de duplicados haciendo que se empujen entre sí, asegurando amenazas distintas.
+  </Card>
+</CardGrid>
+
+La interacción entre estas habilidades y la selección aleatoria de reglas forma el núcleo de la jugabilidad emergente de Cobb Can Move. Por ejemplo, una regla de "Cobb Can Smell" combinada con "Velocidad de Persecución Larga" crea un desafío significativamente diferente a "Cobb Can See" en un entorno oscuro.
+
+<Callout type="warning" title="Amenaza Emergente">
+Las habilidades de Cobb se combinan de formas impredecibles debido a las reglas cambiantes. Nunca asumas que una sola estrategia funcionará para cada partida.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Tácticas de Supervivencia: Adaptándose a la Generación Procedimental y Reglas Dinámicas">
+
+La supervivencia efectiva en Cobb Can Move no se trata de memorización; se trata de adaptación dinámica. La generación procedimental del juego garantiza diseños de mapa únicos, mientras que el sistema de cambio de reglas exige estrategias flexibles. Aquí tienes un desglose de tácticas para navegar por este horror siempre cambiante.
+
+<Steps>
+  <Step num="1" title="Priorizar la Evaluación de Reglas">
+    Al entrar en un nuevo nivel, identifica inmediatamente la regla activa. Esto dicta tu amenaza principal y los ajustes necesarios en el movimiento y el uso de recursos. Por ejemplo, una regla de "Cobb Can Hear" exige un movimiento silencioso, mientras que "Cobb Can See" requiere mantenerse fuera de las líneas de visión.
+  </Step>
+  <Step num="2" title="Dominar la Gestión de Recursos">
+    El **carbón** es fundamental para los objetivos. Las **piedras** pueden distraer o aturdir a Cobb (correcciones en v1.6, v1.7). Las **zanahorias** proporcionan sustento y ahora reaparecen (v1.3). Reúne y despliega estos objetos de manera eficiente según la situación actual y las habilidades activas de Cobb.
+  </Step>
+  <Step num="3" title="Utilizar Elementos del Entorno">
+    El mapa cuenta con **hornos** para la entrega de carbón, **disyuntores** con los que interactuar (la v1.3 los hizo más visibles) y varios obstáculos. Aprende a usar estos elementos a tu favor, creando barreras o rutas de escape.
+  </Step>
+  <Step num="4" title="Aprender de los Consejos de Muerte">
+    La v1.4 introdujo consejos de muerte, que proporcionan comentarios valiosos sobre lo que salió mal. Analiza estos consejos para refinar tu enfoque en partidas posteriores, convirtiendo el fracaso en una oportunidad de aprendizaje.
+  </Step>
+  <Step num="5" title="Adaptarse a la Persecución de Cobb">
+    El comportamiento de persecución de Cobb varía. Las persecuciones largas pueden hacer que Cobb sea más rápido (v1.6), aunque la v1.7 redujo ligeramente la aceleración. Entiende cuándo romper la línea de visión, usar distracciones o comprometerte a un sprint.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Juego Adaptativo">
+Los jugadores más exitosos son aquellos que pueden evaluar rápidamente las reglas actuales y adaptar su movimiento, uso de recursos e interacción con el entorno.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Uso de Objetos y Teorías de Objetivos">
+
+Los objetos y objetivos en Cobb Can Move están diseñados para crear tensión y forzar la interacción del jugador con las habilidades de Cobb. Comprender su uso óptimo y cómo se han equilibrado a través de las actualizaciones es clave para progresar.
+
+| Objeto / Elemento | Uso Principal | Notas Clave de Actualización | Conclusión para el Jugador |
+| :------------ | :---------- | :--------------- | :-------------- |
+| **Carbón** | Combustible para el horno, objetivo central | v1.6: Menos probable que aparezca junto al horno | Aumenta la presión de movimiento/ruta. |
+| **Piedras** | Distracción, aturdir a Cobb | v1.6: Aturdimiento por golpe directo, sonido más fuerte; v1.7: Aturdimiento corregido durante persecución | Utilidad esencial para defensa y evasión. |
+| **Zanahorias** | Sustento del jugador | v1.3: Las zanahorias reaparecen al ser comidas | Fuente de alimento fiable y repetible. |
+| **Baterías** | Progresión del final | v1.4: Se cambió el texto de la tarea final tras colocar cuatro | Rastrea el progreso para el objetivo final. |
+| **Horno** | Objetivo principal | v1.6: Se cambió la aparición de carbón | Sigue siendo central, pero requiere más viajes por combustible. |
+| **Alto Horno** | Secuencia final | v1.6: Hitbox más grande para una interacción más fácil | Finalización más fluida de la tarea final. |
+| **Disyuntor** | Interacción con el mapa | v1.3: Sprite hecho más notable | Más fácil de detectar e interactuar con elementos críticos del mapa. |
+| **Punto de Entrega de Objetos** | Manejo del inventario | v1.4: Permite intercambiar sobre paredes (rojo) | Gestión de objetos más permisiva en lugares estrechos. |
+
+El cuidadoso equilibrio de la disponibilidad de objetos y las habilidades de Cobb crea un tira y afloja constante. Por ejemplo, las zanahorias que reaparecen alivian la presión de inanición a largo plazo, permitiendo a los jugadores centrarse más en Cobb y los objetivos. Mientras tanto, los cambios en la aparición de carbón y la utilidad de las piedras influyen directamente en las decisiones de ruta y combate.
+
+<Callout type="info">
+La economía de objetos del juego es intencionalmente escasa para enfatizar los elementos de survival horror. Cada elección de objeto tiene peso.
+</Callout>
+
+<Checklist
+  id="objective-checklist"
+  title="Lista de Verificación de Progresión de Objetivos:"
+  items={[
+    "Reúne suficiente carbón para activar los hornos.",
+    "Utiliza piedras para distraer o aturdir a Cobb cuando sea necesario.",
+    "Recoge zanahorias para evitar la inanición.",
+    "Localiza e interactúa con los disyuntores para progresar.",
+    "Coloca las cuatro baterías para la tarea final.",
+    "Interactúa con éxito con el alto horno al final."
+  ]}
+/>
+
+</Section>
+
+<Section icon={Sparkles} title="Teoría de Cobb Can Move: Preguntas Frecuentes">
+
+Comprender las teorías subyacentes de Cobb Can Move puede mejorar significativamente tu jugabilidad y tasa de supervivencia. Estas preguntas frecuentes abordan consultas comunes sobre las mecánicas y el diseño del juego.
+
+<FAQ items={[
+  {
+    question: "¿Cuál es la teoría central detrás de las reglas cambiantes de Cobb Can Move?",
+    answer: "La teoría central es evitar la memorización del jugador y fomentar una jugabilidad adaptativa. Al asignar aleatoriamente reglas como 'Cobb Can See' o 'Cobb Can Smell' en cada partida, el juego obliga a los jugadores a reevaluar constantemente su entorno y estrategias, haciendo que cada sesión sea única y desafiante."
+  },
+  {
+    question: "¿Cómo interactúan las habilidades de Cobb como 'Move' y 'Reach' con las reglas dinámicas?",
+    answer: "Las habilidades de Cobb son la base sobre la cual se construyen las reglas dinámicas. Por ejemplo, 'Cobb Can Move' define su velocidad base, pero una regla como 'Velocidad de Persecución Larga' (v1.6, reducida en v1.7) modifica este comportamiento durante persecuciones extensas. 'Cobb Can Reach' altera su rango de ataque y patrón de movimiento, impactando directamente en cuánto espacio necesitan mantener los jugadores."
+  },
+  {
+    question: "¿Existe una 'mejor' estrategia para lidiar con teorías específicas de Cobb Can Move?",
+    answer: "No existe una única 'mejor' estrategia debido a la generación procedimental y las reglas cambiantes. Sin embargo, el enfoque más efectivo es la adaptación continua. Esto implica identificar rápidamente la regla activa, gestionar los recursos de manera eficiente y aprender de los consejos de muerte para refinar tus tácticas en la siguiente partida."
+  },
+  {
+    question: "¿Cómo afectan las actualizaciones del juego a la teoría de escalado de dificultad de Cobb Can Move?",
+    answer: "Las actualizaciones del juego ajustan frecuentemente el escalado de dificultad mediante la modificación de las habilidades de Cobb y las interacciones con los objetos. Por ejemplo, la v1.7 redujo 'Cobb Can Smell' y la aceleración en persecuciones largas, mientras que la v1.6 hizo que las piedras fueran más efectivas. Estos cambios buscan equilibrar el desafío, haciendo que el juego sea más preciso pero menos injustamente punitivo, fomentando el compromiso constante del jugador."
+  }
+]} />
+
+<Callout type="tip">
+Interactuar con los devlogs del juego y las discusiones de la comunidad puede ofrecer perspectivas más profundas sobre las teorías de diseño del desarrollador y los cambios próximos.
+</Callout>
+
+</Section>

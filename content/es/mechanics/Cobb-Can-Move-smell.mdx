@@ -1,0 +1,139 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, AlertTriangle, Lightbulb, Info, CheckCircle } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Cobb Can Move Olor: Entendiendo y Contrarrestando la Habilidad Olfativa de Cobb",
+  description: "Domina la habilidad 'puede oler' de Cobb en Cobb Can Move. Aprende cómo funciona, los recientes nerfs y estrategias efectivas para sobrevivir a esta regla sensorial en el juego de terror de píxeles.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/8B0000/fff?text=Cobb+Can+Move+Smell",
+  date: "2026-06-17",
+  author: "Equipo Wiki de Cobb Can Move"
+}
+
+<Callout type="info" title="Guía Rápida">
+- El **olor de Cobb Can Move** es una regla sensorial clave que determina la detección de Cobb.
+- La **actualización v1.7** **nerfeó** significativamente el olfato de Cobb, haciéndolo menos persistente.
+- **Evita la detección a corta distancia** y usa elementos del entorno para romper la persecución.
+- **Leer el texto de la regla** al inicio de cada partida es crucial para adaptarse a los sentidos activos de Cobb.
+- El **movimiento y el posicionamiento** son vitales para contrarrestar eficazmente las habilidades sensoriales de Cobb.
+</Callout>
+
+<Section icon={Lightbulb} title="Entendiendo la Habilidad 'Puede Oler' de Cobb">
+En **Cobb Can Move**, el monstruo titular, Cobb, posee varias habilidades aterradoras que dictan cómo caza al jugador. Una de las más impactantes es la regla "Cobb Puede Oler". Cuando esta regla está activa, Cobb usa sus sentidos olfativos para detectar al jugador, añadiendo una capa de tensión y profundidad estratégica a cada partida. Esta habilidad, como otras, puede alterar significativamente tus tácticas de supervivencia, enfatizando el movimiento cuidadoso y la gestión de recursos.
+
+**Puntos destacados del vídeo:**
+- Demuestra el comportamiento de rastreo de Cobb cuando el 'olfato' está activo.
+- Muestra las estrategias del jugador para evadir a Cobb usando elementos del entorno.
+- Destaca la importancia de la luz y el sonido en conjunto con el olfato.
+
+<Callout type="tip">
+Siempre revisa el texto de la regla al comienzo de cada nivel. La regla sensorial activa de Cobb es una pieza de información crítica que influye directamente en tu estrategia de supervivencia inmediata.
+</Callout>
+
+</Section>
+
+<Section icon={AlertTriangle} title="Nerfs Recientes y Cambios de Equilibrio en el Olfato de Cobb">
+Los desarrolladores de Cobb Can Move han equilibrado activamente las habilidades de Cobb a través de varias actualizaciones para refinar la experiencia de juego. La habilidad "Cobb Puede Oler" ha recibido ajustes significativos, particularmente en el parche v1.7. Estos cambios tienen como objetivo hacer el juego desafiante sin ser excesivamente punitivo, especialmente en escenarios donde la detección de Cobb se sentía implacable.
+
+| Versión | Descripción del cambio | Conclusión del jugador |
+| :------ | :--------------------- | :--------------------- |
+| **v1.7** | Nerfeado 'Cobb puede oler' con olfateos menos frecuentes y menos persistencia a corta distancia. | El olfato es ahora menos implacable; la detección a corta distancia es más indulgente. |
+| **v1.4** | El Nivel 2 garantiza la inclusión de una regla sensorial (oído, olfato o vista). | Las primeras partidas te enseñarán rápidamente cómo funcionan los sentidos de Cobb. |
+| **General** | Las reglas sensoriales como el olfato se equilibran activamente. | Espera ajustes continuos; la adaptabilidad es clave. |
+
+<Callout type="warning" title="Advertencia de Persistencia">
+A pesar de los nerfs en la v1.7, 'Cobb puede oler' sigue siendo una amenaza potente. Menos persistencia no significa ninguna persistencia; Cobb te seguirá rastreando si te demoras o haces demasiado ruido.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Estrategias para Contrarrestar el Olfato de Cobb">
+Sobrevivir cuando Cobb puede oler requiere un enfoque matizado, combinando movimiento cuidadoso, conciencia ambiental y uso eficiente de los objetos. Comprender cómo funciona el mecanismo olfativo de Cobb y adaptar tu estilo de juego en consecuencia es crucial para la supervivencia a largo plazo.
+
+<Steps>
+  <Step num="1" title="Mantener la Distancia">
+    El olfato de Cobb es más efectivo a corta distancia. Prioriza mantener una distancia segura siempre que sea posible. Si Cobb te está rastreando, intenta romper la línea de visión y crear obstáculos entre tú y el monstruo.
+  </Step>
+  <Step num="2" title="Minimizar el Ruido y la Luz">
+    Si bien el 'olfato' es el método de detección principal, otras reglas sensoriales pueden estar activas simultáneamente o complementar el rastreo de Cobb. Reducir tu emisión de luz y moverte silenciosamente puede prevenir la detección accidental por otros sentidos que podrían anular o mejorar el olfato de Cobb.
+  </Step>
+  <Step num="3" title="Utilizar Rocas para Distracción/Aturdimiento">
+    Las rocas, especialmente después de las actualizaciones v1.6 y v1.7, son herramientas valiosas. Un golpe directo puede aturdir brevemente a Cobb, dándote preciosos segundos para escapar o reposicionarte, especialmente útil cuando Cobb te rastrea por el olfato. Lanzar rocas también puede crear distracciones sonoras.
+  </Step>
+  <Step num="4" title="Aprender los Diseños y Rutas del Mapa">
+    Familiarízate con los patrones de generación procedural. Conocer posibles rutas de escape, puntos de estrangulamiento y ubicaciones de recursos te ayuda a planificar tus movimientos de manera más efectiva cuando eres cazado por un Cobb que huele.
+  </Step>
+  <Step num="5" title="Adaptarse a Reglas Combinadas">
+    Las habilidades de Cobb pueden acumularse. Una partida donde "Cobb puede oler" está activa también podría tener "Cobb puede oír" o "Cobb puede ver". Prepárate para combinar estrategias, ya que un sprint ruidoso podría evadir el olfato pero activar el oído.
+  </Step>
+</Steps>
+
+<Callout type="success">
+Evadir con éxito a Cobb cuando puede oler a menudo se reduce a la toma rápida de decisiones y al uso eficiente del entorno. No tengas miedo de experimentar con diferentes caminos y distracciones.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Impacto en el Juego y el Modo Infinito">
+La regla "Cobb Puede Oler" da forma significativamente a la experiencia de juego tanto en el modo historia como en el Modo Infinito. En el Modo Infinito, donde la presión aumenta constantemente, comprender y contrarrestar las habilidades sensoriales de Cobb se vuelve aún más crítico para lograr puntuaciones altas.
+
+| Aspecto | Impacto de 'Cobb Puede Oler' | Estrategia en Modo Infinito |
+| :------ | :--------------------------- | :------------------------- |
+| **Juego Temprano** | Enseña mecánicas de detección básicas en el Nivel 2. | Concéntrate en movimientos lentos y deliberados; aprende los patrones de olfateo de Cobb. |
+| **Juego Medio** | Aumenta la presión a medida que los mapas se vuelven más grandes y complejos. | Prioriza rutas de carbón que ofrezcan cobertura y opciones de escape. |
+| **Juego Tardío** | Combinado con otras reglas (ej., duplicados), hace la evasión más difícil. | Usa rocas y características ambientales para manejar múltiples amenazas; conserva la resistencia. |
+| **Gestión de Recursos** | Fuerza un enrutamiento más cuidadoso para el carbón y las zanahorias. | Planifica la recolección de recursos para evitar viajes largos y expuestos que atraigan a Cobb. |
+| **Comportamiento del Jugador** | Castiga las rutas predecibles y los escondites estáticos. | Varía constantemente tus patrones de movimiento y usa las distracciones estratégicamente. |
+
+<Callout type="info">
+El nerf de la v1.7 al 'olfato de Cobb' hace que el Modo Infinito sea ligeramente menos punitivo, pero no elimina la necesidad de jugar con cautela. La adaptabilidad sigue siendo la herramienta de supervivencia definitiva.
+</Callout>
+
+</Section>
+
+<Section icon={CheckCircle} title="Lista de Habilidades de Cobb">
+Más allá del **olfato de Cobb Can Move**, Cobb tiene una serie de habilidades que mantienen a los jugadores en vilo. Dominar estas y comprender sus matices es clave para la supervivencia a largo plazo en las oscuras mazmorras de píxeles.
+
+<Checklist
+  id="cobb-abilities"
+  title="Habilidades Centrales de Cobb:"
+  items={[
+    "**Cobb Puede Moverse**: La habilidad de movimiento básica, a menudo acelerada durante persecuciones largas.",
+    "**Cobb Puede Ver**: Detección basada en la visión, equilibrada en varias actualizaciones (v1.4, v1.5).",
+    "**Cobb Puede Oír**: Detección basada en el sonido, que requiere movimiento silencioso.",
+    "**Cobb Puede Oler**: Detección olfativa, nerfeada en la v1.7 para una menor persistencia.",
+    "**Cobb Puede Alcanzar**: Extiende el rango de ataque de Cobb con pasos más grandes y lentos (v1.6).",
+    "**Cobb Puede Duplicarse**: Genera múltiples Cobbs, que ahora se empujan entre sí (v1.6).",
+  ]}
+/>
+
+<Callout type="tip">
+Cada habilidad añade un desafío único. Presta mucha atención a las reglas activas que se muestran al comienzo de cada nivel para adaptar tu estrategia al perfil de amenaza actual de Cobb.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "¿Cómo funciona 'Cobb Can Move olor' en Cobb Can Move?",
+    answer: "Cuando 'Cobb puede oler' está activo, Cobb usa su sentido del olfato para rastrear al jugador. Se dirigirá a tu ubicación, especialmente si estás a corta distancia o te quedas en un lugar demasiado tiempo. La actualización v1.7 lo hizo menos persistente."
+  },
+  {
+    question: "¿Se nerfeó la habilidad de olfato de Cobb?",
+    answer: "Sí, la actualización v1.7 de Cobb Can Move nerfeó 'Cobb puede oler' al hacer que los olfateos sean menos frecuentes y reducir su persistencia al detectar jugadores a corta distancia. Esto hace que la evasión sea un poco más manejable."
+  },
+  {
+    question: "¿Cuál es la mejor manera de evitar a Cobb cuando puede oler?",
+    answer: "Las mejores estrategias implican mantener la distancia, moverse de forma deliberada y silenciosa, y usar rocas arrojadizas para distracciones o aturdimientos. Siempre sé consciente de tu entorno para romper la línea de visión y escapar."
+  },
+  {
+    question: "¿Hay otras reglas sensoriales activas con 'Cobb Can Move olor'?",
+    answer: "Sí, las habilidades de Cobb pueden combinarse. Aunque 'Cobb puede oler' podría ser la regla principal, 'Cobb puede oír' o 'Cobb puede ver' también podrían estar activas. Siempre revisa el texto de la regla al inicio del nivel y adapta tu estrategia en consecuencia."
+  }
+]} />
+
+</Section>

@@ -1,0 +1,124 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Cobb Can Move Final Stage: Endings, Rebalancing & Level Select",
+  description: "Master the Cobb Can Move final stage with our guide on ending rebalancing, Level 7 strategies, and the post-clear level select menu.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/8B0000/fff?text=Cobb+Final+Stage",
+  date: "2026-06-17",
+  author: "Cobb Can Move Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- The **Cobb Can Move final stage** involves a rebalanced final task after placing four batteries.
+- **Level 7** now includes additional rocks, crucial for stunning Cobb.
+- Cobb's **ending speed** has been slightly buffed in v1.5.2, maintaining tension.
+- The **blast furnace hitbox** in the ending sequence was enlarged for easier interaction in v1.6.
+- A **level select menu** unlocks after a full clear, allowing practice of difficult stages.
+</Callout>
+
+<Section icon={Trophy} title="Understanding the Cobb Can Move Final Stage & Endings">
+The final stages of Cobb Can Move present unique challenges and mechanics that have been refined through several updates. Players must navigate these levels with an understanding of Cobb's adjusted behaviors and the rebalanced objectives to reach a successful conclusion. The game's ending sequence is tied to completing a final task after strategically placing four batteries.
+
+**Video Highlights:**
+- Demonstrates the final task in Cobb Can Move.
+- Shows effective movement and item usage during the ending.
+- Highlights Cobb's pursuit behavior in the final moments.
+
+</Section>
+
+<Section icon={Target} title="Final Task Rebalancing & Cobb's Behavior">
+The final task in Cobb Can Move has seen several adjustments to ensure a tense yet fair conclusion. These changes primarily focus on the text displayed to the player, Cobb's speed during the final chase, and the interactability of key objects.
+
+<Callout type="warning" title="Critical Timing">
+During the final task, Cobb's speed is slightly increased, making careful movement and quick reactions paramount. Any hesitation can lead to a swift end to your run.
+</Callout>
+
+| Update Version | Final Task Change                                                    | Cobb Speed Adjustment                                               | Player Impact                                                                    |
+|:---------------|:---------------------------------------------------------------------|:--------------------------------------------------------------------|:---------------------------------------------------------------------------------|
+| **v1.4**       | Changed final task text after placing four batteries.                | Slightly nerfed Cobb’s speed during the final task.                 | Provided clearer instructions and a slightly less punishing chase.               |
+| **v1.5.2**     | No text change.                                                      | Slightly buffed Cobb’s speed during the final task.                 | Increased tension, requiring more precise execution.                             |
+| **v1.6**       | No text change.                                                      | Cobb gets slightly faster during long pursuits, but ending speed stable. | Maintained ending difficulty, making the final chase intense.                    |
+
+</Section>
+
+<Section icon={Map} title="Level 7 Strategies: Resource Management & Rock Usage">
+Level 7 serves as a significant hurdle before the final stage, demanding efficient resource management and strategic use of items. Recent updates have made rocks a more viable defensive tool, especially in this late-game level.
+
+<Callout type="tip" title="Level 7 Rock Advantage">
+With rocks now capable of stunning Cobb on a direct hit and making louder sounds, Level 7 players should actively scout for them. Use rocks to create momentary openings or distractions when Cobb is in pursuit.
+</Callout>
+
+<Steps>
+  <Step num="1" title="Prioritize Battery Placement">
+    Your primary objective in Level 7 is to collect and place the four batteries. Plan your route to minimize exposure to Cobb while securing these critical items.
+  </Step>
+  <Step num="2" title="Utilize Additional Rocks">
+    The v1.5 update added rocks to Level 7. Don't just rush for batteries; scout for these throwable items. A well-aimed rock can stun Cobb, giving you precious seconds to escape or reposition.
+  </Step>
+  <Step num="3" title="Monitor Cobb's Rules">
+    Even in Level 7, Cobb's rules can change. Always check the active rule text at the start of the level and adapt your strategy accordingly. A "Cobb can see" rule demands different tactics than "Cobb can smell."
+  </Step>
+</Steps>
+
+</Section>
+
+<Section icon={Shield} title="Enhanced Interaction: Blast Furnace Hitbox">
+A crucial quality-of-life improvement for the ending sequence came with v1.6, which addressed player frustrations regarding the blast furnace interaction.
+
+| Feature            | Previous State                                              | v1.6 Update                                                     | Player Benefit                                                                    |
+|:-------------------|:------------------------------------------------------------|:----------------------------------------------------------------|:----------------------------------------------------------------------------------|
+| **Blast Furnace Hitbox** | Small, often getting lost behind the main furnace, difficult to interact with. | Enlarged hitbox for the blast furnace in the ending sequence.   | Reduced frustration, ensuring players can reliably interact with the furnace during high-pressure ending moments. |
+
+</Section>
+
+<Section icon={Sparkles} title="Post-Clear Content: Level Select Menu">
+After successfully completing the game once, players are rewarded with a new feature that enhances replayability and allows for focused practice: the level select menu.
+
+<Callout type="success" title="Unlock Replayability">
+Beating the game unlocks the level select menu, a valuable tool for practicing specific challenging levels or experimenting with different rule combinations without starting a fresh campaign.
+</Callout>
+
+<CardGrid cols={2}>
+  <Card title="Level Select Benefits">
+    - **Practice specific levels:** Revisit challenging stages like Level 7 to hone your skills.
+    - **Experiment with rules:** Test different rule combinations to understand Cobb's behaviors better.
+    - **Speedrun attempts:** Ideal for optimizing routes and strategies for faster clears.
+  </Card>
+  <Card title="How it Unlocks">
+    - **Complete the game once:** The menu becomes available after successfully reaching and completing the final task.
+    - **Access from main menu:** Look for the new option on the main menu after your first successful run.
+  </Card>
+</CardGrid>
+
+</Section>
+
+<Section icon={Swords} title="Frequently Asked Questions About the Final Stage">
+
+<FAQ items={[
+  {
+    question: "What is the main objective in the Cobb Can Move final stage?",
+    answer: "The main objective in the final stage is to complete a specific task after successfully placing four batteries throughout the preceding levels. This triggers the final chase sequence with Cobb."
+  },
+  {
+    question: "How has Cobb's speed been adjusted in the final task?",
+    answer: "Cobb's speed during the final task was initially slightly nerfed in v1.4, but then slightly buffed in v1.5.2 to maintain tension. In v1.6, Cobb also gets slightly faster during long pursuits, which applies to the final chase."
+  },
+  {
+    question: "Are rocks useful in Level 7 or the final stage?",
+    answer: "Yes, rocks are very useful. The v1.5 update added more rocks to Level 7, and v1.6 made them capable of stunning Cobb on a direct hit. This can provide crucial breathing room during intense moments in Level 7 and the final chase."
+  },
+  {
+    question: "What is the purpose of the level select menu?",
+    answer: "The level select menu, unlocked after beating the game once, allows players to replay any story mode level. This is perfect for practicing difficult sections, understanding specific rule combinations, or trying out new strategies."
+  }
+]} />
+
+</Section>

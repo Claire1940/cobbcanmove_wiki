@@ -1,0 +1,162 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Cobb Can Move Theory: Rules, Abilities & Survival Tactics",
+  description: "Explore the underlying theories of Cobb Can Move's changing rules, Cobb's abilities, and effective survival tactics in this pixel horror game.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/8B0000/fff?text=Cobb+Can+Move+Theory",
+  date: "2026-06-17",
+  author: "Cobb Can Move Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Cobb Can Move theory**: Understand the game's core rule-changing mechanics.
+- **Cobb's abilities**: Learn how **Move**, **See**, **Hear**, **Smell**, **Reach**, and **Duplicate** impact gameplay.
+- **Survival tactics**: Adapt to procedural generation and dynamic rules for successful runs.
+- **Resource management**: Prioritize **coal**, **rocks**, and **carrots** effectively.
+- **Update impact**: Stay informed on v1.7 and other patch changes to Cobb's behavior.
+</Callout>
+
+<Section icon={Map} title="Understanding Cobb Can Move's Core Theories">
+
+Cobb Can Move is a pixel horror game where the fundamental rule is change itself. Each run introduces new parameters, challenging players to adapt rather than memorize. The game's core design revolves around procedural generation and dynamic rules, ensuring no two experiences are identical. This section delves into the foundational theories that govern gameplay, from the shifting map layouts to Cobb's evolving abilities.
+
+**Video Highlights:**
+- Demonstrates initial gameplay and the introduction of rules.
+- Shows how Cobb's behavior changes with active rules.
+- Highlights player reactions to unexpected environmental shifts.
+
+<YouTubeEmbed videoId="VIDEO_ID_HERE" title="Popular Cobb Can Move Gameplay Video" />
+
+The design philosophy emphasizes unpredictability, turning each level into a fresh puzzle. Developers have consistently refined this system, ensuring that the game's challenge stems from real-time adaptation.
+
+<Callout type="tip">
+Always read the active rule text at the start of each level. Ignoring these dynamic parameters is a common cause of early failures.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Cobb's Abilities: Theoretical Framework and Practical Impact">
+
+Cobb's terrifying effectiveness stems from its varied and adaptable abilities. Understanding the theoretical underpinnings of each ability—and how they interact with the game's changing rules—is crucial for survival. These abilities are not static; recent updates have consistently tweaked their balance and behavior.
+
+<CardGrid cols={2}>
+  <Card title="Sensory Abilities">
+    - **Cobb Can See**: Detects players based on light level and direct line of sight. v1.4 and v1.5 adjusted its range, making it less oppressive but still dangerous.
+    - **Cobb Can Hear**: Reacts to player-generated sounds. Requires careful, quiet movement.
+    - **Cobb Can Smell**: Pursues players based on scent trails. v1.7 nerfed its persistence and frequency, but it remains a potent tracking tool.
+  </Card>
+  <Card title="Physical & Replication Abilities">
+    - **Cobb Can Move**: Basic movement, but pursuit speed can accelerate during long chases (v1.6, slightly nerfed in v1.7).
+    - **Cobb Can Reach**: Increases Cobb's attack range, requiring greater spacing. v1.6 changed this to larger steps at reduced speed.
+    - **Cobb Can Duplicate**: Creates copies, especially after Level 5. v1.6 fixed duplicates merging by making them push each other, ensuring distinct threats.
+  </Card>
+</CardGrid>
+
+The interaction between these abilities and the random rule selection forms the core of Cobb Can Move's emergent gameplay. For instance, a "Cobb Can Smell" rule combined with "Long Pursuit Speed" creates a significantly different challenge than "Cobb Can See" in a dark environment.
+
+<Callout type="warning" title="Emergent Threat">
+Cobb's abilities combine in unpredictable ways due to the changing rules. Never assume a single strategy will work for every run.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Survival Tactics: Adapting to Procedural Generation and Dynamic Rules">
+
+Effective survival in Cobb Can Move isn't about memorization; it's about dynamic adaptation. The game's procedural generation ensures unique map layouts, while the rule-changing system demands flexible strategies. Here's a breakdown of tactics to navigate this ever-shifting horror.
+
+<Steps>
+  <Step num="1" title="Prioritize Rule Assessment">
+    Upon entering a new level, immediately identify the active rule. This dictates your primary threat and necessary adjustments to movement and resource use. For example, a "Cobb Can Hear" rule demands quiet movement, while "Cobb Can See" necessitates staying out of sightlines.
+  </Step>
+  <Step num="2" title="Master Resource Management">
+    **Coal** is central to objectives. **Rocks** can distract or stun Cobb (v1.6, v1.7 fixes). **Carrots** provide sustenance and now respawn (v1.3). Efficiently gather and deploy these items based on the current situation and Cobb's active abilities.
+  </Step>
+  <Step num="3" title="Utilize Environmental Elements">
+    The map features **furnaces** for coal delivery, **breakers** to interact with (v1.3 made them more noticeable), and various obstacles. Learn how to use these elements to your advantage, creating barriers or escape routes.
+  </Step>
+  <Step num="4" title="Learn from Death Tips">
+    v1.4 introduced death tips, providing valuable feedback on what went wrong. Analyze these tips to refine your approach for subsequent runs, turning failure into a learning opportunity.
+  </Step>
+  <Step num="5" title="Adapt to Cobb's Pursuit">
+    Cobb's pursuit behavior varies. Long pursuits can make Cobb faster (v1.6), though v1.7 slightly nerfed acceleration. Understand when to break line of sight, use distractions, or commit to a sprint.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Adaptive Play">
+The most successful players are those who can quickly assess the current rules and adapt their movement, resource use, and interaction with the environment.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Item Usage and Objective Theories">
+
+The items and objectives in Cobb Can Move are designed to create tension and force player engagement with Cobb's abilities. Understanding their optimal use and how they've been balanced through updates is key to progression.
+
+| Item / Object | Primary Use | Key Update Notes | Player Takeaway |
+| :------------ | :---------- | :--------------- | :-------------- |
+| **Coal**      | Fuel for furnace, core objective | v1.6: Less likely to spawn next to furnace | Increases movement/routing pressure. |
+| **Rocks**     | Distraction, stun Cobb | v1.6: Stun on direct hit, louder sound; v1.7: Fixed stun during pursuit | Essential utility for defense and evasion. |
+| **Carrots**   | Player sustenance | v1.3: Carrots respawn when eaten | Reliable, repeatable food source. |
+| **Batteries** | Ending progression | v1.4: Changed final task text after placing four | Track progress for final objective. |
+| **Furnace**   | Main objective | v1.6: Coal spawning changed | Still central, but requires more travel for fuel. |
+| **Blast Furnace** | Ending sequence | v1.6: Larger hitbox for easier interaction | Smoother completion of the final task. |
+| **Breaker**   | Map interaction | v1.3: Sprite made more noticeable | Easier to spot and interact with critical map elements. |
+| **Item Drop Spot** | Inventory handling | v1.4: Allows swapping over walls (red) | More forgiving item management in tight spots. |
+
+The careful balance of item availability and Cobb's abilities creates a constant push-pull. For instance, the respawning carrots alleviate long-term starvation pressure, allowing players to focus more on Cobb and objectives. Meanwhile, changes to coal spawning and rock utility directly influence routing and combat decisions.
+
+<Callout type="info">
+The game's item economy is intentionally lean to emphasize survival horror elements. Every item choice carries weight.
+</Callout>
+
+<Checklist
+  id="objective-checklist"
+  title="Objective Progression Checklist:"
+  items={[
+    "Gather sufficient coal to activate furnaces.",
+    "Utilize rocks to distract or stun Cobb when necessary.",
+    "Collect carrots to prevent starvation.",
+    "Locate and interact with breakers to progress.",
+    "Place all four batteries for the final task.",
+    "Successfully interact with the blast furnace at the end."
+  ]}
+/>
+
+</Section>
+
+<Section icon={Sparkles} title="Cobb Can Move Theory: FAQs">
+
+Understanding the underlying theories of Cobb Can Move can significantly enhance your gameplay and survival rate. These frequently asked questions address common inquiries about the game's mechanics and design.
+
+<FAQ items={[
+  {
+    question: "What is the core theory behind Cobb Can Move's changing rules?",
+    answer: "The core theory is to prevent player memorization and foster adaptive gameplay. By randomly assigning rules like 'Cobb Can See' or 'Cobb Can Smell' each run, the game forces players to constantly re-evaluate their environment and strategies, making every session unique and challenging."
+  },
+  {
+    question: "How do Cobb's abilities like 'Move' and 'Reach' interact with the dynamic rules?",
+    answer: "Cobb's abilities are the foundation upon which the dynamic rules build. For example, 'Cobb Can Move' defines its base speed, but a rule like 'Long Pursuit Speed' (v1.6, nerfed v1.7) modifies this behavior during extended chases. 'Cobb Can Reach' alters its attack range and movement pattern, directly impacting how much space players need to maintain."
+  },
+  {
+    question: "Is there a 'best' strategy for dealing with specific Cobb Can Move theories?",
+    answer: "There isn't one 'best' strategy due to the procedural generation and changing rules. However, the most effective approach is continuous adaptation. This involves quickly identifying the active rule, managing resources efficiently, and learning from death tips to refine your tactics for the next run."
+  },
+  {
+    question: "How do game updates affect the Cobb Can Move theory of difficulty scaling?",
+    answer: "Game updates frequently fine-tune difficulty scaling by adjusting Cobb's abilities and item interactions. For instance, v1.7 nerfed 'Cobb Can Smell' and long-pursuit acceleration, while v1.6 made rocks more effective. These changes aim to balance the challenge, making the game sharper but less unfairly punishing, encouraging consistent player engagement."
+  }
+]} />
+
+<Callout type="tip">
+Engaging with the game's devlogs and community discussions can offer deeper insights into the developer's design theories and upcoming changes.
+</Callout>
+
+</Section>

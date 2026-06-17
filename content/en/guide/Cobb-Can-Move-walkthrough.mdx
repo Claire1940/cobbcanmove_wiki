@@ -1,0 +1,151 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Cobb Can Move Walkthrough: 2026 Survival & Ending Guide",
+  description: "Master the changing rules of Cobb Can Move with this walkthrough. Learn Cobb abilities, coal routes, battery locations, and how to reach the true ending.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1a1a1a/f44336?text=Cobb+Can+Move+Walkthrough",
+  date: "2026-06-17",
+  author: "Cobb Can Move Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Cobb Can Move walkthrough**: Focus on reading the rule text at the start of every single level to identify detection risks.
+- **Sensory Rules**: Level 2 always introduces a sensory rule like Hear, Smell, or See which dictates how you must navigate.
+- **Resource Management**: Prioritize coal for the furnace and scout for batteries early in Level 7 to prepare for the finale.
+- **Defensive Tactics**: Use rocks to stun Cobb during pursuits, especially after the v1.7 update fixed stun reliability.
+- **Ending Requirement**: You must place four batteries and complete the final furnace task while avoiding a faster, more aggressive Cobb.
+</Callout>
+
+<Section icon={Map} title="Official Setup and Getting Started">
+
+This Cobb Can Move walkthrough focuses on the official release by abho on itch.io, which is the most stable version of this pixel-art survival horror experience. Unlike standard horror games with fixed patterns, this title utilizes procedural generation and shifting rules to keep every run unpredictable. Players must navigate a dark dungeon, manage light sources, and complete specific item-based objectives while being hunted by a creature named Cobb.
+
+**Video Highlights:**
+- Basic movement and interaction with the furnace system.
+- How to handle the initial sensory rules introduced in early levels.
+- Strategies for kiting Cobb around obstacles when he detects your presence.
+
+<YouTubeEmbed videoId="H_Z3-p46Nxs" title="COBB CAN MOVE - Markiplier" />
+
+Before starting your first run, ensure you are playing version v1.7, as it includes critical balance nerfs to Cobb's smell ability and fixes for rock-based stuns. The game supports both keyboard and gamepad inputs, but precise movement is required to avoid triggering sound-based detection rules.
+
+<Callout type="tip" title="Platform Note">
+Always access the game through the official itch.io page to ensure you have the latest v1.7 build. Avoid third-party mirror sites that may host outdated or broken versions of the procedural map generator.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Understanding Changing Rules and Cobb Abilities">
+
+The core mechanic of the game is that the rules change every level. You cannot rely on a single strategy because what worked in Level 1 might get you killed in Level 2. The game notifies you of the active rule at the start of the level. Ignoring this text is the most common reason for player failure in any Cobb Can Move walkthrough.
+
+<CardGrid cols={2}>
+  <Card title="Sensory Rules">
+    - **Cobb Can See**: Sight is based on your light level. Stay in shadows to remain hidden.
+    - **Cobb Can Hear**: Noise from running or throwing rocks alerts him to your exact location.
+    - **Cobb Can Smell**: A persistent tracking rule that was nerfed in v1.7 to be less relentless at close range.
+  </Card>
+  <Card title="Movement & Behavior">
+    - **Reach Rule**: Cobb takes larger steps but moves with less overall speed, requiring more spacing.
+    - **Duplicate Rule**: Multiple Cobbs appear. They push each other rather than merging, increasing the danger area.
+    - **Long Pursuit**: Cobb gains acceleration during extended chases, though this was slightly reduced in recent patches.
+  </Card>
+</CardGrid>
+
+Survival depends on your ability to adapt. If "Cobb Can Hear" is active, you must walk instead of run. If "Cobb Can See" is active, you must manage the breaker and furnace light carefully to avoid being spotted from across the room.
+
+<Callout type="warning" title="Rule Priority">
+Level 2 is guaranteed to introduce a sensory rule. Treat this as your training ground for learning how to break line-of-sight and manage noise levels before the map complexity increases in later stages.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Essential Items and Resource Routing">
+
+To progress through the levels, you must interact with various objects that either fuel your survival or allow you to reach the ending. Coal is your primary resource, used to keep the furnace burning and the lights on. However, v1.6 changed spawning logic so that coal rarely appears right next to the furnace, forcing you to venture into the darkness.
+
+<Checklist
+  id="item-priority"
+  title="Critical Item Checklist:"
+  items={[
+    "Coal: Collect and deliver to the furnace to maintain light and warmth.",
+    "Rocks: Throw at walls for distractions or hit Cobb directly to trigger a short stun.",
+    "Carrots: Eat these to prevent starvation; they respawn after use as of v1.3.",
+    "Batteries: Essential for Level 7; four are required to initiate the final task.",
+    "Breaker: Flip this to restore visibility, but be aware that light can trigger sight rules."
+  ]}
+/>
+
+Rocks have become significantly more powerful in recent updates. A direct hit can now reliably stun Cobb, providing a few precious seconds to escape a dead-end corridor. In Level 7, the developer added extra rocks to help players manage the increased pressure of the final objectives.
+
+<Callout type="success" title="Inventory Tip">
+As of v1.4, you can swap items even if the drop spot is highlighted red over a wall. Use this to quickly manage resources in tight corners or when being pursued near the furnace.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Story Mode Progression and Level 7 Strategy">
+
+The journey through story mode consists of seven levels of increasing difficulty. Early levels focus on single rules, while later levels combine sensory detection with environmental hazards like freezing or starving. Level 7 is the ultimate test of your skills, requiring you to locate four batteries while managing a highly aggressive Cobb.
+
+<Steps>
+  <Step num="1" title="Initial Scouting">
+    Locate the furnace and the nearest coal spawns. Do not pick up batteries yet; focus on establishing a safe zone with enough light to see incoming threats.
+  </Step>
+  <Step num="2" title="Battery Collection">
+    Search the procedural chunks for four batteries. Carry them one by one back to the central objective area. Use rocks to distract Cobb if he camps near a battery spawn.
+  </Step>
+  <Step num="3" title="Final Task Activation">
+    Once all four batteries are placed, the final task begins. The text will change, and Cobb will receive a speed buff. This is the most dangerous part of the game.
+  </Step>
+  <Step num="4" title="The Escape">
+    Navigate to the blast furnace. The hitbox was enlarged in v1.6 to make it easier to interact with under pressure. Complete the interaction to trigger the ending sequence.
+  </Step>
+</Steps>
+
+After beating the game once, you unlock the Level Select menu. This is useful for practicing specific rule combinations or revisiting Level 7 to refine your speedrun tactics. If you die, pay close attention to the death tips added in v1.4, as they often reveal exactly which rule you violated.
+
+<Callout type="info" title="Level 7 Balance">
+The final task was rebalanced in v1.5.2 to increase Cobb's speed slightly. You must be efficient with your movement; any wasted time during the battery phase will make the final escape significantly harder.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Ending Explained and Replayability">
+
+The ending of Cobb Can Move involves a final confrontation at the blast furnace. Successful completion rewards you with a message from the developer and access to the full Level Select menu. For those seeking more challenge, Endless Mode starts at Level 3 and features procedural maps that grow in size and complexity the longer you survive.
+
+<FAQ items={[
+  {
+    question: "How do I stun Cobb in the latest version?",
+    answer: "You must throw a rock and score a direct hit on Cobb. In v1.7, this mechanic was fixed to ensure it works even while Cobb is actively pursuing you."
+  },
+  {
+    question: "What is the best way to deal with the smell rule?",
+    answer: "Keep moving and avoid staying in one spot for too long. The v1.7 update reduced the frequency of Cobb's sniffs, giving you more time to reposition between his tracking attempts."
+  },
+  {
+    question: "Are there any active codes for Cobb Can Move?",
+    answer: "No, the official itch.io page and devlogs do not feature a redeem code system. Progression is based entirely on gameplay and surviving the procedural levels."
+  },
+  {
+    question: "How do I unlock Level Select?",
+    answer: "You must complete all seven story levels and reach the ending. Once the final task at the blast furnace is finished, the menu will be available from the title screen."
+  }
+]} />
+
+Replayability is driven by the seeded randomness of the maps. Even with a complete Cobb Can Move walkthrough, the layout of coal and batteries will change every time. Mastering the movement mechanics and understanding the nuances of Hear, See, and Smell rules is the only way to achieve consistent victories in both Story and Endless modes.
+
+<Callout type="tip" title="Final Mastery">
+Use the Endless Mode to practice against the Duplicate rule. Managing two or more Cobbs in a procedural maze is the best way to improve your spatial awareness and reaction time for the story's final level.
+</Callout>
+
+</Section>

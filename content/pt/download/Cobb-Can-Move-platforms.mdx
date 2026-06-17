@@ -1,0 +1,230 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Monitor, Cpu } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Plataformas Cobb Can Move: Guia Oficial de Configuração para Navegador e Windows",
+  description: "Explore as plataformas Cobb Can Move. Aprenda como jogar a versão oficial para navegador do itch.io ou baixe a compilação para Windows com este guia de configuração de 2026.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/0a0a0a/ff4444?text=Cobb+Can+Move+Platforms+Setup",
+  date: "2026-06-17",
+  author: "Equipe Wiki do Cobb Can Move"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Plataformas Cobb Can Move**: Atualmente disponível exclusivamente em **HTML5 (Navegador)** e **Windows** via itch.io.
+- **Fonte Oficial**: Sempre use a página oficial do desenvolvedor abho no itch.io para evitar malware ou espelhos falsos.
+- **Requisitos do Sistema**: Mínimos; o jogo roda na maioria dos navegadores modernos e requer um pequeno download de 15MB para Windows.
+- **Suporte a Controle**: Suporta totalmente entradas de **Teclado** e **Gamepad** para movimentos precisos.
+- **Modelo de Custo**: Utiliza um modelo de **Nomeie Seu Preço**, permitindo que os jogadores joguem de graça ou apoiem o criador.
+</Callout>
+
+<Section icon={Monitor} title="Plataformas Cobb Can Move e Acesso Oficial">
+
+Compreender as **plataformas Cobb Can Move** disponíveis é o primeiro passo para sobreviver à escuridão. Ao contrário de muitos títulos indie modernos que correm para o celular ou console, este vencedor do Major Jam 7 foca em uma experiência concisa e responsiva para usuários de PC e web. O jogo é oficialmente hospedado no itch.io pelo desenvolvedor, abho.
+
+**Destaques do Vídeo:**
+- Uma análise detalhada da atmosfera de terror em pixel art.
+- Demonstração da mecânica "Mudança de Regras" em tempo real.
+- Guia visual para navegar pelos corredores escuros e operar o forno.
+
+<YouTubeEmbed videoId="7u66-uX7XNo" title="COBB CAN MOVE - Markiplier Gameplay" />
+
+Ao procurar o jogo, você pode encontrar vários sites de terceiros que afirmam oferecer "jogar online". É fundamental manter-se no portal oficial do itch.io para garantir que você está jogando a versão mais recente (v1.7 a partir de maio de 2026) e para apoiar o desenvolvedor diretamente.
+
+| Tipo de Plataforma | Método de Acesso | Versão Atual | Formato |
+| :--- | :--- | :--- | :--- |
+| **Navegador Web** | Botão "Run Game" do itch.io | v1.7 | HTML5 |
+| **PC Windows** | ZIP para Download | v1.7 | .exe (Webview2) |
+| **Roblox** | Não Disponível | N/A | Espelhos falsos existem |
+| **Steam** | Não Disponível | N/A | Apenas Project VOIDFACE |
+
+<Callout type="warning" title="Evite Plataformas Falsas">
+Cuidado com sites que afirmam hospedar "Cobb Can Move Roblox" ou "Cobb Can Move Steam". Estes são não oficiais e muitas vezes contêm compilações desatualizadas ou anúncios intrusivos. O desenvolvedor confirmou que itch.io é o único ponto de distribuição oficial.
+</Callout>
+
+</Section>
+
+<Section icon={Cpu} title="Requisitos Técnicos e Desempenho">
+
+Como o jogo é construído em uma estrutura HTML5 especializada, os requisitos de hardware para as **plataformas Cobb Can Move** são notavelmente baixos. Isso o torna acessível a jogadores em laptops mais antigos e estações de trabalho de baixo custo. No entanto, para a melhor experiência, especialmente no intenso Nível 7 ou Modo Infinito, certas configurações de navegador são recomendadas.
+
+<CardGrid cols={2}>
+  <Card title="Navegador Recomendado">
+    - **Chrome / Edge / Firefox**
+    - Aceleração de Hardware: **Ativada**
+    - Memória: 4GB RAM mínimo
+    - Resolução: 1920x1080 para clareza
+  </Card>
+  <Card title="Especificações da Compilação para Windows">
+    - SO: Windows 10/11 (64-bit)
+    - Armazenamento: 20MB de espaço disponível
+    - Gráficos: Placa gráfica integrada compatível
+    - Adicional: Tempo de Execução Webview2
+  </Card>
+</CardGrid>
+
+A compilação para Windows geralmente oferece uma latência de entrada ligeiramente melhor em comparação com a versão do navegador. Se você achar a resposta do teclado lenta durante perseguições de alta velocidade, mudar para o ZIP para download é altamente recomendado.
+
+| Componente | Requisito Mínimo | Recomendado para 2026 |
+| :--- | :--- | :--- |
+| **Processador** | Dual Core 2.0GHz | Quad Core 3.0GHz+ |
+| **Gráficos** | Compatível com DirectX 10 | DirectX 12 / Vulkan |
+| **Armazenamento** | 15 MB | 50 MB (para atualizações) |
+| **Entrada** | Teclado | Gamepad (Xbox/PS5) |
+
+<Callout type="tip" title="Otimização de Desempenho">
+Se você experimentar quedas de quadros na versão do navegador, tente fechar abas em segundo plano ou desabilitar extensões do navegador que interagem com a renderização da página. A versão HTML5 é altamente sensível a interrupções da CPU.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Esquemas de Controle Entre Plataformas">
+
+Quer você esteja jogando na web ou na compilação para desktop, o esquema de controle permanece consistente. O desenvolvedor otimizou o jogo para acessibilidade internacional, incluindo suporte para vários layouts de teclado nas atualizações recentes de 2026.
+
+<Steps>
+  <Step num="1" title="Movimento e Navegação">
+    Use **WASD** ou **Teclas de Seta** para mover. Na v1.6, o desenvolvedor adicionou suporte para layouts **AZERTY**, facilitando a navegação para jogadores europeus sem remapear.
+  </Step>
+  <Step num="2" title="Interagindo com Objetos">
+    Use **E** ou **Clique Esquerdo** para pegar itens como carvão, pedras e baterias. Soltar itens é feito pela mesma tecla ou por um botão de soltar dedicado.
+  </Step>
+  <Step num="3" title="Usando Arremessáveis">
+    Pedras são sua defesa principal. Mire com o cursor e use a tecla de ação para arremessar. A v1.7 corrigiu um bug em que as pedras não conseguiam atordoar Cobb durante uma perseguição.
+  </Step>
+  <Step num="4" title="Gerenciando o Ambiente">
+    Interaja com o **Disjuntor** para restaurar a visibilidade e com o **Forno** para manter o calor. Essas interações são sensíveis ao contexto e exigem que você esteja diretamente adjacente ao objeto.
+  </Step>
+</Steps>
+
+| Ação | Mapeamento do Teclado | Mapeamento do Gamepad (Padrão) |
+| :--- | :--- | :--- |
+| **Mover** | WASD / Setas | Analógico Esquerdo / D-Pad |
+| **Interagir / Pegar** | E / Clique Esquerdo | Botão Sul (A/Cruz) |
+| **Arremessar Item** | Clique Direito / Q | Gatilho Direito / Botão Leste |
+| **Menu de Pausa** | Esc | Iniciar / Opções |
+| **Seleção de Nível** | Mouse (Apenas Menu) | Botões de Navegação |
+
+<Callout type="success" title="Vantagem do Gamepad">
+Muitos jogadores de alto nível preferem usar um Gamepad para o Modo Infinito. Os analógicos permitem uma "caminhada furtiva" mais sutil, o que é vital quando a regra **Cobb Pode Ouvir** está ativa.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Mecânicas de Sobrevivência e Sistemas de Regras">
+
+O cerne do jogo é seu sistema de regras dinâmico. Em todas as **plataformas Cobb Can Move**, o jogo gera uma regra aleatória no início de cada nível. Você deve adaptar seu estilo de jogo imediatamente com base no texto exibido na parte superior da tela.
+
+<CardGrid cols={3}>
+  <Card title="Regras Sensoriais">
+    - **Cobb Pode Ver**: A visibilidade importa.
+    - **Cobb Pode Ouvir**: O ruído é fatal.
+    - **Cobb Pode Cheirar**: A proximidade é rastreada.
+  </Card>
+  <Card title="Regras de Movimento">
+    - **Cobb Pode Alcançar**: Passos maiores.
+    - **Cobb Pode Mover**: Perseguição padrão.
+    - **Duplicado**: Vários Cobbs aparecem.
+  </Card>
+  <Card title="Restrições do Jogador">
+    - **Congelar**: Fique perto da luz.
+    - **Fome**: Colete cenouras.
+    - **Escuridão**: Campo de visão limitado.
+  </Card>
+</CardGrid>
+
+A sobrevivência depende da sua capacidade de reconhecer essas regras. Por exemplo, se a regra for "Cobb Pode Cheirar", esconder-se atrás de uma parede não o salvará por muito tempo. Você deve continuar se movendo para ficar à frente de seu rastreamento.
+
+| Nome da Regra | Estratégia do Jogador | Mudança de Comportamento de Cobb |
+| :--- | :--- | :--- |
+| **Cobb Pode Ver** | Fique nas sombras / Quebre a Linha de Visão | Mira no jogador quando na luz |
+| **Cobb Pode Ouvir** | Ande devagar / Use pedras | Investiga ruídos altos |
+| **Cobb Pode Cheirar** | Movimento constante | Flutua lentamente em direção ao jogador |
+| **Duplicado** | Monitore todas as direções | Gera 2+ Cobbs após o Nível 5 |
+| **Alcançar** | Mantenha distância extra | Dá passos grandes e saltitantes |
+
+<Callout type="info" title="Mudanças de Equilíbrio na v1.7">
+A última atualização em maio de 2026 enfraqueceu a regra "Cobb Pode Cheirar". Cobb agora cheira com menos frequência e é menos persistente se perder seu rastro a curta distância, dando a você uma chance melhor de escapar.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Lista de Verificação de Instalação e Configuração">
+
+Se você optar por usar a compilação para Windows das **plataformas Cobb Can Move**, siga esta lista de verificação para garantir uma instalação limpa e desempenho ideal. A versão para desktop é frequentemente preferida para jogos de longo prazo e para desbloquear o menu "Seleção de Nível".
+
+<Checklist
+  id="setup-checklist"
+  title="Etapas de Instalação no PC:"
+  items={[
+    "Baixe o 'COBB CAN MOVE v1.7 webview2.zip' do itch.io",
+    "Extraia o conteúdo para uma pasta dedicada (não execute do ZIP)",
+    "Certifique-se de que seu Tempo de Execução Webview2 do Windows esteja atualizado para a versão de 2026",
+    "Verifique se seu antivírus não está bloqueando o .exe (comum para jogos indie)",
+    "Inicie o jogo e verifique se seu Gamepad é reconhecido nas configurações",
+    "Conclua o modo história uma vez para desbloquear o menu de Seleção de Nível"
+  ]}
+/>
+
+| Nome do Arquivo | Tamanho | Finalidade |
+| :--- | :--- | :--- |
+| **CobbCanMove.exe** | ~5 MB | Executável principal |
+| **data.unity3d** | ~8 MB | Ativos e texturas do jogo |
+| **UnityPlayer.dll** | ~1 MB | Biblioteca de tempo de execução do motor |
+| **Version.txt** | < 1 KB | Rastreamento de versão (v1.7) |
+
+<Callout type="warning" title="Portabilidade de Dados Salvos">
+Observe que os dados salvos (como seu progresso na história e desbloqueios da Seleção de Nível) podem não sincronizar entre as versões do navegador e do Windows. Se você planeja mudar de plataforma, pode ser necessário reiniciar seu progresso.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Histórico de Versões e Atualizações de 2026">
+
+O desenvolvedor esteve ativo durante o início de 2026, fornecendo várias atualizações de "qualidade de vida" e patches de equilíbrio. Essas atualizações refinaram significativamente a experiência em todas as **plataformas Cobb Can Move**, particularmente em relação ao encontro final com o chefe e à geração de recursos.
+
+| Versão | Data de Lançamento | Mudanças Chave |
+| :--- | :--- | :--- |
+| **v1.7** | 19 de maio de 2026 | Nerf no cheiro, nerf na aceleração da perseguição, correção de atordoamento de rocha |
+| **v1.6** | 16 de maio de 2026 | Mecânica de atordoamento de rocha, lógica de geração de carvão, hitbox de final maior |
+| **v1.5** | 10 de maio de 2026 | Seleção de Nível adicionada, rochas do Nível 7, ajuste de visão de Cobb |
+| **v1.4** | 09 de maio de 2026 | Dicas de morte adicionadas, correção de troca de itens, reequilíbrio da tarefa final |
+
+<Callout type="success" title="Vencedor do Major Jam 7">
+Cobb Can Move foi o vencedor geral do Major Jam 7: Wild. Ele ficou em 1º lugar em Conceito e 2º em Apresentação, provando que sua mecânica única de mudança de regras é um sucesso entre jogadores e críticos.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Perguntas Frequentes">
+
+<FAQ items={[
+  {
+    question: "O Cobb Can Move está disponível em plataformas móveis?",
+    answer: "Atualmente, não há um aplicativo móvel oficial. No entanto, como o jogo está disponível em plataformas HTML5, alguns navegadores móveis de ponta podem executá-lo, embora os controles de toque não sejam oficialmente suportados."
+  },
+  {
+    question: "Posso jogar Cobb Can Move no Steam ou Roblox?",
+    answer: "Não. As únicas plataformas oficiais são itch.io (Navegador e Windows). Quaisquer versões encontradas no Steam ou Roblox são espelhos não oficiais e devem ser evitadas por razões de segurança."
+  },
+  {
+    question: "Como faço para desbloquear o menu de Seleção de Nível?",
+    answer: "Você deve completar o Modo História (todos os 7 níveis e a tarefa final) pelo menos uma vez. Após os créditos, a opção Seleção de Nível aparecerá no menu principal."
+  },
+  {
+    question: "O jogo suporta controles?",
+    answer: "Sim, a página oficial do itch.io confirma o suporte para Teclado e qualquer Gamepad padrão. Isso está disponível nas versões de navegador e Windows."
+  }
+]} />
+
+<Callout type="tip" title="Mantenha-se Atualizado">
+Siga o desenvolvedor abho no itch.io ou junte-se ao Discord oficial para receber notificações sobre futuras expansões de plataforma ou atualizações da versão v1.8 esperadas para o final de 2026.
+</Callout>
+
+</Section>

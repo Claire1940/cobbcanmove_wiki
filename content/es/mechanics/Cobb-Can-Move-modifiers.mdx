@@ -1,0 +1,138 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Modificadores de Cobb Can Move: Reglas, Habilidades y Cambios de Equilibrio",
+  description: "Explora los modificadores de Cobb Can Move, incluyendo reglas sensoriales, comportamientos de movimiento y mecánicas de duplicación, junto con las actualizaciones de equilibrio recientes para una supervivencia óptima.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/8B0000/fff?text=Cobb+Can+Move+Modifiers",
+  date: "2026-06-17",
+  author: "Equipo Wiki de Cobb Can Move"
+}
+
+<Callout type="info" title="Guía Rápida">
+- Los **modificadores de Cobb Can Move** son reglas dinámicas que cambian en cada partida, cruciales para la supervivencia.
+- Las **reglas sensoriales** como "Cobb puede ver" o "Cobb puede oler" dictan los métodos de detección de Cobb.
+- Las **reglas de movimiento** definen la velocidad de persecución, el alcance y el comportamiento errante de Cobb.
+- Las **mecánicas de duplicación** implican que Cobb cree copias y cómo interactúan.
+- Las **actualizaciones de equilibrio** recientes han refinado estos modificadores para un desafío más agudo y justo.
+</Callout>
+
+<Section icon={Map} title="Comprendiendo los Modificadores de Cobb Can Move">
+En Cobb Can Move, la supervivencia depende de la adaptación a reglas que cambian constantemente, conocidas como **modificadores de Cobb Can Move**. Estos no son solo cambios cosméticos; alteran fundamentalmente el comportamiento de Cobb y la estrategia del jugador. Cada partida presenta un desafío único, haciendo que la memorización de memoria sea menos efectiva que la adaptación rápida. El diseño central asegura que cada encuentro con Cobb se sienta fresco e impredecible.
+
+**Puntos destacados del video:**
+- Demuestra cómo las diferentes reglas sensoriales afectan la jugabilidad.
+- Muestra las reacciones de los jugadores a los variados patrones de movimiento de Cobb.
+- Ilustra el impacto del comportamiento de duplicación de Cobb en niveles posteriores.
+
+<Callout type="tip" title="Siempre Revisa las Reglas">
+Antes de comenzar cada nivel, tómate siempre un momento para leer el texto de la regla activa. Esta es la acción más importante para evitar peligros inesperados y planificar tu estrategia inmediata de manera efectiva.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Reglas Sensoriales: Ver, Oír y Oler">
+La capacidad de Cobb para detectar al jugador se rige por reglas sensoriales específicas, que son **modificadores críticos de Cobb Can Move**. Estas reglas suelen aparecer temprano en una partida, con la v1.4 garantizando una regla sensorial para el Nivel 2. Comprender cada regla es primordial para una evasión efectiva.
+
+| Regla Sensorial | Descripción | Comportamiento Clave | Notas de Actualización | Conclusión del Jugador |
+|:-------------|:------------|:-------------|:-------------|:----------------|
+| **Cobb Puede Ver** | Cobb detecta a los jugadores según el nivel de luz y la línea de visión directa. | Evita espacios abiertos, permanece en las sombras. | Las versiones v1.4 y v1.5 ajustaron el alcance. | Trátalo como un modificador de visibilidad importante; prioriza el sigilo. |
+| **Cobb Puede Oír** | Cobb reacciona a los sonidos generados por el jugador (caminar, soltar objetos). | Muévete en silencio, minimiza el ruido. | No se ha equilibrado explícitamente en los parches recientes. | Cada paso puede ser un riesgo; planifica los movimientos con cuidado. |
+| **Cobb Puede Oler** | Cobb rastrea a los jugadores a través del olor, dirigiéndose hacia su ubicación. | Mantén la distancia, evita la exposición prolongada. | La v1.7 redujo la frecuencia y la persistencia. | Sigue siendo una amenaza, pero menos implacable que antes. |
+
+<Callout type="warning" title="Sobrecarga Sensorial">
+Descuidar las reglas sensoriales es un error común de principiante. Una regla de "Cobb puede oír" significa que incluso dejar caer una roca puede atraer atención no deseada, convirtiendo un momento seguro en una persecución mortal.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Modificadores de Movimiento y Persecución">
+Más allá de los sentidos, el movimiento y el comportamiento de persecución de Cobb también son **modificadores dinámicos de Cobb Can Move**. Estos dictan cómo Cobb navega por el mapa y presiona al jugador durante una persecución. Las actualizaciones recientes han refinado estas mecánicas para garantizar una experiencia equilibrada pero intensa.
+
+<CardGrid cols={2}>
+  <Card title="Velocidad de Persecución Larga">
+    - **v1.6:** Cobb se vuelve ligeramente más rápido durante persecuciones largas.
+    - **v1.7:** Se redujo ligeramente la aceleración de Cobb durante persecuciones largas.
+    - **Impacto:** Las persecuciones prolongadas siguen siendo peligrosas, pero ahora son un poco menos opresivas.
+  </Card>
+  <Card title="Regla de Alcance">
+    - **v1.6:** Cobb da pasos más grandes cuando el 'alcance' está activo, con velocidad reducida.
+    - **Impacto:** Requiere una mayor separación de Cobb; cambia las tácticas de evasión.
+  </Card>
+  <Card title="Vagabundeo Aleatorio">
+    - **v1.6:** Se aceleró el vagabundeo aleatorio en mapas más grandes.
+    - **Impacto:** Mayor cobertura del mapa y frecuencia de encuentros en áreas más grandes.
+  </Card>
+  <Card title="Comportamiento de Duplicación">
+    - **v1.6:** Los duplicados ahora se empujan entre sí, evitando la fusión.
+    - **Impacto:** Múltiples Cobbs se comportan de manera más distintiva, haciendo que los encuentros sean más claros.
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Adaptarse al Movimiento">
+Comprender los modificadores de movimiento de Cobb permite un mejor trazado de rutas y evasión. Por ejemplo, saber cuándo Cobb tiene el "alcance" activo puede incitarte a crear más distancia de lo habitual.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Cambios de Equilibrio e Interacción con las Rocas">
+Los desarrolladores de Cobb Can Move equilibran activamente el juego a través de actualizaciones, a menudo modificando las habilidades de Cobb y las herramientas del jugador. Estos cambios de equilibrio son **modificadores cruciales de Cobb Can Move** que influyen en la jugabilidad y la estrategia general. Las rocas, por ejemplo, han recibido una atención significativa.
+
+<Steps>
+  <Step num="1" title="Utilidad Inicial de la Roca (v1.1)">
+    Las rocas podían usarse como distracciones para alejar a Cobb de tu camino. Su función principal era la desorientación táctica.
+  </Step>
+  <Step num="2" title="Mecánica de Aturdimiento Introducida (v1.6)">
+    La v1.6 actualizó las rocas para permitirles aturdir a Cobb por un corto período con un golpe directo. Esto añadió una utilidad defensiva más allá de la mera distracción. Las rocas también se volvieron más ruidosas, haciendo que su sonido fuera más claro.
+  </Step>
+  <Step num="3" title="Corrección de Aturdimiento de Roca (v1.7)">
+    La v1.7 abordó los problemas en los que las rocas a veces no lograban aturdir a Cobb, especialmente cuando estaba en plena persecución. Esto hizo que las rocas fueran una herramienta defensiva más confiable cuando se usaban con precisión durante una persecución.
+  </Step>
+</Steps>
+
+| Objeto | Uso en el Juego | Nota Oficial de Actualización | Conclusión del Jugador |
+|:-----|:-------------|:---------------------|:----------------|
+| **Rocas** | Objeto arrojadizo / de utilidad; puede aturdir a Cobb. | v1.6: Aturdimiento con golpe directo, sonido más fuerte. v1.7: Se corrigió el aturdimiento durante la persecución. | Esencial para la defensa y la distracción; úsalas sabiamente. |
+| **Carbón** | Recurso de supervivencia principal para el horno. | v1.6: Menos probabilidades de aparecer junto al horno. | Requiere más movimiento y rutas para obtener combustible. |
+| **Zanahorias** | Objeto de comida que reaparece. | v1.3: Las zanahorias reaparecen después de ser comidas. | Fuente de sustento confiable y repetible. |
+
+<Callout type="info" title="Últimas Actualizaciones">
+La última actualización de equilibrio, v1.7, se centró en reducir ligeramente el poder de "Cobb puede oler" y la aceleración de persecución larga, haciendo que los encuentros sean un poco menos castigadores mientras se mantiene la tensión.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Preguntas Frecuentes sobre los Modificadores de Cobb Can Move">
+Los jugadores a menudo tienen preguntas sobre cómo funcionan los **modificadores de Cobb Can Move** y cómo adaptarse mejor a ellos. Aquí hay algunas preguntas comunes.
+
+<FAQ items={[
+  {
+    question: "¿Cómo sé qué modificadores están activos en un nivel?",
+    answer: "Siempre lee el texto de la regla que se muestra al comienzo de cada nivel. Este texto establece explícitamente los modificadores activos para esa partida, guiando tu estrategia."
+  },
+  {
+    question: "¿Algunos modificadores de Cobb son más peligrosos que otros?",
+    answer: "Las reglas sensoriales como 'Cobb puede ver' y 'Cobb puede oler' pueden ser inmediatamente peligrosas, ya que dictan la detección de Cobb. Los modificadores de movimiento como 'Velocidad de persecución larga' aumentan la presión durante las persecuciones. Todos los modificadores requieren adaptación."
+  },
+  {
+    question: "¿Puedo usar rocas para contrarrestar todos los modificadores de Cobb?",
+    answer: "Las rocas son más efectivas contra la persecución de Cobb y pueden proporcionar un breve aturdimiento. Son menos útiles contra las reglas de detección pasiva si Cobb aún no te ha detectado. Siempre combina el uso de rocas con un movimiento cuidadoso basado en las reglas activas."
+  },
+  {
+    question: "¿Los modificadores cambian durante una misma partida?",
+    answer: "Las reglas principales de un nivel se establecen al principio. Sin embargo, el comportamiento de Cobb puede evolucionar en función de las acciones del jugador (por ejemplo, la aparición de duplicados después de ciertas condiciones) y la naturaleza procesal del juego, lo que añade al desafío dinámico."
+  }
+]} />
+
+<Callout type="tip" title="La Práctica Hace al Maestro">
+La mejor manera de dominar los modificadores de Cobb Can Move es a través del juego repetido. Cada muerte ofrece una oportunidad de aprendizaje; presta atención a los consejos de muerte para obtener información sobre lo que salió mal y cómo ajustar tu enfoque para la próxima partida.
+</Callout>
+
+</Section>

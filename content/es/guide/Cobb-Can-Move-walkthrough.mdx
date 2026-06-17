@@ -1,0 +1,151 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Guía de Cobb Can Move: Supervivencia 2026 y Guía del Final",
+  description: "Domina las cambiantes reglas de Cobb Can Move con esta guía. Aprende las habilidades de Cobb, rutas de carbón, ubicaciones de baterías y cómo alcanzar el final verdadero.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1a1a1a/f44336?text=Cobb+Can+Move+Walkthrough",
+  date: "2026-06-17",
+  author: "Equipo de la Wiki de Cobb Can Move"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Guía de Cobb Can Move**: Concéntrate en leer el texto de la regla al comienzo de cada nivel para identificar riesgos de detección.
+- **Reglas Sensoriales**: El Nivel 2 siempre introduce una regla sensorial como Escuchar, Oler o Ver, que dicta cómo debes navegar.
+- **Gestión de Recursos**: Prioriza el carbón para el horno y busca baterías temprano en el Nivel 7 para prepararte para el final.
+- **Tácticas Defensivas**: Usa rocas para aturdir a Cobb durante las persecuciones, especialmente después de que la actualización v1.7 corrigiera la fiabilidad del aturdimiento.
+- **Requisito del Final**: Debes colocar cuatro baterías y completar la tarea final del horno mientras evitas a un Cobb más rápido y agresivo.
+</Callout>
+
+<Section icon={Map} title="Configuración Oficial y Primeros Pasos">
+
+Esta guía de Cobb Can Move se centra en el lanzamiento oficial de abho en itch.io, que es la versión más estable de esta experiencia de terror y supervivencia en pixel-art. A diferencia de los juegos de terror estándar con patrones fijos, este título utiliza la generación procedimental y reglas cambiantes para que cada partida sea impredecible. Los jugadores deben navegar por una mazmorra oscura, gestionar fuentes de luz y completar objetivos específicos basados en objetos mientras son cazados por una criatura llamada Cobb.
+
+**Puntos Destacados del Video:**
+- Movimiento básico e interacción con el sistema del horno.
+- Cómo manejar las reglas sensoriales iniciales introducidas en los primeros niveles.
+- Estrategias para evadir a Cobb rodeando obstáculos cuando detecta tu presencia.
+
+<YouTubeEmbed videoId="H_Z3-p46Nxs" title="COBB CAN MOVE - Markiplier" />
+
+Antes de comenzar tu primera partida, asegúrate de estar jugando la versión v1.7, ya que incluye ajustes críticos de equilibrio para la habilidad de olfato de Cobb y correcciones para los aturdimientos con rocas. El juego admite entradas tanto de teclado como de mando, pero se requiere un movimiento preciso para evitar activar las reglas de detección basadas en el sonido.
+
+<Callout type="tip" title="Nota sobre la Plataforma">
+Accede siempre al juego a través de la página oficial de itch.io para asegurarte de tener la última versión v1.7. Evita sitios espejo de terceros que puedan alojar versiones desactualizadas o defectuosas del generador de mapas procedimentales.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Comprendiendo las Reglas Cambiantes y las Habilidades de Cobb">
+
+La mecánica central del juego es que las reglas cambian en cada nivel. No puedes confiar en una sola estrategia porque lo que funcionó en el Nivel 1 podría matarte en el Nivel 2. El juego te notifica la regla activa al comienzo del nivel. Ignorar este texto es la razón más común del fracaso de los jugadores en cualquier recorrido de Cobb Can Move.
+
+<CardGrid cols={2}>
+  <Card title="Reglas Sensoriales">
+    - **Cobb Puede Ver**: La visión se basa en tu nivel de luz. Permanece en las sombras para mantenerte oculto.
+    - **Cobb Puede Escuchar**: El ruido al correr o lanzar rocas lo alerta de tu ubicación exacta.
+    - **Cobb Puede Oler**: Una regla de rastreo persistente que fue debilitada en v1.7 para ser menos implacable a corta distancia.
+  </Card>
+  <Card title="Movimiento y Comportamiento">
+    - **Regla de Alcance**: Cobb da pasos más grandes pero se mueve con menos velocidad general, lo que requiere más espacio.
+    - **Regla de Duplicado**: Aparecen múltiples Cobbs. Se empujan entre sí en lugar de fusionarse, aumentando el área de peligro.
+    - **Persecución Larga**: Cobb gana aceleración durante persecuciones prolongadas, aunque esto se redujo ligeramente en parches recientes.
+  </Card>
+</CardGrid>
+
+La supervivencia depende de tu capacidad de adaptación. Si "Cobb Puede Escuchar" está activo, debes caminar en lugar de correr. Si "Cobb Puede Ver" está activo, debes gestionar el interruptor y la luz del horno con cuidado para evitar ser visto desde el otro lado de la habitación.
+
+<Callout type="warning" title="Prioridad de Reglas">
+El Nivel 2 garantiza la introducción de una regla sensorial. Trata esto como tu campo de entrenamiento para aprender a romper la línea de visión y gestionar los niveles de ruido antes de que la complejidad del mapa aumente en etapas posteriores.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Objetos Esenciales y Rutas de Recursos">
+
+Para progresar a través de los niveles, debes interactuar con varios objetos que alimentan tu supervivencia o te permiten alcanzar el final. El carbón es tu recurso principal, utilizado para mantener el horno encendido y las luces funcionando. Sin embargo, la v1.6 cambió la lógica de aparición para que el carbón rara vez aparezca justo al lado del horno, obligándote a aventurarte en la oscuridad.
+
+<Checklist
+  id="item-priority"
+  title="Lista de Objetos Críticos:"
+  items={[
+    "Carbón: Recógelo y llévalo al horno para mantener la luz y el calor.",
+    "Rocas: Lánzalas contra las paredes para distraer o golpea a Cobb directamente para provocar un breve aturdimiento.",
+    "Zanahorias: Cómelas para evitar la inanición; reaparecen después de su uso a partir de la v1.3.",
+    "Baterías: Esenciales para el Nivel 7; se requieren cuatro para iniciar la tarea final.",
+    "Interruptor: Acciónalo para restaurar la visibilidad, pero ten en cuenta que la luz puede activar las reglas de visión."
+  ]}
+/>
+
+Las rocas se han vuelto significativamente más poderosas en las actualizaciones recientes. Un golpe directo ahora puede aturdir a Cobb de manera confiable, proporcionando unos segundos preciosos para escapar de un pasillo sin salida. En el Nivel 7, el desarrollador añadió rocas extra para ayudar a los jugadores a gestionar la mayor presión de los objetivos finales.
+
+<Callout type="success" title="Consejo de Inventario">
+A partir de la v1.4, puedes intercambiar objetos incluso si el punto de caída se resalta en rojo sobre una pared. Usa esto para gestionar rápidamente los recursos en esquinas estrechas o cuando seas perseguido cerca del horno.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Progresión del Modo Historia y Estrategia del Nivel 7">
+
+El viaje a través del modo historia consta de siete niveles de dificultad creciente. Los niveles iniciales se centran en reglas únicas, mientras que los niveles posteriores combinan la detección sensorial con peligros ambientales como la congelación o el hambre. El Nivel 7 es la prueba definitiva de tus habilidades, requiriendo que localices cuatro baterías mientras gestionas a un Cobb altamente agresivo.
+
+<Steps>
+  <Step num="1" title="Exploración Inicial">
+    Localiza el horno y los puntos de aparición de carbón más cercanos. No recojas las baterías todavía; concéntrate en establecer una zona segura con suficiente luz para ver las amenazas entrantes.
+  </Step>
+  <Step num="2" title="Recolección de Baterías">
+    Busca en los fragmentos procedimentales las cuatro baterías. Llévalas una por una de regreso al área del objetivo central. Usa rocas para distraer a Cobb si merodea cerca de una batería.
+  </Step>
+  <Step num="3" title="Activación de la Tarea Final">
+    Una vez colocadas las cuatro baterías, comienza la tarea final. El texto cambiará y Cobb recibirá una mejora de velocidad. Esta es la parte más peligrosa del juego.
+  </Step>
+  <Step num="4" title="El Escape">
+    Dirígete al alto horno. El área de interacción (hitbox) se amplió en la v1.6 para facilitar la interacción bajo presión. Completa la interacción para activar la secuencia final.
+  </Step>
+</Steps>
+
+Después de ganar el juego una vez, desbloquearás el menú de Selección de Nivel. Esto es útil para practicar combinaciones de reglas específicas o volver a visitar el Nivel 7 para perfeccionar tus tácticas de speedrun. Si mueres, presta mucha atención a los consejos de muerte añadidos en la v1.4, ya que a menudo revelan exactamente qué regla violaste.
+
+<Callout type="info" title="Equilibrio del Nivel 7">
+La tarea final fue reequilibrada en la v1.5.2 para aumentar ligeramente la velocidad de Cobb. Debes ser eficiente con tu movimiento; cualquier tiempo perdido durante la fase de las baterías hará que el escape final sea significativamente más difícil.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Explicación del Final y Rejugabilidad">
+
+El final de Cobb Can Move implica una confrontación final en el alto horno. Completarlo con éxito te recompensa con un mensaje del desarrollador y acceso al menú completo de Selección de Nivel. Para aquellos que buscan más desafíos, el Modo Infinito comienza en el Nivel 3 y presenta mapas procedimentales que crecen en tamaño y complejidad cuanto más tiempo sobrevivas.
+
+<FAQ items={[
+  {
+    question: "¿Cómo aturdo a Cobb en la última versión?",
+    answer: "Debes lanzar una roca y lograr un golpe directo sobre Cobb. En la v1.7, esta mecánica se corrigió para asegurar que funcione incluso mientras Cobb te está persiguiendo activamente."
+  },
+  {
+    question: "¿Cuál es la mejor manera de lidiar con la regla del olor?",
+    answer: "Mantente en movimiento y evita quedarte en un solo lugar por mucho tiempo. La actualización v1.7 redujo la frecuencia de los rastreos de Cobb, dándote más tiempo para reposicionarte entre sus intentos de seguimiento."
+  },
+  {
+    question: "¿Hay códigos activos para Cobb Can Move?",
+    answer: "No, la página oficial de itch.io y los registros de desarrollo no cuentan con un sistema de códigos de canje. La progresión se basa enteramente en el juego y en sobrevivir a los niveles procedimentales."
+  },
+  {
+    question: "¿Cómo desbloqueo la Selección de Nivel?",
+    answer: "Debes completar los siete niveles de la historia y llegar al final. Una vez terminada la tarea final en el alto horno, el menú estará disponible desde la pantalla de título."
+  }
+]} />
+
+La rejugabilidad está impulsada por la aleatoriedad sembrada de los mapas. Incluso con una guía completa de Cobb Can Move, la disposición del carbón y las baterías cambiará cada vez. Dominar las mecánicas de movimiento y comprender los matices de las reglas de Escuchar, Ver y Oler es la única forma de lograr victorias consistentes tanto en el modo Historia como en el Infinito.
+
+<Callout type="tip" title="Maestría Final">
+Usa el Modo Infinito para practicar contra la regla de Duplicado. Gestionar dos o más Cobbs en un laberinto procedimental es la mejor manera de mejorar tu conciencia espacial y tiempo de reacción para el nivel final de la historia.
+</Callout>
+
+</Section>

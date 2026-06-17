@@ -1,0 +1,210 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Cobb Can Move Short Game: Regras, Finais e Guia de Sobrevivência",
+  description: "Domine o jogo curto Cobb Can Move com nosso guia sobre regras, habilidades de Cobb, locais de itens e passo a passo dos finais para este sucesso de terror pixelado.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1a1a1a/ff4444?text=Cobb+Can+Move+Guide",
+  date: "2026-06-17",
+  author: "Equipe Wiki de Cobb Can Move"
+}
+
+<Callout type="info" title="Guia Rápido">
+- O **jogo curto Cobb Can Move** é uma experiência de terror pixelado gerada proceduralmente, onde as regras de sobrevivência mudam a cada nível.
+- **Loop Principal**: Leia a regra ativa, colete carvão para a fornalha, gerencie o disjuntor e evite os sentidos em evolução de Cobb.
+- **Estratégia Crítica**: Use **Pedras** para atordoar Cobb durante perseguições; a v1.7 melhorou significativamente a confiabilidade do atordoamento.
+- **Modo Infinito**: Desbloqueia após vencer o Nível 7, iniciando os jogadores diretamente no Nível 3 com dificuldade aumentada.
+- **Plataforma Oficial**: Disponível no **itch.io** para jogar no navegador HTML5 e download para Windows.
+</Callout>
+
+<Section icon={Map} title="Acesso Oficial e Visão Geral do Jogo">
+
+O **jogo curto Cobb Can Move** conquistou um nicho na cena do terror indie ao subverter os tropos tradicionais de sobrevivência. Ao contrário de jogos com IA de monstro estática, Cobb se adapta com base em um conjunto de regras aleatórias exibido no início de cada nível. Desenvolvido por abho e vencedor do Major Jam 7, este título desafia os jogadores a gerenciar recursos como carvão e baterias enquanto navegam por uma masmorra escura e de visão superior. Seja jogando a versão HTML5 baseada em navegador ou a versão para Windows, entender o "Fresh Nonsense" de cada nível é a única maneira de chegar ao final.
+
+**Destaques do Vídeo:**
+- **Estilo Visual**: Arte pixelada de alto contraste que enfatiza sombras e visibilidade limitada.
+- **Revelação da Mecânica**: Veja como a regra "Cobb pode ouvir" muda o movimento do jogador de correr para rastejar.
+- **Atmosfera**: Experimente a tensão da luz da fornalha diminuindo à medida que Cobb se aproxima.
+
+<YouTubeEmbed videoId="p7-8vY_I_mU" title="COBB CAN MOVE - Markiplier" />
+
+<Callout type="tip" title="Recomendação de Plataforma">
+Para o melhor desempenho e para evitar atrasos de entrada durante perseguições intensas, recomendamos baixar a **versão 1.7 para Windows** em vez de jogar em uma aba de navegador lotada.
+</Callout>
+
+| Recurso | Especificação | Detalhes |
+| :--- | :--- | :--- |
+| **Desenvolvedor** | abho | Vencedor do Major Jam 7 |
+| **Última Versão** | v1.7 | Lançado em 19 de maio de 2026 |
+| **Plataformas** | HTML5, Windows | Exclusivo do itch.io |
+| **Suporte de Entrada** | Teclado, Gamepad | AZERTY otimizado na v1.6 |
+| **Preço** | Defina seu preço | Opções gratuitas disponíveis |
+
+</Section>
+
+<Section icon={Shield} title="Essenciais de Sobrevivência: Guia para Iniciantes">
+
+Sobreviver às suas primeiras corridas no **jogo curto Cobb Can Move** requer mais do que apenas reflexos rápidos. Você deve se tornar um mestre do ambiente. Cada nível começa com um prompt de texto que dita a habilidade atual de Cobb. Ignorar este texto é a causa mais comum de morte para novos jogadores.
+
+<Steps>
+  <Step num="1" title="Analise a Regra Ativa">
+    Antes de se mover, leia o texto na parte superior da tela. Se disser "Cobb pode ver", fique fora de sua linha de visão direta. Se disser "Cobb pode cheirar", continue se movendo para evitar um rastro de cheiro.
+  </Step>
+  <Step num="2" title="Priorização de Recursos">
+    Seu objetivo principal é manter a fornalha acesa. Localize pedaços de carvão e leve-os para a fornalha central. Na v1.6, o surgimento de carvão foi ajustado para ser mais distante da fornalha, aumentando o perigo de longas viagens.
+  </Step>
+  <Step num="3" title="Disjuntor e Visibilidade">
+    Se as luzes piscarem ou apagarem, encontre o Disjuntor. O sprite foi atualizado na v1.3 para ser mais visível. Manter as luzes acesas impede que a regra "Congelar" drene sua saúde.
+  </Step>
+  <Step num="4" title="Táticas Defensivas com Pedras">
+    Sempre carregue uma pedra. Desde as atualizações v1.6 e v1.7, um golpe direto com uma pedra atordoará Cobb. Este é o seu único reset rígido durante uma perseguição.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="A Morte é uma Professora">
+A atualização v1.4 adicionou **Dicas de Morte**. Se você morrer, não pule a tela imediatamente. O jogo analisa como você morreu e fornece uma dica específica para a regra que o pegou.
+</Callout>
+
+| Ação | Controle (Teclado) | Controle (Gamepad) |
+| :--- | :--- | :--- |
+| **Movimento** | WASD / Setas | Joystick Esquerdo |
+| **Interagir/Pegar** | E / Espaço | Botão Sul (A/X) |
+| **Soltar/Arremessar** | G / Q | Botão Oeste (X/Quadrado) |
+| **Pausar** | Esc | Iniciar / Opções |
+
+</Section>
+
+<Section icon={Target} title="Cobb Can Move Short Game: Regras e Habilidades de Cobb">
+
+O cerne do **jogo curto Cobb Can Move** reside em seu sistema de mudança de regras. Cobb não é apenas um monstro; ele é um recipiente para diferentes handicaps sensoriais e físicos. Compreender as nuances dessas regras — especialmente após os patches de equilíbrio de 2026 — é vital para o jogo de alto nível.
+
+<CardGrid cols={2}>
+  <Card title="Regras Sensoriais">
+    - **Cobb Pode Ver**: A visão é baseada no seu nível de luz. Fique nas sombras.
+    - **Cobb Pode Ouvir**: Correr ou jogar pedras o alerta. Ande para ficar em silêncio.
+    - **Cobb Pode Cheirar**: Ele rastreia seu caminho. Reduzido na v1.7 para ser menos persistente.
+  </Card>
+  <Card title="Regras Físicas">
+    - **Cobb Pode Alcançar**: Ele dá passos enormes. Mantenha uma distância extra.
+    - **Cobb Pode Duplicar**: Vários Cobbs aparecem. Eles agora se empurram em vez de se fundirem (v1.6).
+    - **Cobb Pode Mover**: Modo de perseguição padrão com aceleração escalável.
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Balanceamento de Regras na v1.7">
+A última atualização enfraqueceu a regra de **Cheiro**. Cobb agora fareja com menos frequência, dando a você mais tempo para quebrar o rastro antes que ele se fixe em sua posição.
+</Callout>
+
+| Nome da Regra | Detalhe da Mecânica | Contra-Estratégia |
+| :--- | :--- | :--- |
+| **Ver** | Detecção baseada em luz/distância | Esconda-se atrás de paredes/pilares |
+| **Ouvir** | Alertas ao correr ou fazer barulho com pedras | Alterne o modo de caminhada (Shift) |
+| **Cheirar** | Rastreamento de rastro invisível | Nunca fique parado por >3 segundos |
+| **Alcançar** | Aumento da distância de investida/passo | Use pedras para criar lacunas |
+| **Duplicar** | Múltiplas entidades no mapa | Rastreie todas as posições; não seja encurralado |
+| **Velocidade** | Aceleração de perseguição ao longo do tempo | Quebre a linha de visão para redefinir a velocidade |
+
+</Section>
+
+<Section icon={Swords} title="Guia de Itens, Fornalha e Objetos">
+
+Objetos interativos no **jogo curto Cobb Can Move** são suas ferramentas de sobrevivência. De combustível básico a arremessáveis defensivos, saber como gerenciar seu inventário (que é limitado) determina sua eficiência.
+
+<Checklist
+  id="item-mastery"
+  title="Lista de Verificação do Inventário:"
+  items={[
+    "Sempre segure uma Pedra em seu slot secundário para atordoar",
+    "Monitore os tempos de reaparecimento da Cenoura para gerenciar a fome (atualização v1.3)",
+    "Identifique a localização da Fornalha de Explosão no início do Nível 7",
+    "Certifique-se de que as rotas de Carvão estejam livres de detritos antes de uma perseguição começar"
+  ]}
+/>
+
+<Callout type="info" title="Manuseio do Inventário">
+A partir da v1.4, você pode trocar itens mesmo que o local de descarte esteja "vermelho" ou sobre uma parede. Isso evita que os itens fiquem presos na geometria durante trocas de pânico.
+</Callout>
+
+| Item | Categoria | Nota de Atualização | Estratégia |
+| :--- | :--- | :--- | :--- |
+| **Carvão** | Recurso | v1.6: Surge mais longe | Mova-se em pares; mantenha uma pedra pronta |
+| **Pedra** | Utilitário | v1.7: Corrigido bug de atordoamento em perseguição | Mire na cabeça; som mais alto na v1.6 |
+| **Cenoura** | Comida | v1.3: Agora reaparece | Coma apenas quando a barra de fome estiver <20% |
+| **Bateria** | Progressão | v1.4: Mudança de texto da tarefa final | Coloque as 4 para acionar o final |
+| **Disjuntor** | Objeto do Mapa | v1.3: Buff de visibilidade do sprite | Memorize sua localização em cada andar |
+
+</Section>
+
+<Section icon={Trophy} title="Progressão do Modo História e Passo a Passo do Final">
+
+O modo história do **jogo curto Cobb Can Move** consiste em sete níveis que levam a um final climático. Cada nível introduz combinações de regras mais complexas, culminando em uma tarefa final com muitos recursos.
+
+**Detalhes Nível a Nível:**
+- **Nível 1-2**: Introdução ao movimento básico. O Nível 2 garante uma regra sensorial (Ver, Ouvir ou Cheirar) para ensinar mecânicas de detecção.
+- **Nível 3-6**: Introdução das regras "Duplicar" e "Alcançar". Os mapas se tornam maiores e mais procedurais.
+- **Nível 7**: O "Desafio". A v1.5 adicionou pedras extras a este nível para compensar a agressão aumentada de Cobb.
+- **O Final**: Requer a colocação de quatro baterias e a interação com a **Fornalha de Explosão**. A atualização v1.6 aumentou a hitbox da fornalha, tornando muito mais fácil clicar sob pressão.
+
+<Callout type="warning" title="Dificuldade do Final">
+A velocidade de Cobb durante a tarefa final da bateria foi ligeiramente aumentada na v1.5.2. Não tente colocar a bateria final se Cobb estiver a menos de três blocos de você.
+</Callout>
+
+| Nível | Objetivo Principal | Perigo Principal | Desbloqueio |
+| :--- | :--- | :--- | :--- |
+| **Nível 2** | Aprender Sentidos | Visão/Audição/Olfato Garantidos | Nível 3 |
+| **Nível 5** | Introdução à Duplicação | Múltiplos Cobbs | Regras Avançadas |
+| **Nível 7** | Caça à Bateria | Alta Agressão | Final |
+| **Final** | Fornalha de Explosão | Velocidade Máxima de Perseguição | Seleção de Nível |
+
+</Section>
+
+<Section icon={Sparkles} title="Modo Infinito e Estratégia de Replay">
+
+Depois de dominar a história, o **jogo curto Cobb Can Move** oferece um Modo Infinito que testa sua adaptabilidade ao limite. Este modo começa no Nível 3, pulando as fases introdutórias e jogando você direto na parte mais difícil da geração procedural.
+
+**Recursos do Modo Infinito:**
+- **Aleatoriedade Sementeada**: Cada corrida usa uma semente única, garantindo que as colocações de itens e os pedaços do mapa nunca sejam idênticos.
+- **Pressão Escalável**: À medida que os níveis progridem, Cobb ganha velocidade mais rápido, e os temporizadores de "Fome" e "Congelar" tornam-se mais agressivos.
+- **Empilhamento de Duplicados**: Ao contrário do modo história, o Modo Infinito pode apresentar mais de dois Cobbs simultaneamente em estágios posteriores.
+
+<Callout type="tip" title="Dica Profissional de Replay">
+Use o menu **Seleção de Nível** (desbloqueado após sua primeira conclusão) para praticar especificamente o Nível 7. É a melhor maneira de aprender a desviar de Cobb enquanto carrega baterias pesadas.
+</Callout>
+
+| Modo | Nível Inicial | Tipo de Mapa | Escala de Dificuldade |
+| :--- | :--- | :--- | :--- |
+| **História** | Nível 1 | Progressão Linear | Fixo por nível |
+| **Infinito** | Nível 3 | Pedaços Procedurais | Infinito / Baseado no Tempo |
+| **Seleção de Nível** | Qualquer | Modo Prática | Estático |
+
+</Section>
+
+<Section icon={Swords} title="FAQ do Cobb Can Move">
+
+<FAQ items={[
+  {
+    question: "Existe uma versão Steam do jogo curto Cobb Can Move?",
+    answer: "Não. Atualmente, o jogo está disponível oficialmente apenas na página itch.io de abho. Embora o desenvolvedor tenha outros projetos como VOIDFACE no Steam, Cobb Can Move permanece um exclusivo do itch.io por enquanto."
+  },
+  {
+    question: "Como atordoo Cobb com pedras?",
+    answer: "Você deve jogar a pedra (G/Q ou Botão Oeste) para que ela atinja fisicamente o sprite de Cobb. Na v1.7, o desenvolvedor corrigiu um bug onde as pedras não o atordoavam durante uma perseguição, então agora é uma ferramenta defensiva confiável."
+  },
+  {
+    question: "Qual é a diferença entre as atualizações v1.6 e v1.7?",
+    answer: "A v1.6 focou na hitbox do final e nos efeitos sonoros da pedra, enquanto a v1.7 foi um patch de equilíbrio que enfraqueceu a habilidade de cheiro de Cobb e a aceleração em perseguições longas para tornar o jogo mais justo para os jogadores."
+  },
+  {
+    question: "Existem códigos ativos para Cobb Can Move?",
+    answer: "Não, o jogo curto Cobb Can Move não possui um sistema de código ou resgate. Qualquer site que afirme oferecer 'códigos ativos' para este jogo provavelmente está fornecendo informações falsas."
+  }
+]} />
+
+</Section>

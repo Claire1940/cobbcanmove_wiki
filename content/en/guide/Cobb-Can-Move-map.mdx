@@ -1,0 +1,164 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Activity, Layers } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Cobb Can Move Map: Procedural Survival & Level 7 Guide",
+  description: "Navigate the Cobb Can Move map with our guide on procedural generation, Level 7 strategies, and sensory rules in the latest 2026 v1.7 update.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1a1a1a/ff4444?text=Cobb+Can+Move+Map+Guide",
+  date: "2026-06-17",
+  author: "Cobb Can Move Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Cobb Can Move map**: The environment uses procedural generation based on chunk varieties, meaning no two runs are identical.
+- **Rule Changes**: Every level introduces a new rule (See, Hear, Smell, Reach) that fundamentally alters how you navigate the map.
+- **Key Objects**: Survival depends on locating the **Furnace**, **Breaker**, and **Coal** spawns quickly within the dark pixel environment.
+- **Level 7 Strategy**: This level features increased pressure and requires using **Rocks** to stun Cobb during the final battery task.
+- **Official Version**: Ensure you are playing v1.7 (released May 2026) for the latest map balancing and hitbox fixes.
+</Callout>
+
+<Section icon={Map} title="Cobb Can Move Map Mechanics and Official Access">
+
+Understanding the **Cobb Can Move map** requires recognizing that the game is built on a foundation of unpredictability. Developed by abho and hosted officially on itch.io, this survival horror title utilizes a top-down pixel art style where the layout shifts between runs. Unlike traditional horror games with static corridors, the map here is a living puzzle that reacts to the active ruleset.
+
+**Video Highlights:**
+- **Map Navigation**: Watch how top-tier players navigate the dark corners and utilize the furnace as a central hub.
+- **Cobb Detection**: Observe the visual cues when Cobb senses the player through sight or smell.
+- **Item Interaction**: See the proper way to drop coal and throw rocks to maximize survival time.
+
+<YouTubeEmbed videoId="7uE6M0V3rW4" title="COBB CAN MOVE - Markiplier Gameplay" />
+
+<Callout type="success" title="Official Platform Verification">
+The only official versions of the game are the HTML5 browser version and the Windows download available at abho.itch.io. Avoid third-party "mirror" sites to ensure you are playing the balanced v1.7 build.
+</Callout>
+
+<CardGrid cols={2}>
+  <Card title="Browser Version (HTML5)">
+    - Instant play via itch.io
+    - Supports Keyboard and Gamepad
+    - Ideal for quick Endless Mode runs
+  </Card>
+  <Card title="Windows Build (v1.7)">
+    - 15 MB webview2.zip package
+    - More stable performance for Level 7
+    - Full support for international layouts (AZERTY)
+  </Card>
+</CardGrid>
+
+</Section>
+
+<Section icon={Layers} title="Procedural Map Generation and Chunk Logic">
+
+The **Cobb Can Move map** is not a single hand-drawn image but a collection of procedural chunks. The developer has implemented seeded randomness, particularly for the Endless Mode, which ensures that while the "vibe" of the dungeon remains consistent, the specific routes to the furnace or breaker change.
+
+| Map Component | Generation Logic | Player Impact |
+| :--- | :--- | :--- |
+| **Room Chunks** | Randomized connections | Prevents memorizing a single escape path |
+| **Coal Spawns** | v1.6 Balance: Less likely near furnace | Forces players to explore deeper into the map |
+| **Breaker Location** | Randomly placed per level | Requires immediate scouting at the start of a run |
+| **Item Clusters** | Seeded randomness | Rocks and Carrots spawn in varying densities |
+
+<Callout type="tip" title="Scouting Strategy">
+In the first 30 seconds of any level, prioritize finding the **Breaker** and the **Furnace**. Knowing the distance between these two points is critical for managing your light levels and heat.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Story Mode Progression: Level 1 to the Ending">
+
+The Story Mode serves as a tutorial for the **Cobb Can Move map** mechanics, gradually introducing more complex rules and environmental hazards. By the time you reach Level 7, the map becomes a gauntlet of sensory traps.
+
+<Steps>
+  <Step num="1" title="Introduction to the Loop">
+    Levels 1 and 2 focus on basic survival. Level 2 is guaranteed to introduce a sensory rule (Hear, Smell, or See), forcing you to learn how to move silently or stay out of Cobb's line of sight within the map's corridors.
+  </Step>
+  <Step num="2" title="The Level 3 Difficulty Spike">
+    Endless Mode officially begins at Level 3. The map size increases, and you must manage the "Freeze" and "Starve" mechanics while navigating longer distances for coal.
+  </Step>
+  <Step num="3" title="Level 5 and Duplicates">
+    At Level 5, the "Duplicate" rule can trigger. The map now contains multiple Cobbs. The v1.6 update ensures duplicates push each other rather than merging, making the map feel much more crowded and dangerous.
+  </Step>
+  <Step num="4" title="Level 7: The Final Gauntlet">
+    Level 7 was rebalanced in v1.5 to include extra rocks. You must locate four batteries and transport them to the final task area. The map layout here is designed to bottleneck players, making the rock-stun mechanic essential.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Level 7 Battery Tip">
+Do not pick up all batteries at once. Drop them near the final task area first, then install them in rapid succession to minimize the time Cobb spends in his "Final Task" aggression mode.
+</Callout>
+
+</Section>
+
+<Section icon={Activity} title="Key Objects and Map Interactables">
+
+Navigating the **Cobb Can Move map** is as much about managing items as it is about movement. Every object has a specific role in the survival loop, and recent 2026 updates have refined their hitboxes and spawn logic.
+
+| Item | Primary Use | Map Behavior | Update Note (v1.6/v1.7) |
+| :--- | :--- | :--- | :--- |
+| **Coal** | Furnace Fuel | Spawns in dark corners | Spawn distance from furnace increased |
+| **Rocks** | Cobb Stun | Throwable projectile | Direct hits now stun Cobb during pursuit |
+| **Carrots** | Hunger/Starve | Respawning food source | v1.3 update enabled carrot respawning |
+| **Batteries** | Story Progression | Heavy quest items | Required for the Level 7 finale |
+| **Breaker** | Light/Visibility | Static interactable | Sprite updated for better visibility in dark |
+
+<Callout type="info" title="Inventory Management">
+The v1.4 update allows you to swap items even if the drop spot is "red" (over a wall). This is a lifesaver when you are backed into a corner by Cobb and need to swap a coal piece for a rock.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Endless Mode Survival and Replay Strategy">
+
+Once you have cleared the story, the **Cobb Can Move map** expands into Endless Mode. Here, the procedural generation is pushed to its limits, and the ruleset becomes increasingly chaotic.
+
+<Checklist
+  id="endless-goals"
+  title="Endless Mode Checklist:"
+  items={[
+    "Scout the Breaker location immediately upon spawning",
+    "Identify the active sensory rule (See/Hear/Smell) displayed on screen",
+    "Stockpile at least two rocks near the Furnace for emergency stuns",
+    "Clear Level 3 to unlock the standard Endless scaling",
+    "Use the Level Select menu (unlocked after story clear) to practice specific rules"
+  ]}
+/>
+
+<Callout type="tip" title="Mastering the Smell Rule">
+In v1.7, the "Cobb Can Smell" rule was nerfed. Cobb sniffs less frequently and is less persistent. Use this to your advantage by making "L-shaped" movements to break his scent trail on the map.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Map FAQ and Troubleshooting">
+
+<FAQ items={[
+  {
+    question: "How do I find the exit on the Cobb Can Move map?",
+    answer: "There is no 'exit' in the traditional sense for most levels. Your goal is to satisfy the level's objective (like filling the furnace or placing batteries). Once completed, the level ends automatically."
+  },
+  {
+    question: "Why is the coal spawning so far away from the furnace?",
+    answer: "This was a balance change in v1.6. The developer increased the minimum spawn distance to prevent players from 'camping' the furnace, forcing more exploration of the map."
+  },
+  {
+    question: "Can I use a seed to get the same map layout?",
+    answer: "Yes, the developer has implemented seeded randomness for Endless Mode. While there isn't a public database of seeds yet, the system is designed to allow for consistent competitive play."
+  },
+  {
+    question: "What changed in the Level 7 map update?",
+    answer: "Level 7 received additional rock spawns and a larger hitbox for the ending blast furnace. This makes the final interaction much more reliable under pressure."
+  }
+]} />
+
+<Callout type="success" title="Final Survival Tip">
+Always read the text at the start of the level. The 'map' changes its behavior based on whether Cobb can see, hear, or smell you. Adapting your pathing to these rules is the difference between a high score and a quick death.
+</Callout>
+
+</Section>

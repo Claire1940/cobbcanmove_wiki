@@ -1,0 +1,156 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, AlertTriangle, Lightbulb, Info } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Cobb Can Move: Como escapar do faro: Guia de Sobrevivência Avançado",
+  description: "Domine como escapar da habilidade de faro de Cobb em Cobb Can Move. Aprenda táticas, mudanças de regras e uso de itens para evitar a detecção e sobreviver neste jogo de terror pixelado.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/8B0000/fff?text=Cobb+Can+Move+Smell+Escape",
+  date: "2026-06-17",
+  author: "Equipe Wiki de Cobb Can Move"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Cobb Can Move: Como escapar do faro**: Entenda a mecânica do faro de Cobb e como combatê-la.
+- **Nerf da V1.7**: A atualização mais recente tornou o faro de Cobb menos frequente e persistente a curta distância.
+- **Movimento é Chave**: Movimento estratégico e consciência ambiental são cruciais para a evasão.
+- **Uso de Itens**: Pedras podem distrair Cobb, oferecendo uma fuga momentânea.
+- **Adaptação às Regras**: As regras de cada partida mudam, exigindo adaptação constante às habilidades de Cobb.
+</Callout>
+
+<Section icon={Lightbulb} title="Compreendendo a Habilidade de Faro de Cobb">
+A habilidade "Faro" de Cobb é uma regra sensorial crítica que impacta significativamente a sobrevivência do jogador em *Cobb Can Move*. Quando esta regra está ativa, Cobb pode detectar a presença do jogador com base no cheiro, guiando-o até sua localização. Essa mecânica adiciona uma camada de tensão e pensamento estratégico, pois os jogadores devem não apenas navegar no ambiente escuro, mas também gerenciar sua "trilha de cheiro".
+
+Inicialmente, o faro de Cobb podia ser implacável, tornando a evasão um desafio. No entanto, atualizações recentes introduziram mudanças de equilíbrio para tornar o jogo mais justo, mantendo o elemento de terror. Compreender essas mudanças é crucial para desenvolver estratégias de fuga eficazes.
+
+<Callout type="tip">
+Sempre verifique o texto da regra ativa no início de cada partida. A habilidade "Faro" de Cobb exige uma abordagem diferente em comparação com "Visão" ou "Audição".
+</Callout>
+
+**Destaques do Vídeo:**
+- Demonstra o comportamento de rastreamento de Cobb quando "Faro" está ativo.
+- Mostra rotas de evasão eficazes em vários layouts de mapa.
+- Destaca erros do jogador que levam à detecção pelo faro.
+
+<YouTubeEmbed videoId="VIDEO_ID_HERE" title="Vídeo de Gameplay Popular" />
+
+O diário de desenvolvimento de "Cobb Can Move" indica que o design central do jogo gira em torno de regras mutáveis e adaptação do jogador. A regra "Faro" é um desses elementos dinâmicos, forçando os jogadores a reagir aos sentidos aprimorados de Cobb.
+
+</Section>
+
+<Section icon={Sparkles} title="Atualizações V1.7: Nerfando o Faro de Cobb">
+A atualização v1.7 introduziu ajustes significativos de equilíbrio na habilidade "Faro" de Cobb, tornando-a menos avassaladora para os jogadores. Essas mudanças foram implementadas para refinar a dificuldade e garantir uma experiência de sobrevivência mais envolvente, mas ainda desafiadora.
+
+<Callout type="success">
+A atualização v1.7 torna a fuga do faro de Cobb mais gerenciável, mas ele continua sendo uma ameaça potente se ignorado.
+</Callout>
+
+Aqui está um detalhamento das principais mudanças:
+
+| Característica              | Comportamento Pré-v1.7                                | Comportamento Pós-v1.7                                | Conclusão do Jogador                                 |
+| :------------------------ | :-------------------------------------------------- | :-------------------------------------------------- | :------------------------------------------------- |
+| **Frequência do Faro**    | Cobb cheirava e rastreava com mais frequência.      | Cheiradas menos frequentes.                           | Mais oportunidades para movimento furtivo.         |
+| **Persistência a Curta Distância** | Rastreamento altamente persistente a curta distância. | Menos persistência quando cheirado a curta distância. | Desengajamento mais rápido possível se detectado por perto. |
+| **Aceleração da Perseguição** | Cobb ganhava velocidade rapidamente durante longas perseguições. | Aceleração ligeiramente nerfada durante longas perseguições. | Rotas de fuga mais longas são marginalmente mais viáveis. |
+
+Esses ajustes significam que, embora Cobb ainda possa sentir seu cheiro, a janela para evasão é ligeiramente maior, e sua resposta imediata ao seu cheiro é menos agressiva. Isso incentiva um movimento mais cuidadoso, em vez de pânico constante.
+
+</Section>
+
+<Section icon={Shield} title="Táticas Estratégicas de Evasão para Cobb Farejador">
+Escapar de Cobb quando sua habilidade "Faro" está ativa requer uma combinação de movimento cuidadoso, consciência ambiental e uso eficaz de itens. Ao contrário das regras de "Visão" ou "Audição", "Faro" ignora a linha de visão e as pistas sonoras diretas, tornando-o um desafio único.
+
+<Steps>
+  <Step num="1" title="Priorize o Movimento">
+    Quando Cobb pode farejar, o movimento contínuo é geralmente mais seguro do que se esconder estaticamente. Cobb seguirá em direção à sua última localização cheirada conhecida, então ficar parado o torna um alvo mais fácil. Continue se movendo, mas faça isso metodicamente.
+  </Step>
+  <Step num="2" title="Utilize os Layouts do Mapa">
+    Mapas gerados proceduralmente oferecem rotas de fuga variadas. Aprenda a reconhecer pontos de estrangulamento, áreas abertas e laços. Use corredores estreitos a seu favor, pois Cobb pode demorar mais para navegá-los, dando a você a chance de criar distância.
+  </Step>
+  <Step num="3" title="Distraia com Pedras">
+    Pedras são uma ferramenta valiosa. Jogar uma pedra pode criar uma distração sonora, afastando Cobb de sua posição atual. Isso é particularmente eficaz quando você precisa contornar um caminho bloqueado ou criar uma janela momentânea para escapar. As atualizações v1.6 e v1.7 tornaram as pedras mais eficazes, permitindo que acertos diretos atordoem Cobb brevemente.
+  </Step>
+  <Step num="4" title="Gerencie Recursos Eficientemente">
+    Embora não esteja diretamente ligado ao faro, gerenciar carvão e baterias significa que você gasta menos tempo em áreas perigosas. A conclusão rápida do objetivo reduz o tempo de exposição aos sentidos ativos de Cobb.
+  </Step>
+  <Step num="5" title="Adapte-se às Regras Combinadas">
+    Às vezes, "Faro" pode se combinar com outras regras como "Alcance" ou "Duplicata". Esteja preparado para ajustar sua estratégia. Por exemplo, "Alcance" significa que Cobb cobre mais terreno por passo, então manter uma distância maior é crucial.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Erro Comum">
+Evite derrubar itens em pânico. Embora a v1.4 tenha tornado a troca de itens mais tolerante, derrubar itens descuidadamente pode alertar Cobb sobre sua presença ou bloquear seu caminho de fuga, especialmente em situações apertadas.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Uso de Itens e Interação Ambiental">
+A interação eficaz com os itens e o ambiente do jogo é fundamental para sobreviver às habilidades sensoriais de Cobb, especialmente "Faro". Saber como e quando usar cada item pode transformar uma situação desesperadora em uma fuga bem-sucedida.
+
+| Item         | Uso Principal                                   | Tática Específica para Faro                            | Nota Oficial da Atualização (2026)                                                                                                    |
+| :----------- | :---------------------------------------------- | :------------------------------------------------------- | :--------------------------------------------------------------------------------------------------------------------------------------- |
+| **Pedras**   | Distração, atordoamento breve                     | Jogue para criar uma pista sonora, desviando o caminho cheirado de Cobb. | v1.6: Pedras atordoam Cobb com acerto direto, som mais alto. v1.7: Consistência de atordoamento corrigida durante a perseguição.         |
+| **Carvão**   | Combustível para a fornalha, progressão do objetivo | Colete rapidamente para minimizar a permanência em uma área. | v1.6: Menos provável de aparecer perto da fornalha, aumentando a pressão de movimento.                                                   |
+| **Cenouras** | Regeneração de Saúde/Estamina                   | Reabasteça para manter a velocidade de evasão.         | v1.3: Cenouras reaparecem quando comidas, fornecendo sustento repetível.                                                               |
+| **Baterias** | Item de progressão final                        | Priorize a coleta para acelerar a tarefa final.        | v1.4: O texto da tarefa final muda após colocar quatro baterias.                                                                        |
+| **Fornalha** | Objetivo principal, zona segura (brevemente)      | Aproxime-se com cautela, use apenas quando necessário. | v1.6: A geração de carvão mudou para afastar os jogadores da fornalha.                                                                  |
+| **Disjuntor** | Objeto do mapa, pista visual                     | Localize rapidamente para entender o layout do mapa e as potenciais rotas de fuga. | v1.3: O sprite do disjuntor mudou ligeiramente para ser mais perceptível.                                                                |
+
+<Callout type="info">
+O ambiente dinâmico do jogo e as mudanças de regras significam que uma estratégia eficaz em uma partida pode não ser em outra. A adaptação constante é fundamental.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Adaptando-se ao Modo Infinito e à Progressão de Nível">
+No Modo Infinito, o desafio de escapar do faro de Cobb se intensifica à medida que as regras se combinam e a pressão aumenta. Compreender como o jogo se ajusta e como aplicar suas táticas de evasão em partidas mais longas é vital.
+
+<CardGrid cols={2}>
+  <Card title="Ponto de Partida do Modo Infinito">
+    O Modo Infinito começa no Nível 3 (atualização v1.3), imediatamente lançando os jogadores em cenários de maior pressão. Isso significa que você encontrará regras sensoriais como "Faro" muito mais cedo, exigindo um pensamento estratégico imediato.
+  </Card>
+  <Card title="Mapas Procedurais e Sementes">
+    Os mapas são gerados proceduralmente a partir de fragmentos com aleatoriedade semeada. Isso significa que memorizar rotas fixas é menos eficaz. Em vez disso, concentre-se em entender as características gerais do mapa e adaptar seu movimento ao layout atual.
+  </Card>
+  <Card title="Combinações de Regras">
+    Níveis posteriores no Modo Infinito geralmente combinam várias regras (por exemplo, "Faro" + "Alcance"). Isso aumenta a complexidade da evasão, exigindo que você neutralize simultaneamente várias ameaças.
+  </Card>
+  <Card title="Ameaças de Final de Partida">
+    À medida que as partidas progridem, a velocidade de perseguição de Cobb (embora ligeiramente nerfada na v1.7) e o potencial de duplicatas aumentam o perigo. Manter a consciência da localização de Cobb e usar distrações eficazmente torna-se ainda mais crítico.
+  </Card>
+</CardGrid>
+
+<Callout type="tip">
+Após vencer o modo história, use a seleção de nível desbloqueada (atualização v1.5) para praticar combinações de regras específicas, incluindo "Faro", a fim de refinar suas técnicas de evasão sem a pressão de uma partida completa.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Perguntas Frequentes Sobre o Faro de Cobb">
+
+<FAQ items={[
+  {
+    question: "Como funciona a habilidade de Cobb Can Move de escapar do faro?",
+    answer: "Quando a habilidade 'Faro' de Cobb está ativa, ele pode detectar sua presença com base no cheiro, guiando-o até sua localização, independentemente da linha de visão. A evasão exige movimento contínuo e estratégico, além de distração."
+  },
+  {
+    question: "O faro de Cobb foi nerfado?",
+    answer: "Sim, a atualização v1.7 de Cobb Can Move nerfou a habilidade 'Faro' de Cobb. Ele agora cheira com menos frequência e é menos persistente ao detectá-lo a curta distância, oferecendo mais oportunidades de fuga."
+  },
+  {
+    question: "Os itens podem me ajudar a escapar de Cobb quando ele pode farejar?",
+    answer: "Absolutamente. Pedras são particularmente úteis. Jogar uma pedra cria uma distração sonora, desviando o caminho de Cobb e dando a você uma janela para se afastar de sua detecção olfativa. O gerenciamento eficiente de recursos também reduz o tempo gasto em zonas perigosas."
+  },
+  {
+    question: "Qual é a melhor estratégia para 'Faro' no Modo Infinito?",
+    answer: "No Modo Infinito, combine movimento contínuo com consciência ambiental. Como os mapas são procedurais, concentre-se em se adaptar ao layout. Use pedras para distração e esteja preparado para que 'Faro' se combine com outras regras como 'Alcance' ou 'Duplicata' à medida que os níveis progridem."
+  }
+]} />
+
+</Section>

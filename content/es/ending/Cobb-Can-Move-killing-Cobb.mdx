@@ -1,0 +1,160 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Cobb Can Move Matar a Cobb: Estrategias y Mecánicas",
+  description: "Explora las mecánicas de 'matar' a Cobb en Cobb Can Move, comprendiendo el aturdimiento, la distracción y las tácticas de supervivencia contra las reglas cambiantes.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/8B0000/fff?text=Killing+Cobb",
+  date: "2026-06-17",
+  author: "Equipo Wiki de Cobb Can Move"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **"Matar a Cobb"** generalmente se refiere a aturdir o evadir en lugar de una eliminación permanente.
+- Las **rocas** son la herramienta principal para aturdir temporalmente a Cobb.
+- Comprender las **habilidades de Cobb** (Olfato, Vista, Oído, Alcance, Duplicado) es crucial para una evasión efectiva.
+- Los **cambios de reglas** impactan cómo interactúas con Cobb en cada partida.
+- Las **tácticas de supervivencia** se centran en la gestión de recursos y el movimiento estratégico.
+</Callout>
+
+<Section icon={Swords} title="Entendiendo 'Matar' a Cobb en Cobb Can Move">
+En el juego de terror pixelado *Cobb Can Move*, el concepto de "matar" a Cobb es menos sobre la eliminación permanente y más sobre la incapacitación temporal o la evasión efectiva. Cobb es el antagonista central, una entidad implacable cuyas habilidades y comportamiento cambian con cada partida, haciendo que la confrontación directa no sea una opción. En cambio, los jugadores deben confiar en el movimiento inteligente, la interacción ambiental y la explotación de las vulnerabilidades temporales de Cobb para sobrevivir.
+
+El diseño central del juego gira en torno a la adaptación a las reglas cambiantes, lo que influye directamente en cómo puedes "lidiar con" Cobb. Desde la v1.4, el juego ha enfatizado el aprendizaje de los consejos de muerte y la adaptación a las diversas reglas sensoriales de Cobb. Dominar estas mecánicas es clave para navegar por los niveles oscuros y generados proceduralmente y, en última instancia, sobrevivir a la persecución de Cobb.
+
+**Puntos destacados del video:**
+- Demuestra el uso efectivo de rocas para aturdir a Cobb.
+- Muestra cómo las diferentes reglas impactan la detección de Cobb.
+- Proporciona ejemplos de tácticas de evasión exitosas.
+
+<Callout type="tip">
+Concéntrate en la **incapacitación temporal** y la **evasión** en lugar de intentar "matar" a Cobb en el sentido tradicional. El juego recompensa el pensamiento estratégico sobre la fuerza bruta.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Habilidades de Cobb y su Contraataque">
+El comportamiento de Cobb es dinámico, y cada partida introduce nuevas reglas que modifican sus habilidades. Comprender estas habilidades es fundamental para desarrollar contraestrategias efectivas. Los devlogs oficiales del juego han detallado varios de los sentidos y patrones de movimiento centrales de Cobb.
+
+<CardGrid cols={3}>
+  <Card title="Cobb Puede Ver">
+    - **Detección basada en la visión**
+    - Afectado por el nivel de luz del jugador
+    - Rango ajustado en v1.4 y v1.5
+  </Card>
+  <Card title="Cobb Puede Oler">
+    - **Rastreo basado en el olor**
+    - Dirige a Cobb hacia el jugador
+    - Nerfeado en v1.7 (olfateos menos frecuentes, menos persistencia)
+  </Card>
+  <Card title="Cobb Puede Oír">
+    - **Detección basada en el sonido**
+    - Activado por el movimiento del jugador o el uso de objetos
+    - Requiere movimiento silencioso
+  </Card>
+  <Card title="Cobb Puede Alcanzar">
+    - **Rango de ataque extendido**
+    - Cobb da pasos más grandes (v1.6)
+    - Menos velocidad, pero requiere mayor espaciado
+  </Card>
+  <Card title="Cobb Se Duplica">
+    - **Aparecen múltiples Cobbs**
+    - Pueden empujarse entre sí (corrección v1.6)
+    - Acumulación después del Nivel 5 en Modo Infinito
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Amenaza Dinámica">
+Revisa siempre el texto de la regla activa al inicio de cada nivel. Las habilidades de Cobb no son estáticas, y lo que funcionó en una partida podría llevar a la muerte inmediata en la siguiente.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Uso Estratégico de Objetos Contra Cobb">
+Aunque no puedes derrotar permanentemente a Cobb, ciertos objetos proporcionan capacidades defensivas y evasivas cruciales. Las rocas son particularmente importantes, ofreciendo un respiro temporal cuando se golpea directamente.
+
+| Tipo de Objeto | Uso Principal Contra Cobb | Nota de Actualización Oficial | Conclusión del Jugador |
+| :-------- | :----------------------- | :------------------- | :-------------- |
+| **Rocas** | Aturdimiento temporal, distracción | v1.6: Aturdimiento al golpear directamente, sonido más fuerte. v1.7: Consistencia del aturdimiento corregida durante la persecución. | Esencial para romper la línea de visión o crear ventanas de escape. |
+| **Carbón** | Objeto de objetivo, puede distraer | v1.6: Menos probabilidades de aparecer cerca del horno, aumentando la presión de la ruta. | Principalmente para objetivos, pero soltarlo puede crear ruido, potencialmente atrayendo a Cobb. |
+| **Zanahorias** | Sustento del jugador | v1.3: Las zanahorias reaparecen al ser comidas. | Mantiene las estadísticas del jugador para evitar la regla "Hambre", que puede afectar el movimiento y la concentración. |
+| **Baterías** | Progresión final | v1.4: Cambia el texto de la tarea final. | Concéntrate en los objetivos; impacto indirecto en Cobb al progresar en el juego. |
+
+<Callout type="info">
+Las **rocas** son tu mejor herramienta ofensiva contra Cobb. Practica apuntar y cronometrar los golpes directos para maximizar su efecto de aturdimiento, especialmente durante persecuciones de alta presión.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Tácticas Efectivas de Evasión y Supervivencia">
+Sobrevivir contra Cobb significa dominar el movimiento, la gestión de recursos y la adaptación a la naturaleza impredecible del juego. Las actualizaciones del juego han refinado consistentemente estos aspectos para garantizar una experiencia desafiante pero justa.
+
+<Steps>
+  <Step num="1" title="Lee el Texto de la Regla">
+    Al comienzo de cada partida, presta mucha atención a la regla activa. Esto dicta el método de detección principal actual de Cobb y cómo debes ajustar tu estrategia. Por ejemplo, una regla de "Cobb puede ver" requiere permanecer fuera de su línea de visión, mientras que "Cobb puede oír" exige un movimiento silencioso.
+  </Step>
+  <Step num="2" title="Domina el Uso de Objetos">
+    Utiliza rocas para aturdir a Cobb cuando estés acorralado o para crear una distracción. Recuerda que la v1.7 corrigió la consistencia del aturdimiento de las rocas, haciéndolas más confiables. Suelta objetos estratégicamente; la v1.4 mejoró el intercambio de objetos, permitiendo una gestión de inventario más rápida incluso en situaciones difíciles.
+  </Step>
+  <Step num="3" title="Controla Tu Movimiento">
+    La velocidad de persecución de Cobb aumenta con el tiempo (v1.6), aunque la v1.7 nerfeó ligeramente su aceleración. Evita las persecuciones prolongadas. Aprende a "kitear" a Cobb alrededor de obstáculos y a través de puntos estrechos para ganar tiempo. Si "Cobb puede oler" está activo, cambia de dirección con frecuencia para romper su rastro de olor.
+  </Step>
+  <Step num="4" title="Gestiona los Recursos de Forma Eficiente">
+    Recolecta carbón para el horno y come zanahorias para evitar el hambre. Estos objetivos a menudo te obligan a entrar en áreas peligrosas. Planifica tus rutas cuidadosamente para minimizar la exposición a las zonas de detección de Cobb.
+  </Step>
+  <Step num="5" title="Aprende de los Consejos de Muerte">
+    Desde la v1.4, el juego proporciona consejos después de morir. Estos son invaluables para comprender qué salió mal y adaptar tu enfoque para la siguiente partida. Cada muerte es una oportunidad de aprendizaje para refinar tu estrategia de supervivencia.
+  </Step>
+</Steps>
+
+<Callout type="success" title="La Adaptación es Clave">
+Los jugadores más exitosos son aquellos que pueden adaptar rápidamente sus tácticas basándose en las reglas actuales y el comportamiento de Cobb. No confíes en una única estrategia fija.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Impacto de las Actualizaciones en el Comportamiento de Cobb">
+Los desarrolladores de *Cobb Can Move* han actualizado constantemente el juego, con muchos parches que influyen directamente en el comportamiento de Cobb y la capacidad del jugador para sobrevivir. Estas actualizaciones a menudo equilibran los sentidos y las mecánicas de persecución de Cobb, haciendo que la experiencia de juego sea continuamente fresca.
+
+| Versión | Fecha | Cambios Clave que Afectan a Cobb | Impacto en el Jugador |
+| :------ | :--------- | :------------------------- | :------------ |
+| **v1.7** | 2026-05-19 | Nerfeado 'Cobb puede oler', aceleración ligeramente nerfeada en persecuciones largas, aturdimiento de rocas corregido durante la persecución. | **Persecución menos implacable**, uso de rocas más fiable. |
+| **v1.6** | 2026-05-16 | Las rocas aturden a Cobb, sonido de roca más fuerte, Cobb se acelera en persecuciones largas, 'Alcance' cambia el comportamiento de los pasos, los duplicados se empujan entre sí. | Las **rocas se convierten en una herramienta defensiva fundamental**, las persecuciones más largas son más peligrosas, la gestión de duplicados mejora. |
+| **v1.5** | 2026-05-10 | Rango de 'Cobb puede ver' ajustado de nuevo, velocidad de Cobb ligeramente mejorada durante la tarea final. | Las **reglas de visión siguen siendo críticas**, la secuencia final se vuelve más desafiante. |
+| **v1.4** | 2026-05-09 | Regla sensorial garantizada en el Nivel 2, 'Cobb puede ver' ligeramente nerfeado, se corrigió que Cobb no matara al jugador después de agarrarlo, velocidad de Cobb nerfeada durante la tarea final. | El **juego temprano introduce reglas sensoriales antes**, algunos errores que afectaban las muertes de Cobb corregidos, tarea final más fácil. |
+
+<Callout type="tip">
+Mantenerte informado sobre las últimas notas del parche puede darte una ventaja significativa, ya que los ajustes del desarrollador impactan directamente en cómo debes abordar a Cobb.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Preguntas Frecuentes sobre Cobb y la Supervivencia">
+
+<FAQ items={[
+  {
+    question: "¿Puedes matar permanentemente a Cobb en Cobb Can Move?",
+    answer: "No, Cobb no puede ser asesinado permanentemente. El juego se centra en la supervivencia, la evasión y la incapacitación temporal a través de objetos como las rocas. El objetivo es superar y sobrevivir a Cobb, no derrotarlo en combate."
+  },
+  {
+    question: "¿Cuál es la forma más efectiva de aturdir a Cobb?",
+    answer: "Los golpes directos con rocas son la forma más efectiva de aturdir temporalmente a Cobb. La actualización v1.7 mejoró su fiabilidad, convirtiéndolas en una herramienta defensiva crucial, especialmente durante las persecuciones."
+  },
+  {
+    question: "¿Cómo afectan las reglas cambiantes de Cobb a la supervivencia?",
+    answer: "Las reglas de Cobb alteran dinámicamente sus métodos de detección (vista, olfato, oído) y movimiento (alcance, duplicados). Los jugadores deben leer la regla activa al comienzo de cada partida y adaptar sus estrategias de movimiento, escondite y uso de objetos en consecuencia para sobrevivir."
+  },
+  {
+    question: "¿Existen trucos o exploits para facilitar 'matar' a Cobb?",
+    answer: "No hay trucos o exploits oficiales para facilitar el manejo de Cobb. El juego está diseñado en torno a sus mecánicas centrales de cambios de reglas y adaptación. Centrarse en aprender las habilidades de Cobb y usar los elementos ambientales es el camino previsto para la supervivencia."
+  }
+]} />
+
+</Section>

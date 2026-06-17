@@ -1,0 +1,210 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Cobb Can Move Short Game: Rules, Endings & Survival Guide",
+  description: "Master the Cobb Can Move short game with our guide on rules, Cobb abilities, item locations, and ending walkthroughs for this pixel horror hit.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1a1a1a/ff4444?text=Cobb+Can+Move+Guide",
+  date: "2026-06-17",
+  author: "Cobb Can Move Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Cobb Can Move short game** is a procedurally generated pixel horror experience where survival rules change every single level.
+- **Core Loop**: Read the active rule, collect coal for the furnace, manage the breaker, and avoid Cobb's evolving senses.
+- **Critical Strategy**: Use **Rocks** to stun Cobb during pursuits; v1.7 improved stun reliability significantly.
+- **Endless Mode**: Unlocks after beating Level 7, starting players directly at Level 3 with increased difficulty.
+- **Official Platform**: Available on **itch.io** for HTML5 browser play and Windows download.
+</Callout>
+
+<Section icon={Map} title="Official Access and Gameplay Overview">
+
+The **Cobb Can Move short game** has carved a niche in the indie horror scene by subverting traditional survival tropes. Unlike games with static monster AI, Cobb adapts based on a randomized rule set displayed at the start of each level. Developed by abho and a winner of Major Jam 7, this title challenges players to manage resources like coal and batteries while navigating a dark, top-down dungeon. Whether you are playing the browser-based HTML5 version or the Windows build, understanding the "Fresh Nonsense" of each level is the only way to reach the ending.
+
+**Video Highlights:**
+- **Visual Style**: High-contrast pixel art that emphasizes shadows and limited visibility.
+- **Mechanic Reveal**: Watch how the rule "Cobb can hear" changes player movement from running to creeping.
+- **Atmosphere**: Experience the tension of the furnace light fading as Cobb approaches.
+
+<YouTubeEmbed videoId="p7-8vY_I_mU" title="COBB CAN MOVE - Markiplier" />
+
+<Callout type="tip" title="Platform Recommendation">
+For the best performance and to avoid input lag during intense chases, we recommend downloading the **Windows v1.7 build** rather than playing in a crowded browser tab.
+</Callout>
+
+| Feature | Specification | Details |
+| :--- | :--- | :--- |
+| **Developer** | abho | Major Jam 7 Winner |
+| **Latest Version** | v1.7 | Released May 19, 2026 |
+| **Platforms** | HTML5, Windows | itch.io exclusive |
+| **Input Support** | Keyboard, Gamepad | AZERTY optimized in v1.6 |
+| **Price** | Name your price | Free to play options available |
+
+</Section>
+
+<Section icon={Shield} title="Survival Essentials: Beginner Guide">
+
+Surviving your first few runs in the **Cobb Can Move short game** requires more than just fast reflexes. You must become a master of the environment. Every level starts with a text prompt that dictates Cobb's current ability. Ignoring this text is the most common cause of death for new players.
+
+<Steps>
+  <Step num="1" title="Analyze the Active Rule">
+    Before moving, read the text at the top of the screen. If it says "Cobb can see," stay out of his direct line of sight. If it says "Cobb can smell," keep moving to avoid a scent trail.
+  </Step>
+  <Step num="2" title="Resource Prioritization">
+    Your primary goal is to keep the furnace burning. Locate coal chunks and bring them to the central furnace. In v1.6, coal spawning was adjusted to be further from the furnace, increasing the danger of long treks.
+  </Step>
+  <Step num="3" title="Breaker and Visibility">
+    If the lights flicker or go out, find the Breaker. The sprite was updated in v1.3 to be more visible. Keeping the lights on prevents the "Freeze" rule from draining your health.
+  </Step>
+  <Step num="4" title="Defensive Rock Tactics">
+    Always carry a rock. Since the v1.6 and v1.7 updates, a direct hit with a rock will stun Cobb. This is your only hard reset during a pursuit.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Death is a Teacher">
+The v1.4 update added **Death Tips**. If you die, don't skip the screen immediately. The game analyzes how you died and provides a hint specific to the rule that caught you.
+</Callout>
+
+| Action | Control (Keyboard) | Control (Gamepad) |
+| :--- | :--- | :--- |
+| **Movement** | WASD / Arrows | Left Joystick |
+| **Interact/Pick Up** | E / Space | Button South (A/X) |
+| **Drop/Throw** | G / Q | Button West (X/Square) |
+| **Pause** | Esc | Start / Options |
+
+</Section>
+
+<Section icon={Target} title="Cobb Can Move Short Game: Rules and Cobb Abilities">
+
+The heart of the **Cobb Can Move short game** lies in its rule-changing system. Cobb isn't just one monster; he is a vessel for different sensory and physical handicaps. Understanding the nuances of these rules—especially after the 2026 balance patches—is vital for high-level play.
+
+<CardGrid cols={2}>
+  <Card title="Sensory Rules">
+    - **Cobb Can See**: Sight is based on your light level. Stay in shadows.
+    - **Cobb Can Hear**: Running or throwing rocks alerts him. Walk to stay silent.
+    - **Cobb Can Smell**: He tracks your path. Nerfed in v1.7 to be less persistent.
+  </Card>
+  <Card title="Physical Rules">
+    - **Cobb Can Reach**: He takes massive steps. Keep extra distance.
+    - **Cobb Can Duplicate**: Multiple Cobbs appear. They now push each other instead of merging (v1.6).
+    - **Cobb Can Move**: Standard pursuit mode with scaling acceleration.
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Rule Balancing in v1.7">
+The latest update nerfed the **Smell** rule. Cobb now sniffs less frequently, giving you more time to break the trail before he locks onto your position.
+</Callout>
+
+| Rule Name | Mechanic Detail | Counter-Strategy |
+| :--- | :--- | :--- |
+| **See** | Detection based on light/distance | Hide behind walls/pillars |
+| **Hear** | Alerts on sprint or rock noise | Toggle walk mode (Shift) |
+| **Smell** | Invisible trail tracking | Never stand still for >3 seconds |
+| **Reach** | Increased lunge/step distance | Use rocks to create gaps |
+| **Duplicate** | Multiple entities on map | Track all positions; don't get cornered |
+| **Speed** | Pursuit acceleration over time | Break line of sight to reset speed |
+
+</Section>
+
+<Section icon={Swords} title="Item, Furnace, and Object Guide">
+
+Interactive objects in the **Cobb Can Move short game** are your tools for survival. From basic fuel to defensive throwables, knowing how to manage your inventory (which is limited) determines your efficiency.
+
+<Checklist
+  id="item-mastery"
+  title="Inventory Checklist:"
+  items={[
+    "Always hold a Rock in your secondary slot for stuns",
+    "Track Carrot respawn timers to manage hunger (v1.3 update)",
+    "Identify the Blast Furnace location early in Level 7",
+    "Ensure Coal routes are clear of debris before a chase starts"
+  ]}
+/>
+
+<Callout type="info" title="Inventory Handling">
+As of v1.4, you can swap items even if the drop spot is "red" or over a wall. This prevents items from getting stuck in geometry during panic swaps.
+</Callout>
+
+| Item | Category | Update Note | Strategy |
+| :--- | :--- | :--- | :--- |
+| **Coal** | Resource | v1.6: Spawns further away | Move in pairs; keep a rock ready |
+| **Rock** | Utility | v1.7: Fixed pursuit stun bug | Aim for the head; louder sound in v1.6 |
+| **Carrot** | Food | v1.3: Now respawns | Eat only when hunger bar is <20% |
+| **Battery** | Progression | v1.4: Final task text change | Place all 4 to trigger the finale |
+| **Breaker** | Map Object | v1.3: Sprite visibility buff | Memorize its location every floor |
+
+</Section>
+
+<Section icon={Trophy} title="Story Mode Progression and Ending Walkthrough">
+
+The story mode of the **Cobb Can Move short game** consists of seven levels leading to a climactic finale. Each level introduces more complex rule combinations, culminating in a resource-heavy final task.
+
+**Level-by-Level Breakdown:**
+- **Level 1-2**: Introduction to basic movement. Level 2 is guaranteed to feature a sensory rule (See, Hear, or Smell) to teach detection mechanics.
+- **Level 3-6**: Introduction of "Duplicate" and "Reach" rules. Maps become larger and more procedural.
+- **Level 7**: The "Gauntlet." v1.5 added extra rocks to this level to compensate for Cobb's increased aggression.
+- **The Ending**: Requires placing four batteries and interacting with the **Blast Furnace**. The v1.6 update enlarged the furnace hitbox, making it much easier to click under pressure.
+
+<Callout type="warning" title="Ending Difficulty">
+Cobb's speed during the final battery task was slightly buffed in v1.5.2. Do not attempt to place the final battery if Cobb is within three tiles of you.
+</Callout>
+
+| Level | Primary Objective | Key Hazard | Unlock |
+| :--- | :--- | :--- | :--- |
+| **Level 2** | Learn Senses | Guaranteed See/Hear/Smell | Level 3 |
+| **Level 5** | Duplicate Intro | Multiple Cobbs | Advanced Rules |
+| **Level 7** | Battery Hunt | High Aggression | Finale |
+| **Ending** | Blast Furnace | Maximum Pursuit Speed | Level Select |
+
+</Section>
+
+<Section icon={Sparkles} title="Endless Mode and Replay Strategy">
+
+Once you have mastered the story, the **Cobb Can Move short game** offers an Endless Mode that tests your adaptability to its limit. This mode starts at Level 3, skipping the introductory phases and throwing you straight into the deep end of procedural generation.
+
+**Endless Mode Features:**
+- **Seeded Randomness**: Every run uses a unique seed, ensuring that item placements and map chunks are never identical.
+- **Scaling Pressure**: As levels progress, Cobb gains speed faster, and the "Starve" and "Freeze" timers become more aggressive.
+- **Duplicate Stacking**: Unlike story mode, Endless can feature more than two Cobbs simultaneously in later stages.
+
+<Callout type="tip" title="Pro Replay Tip">
+Use the **Level Select** menu (unlocked after your first clear) to practice Level 7 specifically. It is the best way to learn how to dodge Cobb while carrying heavy batteries.
+</Callout>
+
+| Mode | Start Level | Map Type | Difficulty Scaling |
+| :--- | :--- | :--- | :--- |
+| **Story** | Level 1 | Linear Progression | Fixed per level |
+| **Endless** | Level 3 | Procedural Chunks | Infinite / Time-based |
+| **Level Select** | Any | Practice Mode | Static |
+
+</Section>
+
+<Section icon={Swords} title="Cobb Can Move FAQ">
+
+<FAQ items={[
+  {
+    question: "Is there a Steam version of the Cobb Can Move short game?",
+    answer: "No. Currently, the game is only officially available on abho's itch.io page. While the developer has other projects like VOIDFACE on Steam, Cobb Can Move remains an itch.io exclusive for now."
+  },
+  {
+    question: "How do I stun Cobb with rocks?",
+    answer: "You must throw the rock (G/Q or West Button) so it physically hits Cobb's sprite. In v1.7, the developer fixed a bug where rocks wouldn't stun him during a pursuit, so it is now a reliable defensive tool."
+  },
+  {
+    question: "What is the difference between the v1.6 and v1.7 updates?",
+    answer: "v1.6 focused on the ending hitbox and rock sound effects, while v1.7 was a balance patch that nerfed Cobb's smell ability and long-pursuit acceleration to make the game fairer for players."
+  },
+  {
+    question: "Are there any active codes for Cobb Can Move?",
+    answer: "No, the Cobb Can Move short game does not feature a code or redemption system. Any site claiming to offer 'active codes' for this game is likely providing fake information."
+  }
+]} />
+
+</Section>

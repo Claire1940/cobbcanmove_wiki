@@ -1,0 +1,181 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, AlertTriangle } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Muerte por inanición en Cobb Can Move: Guía de Supervivencia y Tácticas",
+  description: "Domina las mecánicas de hambre para evitar la muerte por inanición en Cobb Can Move. Aprende la ubicación de las zanahorias, los cambios de reglas y consejos de supervivencia para el éxito de terror de 2026.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1a1a1a/e11d48?text=Guía+de+Supervivencia+por+Inanición",
+  date: "2026-06-17",
+  author: "Equipo Wiki de Cobb Can Move"
+}
+
+<Callout type="info" title="Guía Rápida">
+- La **muerte por inanición en Cobb Can Move** ocurre cuando la regla "Hambre" está activa y el jugador no consume zanahorias.
+- La **gestión de zanahorias** es esencial; desde la actualización v1.3, las zanahorias reaparecen después de ser comidas.
+- La **adaptación a las reglas** es el núcleo de la supervivencia, ya que las reglas del lado del jugador como "Hambre" o "Congelación" cambian en cada nivel.
+- La **conservación de energía** implica equilibrar las carreras de carbón para el horno con la necesidad urgente de buscar comida.
+- La **detección de Cobb** se vuelve más letal cuando te ves obligado a moverte mientras tienes hambre, activando las reglas de "Oír" o "Ver".
+</Callout>
+
+En los pasillos generados proceduralmente del éxito de pixel-horror de abho, la **muerte por inanición en Cobb Can Move** es una amenaza constante que obliga a los jugadores a salir de las sombras. A diferencia de la amenaza directa del propio Cobb, la inanición actúa como un reloj mecánico, castigando los estilos de juego pasivos y requiriendo una profunda comprensión del enrutamiento de recursos. Para sobrevivir al nivel 3 y más allá, los jugadores deben navegar por las reglas cambiantes de la mazmorra mientras mantienen las constantes vitales de su personaje.
+
+<Section icon={Shield} title="Entendiendo las Mecánicas de Muerte por Inanición en Cobb Can Move">
+
+La mecánica de "Hambre" es una de las reglas principales del lado del jugador que puede aparecer durante cualquier partida. Cuando esta regla está activa, tu supervivencia ya no se trata solo de evitar al monstruo rojo; se trata de gestionar un medidor de hambre que se agota y que lleva a un game over inmediato si se ignora. Esto crea una dinámica de "tira y afloja" donde la seguridad de la oscuridad a menudo se intercambia por la necesidad de encontrar comida.
+
+**Puntos destacados del vídeo:**
+- **Pistas Visuales**: Observa cómo cambian los efectos de la pantalla a medida que aumenta el hambre.
+- **Ubicaciones de Zanahorias**: Identificación de los sprites de zanahorias de pixel-art en rincones oscuros.
+- **Interferencia de Cobb**: Cómo reacciona Cobb cuando el jugador se ve obligado a correr por comida.
+- **Presión Final**: Gestión del hambre durante la tarea final de la batería.
+
+<YouTubeEmbed videoId="XN1Uv4XfT-k" title="COBB CAN MOVE - Markiplier Gameplay" />
+
+La muerte por inanición es particularmente peligrosa porque a menudo coincide con reglas sensoriales como "Cobb puede oler" o "Cobb puede oír". En la v1.7, aunque el olfato de Cobb fue nerfeado para ser menos persistente, la presión de moverse por zanahorias te convierte en un objetivo principal para la detección.
+
+| Tipo de Regla | Efecto en el Jugador | Requisito de Supervivencia | Condición de Muerte |
+| :--- | :--- | :--- | :--- |
+| **Hambre** | Medidor de hambre que se agota | Consumir Zanahorias | El medidor llega a cero |
+| **Congelación** | Caída de temperatura en la oscuridad | Mantenerse cerca del Horno / Luz | La temperatura corporal llega a cero |
+| **Oír** | El sonido atrae a Cobb | Moverse lentamente / Agacharse | Detección por Cobb |
+| **Ver** | La luz atrae a Cobb | Permanecer en las sombras | Detección por Cobb |
+
+<Callout type="warning" title="Advertencia Crítica">
+La inanición ignora tu proximidad al horno. Incluso si tienes un suministro completo de carbón, no buscar zanahorias resultará en una muerte por inanición, independientemente de tu nivel de luz.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Búsqueda de Zanahorias y Enrutamiento de Recursos">
+
+Para evitar una **muerte por inanición en Cobb Can Move**, debes dominar los fragmentos procedurales del mapa. Las zanahorias son el único elemento que puede saciar el hambre, y su comportamiento mejoró significativamente en la actualización v1.3. Anteriormente, la comida era un recurso finito, pero la versión actual permite una estrategia de supervivencia más sostenible, aunque de alto riesgo.
+
+**La Actualización de Zanahorias v1.3**
+El desarrollador implementó una mecánica de reaparición para las zanahorias, lo que cambió la meta para la supervivencia a largo plazo en el Modo Infinito. Una vez que se consume una zanahoria, eventualmente reaparecerá en otro lugar en los fragmentos del mapa generados. Esto evita las "partidas muertas" donde un jugador queda atrapado en un nivel sin ninguna forma posible de satisfacer el hambre.
+
+| Objeto | Lógica de Aparición | Cambio en la Actualización v1.6 | Conclusión para el Jugador |
+| :--- | :--- | :--- | :--- |
+| **Zanahoria** | Aleatoriamente en fragmentos del mapa | Ya no es de un solo uso | Memoriza los puntos de aparición para más tarde |
+| **Carbón** | Cerca de paredes/esquinas | Menos probable que aparezca cerca del horno | Requiere más viajes para reabastecerse |
+| **Rocas** | Esparcidas por el suelo | Ahora pueden aturdir a Cobb al golpearlo | Úsalas para despejar el camino hacia la comida |
+| **Batería** | Objetivos de nivel fijos | Hitbox ampliado para el final | Concéntrate en estas solo después de comer |
+
+<Callout type="tip" title="Estrategia Pro">
+Usa el buff "Item Swap" de la v1.4. Ahora puedes intercambiar objetos incluso si el punto de caída es rojo (sobre una pared). Esto es vital cuando llevas carbón pero ves una zanahoria; puedes dejar caer el carbón por una esquina para agarrar la comida inmediatamente sin perder tu recurso.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Lista de Verificación de Supervivencia Paso a Paso">
+
+Prevenir una **muerte por inanición en Cobb Can Move** requiere un enfoque metódico para cada nuevo nivel. Dado que las reglas son aleatorias, tus primeros diez segundos en una habitación son los más importantes para establecer una partida exitosa.
+
+<Steps>
+  <Step num="1" title="Evaluación Inicial de Reglas">
+    Verifica inmediatamente la parte superior de la pantalla para ver las reglas activas. Si aparece "Hambre", tu prioridad cambia de la recolección de carbón a la búsqueda de al menos dos ubicaciones de zanahorias antes de que el medidor de hambre se vuelva crítico.
+  </Step>
+  <Step num="2" title="Explora el Perímetro">
+    Muévete a lo largo de las paredes exteriores de los fragmentos procedurales. Las zanahorias a menudo aparecen en las "zonas muertas" lejos del horno central. Usa rocas para distraer a Cobb si está patrullando las zonas de transición entre fragmentos.
+  </Step>
+  <Step num="3" title="La Regla del Medio Medidor">
+    Nunca dejes que tu medidor de hambre caiga por debajo del 50% si estás lejos de un punto de aparición de zanahorias conocido. La penalización de movimiento y la distorsión visual con bajo nivel de hambre hacen que sea casi imposible esquivar las habilidades de "Alcance" o "Visión" de Cobb.
+  </Step>
+  <Step num="4" title="Coordina con el Interruptor">
+    Si la regla "Hambre" está emparejada con "Congelación", debes cronometrar tus carreras de zanahorias con el estado del interruptor. Usa los sprites actualizados del interruptor de la v1.3 para mantener las luces encendidas mientras buscas comida, evitando un escenario de doble muerte.
+  </Step>
+  <Step num="5" title="Utiliza los Aturdimientos con Rocas">
+    En la v1.7, las rocas fueron arregladas para aturdir a Cobb de manera confiable durante la persecución. Si Cobb está acampando una zanahoria que necesitas desesperadamente, lanza una roca para un golpe directo. Esto proporciona una ventana de 2-3 segundos para comer y retirarte.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Nota del Desarrollador">
+La actualización v1.4 añadió "Consejos de Muerte". Si mueres de inanición, el juego te lo indicará explícitamente. Usa estas pistas para determinar si tu fallo se debió a una mala ruta o simplemente a no encontrar una zanahoria reaparecida.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Equilibrio de los Sentidos de Cobb y Riesgos de Hambre">
+
+La dificultad de evitar una **muerte por inanición en Cobb Can Move** está directamente ligada a cómo Cobb te está "percibiendo" en ese momento. El desarrollador ha lanzado varios parches de equilibrio (v1.4 a v1.7) que alteran lo peligroso que es moverse mientras se busca comida.
+
+<CardGrid cols={2}>
+  <Card title="El Factor Olfativo">
+    - **Actualización v1.7**: El olfato de Cobb fue nerfeado.
+    - **Impacto**: Ahora puedes permanecer cerca de fuentes de comida por más tiempo.
+    - **Estrategia**: Si Cobb te "huele" mientras comes, es menos probable que te siga indefinidamente.
+  </Card>
+  <Card title="El Factor Visual">
+    - **Actualización v1.5**: Rango de visión de Cobb ajustado.
+    - **Impacto**: Los parches de zanahorias muy iluminados son más peligrosos.
+    - **Estrategia**: Acércate a la comida en la oscuridad si "Cobb puede ver" está activo, ya que los niveles de luz determinan su radio de detección.
+  </Card>
+  <Card title="El Factor Persecución">
+    - **Actualización v1.6**: Cobb acelera durante persecuciones largas.
+    - **Impacto**: No puedes engañar a Cobb mientras buscas comida.
+    - **Estrategia**: Rompe la línea de visión antes de intentar recoger o comer una zanahoria.
+  </Card>
+  <Card title="El Factor Duplicado">
+    - **Nivel 5+**: Cobb puede duplicarse a sí mismo.
+    - **Impacto**: Mayor probabilidad de ser acorralado en zonas ricas en comida.
+    - **Estrategia**: Usa la mecánica de "Empuje" de la v1.6, donde los duplicados se empujan entre sí para pasar por espacios estrechos.
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Consejo de Supervivencia">
+El Nivel 7 recibió rocas adicionales en la v1.5. Si estás luchando contra la inanición en los niveles finales, usa estas rocas como perímetro defensivo. Un Cobb aturdido no puede impedirte llegar a las zanahorias que reaparecen.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Modo Infinito y Objetivos Finales">
+
+En el Modo Infinito, que comienza en el Nivel 3 a partir de la v1.3, la **muerte por inanición en Cobb Can Move** se convierte en el principal factor que termina la partida. A medida que los mapas se hacen más grandes y la generación procedural añade más fragmentos de "callejón sin salida", la distancia entre las zanahorias aumenta.
+
+**Escalado del Modo Infinito:**
+- **Nivel 3-5**: Tasa de inanición estándar; las zanahorias son abundantes.
+- **Nivel 6-10**: El hambre se agota un 15% más rápido; las zanahorias aparecen más lejos del horno.
+- **Nivel 10+**: Múltiples Cobbs (Duplicados) patrullan los puntos de aparición de zanahorias; las rocas se vuelven obligatorias para la supervivencia.
+
+<Checklist
+  id="starvation-survival"
+  title="Objetivos de Supervivencia Experta:"
+  items={[
+    "Localiza tres puntos de aparición de zanahorias antes del Nivel 5",
+    "Aturde con éxito a Cobb con una roca con <10% de hambre",
+    "Completa el Nivel 7 sin dejar que el hambre caiga por debajo del 50%",
+    "Desbloquea el menú de Selección de Nivel al vencer el Modo Historia",
+    "Sobrevive a una partida infinita donde 'Hambre' y 'Olfato' estén ambos activos"
+  ]}
+/>
+
+<Callout type="info" title="Nota de la Tarea Final">
+Durante la tarea final (después de colocar 4 baterías), la velocidad de Cobb fue ligeramente nerfeada en la v1.4 pero volvió a ser mejorada en la v1.5.2. No descuides tu hambre durante esta secuencia. Muchos jugadores sufren una **muerte por inanición en Cobb Can Move** a centímetros del alto horno porque ignoraron su medidor durante el final.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "¿Cómo sé si estoy a punto de morir de inanición?",
+    answer: "El juego proporciona señales visuales y auditivas. Tu pantalla comenzará a oscurecerse o difuminarse, y el texto de la regla 'Hambre' en la parte superior de la pantalla puede parpadear. En la v1.4, se añadieron consejos de muerte para confirmar la causa de la muerte después de que termina la partida."
+  },
+  {
+    question: "¿Las zanahorias reaparecen en Cobb Can Move?",
+    answer: "Sí. Desde la actualización v1.3, las zanahorias reaparecen después de ser comidas. Esto es esencial para sobrevivir al Nivel 7 y al Modo Infinito, donde puedes quedar atrapado en la mazmorra por períodos prolongados."
+  },
+  {
+    question: "¿Puede Cobb verme mientras como?",
+    answer: "Comer en sí mismo no atrae a Cobb, pero el nivel de luz del área sí lo hace. Si 'Cobb puede ver' está activo, estar en un área iluminada cerca de una zanahoria te hace muy visible. En la v1.5, su rango de visión se ajustó específicamente para equilibrar esto."
+  },
+  {
+    question: "¿Cuál es la mejor manera de evitar la inanición durante el final?",
+    answer: "Antes de colocar la cuarta batería, asegúrate de que tu medidor de hambre esté al 100%. La tarea final requiere interactuar con el alto horno (cuyo hitbox fue ampliado en la v1.6), y no tendrás tiempo para buscar comida una vez que comience el final."
+  }
+]} />
+
+</Section>

@@ -1,0 +1,155 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Cobb Can Move Lore: Secretos de Supervivencia y Orígenes de Monstruos 2026",
+  description: "Explora la profunda historia de Cobb Can Move, incluyendo las habilidades sensoriales de Cobb, las cambiantes reglas de la mazmorra y las mecánicas ocultas de la actualización v1.7 de 2026.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1a1a1a/ff4444?text=Cobb+Can+Move+Lore",
+  date: "2026-06-17",
+  author: "Equipo Wiki de Cobb Can Move"
+}
+
+<Callout type="info" title="Guía Rápida">
+- La **historia de Cobb Can Move** se centra en una mazmorra cambiante donde las leyes físicas cambian en cada nivel.
+- **Cobb** es una entidad roja de brazos largos que adapta su estilo de caza según las reglas sensoriales activas.
+- La **supervivencia** requiere alimentar el horno con carbón mientras se gestionan los niveles de luz para evitar congelarse.
+- El **final** implica una tarea final con cuatro baterías y una persecución de alto riesgo por parte del monstruo.
+- Las **actualizaciones de 2026** han equilibrado significativamente los sentidos basados en la historia, como el olfato y la vista, en la versión 1.7.
+</Callout>
+
+<Section icon={Map} title="El Origen de Cobb y la Historia de la Mazmorra Cambiante">
+
+La **historia de Cobb Can Move** se define por un concepto singular y aterrador: el entorno está vivo y reescribe constantemente sus propias reglas. Ambientado en un abismo oscuro y pixelado, los jugadores se encuentran atrapados en una mazmorra procedural donde las leyes de la física y el comportamiento del monstruo nunca son estáticos. A diferencia de los juegos de terror tradicionales donde un monstruo sigue un camino fijo, Cobb es un depredador adaptativo. Esta historia está profundamente arraigada en el concepto ganador de "Major Jam 7", donde la "limitación" del juego se convirtió en su mayor fortaleza narrativa.
+
+En este mundo, el jugador no es solo una víctima, sino un participante en un ciclo de calor y frío. La mazmorra exige carbón para mantener el horno encendido, lo que sugiere un mundo que se ha congelado hace mucho tiempo o ha descendido a un vacío sin sol. La presencia de rocas, zanahorias y maquinaria industrial como interruptores y baterías insinúa una civilización anterior que intentó contener o coexistir con la entidad conocida como Cobb.
+
+**Momentos destacados del video:**
+- Observar los patrones de movimiento iniciales de Cobb en un entorno oscuro.
+- La tensión de gestionar el horno mientras se es cazado.
+- Cómo aparece el texto de la regla cambiante al comienzo de cada nivel.
+
+<YouTubeEmbed videoId="75zF_qU8-8E" title="COBB CAN MOVE - Markiplier Gameplay" />
+
+<Callout type="info" title="Construcción del Mundo">
+La mazmorra está construida a partir de fragmentos procedurales, lo que significa que no hay dos partidas iguales. Esta aleatoriedad es una parte central de la historia, representando la naturaleza caótica del abismo donde reside Cobb.
+</Callout>
+
+Las actualizaciones recientes de 2026 han ampliado esta historia al introducir "consejos de muerte", que actúan como fragmentos de conocimiento dejados por aquellos que fracasaron antes que tú. Estos consejos explican la lógica de las reglas cambiantes, convirtiendo cada muerte en una pieza del rompecabezas más grande.
+
+</Section>
+
+<Section icon={Target} title="Habilidades Sensoriales y Comportamiento de Cobb en la Historia">
+
+Cobb no es solo un monstruo; es una manifestación de las reglas de la mazmorra. Su forma física —una pequeña criatura roja con brazos desproporcionadamente largos— le permite alcanzar a través de huecos y agarrar a los jugadores desde la distancia. La **historia de Cobb Can Move** explica que su poder fluctúa según la regla de nivel activa. Cuando una regla sensorial está activa, la conexión de Cobb con el mundo del jugador se fortalece, permitiéndole detectar sonidos, luz o incluso olores.
+
+<CardGrid cols={2}>
+  <Card title="Cobb Puede Ver">
+    Cobb reacciona al nivel de luz del jugador. Usar la linterna o estar cerca del horno te convierte en un objetivo. En cuanto a la historia, esto sugiere que Cobb es sensible a los fotones en un vacío de tono negro.
+  </Card>
+  <Card title="Cobb Puede Oír">
+    Cada paso, caída de objeto o lanzamiento de roca crea vibraciones. La regla de audición de Cobb obliga a los jugadores a moverse lentamente, enfatizando los aspectos de terror sigiloso de la narrativa.
+  </Card>
+  <Card title="Cobb Puede Oler">
+    La regla sensorial más avanzada. Cobb puede rastrear el olor del jugador con el tiempo. En la actualización v1.7, esto fue debilitado para ser menos persistente, sugiriendo que el olor del jugador se desvanece más rápido en el aire frío.
+  </Card>
+  <Card title="Cobb Puede Alcanzar">
+    Esta regla altera la física física de Cobb, permitiéndole dar pasos más grandes. Representa la capacidad de la entidad para deformar su propio cuerpo y acortar la distancia durante una persecución.
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Estrategia de Supervivencia">
+Comprueba siempre el texto de la regla en la parte superior de la pantalla. El Nivel 2 garantiza la introducción de una regla sensorial, que es la forma en que la mazmorra pone a prueba tu capacidad para ocultar tu presencia a Cobb.
+</Callout>
+
+La historia también menciona "Duplicados". Después del Nivel 5, Cobb puede dividirse en múltiples entidades. Esto no es solo una mecánica de juego; representa el intento de la mazmorra de abrumar al jugador a medida que se acerca a la salida. Según los devlogs oficiales de abho, estos duplicados ahora se empujan entre sí en lugar de fusionarse, haciendo que la amenaza se sienta más como una manada de cazadores.
+
+</Section>
+
+<Section icon={Sparkles} title="La Mecánica del Horno y el Ciclo del Carbón">
+
+El corazón de la mazmorra es el horno. En la **historia de Cobb Can Move**, el calor es lo único que mantiene vivo al jugador. Si el horno se apaga, la regla de "Congelación" finalmente se apodera, representando la temperatura de cero absoluto del abismo. El carbón que recolectas es la sangre vital de esta tumba industrial.
+
+<Checklist
+  id="survival-milestones"
+  title="Objetivos Principales de Supervivencia:"
+  items={[
+    "Localiza el horno inmediatamente al entrar en un nuevo nivel procedural.",
+    "Busca los puntos de aparición de carbón, teniendo en cuenta que la v1.6 los hace aparecer más lejos.",
+    "Identifica el interruptor para restaurar la luz y la visibilidad al mapa.",
+    "Usa rocas para aturdir a Cobb si una persecución se vuelve inevitable.",
+    "Recolecta zanahorias para evitar que la regla de 'Hambre' agote tu salud."
+  ]}
+/>
+
+<Callout type="warning" title="Escasez de Recursos">
+El carbón es limitado. La actualización v1.6 aseguró que el carbón no aparezca justo al lado del horno, obligándote a aventurarte en la oscuridad donde Cobb está más activo. Esta presión ambiental es un tema narrativo clave.
+</Callout>
+
+La relación entre el jugador y los objetos también es significativa. Las rocas no son solo escombros; son herramientas defensivas que pueden aturdir a Cobb. Las zanahorias son la única fuente de alimento, y su capacidad de reaparecer (añadida en la v1.3) sugiere un ecosistema extraño y sobrenatural dentro de la mazmorra que sustenta la vida incluso en presencia de un depredador como Cobb.
+
+</Section>
+
+<Section icon={Trophy} title="Progresión del Modo Historia y la Tarea Final">
+
+El modo historia de Cobb Can Move sigue una progresión de complejidad creciente. A medida que avanzas del Nivel 1 al final, la mazmorra te lanza más reglas simultáneamente. La historia culmina en la "Tarea Final", una secuencia que requiere que el jugador encuentre y coloque cuatro baterías para alimentar el alto horno y escapar.
+
+<Steps>
+  <Step num="1" title="La Puerta Sensorial">
+    El Nivel 2 introduce el primer gran obstáculo. Debes aprender a navegar mientras Cobb puede verte, oírte u olerte. Esta es la primera vez que el jugador se da cuenta de que el monstruo es reactivo.
+  </Step>
+  <Step num="2" title="La Crisis de Recursos">
+    El Nivel 7 introduce un agotamiento masivo de recursos. Las rocas se vuelven más abundantes aquí, ya que la historia sugiere que esta área fue un sitio de intensa actividad industrial o un intento anterior de contraatacar.
+  </Step>
+  <Step num="3" title="La Caza de Baterías">
+    La tarea final requiere colocar cuatro baterías. Cada batería colocada aumenta la tensión, ya que la velocidad de Cobb se reequilibró en la v1.5.2 para mantener el final salvaje y rápido.
+  </Step>
+  <Step num="4" title="El Alto Horno">
+    Una vez que las baterías están colocadas, debes interactuar con el alto horno. El hitbox se amplió en la v1.6 para asegurar que los jugadores no pierdan su oportunidad de escapar en el calor del momento.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Final Desbloqueado">
+Completar el modo historia una vez desbloquea el menú 'Seleccionar Nivel'. Esto te permite revisar los niveles con mucha historia o practicar la tarea final sin reiniciar todo el viaje.
+</Callout>
+
+El final del juego es agridulce. Aunque puedas escapar de la mazmorra inmediata, el desarrollador abho incluye un mensaje promocionando su próximo proyecto, *VOIDFACE*, insinuando que los horrores del abismo pixelado pueden ser parte de un universo mucho más grande de terror de supervivencia.
+
+</Section>
+
+<Section icon={Swords} title="Modo Infinito y el Futuro del Abismo">
+
+Para aquellos que sobreviven a la historia, el Modo Infinito ofrece una visión más profunda de la **historia de Cobb Can Move**. Aquí, la mazmorra no tiene fin, y las reglas continúan acumulándose hasta que la supervivencia se vuelve imposible. Este modo representa la verdadera naturaleza del abismo: un lugar de tormento infinito y cambiante.
+
+En el Modo Infinito, el sistema "Semilla" permite a los jugadores compartir diseños de mazmorras específicos. Este aspecto comunitario ha llevado al descubrimiento de semillas "malditas" donde las reglas de duplicación de Cobb se activan temprano, creando un entorno caótico que desafía incluso a los jugadores más veteranos. La actualización v1.7 de 2026 se centró específicamente en este modo, debilitando la aceleración de Cobb durante las persecuciones largas para que el juego de alto nivel sea más sobre habilidad y menos sobre la muerte inevitable.
+
+<Callout type="info" title="Reflexiones Finales">
+Cobb Can Move es una obra maestra de la narración minimalista. Al usar las reglas como dispositivos narrativos, crea un mundo donde el monstruo es el propio entorno.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "¿Cuál es el misterio central de la historia de Cobb Can Move?",
+    answer: "El misterio central es el origen de las reglas cambiantes. La mazmorra parece ser una entidad inteligente que adapta su física y a su guardián, Cobb, para evitar que alguien escape del frío."
+  },
+  {
+    question: "¿Cómo cambia la actualización v1.7 de 2026 la historia?",
+    answer: "La actualización v1.7 equilibra los sentidos de Cobb, particularmente la regla de 'Olor', haciendo que la entidad se sienta más como un depredador biológico y menos como un dios omnisciente, proporcionando una experiencia de supervivencia más justa."
+  },
+  {
+    question: "¿Existe una conexión entre el horno y Cobb?",
+    answer: "Sí. En cuanto a la historia, el horno proporciona la única seguridad contra la regla de 'Congelación', pero también hace que el jugador sea visible para Cobb si la regla de 'Ver' está activa, creando un trágico ciclo de necesidad y peligro."
+  },
+  {
+    question: "¿Qué sucede si fallas la tarea final?",
+    answer: "El fracaso resulta en ser consumido por Cobb o el abismo. Sin embargo, los 'consejos de muerte' añadidos en versiones recientes proporcionan al jugador el conocimiento basado en la historia necesario para tener éxito en el próximo intento."
+  }
+]} />
+
+</Section>

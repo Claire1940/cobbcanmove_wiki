@@ -1,0 +1,154 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Todas las reglas de Cobb Can Move: Guía completa de supervivencia (2026)",
+  description: "Domina todas las reglas de Cobb Can Move, incluyendo habilidades sensoriales como Ver, Escuchar, Oler, Alcanzar y Duplicar. Aprende tácticas de supervivencia y cambios de actualización.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/8B0000/fff?text=Cobb+Can+Move+Rules",
+  date: "2026-06-17",
+  author: "Equipo de la Wiki de Cobb Can Move",
+  keywords: "Cobb Can Move, reglas, guía de supervivencia, habilidades de Cobb, terror pixelado"
+}
+
+<Callout type="info" title="Guía rápida">
+- **Cobb Can Move** presenta reglas que cambian dinámicamente en cada partida.
+- Domina las **habilidades de Cobb** (Ver, Escuchar, Oler, Alcanzar, Duplicar) para sobrevivir.
+- Adapta tu estrategia basándote en el **texto de la regla activa** que aparece en cada nivel.
+- Utiliza los **objetos de manera efectiva**, como las piedras para aturdir a Cobb durante las persecuciones.
+- Mantente al día con las **notas del parche** para conocer los cambios de equilibrio en los sentidos de Cobb y su velocidad de persecución.
+</Callout>
+
+<Section icon={Target} title="Entendiendo las reglas dinámicas de Cobb">
+Cobb Can Move es un juego de terror y supervivencia pixelado donde el desafío principal reside en sus reglas en constante cambio. A diferencia de los juegos con patrones de enemigos fijos, el comportamiento y los métodos de detección de Cobb se rigen por un sistema de reglas dinámico que cambia con cada nivel y partida. Los jugadores deben adaptarse constantemente a estos nuevos parámetros para sobrevivir.
+
+**Puntos destacados del video:**
+- Demuestra cómo los cambios de reglas afectan la jugabilidad.
+- Muestra las reacciones de los jugadores ante diferentes reglas sensoriales.
+- Resalta la importancia de leer el texto de la regla en pantalla.
+
+<YouTubeEmbed videoId="No_relevant_video_found" title="No se encontró ningún video relevante" />
+
+El diseño del juego garantiza que no haya dos partidas exactamente iguales, lo que hace que la memorización sea menos efectiva que el pensamiento táctico flexible. Comprender las categorías de reglas y cómo afectan las habilidades de Cobb es crucial para la supervivencia a largo plazo. Estas reglas no son meramente cosméticas; alteran fundamentalmente la amenaza que representa Cobb.
+
+<Callout type="tip">
+Revisa siempre el texto de la regla activa al comienzo de cada partida. Ignorar estas reglas te llevará rápidamente a un final temprano, ya que el comportamiento de Cobb puede cambiar drásticamente de un nivel a otro.
+</Callout>
+
+### Categorías de reglas e impacto
+
+| Categoría de regla | Descripción | Impacto en el juego | Actualizaciones clave |
+|---|---|---|---|
+| **Reglas sensoriales** | Cómo detecta Cobb al jugador (ej. Ver, Escuchar, Oler). | Obliga a los jugadores a ajustar el movimiento y el uso de la luz. | v1.4 regla sensorial garantizada en el Nivel 2; v1.7 se debilitó 'Cobb puede oler'. |
+| **Reglas de movimiento** | Cómo navega Cobb por el entorno o altera su movimiento. | Afecta las rutas de escape y la distancia respecto a Cobb. | v1.6 'Alcanzar' cambió a pasos más grandes, menos velocidad; v1.6 aumentó la velocidad de persecución. |
+| **Comportamiento de duplicado** | Cómo interactúan o se crean múltiples Cobbs. | Requiere gestionar múltiples amenazas simultáneamente. | v1.6 los duplicados se empujan entre sí, evitando que se fusionen. |
+| **Interacción con objetos** | Cómo reacciona Cobb a los objetos usados por el jugador. | Dicta la efectividad de las distracciones y herramientas defensivas. | v1.7 se corrigió la fiabilidad del aturdimiento con piedras durante la persecución. |
+
+</Section>
+
+<Section icon={Swords} title="Habilidades principales de Cobb y contraestrategias">
+Cobb posee varias habilidades distintas que se activan o modifican mediante las reglas activas. Dominar cómo funciona cada habilidad y desarrollar contraestrategias es fundamental para la supervivencia. Estas habilidades a menudo dictan el nivel de peligro inmediato y el enfoque óptimo para navegar por el entorno actual.
+
+<Callout type="warning" title="Cuidado con la sobrecarga sensorial">
+Las reglas sensoriales de Cobb pueden hacer que incluso los errores más leves sean fatales. Moverse demasiado rápido bajo una regla de "Cobb puede escuchar" o permanecer bajo la luz directa con "Cobb puede ver" provocará una persecución inmediata.
+</Callout>
+
+### Habilidades detalladas de Cobb
+
+| Habilidad | Descripción | Contraestrategia del jugador | Últimos cambios de equilibrio |
+|---|---|---|---|
+| **Cobb puede ver** | Cobb detecta a los jugadores según los niveles de luz y la línea de visión. | Quédate en la oscuridad, usa coberturas, muévete con cautela en áreas iluminadas. | v1.4 se redujo ligeramente el rango; v1.5 se ajustó el rango nuevamente. |
+| **Cobb puede escuchar** | Cobb detecta a los jugadores por el sonido generado por el movimiento o acciones. | Muévete lenta y deliberadamente, evita acciones innecesarias. | A menudo se combina con otras reglas para aumentar la presión. |
+| **Cobb puede oler** | Cobb rastrea a los jugadores por el aroma, lo que lleva a una persecución persistente. | Mantén la distancia, rompe la línea de rastro si es posible. | v1.7 debilitado: olfateos menos frecuentes, menos persistencia a corta distancia. |
+| **Cobb puede alcanzar** | Cobb da pasos más grandes y lentos, cubriendo más terreno por movimiento. | Mantén una mayor distancia, aprovecha su velocidad reducida para evadirlo. | v1.6: pasos más grandes, menos velocidad; cambia la sensación de movimiento. |
+| **Cobb puede duplicarse** | Cobb puede crear copias de sí mismo, aumentando el número de amenazas. | Prioriza la evasión y la gestión de recursos para evitar ser abrumado. | v1.6: los duplicados se empujan entre sí, evitando la fusión. |
+
+</Section>
+
+<Section icon={Shield} title="Estrategias de supervivencia contra reglas cambiantes">
+Adaptar tu estrategia de supervivencia a las reglas siempre cambiantes de Cobb es la esencia de Cobb Can Move. En lugar de memorizar rutas fijas, los jugadores deben desarrollar una mentalidad flexible, evaluando constantemente la amenaza actual y ajustando sus tácticas sobre la marcha.
+
+<Steps>
+  <Step num="1" title="Priorizar la lectura de reglas">
+    Antes de realizar cualquier movimiento significativo en un nuevo nivel, **lee cuidadosamente el texto de la regla activa**. Este es el paso más importante para sobrevivir. La regla te dirá a qué es sensible Cobb actualmente.
+  </Step>
+  <Step num="2" title="Ajustar el movimiento según las reglas sensoriales">
+    Si "Cobb puede ver" está activo, prioriza las zonas oscuras y las coberturas. Para "Cobb puede escuchar", muévete despacio y evita los giros rápidos o soltar objetos. Cuando "Cobb puede oler" esté activo, intenta interponer objetos o esquinas entre tú y Cobb para romper la persecución.
+  </Step>
+  <Step num="3" title="Utilizar objetos estratégicamente">
+    Las **piedras** pueden aturdir a Cobb, lo cual es especialmente útil durante las persecuciones. El **carbón** es vital para los hornos, pero su ubicación de aparición se ajustó en la v1.6, requiriendo más movimiento. Las **zanahorias** reaparecen después de la v1.3, convirtiéndose en una fuente de alimento repetible.
+  </Step>
+  <Step num="4" title="Aprender de los consejos tras la muerte">
+    Después de la v1.4, morir proporciona consejos. Estos son invaluables para entender qué salió mal y cómo evitar errores similares en partidas posteriores. Trata cada muerte como una oportunidad de aprendizaje.
+  </Step>
+  <Step num="5" title="Gestionar los recursos de manera efectiva">
+    Lleva la cuenta de tus necesidades de **carbón** y **baterías**. El horno es crucial, y la tarea final implica colocar cuatro baterías. Una ruta eficiente y la recolección de recursos son claves para progresar.
+  </Step>
+</Steps>
+
+<Callout type="success">
+Las partidas exitosas en Cobb Can Move no se tratan de la ejecución perfecta de una sola estrategia, sino de la adaptación dinámica y la toma rápida de decisiones bajo presión, guiadas por el conjunto de reglas actual.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Últimas actualizaciones: Cambios en las reglas y parches de equilibrio">
+El desarrollador abho actualiza constantemente Cobb Can Move, introduciendo a menudo cambios de equilibrio en las reglas y habilidades de Cobb. Mantenerse informado sobre estas actualizaciones es crucial para los jugadores veteranos, ya que pueden alterar significativamente las estrategias establecidas.
+
+### Actualizaciones recientes relacionadas con las reglas
+
+| Versión | Fecha | Cambios clave en reglas/habilidades | Impacto en el juego | Fuente |
+|---|---|---|---|---|
+| **v1.7** | 2026-05-19 | Se debilitó 'Cobb puede oler' (olfateos menos frecuentes, menos persistencia a corta distancia); se redujo ligeramente la aceleración en persecuciones largas; se corrigió el aturdimiento con piedras. | Hace que 'oler' sea menos opresivo, reduce ligeramente la presión en persecuciones prolongadas, las piedras son más fiables para la defensa. | [Devlog de itch.io](https://abho.itch.io/cobb-can-move/devlog/1527864/v17) |
+| **v1.6** | 2026-05-16 | Las piedras aturden a Cobb con impacto directo y suenan más fuerte; el carbón es menos probable que aparezca cerca del horno; Cobb es más rápido en persecuciones largas; 'Alcanzar' cambia el comportamiento del paso; los duplicados se empujan. | Fomenta el uso de piedras, aumenta la dificultad de las rutas de carbón, cambia la dinámica de persecución, aclara el comportamiento de los duplicados. | [Devlog de itch.io](https://abho.itch.io/cobb-can-move/devlog/1525107/v16) |
+| **v1.5** | 2026-05-10 | Se ajustó de nuevo el rango de 'Cobb puede ver'; se añadieron piedras al Nivel 7. | Ajuste adicional de la detección basada en la vista, proporciona más opciones defensivas en niveles avanzados. | [Devlog de itch.io](https://abho.itch.io/cobb-can-move/devlog/1519297/v15) |
+| **v1.4** | 2026-05-09 | Nivel 2 con regla sensorial garantizada; se debilitó ligeramente 'Cobb puede ver'; se corrigió que Cobb no matara tras agarrar; se redujo ligeramente la velocidad de Cobb en la tarea final. | Garantiza la introducción temprana de reglas sensoriales, equilibra la visión, corrige errores críticos, reequilibra el desafío final. | [Devlog de itch.io](https://abho.itch.io/cobb-can-move/devlog/1518377/v14) |
+
+</Section>
+
+<Section icon={Trophy} title="Dominando el Modo Infinito y la Selección de Nivel">
+El Modo Infinito de Cobb Can Move ofrece un desafío en constante evolución, aprovechando la generación procedimental y la selección aleatoria de reglas para garantizar una alta rejugabilidad. Después de completar el modo historia, la función de Selección de Nivel desbloqueada permite a los jugadores volver a visitar desafíos específicos y combinaciones de reglas.
+
+<CardGrid cols={2}>
+  <Card title="Imprevisibilidad del Modo Infinito">
+    El Modo Infinito comienza en el Nivel 3 (actualización v1.3), aumentando la presión de inmediato. Los mapas se generan procedimentalmente a partir de fragmentos con aleatoriedad sembrada, lo que significa que las rutas y la ubicación de los objetos varían. El éxito depende de **adaptarse a nuevas reglas** en lugar de memorizar diseños fijos.
+  </Card>
+  <Card title="Selección de Nivel para practicar">
+    Desbloqueado tras completar el juego una vez (actualización v1.5), la Selección de Nivel permite a los jugadores **practicar niveles específicos de la historia** o combinaciones de reglas. Esto es ideal para perfeccionar habilidades contra escenarios desafiantes, como el Nivel 7 con sus piedras añadidas.
+  </Card>
+</CardGrid>
+
+<Callout type="info">
+El juego está etiquetado como 2D, Infinito, Terror, Pixel Art, Generación Procedimental, Un jugador, Survival Horror y Top-Down. Estas etiquetas resaltan las filosofías de diseño centrales que impulsan su jugabilidad dinámica.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Preguntas frecuentes sobre las reglas de Cobb">
+
+<FAQ items={[
+  {
+    question: "¿Con qué frecuencia cambian las reglas en Cobb Can Move?",
+    answer: "Las reglas en Cobb Can Move cambian con cada nuevo nivel o partida. El diseño principal del juego garantiza que los jugadores encuentren diferentes conjuntos de reglas, obligando a una adaptación constante."
+  },
+  {
+    question: "¿Cuáles son las principales reglas sensoriales que puede tener Cobb?",
+    answer: "Cobb puede tener reglas sensoriales como 'Cobb puede ver', 'Cobb puede escuchar' y 'Cobb puede oler'. Estas reglas dictan cómo Cobb detecta al jugador y requieren diferentes enfoques de sigilo."
+  },
+  {
+    question: "¿Afectan las actualizaciones a las reglas y habilidades de Cobb?",
+    answer: "Sí, el desarrollador lanza frecuentemente actualizaciones que equilibran y ajustan las reglas y habilidades de Cobb. Por ejemplo, la v1.7 debilitó 'Cobb puede oler' y la aceleración en persecuciones largas, mientras que la v1.6 hizo que las piedras fueran más efectivas para aturdirlo."
+  },
+  {
+    question: "¿Hay alguna forma de predecir qué reglas tendrá Cobb?",
+    answer: "Aunque el Nivel 2 tiene garantizada una regla sensorial (actualización v1.4), la regla específica es aleatoria. Los jugadores no pueden predecir la regla exacta, pero deben estar preparados para que cualquiera de las habilidades principales de Cobb esté activa."
+  }
+]} />
+
+</Section>

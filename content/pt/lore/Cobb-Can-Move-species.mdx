@@ -1,0 +1,175 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Activity, Zap } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Espécie Cobb Can Move: Guia de Habilidades e Táticas de Sobrevivência 2026",
+  description: "Domine o comportamento da espécie Cobb Can Move. Aprenda como as regras de visão, olfato e duplicação afetam a sobrevivência neste guia de horror procedural.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1a1a1a/ff4444?text=Cobb+Species+Guide",
+  date: "2026-06-17",
+  author: "Equipe Wiki Cobb Can Move"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Espécie Cobb Can Move**: Uma entidade de horror procedural cujo comportamento é ditado por regras aleatórias em cada nível.
+- **Mecânicas Sensoriais**: Cobb pode ver, ouvir ou cheirar o jogador dependendo da regra ativa exibida no início.
+- **Utilidade Defensiva**: Rochas são a principal ferramenta para atordoar a espécie, especialmente após as correções de confiabilidade da v1.7.
+- **Interação Ambiental**: A sobrevivência exige equilibrar o gerenciamento de carvão, o posicionamento da bateria e a visibilidade do disjuntor.
+- **Escala Infinita**: A espécie se torna mais agressiva e numerosa no Modo Infinito, que começa oficialmente no Nível 3.
+</Callout>
+
+<Section icon={Activity} title="Entendendo a Espécie Cobb Can Move">
+
+A **espécie Cobb Can Move** representa a singular e aterrorizante ameaça no título de horror de sobrevivência procedural de abho. Ao contrário dos monstros de horror tradicionais com padrões fixos, Cobb é uma entidade regida por regras. Cada nível introduz um novo conjunto de "absurdos" aos quais os jogadores devem se adaptar. Seja a entidade caçando pelo cheiro ou duplicando-se em um enxame, entender suas restrições biológicas e mecânicas é a única maneira de alcançar a tarefa final.
+
+**Destaques do Vídeo:**
+- Demonstração das intensas mecânicas de perseguição da espécie Cobb.
+- Visualização de como regras como "Cobb Pode Ver" afetam a furtividade do jogador.
+- Apresentação do gerenciamento de recursos de alto risco necessário para sobreviver ao Nível 7.
+
+<YouTubeEmbed videoId="7X_3_U1_0Is" title="COBB CAN MOVE - Markiplier Gameplay" />
+
+<CardGrid cols={3}>
+  <Card title="Variantes Sensoriais">
+    - **Visão**: Baseada nos níveis de luz
+    - **Som**: Acionado ao correr
+    - **Olfato**: Rastreamento persistente
+  </Card>
+  <Card title="Traços Físicos">
+    - **Alcance**: Distância de passo estendida
+    - **Velocidade**: Aumenta durante a perseguição
+    - **Atordoamento**: Vulnerável a rochas
+  </Card>
+  <Card title="Multiplicidade">
+    - **Duplicatas**: Múltiplas entidades
+    - **Colisão**: Entidades se empurram
+    - **Geração**: Acumula após o Nível 5
+  </Card>
+</CardGrid>
+
+<Callout type="info" title="Origens da Espécie">
+Cobb surgiu como uma entrada vencedora para a Major Jam 7: Wild. Sua filosofia de design se concentra na limitação de que "as regras mudam", tornando a espécie uma personificação viva de mecânicas de jogo imprevisíveis.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Regras Sensoriais e Evolução Comportamental">
+
+A dificuldade central da **espécie Cobb Can Move** reside em sua adaptação sensorial. Nas atualizações de 2026, especificamente da v1.4 à v1.7, o desenvolvedor refinou esses sentidos para garantir uma experiência justa, mas punitiva. O Nível 2 agora é um "nível sensorial" garantido, forçando os jogadores a aprenderem como Cobb os detecta no início da partida.
+
+| Nome da Regra | Mecânica de Detecção | Mudanças de Equilíbrio em 2026 | Estratégia de Sobrevivência |
+| :--- | :--- | :--- | :--- |
+| **Cobb Pode Ver** | Detecta o jogador em áreas iluminadas | Alcance nerfado nas v1.4 e v1.5 | Permaneça nas sombras; gerencie sua luz |
+| **Cobb Pode Ouvir** | Acionado por ruído/corrida | Pistas sonoras clarificadas | Ande devagar; use pedras como distração |
+| **Cobb Pode Cheirar** | Rastreamento persistente | Nerfado na v1.7; cheiradas menos frequentes | Continue se movendo; não demore em um só lugar |
+| **Cobb Pode Alcançar** | Alcance físico mais longo | v1.6: Passos maiores, velocidade base menor | Mantenha mais distância do que o normal |
+
+<Callout type="warning" title="Alerta de Mecânica de Olfato">
+A partir da atualização v1.7 em 19 de maio de 2026, a regra "Cobb Pode Cheirar" é menos implacável. A espécie cheira com menos frequência e perde o interesse mais rapidamente se você for cheirado a curta distância, dando-lhe uma pequena janela para escapar.
+</Callout>
+
+Além dos sentidos, a espécie exibe padrões de movimento complexos. Na v1.6, uma mecânica de "perseguição longa" foi aprimorada, tornando Cobb gradualmente mais rápido quanto mais tempo ele persegue o jogador. Isso impede que os jogadores simplesmente fiquem "kiting" o monstro indefinidamente sem um plano.
+
+</Section>
+
+<Section icon={Zap} title="Táticas Defensivas: Como Enfrentar a Espécie">
+
+Sobreviver a um encontro com a **espécie Cobb Can Move** exige mais do que apenas correr. Você deve utilizar o ambiente e os itens de forma eficaz. A ferramenta mais crítica em seu arsenal é a Rocha, que passou por significativas melhorias de utilidade nos patches de 2026.
+
+<Steps>
+  <Step num="1" title="Procure por Rochas">
+    Os níveis 7 e Infinito contêm rochas. Na v1.5, o desenvolvedor adicionou especificamente mais rochas ao Nível 7 para auxiliar no aumento de dificuldade.
+  </Step>
+  <Step num="2" title="Mire para um Acerto Direto">
+    Desde a v1.6, um acerto direto com uma rocha atordoará Cobb por um curto período. Isso é essencial para reiniciar uma perseguição ou abrir caminho para a fornalha.
+  </Step>
+  <Step num="3" title="Ouça o Impacto">
+    A atualização v1.6 aumentou o volume dos sons de rocha. Isso ajuda a confirmar se um arremesso de distração funcionou ou se um atordoamento foi bem-sucedido no escuro.
+  </Step>
+  <Step num="4" title="Explore a Janela de Atordoamento">
+    Na v1.7, um bug foi corrigido onde as rochas falhavam em atordoar Cobb durante uma perseguição ativa. Agora, um acerto garante uma janela para quebrar a linha de visão.
+  </Step>
+</Steps>
+
+| Item | Tipo de Interação | Efeito na Espécie | Conclusão para o Jogador |
+| :--- | :--- | :--- | :--- |
+| **Carvão** | Recurso | Aumenta indiretamente a pressão | Carvão agora surge mais longe da fornalha |
+| **Rochas** | Arremessável | Atordoamento físico de curta duração | Sua principal ferramenta defensiva em 2026 |
+| **Cenouras** | Consumível | Previne a fome do jogador | Cenouras agora reaparecem depois de serem comidas |
+| **Disjuntor** | Objeto do Mapa | Controla a visibilidade | Sprite atualizado na v1.3 para melhor visibilidade |
+
+<Callout type="tip" title="Gerenciamento de Inventário">
+A atualização v1.4 permite trocar itens mesmo se o local de descarte estiver destacado em vermelho (sobre uma parede). Use isso para soltar rapidamente o carvão e pegar uma rocha se a espécie aparecer de repente.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Progressão da História e a Tarefa Final">
+
+A **espécie Cobb Can Move** atinge seu pico de agressão durante os níveis finais da história. Jogadores em busca do final devem navegar pelo Nível 7 e pelo subsequente final alimentado por baterias. O desenvolvedor ajustou esses níveis várias vezes para equilibrar a atmosfera "tensa, mas possível".
+
+<Checklist
+  id="ending-milestones"
+  title="Requisitos da Tarefa Final:"
+  items={[
+    "Complete o Nível 2 para dominar as regras sensoriais",
+    "Alcance o Nível 7 e localize as rochas extras",
+    "Encontre e coloque todas as quatro baterias",
+    "Interaja com o Alto-Forno (hitbox ampliado na v1.6)",
+    "Sobreviva à perseguição final (velocidade de Cobb buffada na v1.5.2)"
+  ]}
+/>
+
+<Callout type="success" title="Recompensas Pós-Jogo">
+Após vencer o jogo uma vez, você desbloqueia o menu de Seleção de Nível (adicionado na v1.5). Isso permite que você revisite combinações de regras específicas ou pratique a rota de recursos do Nível 7 sem reiniciar a história inteira.
+</Callout>
+
+A sequência final envolve uma "tarefa final" que é acionada após colocar quatro baterias. A atualização v1.4 alterou o texto desta tarefa para maior clareza, enquanto a v1.5.2 aumentou ligeiramente a velocidade de Cobb durante esta fase para manter o final desafiador. Se você achar o final muito difícil, lembre-se que a atualização v1.6 tornou o hitbox do Alto-Forno maior, facilitando muito a interação enquanto você é perseguido.
+
+</Section>
+
+<Section icon={Sparkles} title="Evolução do Jogo: Histórico de Atualizações de 2026">
+
+O estado atual da **espécie Cobb Can Move** é o resultado de várias atualizações iterativas. Acompanhar essas mudanças ajuda os jogadores a entender quais estratégias legadas (como "kiting" para sempre) não funcionam mais e quais novas ferramentas (como atordoamentos com rochas) são obrigatórias.
+
+| Versão | Data de Lançamento | Principais Mudanças na Espécie |
+| :--- | :--- | :--- |
+| **v1.7** | 19 de maio de 2026 | Olfato nerfado; aceleração de perseguição reduzida; atordoamento com rocha corrigido |
+| **v1.6** | 16 de maio de 2026 | Atordoamentos com rocha adicionados; escala de velocidade de perseguição; colisão de duplicatas |
+| **v1.5** | 10 de maio de 2026 | Rochas do Nível 7 adicionadas; Seleção de Nível desbloqueada; buff de velocidade final |
+| **v1.4** | 09 de maio de 2026 | Dicas de morte adicionadas; garantia sensorial do Nível 2; regra de Visão nerfada |
+
+<Callout type="info" title="Ritmo do Modo Infinito">
+O Modo Infinito é marcado como procedural e com sementes. Desde a v1.3, ele começa oficialmente no Nível 3, o que significa que você ignora os níveis "tutoriais" e pula direto para conjuntos de regras de alta pressão envolvendo duplicatas e fome.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="FAQ da Espécie Cobb">
+
+<FAQ items={[
+  {
+    question: "Como faço para impedir que a espécie Cobb Can Move me persiga?",
+    answer: "Você não pode parar Cobb permanentemente, mas pode quebrar a linha de visão ou usar uma Rocha para atordoar a entidade. Na atualização v1.7, as rochas são mais confiáveis para interromper uma perseguição."
+  },
+  {
+    question: "Qual é a regra mais perigosa para a espécie Cobb?",
+    answer: "Muitos jogadores consideram 'Cobb Pode Cheirar' a mais difícil porque permite que a entidade o rastreie sem linha de visão. No entanto, a atualização v1.7 nerfou essa regra tornando as cheiradas menos frequentes."
+  },
+  {
+    question: "Pode haver mais de um Cobb ao mesmo tempo?",
+    answer: "Sim, a regra 'Duplicar' permite que múltiplas entidades surjam. Desde a v1.6, as duplicatas se empurram em vez de se fundirem, tornando-as mais distintas e difíceis de evitar em corredores apertados."
+  },
+  {
+    question: "O que acontece se eu morrer para a espécie?",
+    answer: "Após a v1.4, morrer exibe 'Dicas de Morte' que explicam a regra ativa. Use essas dicas para ajustar sua estratégia para a próxima tentativa."
+  }
+]} />
+
+</Section>

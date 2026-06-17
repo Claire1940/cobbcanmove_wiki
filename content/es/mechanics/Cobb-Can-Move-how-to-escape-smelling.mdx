@@ -1,0 +1,156 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, AlertTriangle, Lightbulb, Info } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Cobb Can Move: cómo escapar del olfato: Guía de Supervivencia Avanzada",
+  description: "Domina la habilidad de Cobb para oler en Cobb Can Move. Aprende tácticas, cambios de reglas y uso de objetos para evitar ser detectado y sobrevivir en este juego de terror pixelado.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/8B0000/fff?text=Cobb+Can+Move+Smell+Escape",
+  date: "2026-06-17",
+  author: "Equipo Wiki de Cobb Can Move"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Cobb Can Move: cómo escapar del olfato**: Comprende la mecánica del olfato de Cobb y cómo contrarrestarla.
+- **Nerfeo de la v1.7**: La última actualización hizo que el olfato de Cobb fuera menos frecuente y persistente a corta distancia.
+- **El movimiento es clave**: El movimiento estratégico y la conciencia ambiental son cruciales para la evasión.
+- **Uso de objetos**: Las rocas pueden distraer a Cobb, ofreciendo un escape momentáneo.
+- **Adaptación a las reglas**: Las reglas de cada partida cambian, lo que requiere una adaptación constante a las habilidades de Cobb.
+</Callout>
+
+<Section icon={Lightbulb} title="Comprendiendo la Habilidad de Olfato de Cobb">
+La habilidad de "Olfato" de Cobb es una regla sensorial crítica que impacta significativamente la supervivencia del jugador en *Cobb Can Move*. Cuando esta regla está activa, Cobb puede detectar la presencia del jugador basándose en el olor, guiándolo hacia tu ubicación. Esta mecánica añade una capa de tensión y pensamiento estratégico, ya que los jugadores no solo deben navegar por el entorno oscuro, sino también gestionar su "rastro de olor".
+
+Inicialmente, el olfato de Cobb podía ser implacable, haciendo que la evasión fuera un desafío. Sin embargo, las actualizaciones recientes han introducido cambios de equilibrio para hacer el juego más justo sin dejar de mantener el elemento de terror. Comprender estos cambios es crucial para desarrollar estrategias de escape efectivas.
+
+<Callout type="tip">
+Siempre revisa el texto de la regla activa al inicio de cada partida. La habilidad de "Olfato" de Cobb dicta un enfoque diferente en comparación con "Ver" o "Oír".
+</Callout>
+
+**Puntos destacados del video:**
+- Demuestra el comportamiento de rastreo de Cobb cuando "Olfato" está activo.
+- Muestra rutas de evasión efectivas en varios diseños de mapas.
+- Resalta los errores del jugador que conducen a la detección por el olfato.
+
+<YouTubeEmbed videoId="VIDEO_ID_HERE" title="Video de Jugabilidad Popular" />
+
+El devlog del desarrollador de "Cobb Can Move" indica que el diseño central del juego gira en torno a las reglas cambiantes y la adaptación del jugador. La regla de "Olfato" es uno de estos elementos dinámicos, forzando a los jugadores a reaccionar a los sentidos mejorados de Cobb.
+
+</Section>
+
+<Section icon={Sparkles} title="Actualizaciones de la v1.7: Nerfeo del Olfato de Cobb">
+La actualización v1.7 introdujo ajustes de equilibrio significativos a la habilidad de "Olfato" de Cobb, haciéndola menos abrumadora para los jugadores. Estos cambios se implementaron para ajustar la dificultad y asegurar una experiencia de supervivencia más atractiva, pero aún desafiante.
+
+<Callout type="success">
+La actualización v1.7 hace que escapar del olfato de Cobb sea más manejable, pero sigue siendo una amenaza potente si se ignora.
+</Callout>
+
+Aquí tienes un desglose de los cambios clave:
+
+| Característica              | Comportamiento Pre-v1.7                             | Comportamiento Post-v1.7                            | Conclusión para el jugador                           |
+| :-------------------------- | :-------------------------------------------------- | :-------------------------------------------------- | :--------------------------------------------------- |
+| **Frecuencia del Olfato**   | Cobb olfateaba y rastreaba con más frecuencia.      | Olfatea con menos frecuencia.                       | Más oportunidades para el movimiento sigiloso.       |
+| **Persistencia a Corta Distancia** | Rastreo altamente persistente a corta distancia.    | Menos persistencia cuando es olfateado a corta distancia. | Desenganche más rápido posible si es detectado cerca. |
+| **Aceleración en la Persecución** | Cobb ganaba velocidad rápidamente durante persecuciones largas. | Aceleración ligeramente nerfeada durante persecuciones largas. | Las rutas de escape más largas son marginalmente más viables. |
+
+Estos ajustes significan que, aunque Cobb aún puede olerte, la ventana para la evasión es ligeramente mayor y su respuesta inmediata a tu olor es menos agresiva. Esto fomenta un movimiento más reflexivo en lugar de un pánico constante.
+
+</Section>
+
+<Section icon={Shield} title="Tácticas Estratégicas de Evasión para el Olfato de Cobb">
+Escapar de Cobb cuando su habilidad de "Olfato" está activa requiere una combinación de movimiento cuidadoso, conciencia ambiental y uso efectivo de objetos. A diferencia de las reglas de "Ver" o "Oír", "Olfato" ignora la línea de visión y las señales sonoras directas, lo que lo convierte en un desafío único.
+
+<Steps>
+  <Step num="1" title="Prioriza el Movimiento">
+    Cuando Cobb puede oler, el movimiento continuo suele ser más seguro que esconderse estáticamente. Cobb se dirigirá hacia tu última ubicación olida conocida, por lo que quedarte quieto te convierte en un objetivo más fácil. Sigue moviéndote, pero hazlo metódicamente.
+  </Step>
+  <Step num="2" title="Utiliza los Diseños de Mapa">
+    Los mapas generados proceduralmente ofrecen variadas rutas de escape. Aprende a reconocer puntos de estrangulamiento, áreas abiertas y bucles. Usa los pasillos estrechos a tu favor, ya que Cobb podría tardar más en navegar por ellos, dándote la oportunidad de crear distancia.
+  </Step>
+  <Step num="3" title="Distrae con Rocas">
+    Las rocas son una herramienta valiosa. Lanzar una roca puede crear una distracción sonora, alejando a Cobb de tu posición actual. Esto es particularmente efectivo cuando necesitas sortear un camino bloqueado o crear una ventana momentánea para escapar. Las actualizaciones v1.6 y v1.7 hicieron que las rocas fueran más efectivas, permitiendo aturdir brevemente a Cobb con golpes directos.
+  </Step>
+  <Step num="4" title="Gestiona los Recursos de Forma Eficiente">
+    Aunque no está directamente relacionado con el olfato, gestionar el carbón y las baterías significa que pasarás menos tiempo en áreas peligrosas. Completar objetivos rápidamente reduce el tiempo de exposición a los sentidos activos de Cobb.
+  </Step>
+  <Step num="5" title="Adáptate a las Reglas Combinadas">
+    A veces, "Olfato" podría combinarse con otras reglas como "Alcance" o "Duplicar". Prepárate para ajustar tu estrategia. Por ejemplo, "Alcance" significa que Cobb cubre más terreno por paso, por lo que mantener una mayor distancia es crucial.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Error Común">
+Evita soltar objetos en pánico. Aunque la v1.4 hizo que el intercambio de objetos fuera más indulgente, soltar objetos descuidadamente puede alertar a Cobb de tu presencia o bloquear tu ruta de escape, especialmente en situaciones difíciles.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Uso de Objetos e Interacción con el Entorno">
+La interacción efectiva con los objetos y el entorno del juego es primordial para sobrevivir a las habilidades sensoriales de Cobb, especialmente al "Olfato". Saber cómo y cuándo usar cada objeto puede convertir una situación desesperada en un escape exitoso.
+
+| Objeto        | Uso Principal                                   | Táctica Específica para el Olfato                         | Nota de Actualización Oficial (2026)                                                                                                    |
+| :------------ | :---------------------------------------------- | :-------------------------------------------------------- | :-------------------------------------------------------------------------------------------------------------------------------------- |
+| **Rocas**     | Distracción, aturdimiento breve                 | Lanza para crear una señal sonora, desviando el camino olido de Cobb. | v1.6: Las rocas aturden a Cobb con un golpe directo, sonido más fuerte. v1.7: Se corrigió la consistencia del aturdimiento durante la persecución. |
+| **Carbón**    | Combustible para el horno, progresión del objetivo | Recoge rápidamente para minimizar el tiempo en un área.       | v1.6: Menos probable que aparezca cerca del horno, aumentando la presión de movimiento.                                                 |
+| **Zanahorias** | Regeneración de salud/resistencia               | Repón para mantener la velocidad de evasión.               | v1.3: Las zanahorias reaparecen al ser comidas, proporcionando sustento repetible.                                                       |
+| **Baterías**   | Objeto de progresión final                      | Prioriza la recolección para acelerar la tarea final.       | v1.4: El texto de la tarea final cambia después de colocar cuatro baterías.                                                             |
+| **Horno**     | Objetivo principal, zona segura (brevemente)    | Acércate con cautela, úsalo solo cuando sea necesario.     | v1.6: La aparición de carbón se cambió para alejar a los jugadores del horno.                                                           |
+| **Interruptor** | Objeto del mapa, señal visual                   | Localiza rápidamente para entender el diseño del mapa y las posibles rutas de escape. | v1.3: El sprite del interruptor cambió ligeramente para ser más notorio.                                                                |
+
+<Callout type="info">
+El entorno dinámico del juego y los cambios de reglas significan que una estrategia efectiva en una partida podría no serlo en otra. La adaptación constante es clave.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Adaptación al Modo Sin Fin y la Progresión de Nivel">
+En el Modo Sin Fin, el desafío de escapar del olfato de Cobb se intensifica a medida que las reglas se combinan y la presión aumenta. Comprender cómo escala el juego y cómo aplicar tus tácticas de evasión en partidas más largas es vital.
+
+<CardGrid cols={2}>
+  <Card title="Punto de Inicio del Modo Sin Fin">
+    El Modo Sin Fin comienza en el Nivel 3 (actualización v1.3), sumergiendo inmediatamente a los jugadores en escenarios de mayor presión. Esto significa que te encontrarás con reglas sensoriales como "Olfato" mucho antes, exigiendo un pensamiento estratégico inmediato.
+  </Card>
+  <Card title="Mapas Procedurales y Semillas">
+    Los mapas se generan proceduralmente a partir de fragmentos con aleatoriedad sembrada. Esto significa que memorizar rutas fijas es menos efectivo. En su lugar, concéntrate en comprender las características generales del mapa y adaptar tu movimiento al diseño actual.
+  </Card>
+  <Card title="Combinaciones de Reglas">
+    Los niveles posteriores en el Modo Sin Fin a menudo combinan múltiples reglas (por ejemplo, "Olfato" + "Alcance"). Esto aumenta la complejidad de la evasión, requiriéndote que contrarrestes múltiples amenazas simultáneamente.
+  </Card>
+  <Card title="Amenazas al Final de la Partida">
+    A medida que avanzan las partidas, la velocidad de persecución de Cobb (aunque ligeramente nerfeada en la v1.7) y el potencial de duplicados aumentan el peligro. Mantener la conciencia de la ubicación de Cobb y usar las distracciones de manera efectiva se vuelve aún más crítico.
+  </Card>
+</CardGrid>
+
+<Callout type="tip">
+Después de completar el modo historia, usa la selección de nivel desbloqueada (actualización v1.5) para practicar combinaciones de reglas específicas, incluyendo "Olfato", para refinar tus técnicas de evasión sin la presión de una partida completa.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Preguntas Frecuentes sobre el Olfato de Cobb">
+
+<FAQ items={[
+  {
+    question: "¿Cómo funciona 'Cobb Can Move: cómo escapar del olfato'?",
+    answer: "Cuando la habilidad de 'Olfato' de Cobb está activa, él puede detectar tu presencia basándose en el olor, guiándolo hacia tu ubicación sin importar la línea de visión. Evadir requiere movimiento continuo, estratégico y distracción."
+  },
+  {
+    question: "¿Se nerfeó el olfato de Cobb?",
+    answer: "Sí, la actualización v1.7 de Cobb Can Move nerfeó la habilidad de 'Olfato' de Cobb. Ahora olfatea con menos frecuencia y es menos persistente al detectarte a corta distancia, ofreciendo más oportunidades de escape."
+  },
+  {
+    question: "¿Pueden los objetos ayudarme a escapar de Cobb cuando puede oler?",
+    answer: "Absolutamente. Las rocas son particularmente útiles. Lanzar una roca crea una distracción sonora, desviando el camino de Cobb y dándote una ventana para alejarte de su detección por el olor. La gestión eficiente de los recursos también reduce el tiempo que pasas en zonas peligrosas."
+  },
+  {
+    question: "¿Cuál es la mejor estrategia para 'Olfato' en el Modo Sin Fin?",
+    answer: "En el Modo Sin Fin, combina el movimiento continuo con la conciencia ambiental. Dado que los mapas son procedurales, concéntrate en adaptarte al diseño. Usa rocas para distraer, y prepárate para que 'Olfato' se combine con otras reglas como 'Alcance' o 'Duplicar' a medida que avanzan los niveles."
+  }
+]} />
+
+</Section>

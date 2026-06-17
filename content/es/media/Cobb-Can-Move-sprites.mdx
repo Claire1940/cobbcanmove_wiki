@@ -1,0 +1,158 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Cobb Can Move Sprites: Visuales y Evolución del Diseño",
+  description: "Explora los sprites de pixel art de Cobb Can Move, incluyendo el diseño de Cobb, elementos ambientales y cómo las actualizaciones visuales han moldeado la experiencia de terror.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/8B0000/fff?text=Cobb+Can+Move+Sprites",
+  date: "2026-06-17",
+  author: "Equipo Wiki de Cobb Can Move"
+}
+
+<Callout type="info" title="Guía Rápida">
+- Los **sprites de Cobb Can Move** definen la estética de terror de pixel art del juego.
+- El diseño de Cobb presenta un pequeño monstruo rojo con brazos largos y arrastrados y ojos blancos brillantes.
+- Los sprites ambientales incluyen mazmorras oscuras, ladrillos grises, hornos y elementos interactivos.
+- Las actualizaciones han refinado elementos visuales como el **sprite del interruptor** y las animaciones de comportamiento de Cobb.
+- El estilo visual del juego es crucial para su atmósfera de terror de mazmorras de vista superior.
+</Callout>
+
+<Section icon={Sparkles} title="Comprendiendo los Sprites y el Estilo Artístico de Cobb Can Move">
+La identidad visual de *Cobb Can Move* está profundamente arraigada en sus sprites de pixel art, que transmiten eficazmente una experiencia de terror en mazmorras de vista superior. El juego utiliza una silueta mínima, alto contraste y bordes de píxeles nítidos para crear una atmósfera opresiva. Los elementos visuales centrales incluyen al protagonista, el amenazante Cobb, y varios elementos ambientales interactivos, todos representados en un distintivo estilo pixelado.
+
+<Callout type="tip">
+El uso intencional de una paleta de colores oscuros y alto contraste en los sprites de *Cobb Can Move* mejora la atmósfera de terror, haciendo que elementos clave como los ojos brillantes de Cobb destaquen.
+</Callout>
+
+**Puntos destacados del vídeo:**
+- Demuestra el movimiento y la apariencia visual de Cobb.
+- Muestra sprites ambientales y la interacción del jugador.
+- Destaca la estética general de pixel art del juego.
+
+<YouTubeEmbed videoId="No official trailer found, using a popular gameplay video instead" title="COBB CAN MOVE - Markiplier (Vídeo de Jugabilidad Popular)" />
+
+El diseño de Cobb en sí es un pequeño monstruo rojo con brazos largos y arrastrados y ojos blancos brillantes, que se alinea perfectamente con los iconos de interfaz de usuario de terror de supervivencia retro. Este distintivo trabajo de sprites asegura que Cobb sea instantáneamente reconocible y amenazante, incluso dentro de las limitaciones del pixel art.
+
+</Section>
+
+<Section icon={Swords} title="Evolución del Sprite y Visuales de Comportamiento de Cobb">
+El sprite de Cobb es fundamental para el terror del juego. Aunque el diseño central se mantiene constante, su comportamiento visual se adapta a las reglas y actualizaciones cambiantes del juego. Por ejemplo, cuando la habilidad "Alcance" de Cobb está activa, su sprite da pasos más grandes y menos rápidos, proporcionando una señal visual distintiva a los jugadores.
+
+Los registros de desarrollo del juego revelan cambios sutiles pero impactantes en el comportamiento del sprite de Cobb. Por ejemplo, la v1.6 hizo que los duplicados se empujaran entre sí, resolviendo problemas de fusión visual y haciendo más claras las situaciones de múltiples Cobbs. Estos ajustes aseguran que la retroalimentación visual del sprite de Cobb refleje con precisión su nivel de amenaza y habilidades actuales.
+
+<Callout type="warning" title="Presta Atención a las Pistas Visuales de Cobb">
+Los cambios en el sprite de Cobb, como los pasos más grandes cuando "Alcance" está activo, son indicadores visuales cruciales de sus habilidades actuales. Ignorarlos puede llevar a una muerte rápida.
+</Callout>
+
+Aquí hay un desglose de los cambios en el comportamiento del sprite de Cobb:
+
+| Habilidad / Comportamiento | Pista Visual en el Sprite | Nota de Actualización | Conclusión para el Jugador |
+|:-------------------|:---------------------|:------------|:----------------|
+| **Movimiento**       | Movimiento ágil, arrastrándose | Comportamiento base | Indica amenaza activa |
+| **Alcance**          | Pasos más grandes y lentos | v1.6 | Mantener mayor distancia |
+| **Duplicado**      | Sprites separados y distintos | v1.6 | Múltiples amenazas, evitar la fusión |
+| **Persecución**        | Movimiento acelerado | v1.6, v1.7 | Cobb se vuelve más rápido durante persecuciones largas |
+| **Aturdido**        | Inmovilización breve | v1.7 | Oportunidad de escape o contraataque |
+
+</Section>
+
+<Section icon={Map} title="Sprites Ambientales y Objetos Interactivos">
+Más allá de Cobb, el entorno del juego cobra vida a través de una variedad de sprites de pixel art que crean un escenario oscuro y similar a una mazmorra. Estos sprites no son meramente decorativos; cumplen funciones críticas de juego, guiando a los jugadores e indicando elementos interactivos.
+
+Los sprites ambientales clave incluyen:
+- **Paredes de mazmorra oscuras**: Principalmente ladrillos grises, creando una atmósfera claustrofóbica.
+- **Hornos**: Objetivos centrales, a menudo brillando con tonos naranjas, indicando calor y propósito.
+- **Interruptores**: Sprites pequeños y notables con los que los jugadores deben interactuar. La actualización v1.3 refinó específicamente el sprite del interruptor para hacerlo más visible.
+- **Carbón**: Pequeños trozos oscuros que son recursos vitales para el horno.
+- **Rocas**: Objetos utilitarios lanzables, sus sprites indican su naturaleza interactiva.
+- **Zanahorias**: Artículos de comida que reaparecen, su color naranja brillante contrasta con el entorno oscuro.
+- **Baterías**: Artículos de progresión final, sus sprites son distintos para significar su importancia.
+
+<Callout type="info">
+Las sutiles actualizaciones de los sprites ambientales, como la mayor visibilidad del interruptor en la v1.3, resaltan el compromiso del desarrollador de mejorar la claridad del jugador dentro del estilo minimalista de pixel art.
+</Callout>
+
+<CardGrid cols={2}>
+  <Card title="Evolución del Sprite del Interruptor">
+    El **sprite del interruptor** fue sutilmente actualizado en la v1.3 para mejorar su visibilidad. Este pequeño cambio ayuda significativamente a los jugadores a identificar objetos críticos del mapa en la tenue iluminación.
+  </Card>
+  <Card title="Visuales del Horno">
+    Los sprites del horno a menudo emiten un brillo cálido y naranja, proporcionando contraste visual y atrayendo a los jugadores hacia sus objetivos en medio de la oscuridad predominante. Esto ayuda con la navegación y la identificación de objetivos.
+  </Card>
+</CardGrid>
+
+</Section>
+
+<Section icon={Target} title="Estética de Pixel Art y Sprites de Interfaz de Usuario">
+La estética general de pixel art de *Cobb Can Move* es una elección deliberada que contribuye en gran medida a su sensación de terror retro. La interfaz del juego también utiliza sprites pixelados, manteniendo un estilo visual cohesivo. Esto incluye elementos de menú, indicadores de salud y cualquier texto en pantalla, todo renderizado con bordes de píxeles nítidos.
+
+Las etiquetas del juego en itch.io mencionan explícitamente "Pixel Art" y "2D", afirmando esta dirección artística. La elección de usar un tema oscuro para el propio sitio web, reflejando los visuales del juego, enfatiza aún más el compromiso con esta estética.
+
+| Elemento de UI | Descripción | Impacto Visual |
+|:-----------|:------------|:--------------|
+| **Barra de Salud** | Segmentos pixelados | Indicación de salud clara y retro |
+| **Iconos de Artículos** | Pixel art simple y distinto | Fácil identificación de recursos |
+| **Texto de Reglas** | Fuente de píxeles clara y de alto contraste | Legibilidad a pesar del estilo minimalista |
+| **Menú Principal** | Elementos pixelados estilizados | Branding consistente del juego |
+
+<Callout type="success">
+La aplicación consistente del pixel art en la jugabilidad y los elementos de la interfaz de usuario asegura una experiencia de terror retro unificada e inmersiva en *Cobb Can Move*.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Impacto de los Sprites en la Jugabilidad y la Inmersión">
+La efectividad de los sprites de *Cobb Can Move* se extiende más allá de la mera estética; influyen directamente en la jugabilidad y la inmersión del jugador. El diseño minimalista pero de alto contraste significa que cada elemento visual, especialmente Cobb y los objetos interactivos, deben ser claramente distinguibles en el entorno oscuro.
+
+Por ejemplo, los ojos blancos brillantes del sprite de Cobb no son solo para mostrar; son un indicador visual primario de su presencia y dirección, crucial para la supervivencia del jugador. De manera similar, los sprites distintivos para el carbón, las zanahorias y las baterías permiten una rápida identificación de los elementos bajo presión.
+
+<Steps>
+  <Step num="1" title="Identificación Visual de Amenazas">
+    Los jugadores confían en el sprite distintivo de Cobb y sus ojos brillantes para localizar y evadir al monstruo en condiciones de poca luz.
+  </Step>
+  <Step num="2" title="Reconocimiento de Recursos">
+    Los sprites únicos de elementos como el carbón y las zanahorias permiten una rápida identificación y recolección, vital para la gestión de recursos.
+  </Step>
+  <Step num="3" title="Conciencia Ambiental">
+    Los sprites actualizados, como el interruptor más visible, ayudan a los jugadores a identificar rápidamente objetivos clave y elementos interactivos del mapa.
+  </Step>
+  <Step num="4" title="Retroalimentación sobre las Acciones">
+    Los sprites proporcionan retroalimentación visual inmediata, como la animación de aturdimiento de Cobb cuando es golpeado por una roca, permitiendo a los jugadores reaccionar eficazmente.
+  </Step>
+</Steps>
+
+<Callout type="info" title="La Claridad del Sprite es Clave">
+El éxito del pixel art en *Cobb Can Move* depende de su claridad. Cada sprite debe comunicar su propósito o amenaza de manera efectiva al jugador, especialmente en un contexto de terror de supervivencia.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Sprites de Cobb Can Move: Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Cuál es la estética principal de los sprites de Cobb Can Move?",
+    answer: "La estética principal es el terror de pixel art, caracterizado por un fondo oscuro, alto contraste, siluetas mínimas y bordes de píxeles nítidos, inspirados en los iconos de la interfaz de usuario de terror de supervivencia retro."
+  },
+  {
+    question: "¿Cómo se representa a Cobb a través de su sprite?",
+    answer: "Cobb se representa como un pequeño monstruo rojo con brazos largos y arrastrados y ojos blancos brillantes, diseñado para ser amenazante y fácilmente identificable dentro del estilo de pixel art."
+  },
+  {
+    question: "¿Han cambiado los sprites de Cobb con las actualizaciones del juego?",
+    answer: "Sí, las actualizaciones han refinado los comportamientos de los sprites. Por ejemplo, la v1.6 hizo que los Cobbs duplicados se empujaran entre sí, y Cobb da pasos más grandes cuando la regla 'Alcance' está activa, indicando visualmente sus habilidades."
+  },
+  {
+    question: "¿Los objetos ambientales también son sprites de pixel art?",
+    answer: "Absolutamente. Los objetos interactivos clave como hornos, interruptores, carbón, rocas, zanahorias y baterías se representan como sprites de pixel art, algunos de ellos recibiendo actualizaciones para mejorar la visibilidad, como el interruptor en la v1.3."
+  }
+]} />
+
+</Section>

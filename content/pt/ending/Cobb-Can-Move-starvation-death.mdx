@@ -1,0 +1,181 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, AlertTriangle } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Morte por Inanição em Cobb Can Move: Guia de Sobrevivência e Táticas",
+  description: "Domine as mecânicas de fome para evitar a morte por inanição em Cobb Can Move. Aprenda a localização das cenouras, mudanças nas regras e dicas de sobrevivência para o sucesso de terror de 2026.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1a1a1a/e11d48?text=Starvation+Survival+Guide",
+  date: "2026-06-17",
+  author: "Equipe Wiki Cobb Can Move"
+}
+
+<Callout type="info" title="Guia Rápido">
+- A **morte por inanição em Cobb Can Move** ocorre quando a regra "Fome" está ativa e o jogador não consegue consumir cenouras.
+- O **gerenciamento de cenouras** é essencial; desde a atualização v1.3, as cenouras reaparecem depois de serem comidas.
+- A **adaptação às regras** é o cerne da sobrevivência, pois as regras do lado do jogador, como "Fome" ou "Congelar", mudam a cada nível.
+- A **conservação de energia** envolve equilibrar as coletas de carvão para a fornalha com a necessidade urgente de procurar comida.
+- A **detecção de Cobb** se torna mais letal quando você é forçado a se mover com fome, acionando as regras "Ouvir" ou "Ver".
+</Callout>
+
+Nos corredores gerados proceduralmente do sucesso de pixel-horror de abho, a **morte por inanição em Cobb Can Move** é uma ameaça constante que força os jogadores a sair das sombras. Ao contrário da ameaça direta do próprio Cobb, a inanição age como um relógio mecânico, punindo estilos de jogo passivos e exigindo um profundo entendimento do roteamento de recursos. Para sobreviver ao nível 3 e além, os jogadores devem navegar pelas regras mutáveis da masmorra enquanto mantêm as funções vitais de seu personagem.
+
+<Section icon={Shield} title="Compreendendo a Mecânica de Morte por Inanição em Cobb Can Move">
+
+A mecânica "Fome" é uma das principais regras do lado do jogador que pode aparecer durante qualquer partida. Quando esta regra está ativa, sua sobrevivência não é mais apenas sobre evitar o monstro vermelho; é sobre gerenciar um medidor de fome que se esgota e leva a um game over imediato se ignorado. Isso cria uma dinâmica de "empurra-e-puxa" onde a segurança da escuridão é frequentemente trocada pela necessidade de encontrar comida.
+
+**Destaques do Vídeo:**
+- **Pistas Visuais**: Observe como os efeitos da tela mudam à medida que a fome aumenta.
+- **Localização das Cenouras**: Identificação dos sprites de cenoura em pixel-art em cantos escuros.
+- **Interferência de Cobb**: Como Cobb reage quando o jogador é forçado a correr por comida.
+- **Pressão Final**: Gerenciando a fome durante a tarefa final da bateria.
+
+<YouTubeEmbed videoId="XN1Uv4XfT-k" title="COBB CAN MOVE - Markiplier Gameplay" />
+
+A morte por inanição é particularmente perigosa porque muitas vezes coincide com regras sensoriais como "Cobb pode cheirar" ou "Cobb pode ouvir". Na v1.7, embora o olfato de Cobb tenha sido enfraquecido para ser menos persistente, a pressão para se mover em busca de cenouras ainda o torna um alvo principal para detecção.
+
+| Tipo de Regra | Efeito no Jogador | Requisito de Sobrevivência | Condição de Morte |
+| :--- | :--- | :--- | :--- |
+| **Fome** | Medidor de fome diminuindo | Consumir Cenouras | Medidor chega a zero |
+| **Congelar** | Queda de temperatura no escuro | Ficar perto da Fornalha / Luz | Temperatura corporal chega a zero |
+| **Ouvir** | Som atrai Cobb | Mover-se lentamente / Agachar | Detecção por Cobb |
+| **Ver** | Luz atrai Cobb | Ficar nas sombras | Detecção por Cobb |
+
+<Callout type="warning" title="Aviso Crítico">
+A inanição ignora sua proximidade com a fornalha. Mesmo que você tenha um suprimento completo de carvão, falhar em procurar cenouras resultará em morte por inanição, independentemente do seu nível de luz.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Busca por Cenouras e Roteamento de Recursos">
+
+Para evitar a **morte por inanição em Cobb Can Move**, você deve dominar os blocos procedurais do mapa. As cenouras são o único item que pode afastar a fome, e seu comportamento foi significativamente melhorado na atualização v1.3. Anteriormente, a comida era um recurso finito, mas a versão atual permite uma estratégia de sobrevivência mais sustentável, embora de alto risco.
+
+**A Atualização de Cenouras v1.3**
+O desenvolvedor implementou uma mecânica de reaparecimento para as cenouras, o que mudou o meta para a sobrevivência a longo prazo no Modo Infinito. Uma vez que uma cenoura é consumida, ela eventualmente reaparecerá em outro lugar nos blocos de mapa gerados. Isso evita "corridas perdidas" onde um jogador fica preso em um nível sem nenhuma maneira possível de satisfazer a fome.
+
+| Item | Lógica de Surgimento | Mudança na Atualização v1.6 | Conclusão do Jogador |
+| :--- | :--- | :--- | :--- |
+| **Cenoura** | Aleatoriamente em blocos de mapa | Não é mais de uso único | Memorize os pontos de surgimento para mais tarde |
+| **Carvão** | Perto de paredes/cantos | Menos provável de surgir perto da fornalha | Exige mais deslocamento para reabastecer |
+| **Pedras** | Espalhadas no chão | Agora podem atordoar Cobb ao acertar | Use para abrir caminho para a comida |
+| **Bateria** | Objetivos de nível fixos | Hitbox aumentada para o final | Concentre-se nelas apenas depois de comer |
+
+<Callout type="tip" title="Estratégia Pro">
+Use o buff "Item Swap" da v1.4. Agora você pode trocar itens mesmo que o local de descarte seja vermelho (sobre uma parede). Isso é vital quando você está carregando carvão, mas vê uma cenoura; você pode soltar o carvão por um canto para pegar a comida imediatamente sem perder seu recurso.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Lista de Verificação de Sobrevivência Passo a Passo">
+
+Prevenir a **morte por inanição em Cobb Can Move** requer uma abordagem metódica para cada novo nível. Como as regras são aleatórias, seus primeiros dez segundos em uma sala são os mais importantes para configurar uma corrida bem-sucedida.
+
+<Steps>
+  <Step num="1" title="Avaliação Inicial das Regras">
+    Verifique imediatamente a parte superior da tela para as regras ativas. Se "Fome" estiver listada, sua prioridade muda da coleta de carvão para a busca por pelo menos dois locais de cenoura antes que o medidor de fome se torne crítico.
+  </Step>
+  <Step num="2" title="Explore o Perímetro">
+    Mova-se ao longo das paredes externas dos blocos procedurais. Cenouras frequentemente surgem nas "zonas mortas" longe da fornalha central. Use pedras para distrair Cobb se ele estiver patrulhando as zonas de transição entre os blocos.
+  </Step>
+  <Step num="3" title="A Regra do Meio Medidor">
+    Nunca deixe seu medidor de fome cair abaixo de 50% se você estiver longe de um ponto de surgimento de cenoura conhecido. A penalidade de movimento e a distorção visual com pouca fome tornam quase impossível desviar das habilidades "Alcance" ou "Ver" de Cobb.
+  </Step>
+  <Step num="4" title="Coordene com o Disjuntor">
+    Se a regra "Fome" estiver emparelhada com "Congelar", você deve cronometrar suas buscas por cenouras com o status do disjuntor. Use os sprites atualizados do disjuntor v1.3 para manter as luzes acesas enquanto você procura, prevenindo um cenário de morte dupla.
+  </Step>
+  <Step num="5" title="Utilize Atordoamentos com Pedras">
+    Na v1.7, as pedras foram corrigidas para atordoar Cobb de forma confiável durante a perseguição. Se Cobb estiver acampando uma cenoura que você precisa desesperadamente, jogue uma pedra para um acerto direto. Isso fornece uma janela de 2-3 segundos para comer e recuar.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Nota do Desenvolvedor">
+A atualização v1.4 adicionou "Dicas de Morte". Se você morrer de fome, o jogo lhe dirá explicitamente. Use essas dicas para determinar se sua falha foi devido a um roteamento ruim ou simplesmente por perder uma cenoura que reapareceu.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Equilíbrio dos Sentidos de Cobb e Riscos de Fome">
+
+A dificuldade de evitar a **morte por inanição em Cobb Can Move** está diretamente ligada à forma como Cobb está atualmente "sentindo" você. O desenvolvedor lançou vários patches de equilíbrio (v1.4 a v1.7) que alteram o quão perigoso é se mover enquanto procura por comida.
+
+<CardGrid cols={2}>
+  <Card title="O Fator Olfato">
+    - **Atualização v1.7**: O olfato de Cobb foi enfraquecido.
+    - **Impacto**: Agora você pode demorar mais perto de fontes de alimento.
+    - **Estratégia**: Se Cobb "sentir" você enquanto você está comendo, é menos provável que ele permaneça em seu rastro indefinidamente.
+  </Card>
+  <Card title="O Fator Visão">
+    - **Atualização v1.5**: Alcance de visão de Cobb ajustado.
+    - **Impacto**: Manchas de cenoura bem iluminadas são mais perigosas.
+    - **Estratégia**: Aproxime-se da comida no escuro se "Cobb pode ver" estiver ativo, pois os níveis de luz determinam seu raio de detecção.
+  </Card>
+  <Card title="O Fator Perseguição">
+    - **Atualização v1.6**: Cobb acelera durante perseguições longas.
+    - **Impacto**: Você não pode enganar Cobb enquanto procura por comida.
+    - **Estratégia**: Quebre a linha de visão antes de tentar pegar ou comer uma cenoura.
+  </Card>
+  <Card title="O Fator Duplicado">
+    - **Nível 5+**: Cobb pode se duplicar.
+    - **Impacto**: Maior chance de ser encurralado em zonas ricas em alimentos.
+    - **Estratégia**: Use a mecânica "Empurrar" da v1.6 onde os duplicados empurram uns aos outros para passar por espaços apertados.
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Dica de Sobrevivência">
+O Nível 7 recebeu pedras extras na v1.5. Se você estiver lutando contra a inanição nos níveis finais, use essas pedras como um perímetro defensivo. Um Cobb atordoado não pode impedi-lo de alcançar as cenouras que reaparecem.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Modo Infinito e Objetivos Finais">
+
+No Modo Infinito, que começa no Nível 3 a partir da v1.3, a **morte por inanição em Cobb Can Move** torna-se o principal motivo de fim de corrida. À medida que os mapas crescem e a geração procedural adiciona mais blocos "sem saída", a distância entre as cenouras aumenta.
+
+**Escalonamento do Modo Infinito:**
+- **Nível 3-5**: Taxa de inanição padrão; cenouras são abundantes.
+- **Nível 6-10**: A fome diminui 15% mais rápido; cenouras surgem mais longe da fornalha.
+- **Nível 10+**: Múltiplos Cobbs (Duplicados) patrulham os pontos de surgimento de cenouras; pedras se tornam obrigatórias para a sobrevivência.
+
+<Checklist
+  id="starvation-survival"
+  title="Objetivos de Sobrevivência Especialista:"
+  items={[
+    "Localize três pontos de surgimento de cenoura antes do Nível 5",
+    "Atordoe Cobb com sucesso com uma pedra com <10% de fome",
+    "Complete o Nível 7 sem deixar a fome cair abaixo de 50%",
+    "Desbloqueie o menu de Seleção de Nível vencendo o Modo História",
+    "Sobreviva a uma corrida Infinita onde 'Fome' e 'Olfato' estão ativos"
+  ]}
+/>
+
+<Callout type="info" title="Nota da Tarefa Final">
+Durante a tarefa final (após colocar 4 baterias), a velocidade de Cobb foi ligeiramente enfraquecida na v1.4, mas buffada novamente na v1.5.2. Não negligencie sua fome durante esta sequência. Muitos jogadores sofrem uma **morte por inanição em Cobb Can Move** a centímetros da fornalha de explosão porque ignoraram seu medidor durante o final.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "Como sei se estou prestes a morrer de fome?",
+    answer: "O jogo fornece pistas visuais e auditivas. Sua tela começará a escurecer ou embaçar, e o texto da regra 'Fome' na parte superior da tela pode piscar. Na v1.4, dicas de morte foram adicionadas para confirmar a causa da morte após o fim da corrida."
+  },
+  {
+    question: "As cenouras reaparecem em Cobb Can Move?",
+    answer: "Sim. Desde a atualização v1.3, as cenouras reaparecem depois de serem comidas. Isso é essencial para sobreviver ao Nível 7 e ao Modo Infinito, onde você pode ficar preso na masmorra por longos períodos."
+  },
+  {
+    question: "Cobb pode me ver enquanto estou comendo?",
+    answer: "Comer em si não atrai Cobb, mas o nível de luz da área sim. Se 'Cobb pode ver' estiver ativo, estar em uma área iluminada perto de uma cenoura o torna altamente visível. Na v1.5, seu alcance de visão foi ajustado especificamente para equilibrar isso."
+  },
+  {
+    question: "Qual é a melhor maneira de evitar a fome durante o final?",
+    answer: "Antes de colocar a quarta bateria, certifique-se de que seu medidor de fome esteja em 100%. A tarefa final exige interação com a fornalha de explosão (que teve sua hitbox aumentada na v1.6), e você não terá tempo para procurar comida assim que o final começar."
+  }
+]} />
+
+</Section>

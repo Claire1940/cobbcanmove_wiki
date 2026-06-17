@@ -10,7 +10,14 @@
       "twitterDescription": "Cobb Can Move Wiki covers rules, Cobb abilities, endings, updates, controls, and survival tips for the itch.io pixel survival horror."
     }
   },
-  "nav": {},
+  "nav": {
+    "guide": "Guide",
+    "mechanics": "Mechanics",
+    "ending": "Ending",
+    "lore": "Lore",
+    "download": "Download",
+    "media": "Media"
+  },
   "common": {
     "home": "Home",
     "more": "More",
@@ -524,125 +531,125 @@
     "disclaimer": "Unofficial fan-made resource website."
   },
   "pages": {
-    "guides": {
+    "guide": {
       "title": "Cobb Can Move Guides",
-      "description": "Complete survival guides from beginner basics to advanced rule strategy. Master reading rules, routing coal, and outlasting Cobb.",
-      "metaTitle": "Cobb Can Move Guides - Beginner to Advanced Survival",
-      "metaDescription": "Complete Cobb Can Move guides covering beginner tips, the rule system, survival strategies, and expert tactics for mastering the pixel survival horror.",
-      "categoryLabel": "GAME GUIDES",
-      "whatIs": "What are Guides?",
-      "whatIsDescription": "Comprehensive guides covering gameplay mechanics, survival strategies, and the rule system. Learn everything from first steps to advanced techniques.",
-      "why": "Why read guides?",
+      "description": "Complete Cobb Can Move guides covering survival rules, story levels, Cobb's abilities, coal routing, furnaces, breakers, and how to beat every stage.",
+      "metaTitle": "Cobb Can Move Guides - Rules, Levels and Survival Walkthroughs",
+      "metaDescription": "Master Cobb Can Move with full guides on the rule system, story levels, items, Cobb abilities, and survival tactics for the itch.io pixel horror game.",
+      "categoryLabel": "GUIDES",
+      "whatIs": "What are Cobb Can Move Guides?",
+      "whatIsDescription": "Step-by-step walkthroughs and strategy guides covering the rule-changing survival loop, every story level, item routing, and how to outlast Cobb across each run.",
+      "why": "Why read the guides?",
       "whySteps": {
-        "step1Title": "Learn Core Mechanics",
-        "step1Description": "Understand the rule system and avoid common beginner mistakes",
-        "step2Title": "Fast Progression",
-        "step2Description": "Follow proven paths to survive and thrive across story and Endless runs",
-        "step3Title": "Master Strategies",
-        "step3Description": "Develop advanced tactics for adapting to changing rules"
+        "step1Title": "Understand the Rules",
+        "step1Description": "Learn how the changing-rule system reshapes every level before you move",
+        "step2Title": "Beat Every Level",
+        "step2Description": "Follow proven routes for coal, batteries, furnaces, and the final stage",
+        "step3Title": "Survive Longer",
+        "step3Description": "Build tactics for sensory rules, pursuit, and Cobb's abilities"
       },
       "featured": "Featured & Essential",
       "all": "All Guides"
     },
-    "controls": {
-      "title": "Cobb Can Move Controls",
-      "description": "Keyboard, gamepad, item pickup, drop, throw, and movement controls for Cobb Can Move.",
-      "metaTitle": "Cobb Can Move Controls - Keyboard, Gamepad and Movement",
-      "metaDescription": "Complete Cobb Can Move controls guide covering keyboard and gamepad input, item handling, and movement tips for the pixel survival horror.",
-      "categoryLabel": "CONTROLS",
-      "whatIs": "What are Controls?",
-      "whatIsDescription": "Guides to keyboard and gamepad input, item pickup, drop, and throw actions, and movement tips for careful play.",
-      "why": "Why check controls?",
+    "mechanics": {
+      "title": "Cobb Can Move Mechanics",
+      "description": "Deep dives into Cobb Can Move mechanics: modifiers, mutations, attributes, smell, senses, and how each rule changes Cobb's hunting behavior.",
+      "metaTitle": "Cobb Can Move Mechanics - Modifiers, Mutations and Senses",
+      "metaDescription": "Understand Cobb Can Move mechanics including modifiers, mutations, attributes, smell, hearing, sight, and how each sensory rule changes the hunt.",
+      "categoryLabel": "MECHANICS",
+      "whatIs": "What are Cobb Can Move Mechanics?",
+      "whatIsDescription": "Detailed breakdowns of the systems that drive each run, including modifiers, mutations, player attributes, and the sensory rules that decide how Cobb detects you.",
+      "why": "Why learn the mechanics?",
       "whySteps": {
-        "step1Title": "Pick Your Input",
-        "step1Description": "Choose keyboard or gamepad and learn the layout that fits careful movement",
-        "step2Title": "Handle Items",
-        "step2Description": "Learn pickup, drop, swap, and throw actions for clean inventory handling",
-        "step3Title": "Move Safely",
-        "step3Description": "Use deliberate movement to survive sensory rules"
+        "step1Title": "Decode Each Rule",
+        "step1Description": "See exactly how smell, sight, and reach change Cobb's behavior",
+        "step2Title": "Track Modifiers",
+        "step2Description": "Understand how modifiers and mutations shift from run to run",
+        "step3Title": "Escape Smelling",
+        "step3Description": "Learn reliable tactics to break Cobb's scent and survive pursuits"
       },
       "featured": "Featured & Essential",
-      "all": "All Controls"
+      "all": "All Mechanics"
     },
-    "rules": {
-      "title": "Cobb Can Move Rules",
-      "description": "How the changing-rule system works, including sensory rules, pursuit, reach, and duplicate behavior.",
-      "metaTitle": "Cobb Can Move Rules - Sensory, Pursuit and Reach",
-      "metaDescription": "Learn how Cobb Can Move rules change each level, covering sensory rules, pursuit speed, reach, and duplicate behavior.",
-      "categoryLabel": "RULES",
-      "whatIs": "What are Rules?",
-      "whatIsDescription": "Guides to the rule system that reshapes each run, including sensory rules, pursuit behavior, reach, and duplicate handling.",
-      "why": "Why learn rules?",
+    "ending": {
+      "title": "Cobb Can Move Endings",
+      "description": "Every Cobb Can Move ending, death type, and finale explained: full game clear, all deaths, starvation, killing Cobb, and the short-game route.",
+      "metaTitle": "Cobb Can Move Endings - All Deaths and Finale Routes",
+      "metaDescription": "Complete Cobb Can Move endings guide covering the full game clear, all death types, starvation, killing Cobb, and how to reach each finale.",
+      "categoryLabel": "ENDINGS",
+      "whatIs": "What are Cobb Can Move Endings?",
+      "whatIsDescription": "Coverage of every finale and death condition in the game, from the full story clear and battery ending to starvation, killing Cobb, and short-game outcomes.",
+      "why": "Why explore endings?",
       "whySteps": {
-        "step1Title": "Read Each Rule",
-        "step1Description": "Understand what the active rule means before moving",
-        "step2Title": "Adapt Fast",
-        "step2Description": "Change your approach as rules shift between levels",
-        "step3Title": "Avoid Traps",
-        "step3Description": "Recognize danger patterns tied to sight, smell, and pursuit"
+        "step1Title": "See Every Finale",
+        "step1Description": "Find every ending and the exact conditions that trigger each one",
+        "step2Title": "Avoid Deaths",
+        "step2Description": "Learn every death type so you can recognize and prevent them",
+        "step3Title": "Plan Your Clear",
+        "step3Description": "Pick the route that fits how you want to finish the game"
       },
       "featured": "Featured & Essential",
-      "all": "All Rules"
+      "all": "All Endings"
     },
-    "items": {
-      "title": "Cobb Can Move Items",
-      "description": "Detailed item guides covering coal, rocks, carrots, batteries, the furnace, and the breaker.",
-      "metaTitle": "Cobb Can Move Items - Coal, Rocks, Batteries and Furnace",
-      "metaDescription": "Complete Cobb Can Move item database including coal, rocks, carrots, batteries, the furnace, blast furnace, and breaker with usage tips.",
-      "categoryLabel": "ITEMS",
-      "whatIs": "What are Items?",
-      "whatIsDescription": "Comprehensive guides for interactable objects. Learn how each item affects survival, distraction, progression, and late-game pressure.",
-      "why": "Why check item guides?",
+    "lore": {
+      "title": "Cobb Can Move Lore",
+      "description": "The story, theories, and world of Cobb Can Move: who Cobb is, the player's role, species, and the narrative behind the pixel horror.",
+      "metaTitle": "Cobb Can Move Lore - Story, Who Is Cobb and Theories",
+      "metaDescription": "Explore Cobb Can Move lore including the story, who Cobb is, the player, species, and the theories behind the itch.io survival horror.",
+      "categoryLabel": "LORE",
+      "whatIs": "What is Cobb Can Move Lore?",
+      "whatIsDescription": "The narrative layer of the game, covering the story, Cobb's identity and species, the player's role, and the theories players have built around the world.",
+      "why": "Why read the lore?",
       "whySteps": {
-        "step1Title": "Use Items Well",
-        "step1Description": "Discover how coal, rocks, and batteries shape each run",
-        "step2Title": "Route Resources",
-        "step2Description": "Plan coal routing to and from the furnace",
-        "step3Title": "Finish Strong",
-        "step3Description": "Track batteries and the blast furnace for the ending"
+        "step1Title": "Know Cobb",
+        "step1Description": "Understand who Cobb is and what drives the monster",
+        "step2Title": "Follow the Story",
+        "step2Description": "Trace the narrative threads hidden inside each run",
+        "step3Title": "Explore Theories",
+        "step3Description": "See how players interpret the world, species, and the player's role"
       },
       "featured": "Featured & Essential",
-      "all": "All Items"
+      "all": "All Lore"
     },
-    "endless": {
-      "title": "Cobb Can Move Endless",
-      "description": "Endless mode, seeds, replay strategy, and how to adapt to changing rules over longer runs.",
-      "metaTitle": "Cobb Can Move Endless Mode - Seeds and Replay Strategy",
-      "metaDescription": "Master Cobb Can Move Endless mode with seeds, replay strategy, and tactics for adapting to changing rules as pressure rises.",
-      "categoryLabel": "ENDLESS",
-      "whatIs": "What is Endless?",
-      "whatIsDescription": "Guides to Endless mode, which starts at level 3 and keeps runs unpredictable through changing rules.",
-      "why": "Why play Endless?",
+    "download": {
+      "title": "Cobb Can Move Download",
+      "description": "How to download and play Cobb Can Move: the official itch.io page, browser play, Windows build, APK, Android, mobile, and supported platforms.",
+      "metaTitle": "Cobb Can Move Download - Play on itch.io, Windows and Mobile",
+      "metaDescription": "Get Cobb Can Move from the official itch.io page, with browser play, Windows download, mobile and Android options, and where to play safely.",
+      "categoryLabel": "DOWNLOAD",
+      "whatIs": "What is the Cobb Can Move Download?",
+      "whatIsDescription": "Guides to accessing the game through the official itch.io page, covering browser play, the Windows build, mobile and Android options, and every supported platform.",
+      "why": "Why use the official download?",
       "whySteps": {
-        "step1Title": "Repeat Runs",
-        "step1Description": "Jump into quick, rule-changing runs from level 3",
-        "step2Title": "Adapt",
-        "step2Description": "React to the active rule instead of memorizing routes",
-        "step3Title": "Push Farther",
-        "step3Description": "Survive rising pressure in later levels"
+        "step1Title": "Play Safely",
+        "step1Description": "Use the official itch.io page to avoid unofficial or unsafe copies",
+        "step2Title": "Pick Your Platform",
+        "step2Description": "Choose between browser, Windows, and mobile-friendly options",
+        "step3Title": "Stay Updated",
+        "step3Description": "Get the latest version and devlog updates straight from the source"
       },
       "featured": "Featured & Essential",
-      "all": "All Endless Guides"
+      "all": "All Download Guides"
     },
-    "updates": {
-      "title": "Cobb Can Move Updates",
-      "description": "Version notes, balance changes, bug fixes, and developer notes from the official devlog.",
-      "metaTitle": "Cobb Can Move Updates - Patch Notes and Version History",
-      "metaDescription": "Track Cobb Can Move updates including version notes, balance changes, bug fixes, and developer notes from the official itch.io devlog.",
-      "categoryLabel": "UPDATES",
-      "whatIs": "What are Updates?",
-      "whatIsDescription": "Version-by-version coverage of balance changes, quality-of-life additions, and bug fixes straight from the devlog.",
-      "why": "Why follow updates?",
+    "media": {
+      "title": "Cobb Can Move Media",
+      "description": "Cobb Can Move sprites, pixel art, and visual design: Cobb's look, environmental art, and how the visuals shape the horror atmosphere.",
+      "metaTitle": "Cobb Can Move Media - Sprites, Pixel Art and Visuals",
+      "metaDescription": "Browse Cobb Can Move media including sprites, pixel art, Cobb's design, and environmental visuals that define the survival horror look.",
+      "categoryLabel": "MEDIA",
+      "whatIs": "What is Cobb Can Move Media?",
+      "whatIsDescription": "Visual assets and design coverage, including Cobb's sprite, environmental pixel art, and how the art direction builds the game's oppressive horror atmosphere.",
+      "why": "Why explore the media?",
       "whySteps": {
-        "step1Title": "Stay Current",
-        "step1Description": "See how rules and items change across versions",
-        "step2Title": "Adjust Strategy",
-        "step2Description": "Adapt your play to the latest balance changes",
-        "step3Title": "Fix Issues",
-        "step3Description": "Find bug fixes and quality-of-life improvements"
+        "step1Title": "See the Art",
+        "step1Description": "Discover the pixel art style and Cobb's distinctive design",
+        "step2Title": "Understand Visuals",
+        "step2Description": "Learn how sprites and contrast build the horror mood",
+        "step3Title": "Track Visual Updates",
+        "step3Description": "See how the art evolved across game updates"
       },
       "featured": "Featured & Essential",
-      "all": "All Updates"
+      "all": "All Media"
     }
   }
 }
