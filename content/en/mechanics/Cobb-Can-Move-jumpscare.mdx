@@ -1,0 +1,174 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Cobb Can Move jumpscare: Rules & Survival Guide",
+  description: "Learn how to avoid the Cobb Can Move jumpscare. Read our guide on rules, items, furnace mechanics, and ending updates for this pixel horror game.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/070707/f4f4f4?text=Cobb+Can+Move+Jumpscare",
+  date: "2026-06-19",
+  author: "Cobb Can Move Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Cobb Can Move jumpscare**: Cobb triggers a sudden pixel-art grab and kill when he detects the player under active sensory rules.
+- **Dynamic Senses**: Cobb's abilities like see, hear, smell, and reach alter how he hunts and when he strikes.
+- **Defensive Utility**: Throw rocks directly to stun Cobb and break his chase path during dangerous pursuits.
+- **Core Objectives**: Maintain the furnace with coal and flip breakers to keep the map illuminated.
+</Callout>
+
+<Section icon={Shield} title="Cobb Can Move jumpscare: Mechanics of Terror">
+
+Surviving the **Cobb Can Move jumpscare** requires a deep understanding of the game's rule-shifting engine. Developed by abho and available on the [official itch.io page](https://abho.itch.io/cobb-can-move), this retro pixel horror game places you in dark, procedurally generated levels where the monster's capabilities shift dynamically. The jumpscare itself is triggered when the crawling red entity, Cobb, corners and grabs your character. 
+
+In earlier versions of the game, a notable bug sometimes allowed players to survive a physical grab without triggering the death sequence. However, updates in 2026 resolved this issue. If Cobb makes physical contact with your hitbox, the screen locks, a high-contrast pixel animation plays, and you are sent back to the main menu. 
+
+| Sensation Rule | Jumpscare Trigger Cause | Prevention Method |
+|:---|:---|:---|
+| **Cobb can see** | Holding active light source in Cobb's line of sight | Douse light or hide behind solid wall chunks |
+| **Cobb can hear** | Running, throwing rocks, or dropping items nearby | Move slowly (walk) and time item drops |
+| **Cobb can smell** | Idle player standing still for too long | Relocate constantly; smell nerfs in v1.7 reduce tracking persistence |
+| **Reach** | Close-quarters navigation near Cobb | Maintain a minimum spacing of 3+ tiles; watch out for large steps |
+
+<Callout type="warning" title="Important Death Mechanic Update">
+Since the v1.4 patch, the game features dynamic death tips. When you fail a level, the game displays a contextual hint that explains which active rule you violated, helping you adjust your strategy for the next attempt.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Dynamic Rules: Sensory Behaviors & Cobb Senses">
+
+The primary hook of this pixel horror experience is that you cannot rely on a single, static survival strategy. Every level selects random rules that dictate how Cobb detects you. If you treat a level where "Cobb can see" the same as one where "Cobb can smell," you will trigger the **Cobb Can Move jumpscare** almost immediately.
+
+Understanding how these senses operate in the procedurally generated environments is key to navigating the dark hallways safely.
+
+<CardGrid cols={3}>
+  <Card title="Visual Tracking">
+    - **Cobb can see** rule relies heavily on player illumination.
+    - Turning on your flashlight within his line of sight instantly alerts him.
+    - v1.4 and v1.5 updates actively balanced his visual range to prevent unfair wall-sniping.
+  </Card>
+  <Card title="Acoustic Tracking">
+    - **Cobb can hear** rule penalizes loud movements.
+    - Running or tossing items like rocks generates sound waves that Cobb tracks.
+    - Sneaking and careful resource management are mandatory.
+  </Card>
+  <Card title="Olfactory Tracking">
+    - **Cobb can smell** rule makes hiding in one spot impossible.
+    - Cobb slowly tracks your historical path, sniffing you out over time.
+    - Nerfed in v1.7, sniffs are now less frequent, giving you room to breathe.
+  </Card>
+</CardGrid>
+
+During long chases, Cobb gets progressively faster. The v1.6 update implemented a pursuit acceleration mechanic, though it was slightly dialed back in the v1.7 patch to keep chases fair. Additionally, when the "Reach" rule is active, Cobb changes his movement animation to take larger steps. This reduces his base speed but allows him to close short gaps instantly, catching unprepared players by surprise.
+
+<Callout type="tip" title="Guaranteed Level 2 Rule">
+The v1.4 update guarantees that Level 2 will always feature a sensory rule (either hear, smell, or see). Use this level to learn the baseline behavior of Cobb's tracking systems before additional mechanics load in later stages.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Items Guide: Furnace, Coal, and Defensive Utility">
+
+To keep Cobb at bay and prevent the darkness from crushing you, you must interact with various items scattered across the procedural layout. The core gameplay loop involves feeding the central furnace with coal, maintaining the breaker boxes, and collecting defensive rocks.
+
+| Item Name | Role & Function | Update Note (2026) | Tactical Takeaway |
+|:---|:---|:---|:---|
+| **Coal** | Central survival fuel for the furnace. | v1.6 prevents spawns directly beside the furnace. | Expect to travel further into dark corridors to locate fuel. |
+| **Rocks** | Throwables used for distraction and self-defense. | v1.6 added short stun; v1.7 fixed pursuit stun bug. | Throw directly at Cobb's face during chases to buy escape time. |
+| **Carrots** | Stamina-restoring food items. | v1.3 enabled carrot respawns when consumed. | Re-visit harvested carrot patches if your stamina bar runs low. |
+| **Batteries** | Progression items required to unlock final stages. | v1.4 altered final task text after placing 4 units. | Prioritize battery collection early before Cobb's speed scales. |
+| **Breaker** | Map objective to restore lighting. | v1.3 updated the sprite asset to make it easier to see. | Always map out the breaker location in case the fuse blows. |
+
+Managing your inventory in tight corridors can be stressful, especially when Cobb is closing in. Fortunately, quality-of-life updates have streamlined item handling.
+
+<Callout type="success" title="Inventory Handling Buff">
+Beginning in v1.4, you can swap items even if the drop spot is highlighted in red over a wall. This prevents inventory lockups when backed into tight corners.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Story Progression: Level 7 and Final Tasks">
+
+Story mode guides you through a rising difficulty curve, introducing rule combinations that make avoiding the **Cobb Can Move jumpscare** increasingly complex. Reaching the ending requires careful execution of the final tasks.
+
+<Steps>
+  <Step num="1" title="Survive Early Rule Introduction">
+    Learn the basics in Levels 1 through 3. Keep the furnace lit and learn to identify when Cobb can hear or see your movements.
+  </Step>
+  <Step num="2" title="Navigate Level 7 Setup">
+    Level 7 is the final major hurdle. The v1.5 update added extra rocks to this level. Collect as many rocks as possible before starting the generator sequence to ensure you have defensive options.
+  </Step>
+  <Step num="3" title="Install the Four Batteries">
+    Search the procedural chunks to locate all four batteries. Place them into the slots to trigger the ending sequence.
+  </Step>
+  <Step num="4" title="Interact with the Blast Furnace">
+    Once the batteries are active, locate the blast furnace to trigger the final escape task. The v1.6 update enlarged this machine's hitbox, making it much easier to interact with in low-light conditions.
+  </Step>
+  <Step num="5" title="Manage Cobb's Finale Speed">
+    During the final task, Cobb moves at high speeds. This encounter was rebalanced in v1.4 (speed reduced) and adjusted again in v1.5.2 to maintain tension without making the escape impossible.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Post-Game Level Select">
+Beating the story mode once unlocks a permanent level select menu. This allows you to replay specific stages like Level 7 to practice speedruns or test different item combinations.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Endless Mode: Adapting to the Chaos">
+
+For players looking to test their limits, Endless Mode removes the linear structure of the story and challenges you to survive against scaling difficulty. Because the layout changes with every attempt, memorizing fixed paths is useless.
+
+Survival in Endless Mode relies entirely on real-time adaptability and threat prioritization.
+
+<Checklist
+  id="endless-survival-checklist"
+  title="Endless Mode Survival Priorities:"
+  items={[
+    "Scan the HUD rules immediately upon spawning into Level 3.",
+    "Locate the closest breaker box and secure a clear escape pathway.",
+    "Hoard rocks to prepare for duplicate Cobbs that spawn after Level 5.",
+    "Keep moving to avoid the tracking path of Cobb's scent senses."
+  ]}
+/>
+
+In Endless Mode, duplicate Cobbs can spawn to double the threat. In older versions, these duplicates could merge back into a single sprite, causing visual bugs and sudden jumpscares. The v1.6 update resolved this by forcing duplicate Cobbs to physically push each other away, keeping their hitboxes separate and clear.
+
+<Callout type="warning" title="Endless Mode Starting Level">
+Endless Mode officially starts at Level 3. You will skip the introductory levels and drop directly into high-tension rule scenarios with increased monster speeds.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="FAQ: Cobb Can Move jumpscare Solutions">
+
+<FAQ items={[
+  {
+    question: "How do I stop Cobb from trigger-catching me during a chase?",
+    answer: "Keep a rock in your inventory. Throw the rock directly at Cobb. Since the v1.7 balance updates, rocks reliably stun Cobb even when he is actively chasing you, breaking his tracking loop."
+  },
+  {
+    question: "Can I play the game on Roblox or Steam?",
+    answer: "No. The official game is hosted exclusively on abho's itch.io page as an HTML5 browser game and downloadable Windows package. Any listings on Roblox or Steam are unofficial duplicates."
+  },
+  {
+    question: "What does the 'Duplicate' rule do in late-game levels?",
+    answer: "The Duplicate rule allows multiple Cobbs to spawn. In v1.6, updates ensured duplicates push each other instead of merging, meaning you have to keep track of multiple distinct threats at once."
+  },
+  {
+    question: "How do I deal with the 'Cobb can smell' rule?",
+    answer: "Do not camp or stay in one place. Cobb slowly tracks your historical coordinates when this rule is active. Keep moving, feed the furnace quickly, and change your paths frequently."
+  }
+]} />
+
+<Callout type="tip" title="Official Community Channels">
+If you want to follow game updates, report bugs, or share strategies, join the official Discord server linked on the developer's itch.io page.
+</Callout>
+
+</Section>

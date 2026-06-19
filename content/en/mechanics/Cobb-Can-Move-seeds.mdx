@@ -1,0 +1,169 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Cobb Can Move Seeds: Procedural Generation & Map Layout Guide",
+  description: "Learn how Cobb Can Move seeds govern procedural layouts, item placement, and rule changes to optimize your survival strategies in Endless Mode.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/2b0b0b/fff?text=Cobb+Can+Move+Seeds+Guide",
+  date: "2026-06-19",
+  author: "Cobb Can Move Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Procedural Engine**: Map layouts generate dynamically from modular chunk assets based on specific seed values.
+- **Rules Overwrite Seeds**: The physical geometry of the map is seeded, but active rules like sensory triggers randomize independently.
+- **Critical Resource Routing**: Item spawns such as coal and rocks adjust density depending on the difficulty rating of the level.
+- **Endless Start Line**: Endless Mode begins at Level 3, introducing higher pressure rules and complex layouts immediately.
+- **Defensive Item Focus**: Throwing rocks at Cobb provides a brief stun, but position layout dictates where rocks generate.
+</Callout>
+
+<Section icon={Map} title="How Cobb Can Move Seeds Work">
+
+Surviving the shifting corridors of abho's retro survival horror game requires a deep understanding of layout generation, especially when utilizing specific **Cobb Can Move seeds** to dictate map structures. Seeds in this game act as the core mathematical input for the procedural generation engine. They lock the physical configuration of walls, corridors, and primary interactable objects like the furnace and electrical breakers. 
+
+While the physical geometry remains static under a designated seed, the behavior of the monster, Cobb, adjusts dynamically based on the rule assigned to the level. Understanding this separation between map generation and rule application is key to surviving high-difficulty runs.
+
+<Callout type="info" title="Seeding vs. Rules">
+A seed dictates the physical coordinates of walls, obstacles, and items. However, the rule text (such as whether Cobb can see, smell, or duplicate) is applied dynamically at the start of the level.
+</Callout>
+
+In the early game versions, maps were highly unpredictable. From the [Major Jam 7 Winner Devlog](https://abho.itch.io/cobb-can-move/devlog/970077/major-jam-7-winner-devlog), the developer noted that the game utilizes chunk-based procedural generation. Specific seed configurations ensure that players can practice identical layouts while still dealing with randomized threat rules.
+
+| Feature | Story Mode Seeds | Endless Mode Seeds |
+| :--- | :--- | :--- |
+| **Generation Type** | Semi-fixed progression sets | Fully randomized procedural loops |
+| **Start Level** | Level 1 (Tutorial basics) | Level 3 (Immediate rule pressure) |
+| **Item Scarcity** | Balanced for progression | Escalate dynamically per level |
+| **Layout Length** | Standard localized rooms | Expanding corridors and larger grids |
+
+</Section>
+
+<Section icon={Target} title="Procedural Layout and Item Spawning Mechanics">
+
+The game's procedural engine relies on discrete rooms or "chunks" stitched together. The generator places critical interactive assets based on proximity rules to avoid unfair scenarios. For example, recent balance updates changed how resource locations relate to central objectives.
+
+Understanding how items spawn in these seeded maps helps players outline routing strategies. If a player knows how the engine decides where to drop items, they can predict layout directions without walking blindly into dark corners.
+
+<Callout type="warning" title="Coal Spawning Rule Changes">
+Following the v1.6 patch, the procedural engine restricts coal from spawning directly adjacent to the furnace. Players must venture further into the corridors to retrieve fuel.
+</Callout>
+
+Item spawning changes across updates have made exploration riskier. In earlier versions, players could occasionally find essential items grouped together. The current balance rules spread items across the maze.
+
+| Item | Spawn Logic | Update Notes | Primary Survival Tactic |
+| :--- | :--- | :--- | :--- |
+| **Coal** | Spawns in dark outer corridors | v1.6 restricted spawns close to the furnace | Establish conveyor routes early |
+| **Rocks** | Scattered near walls and corners | v1.5 added more rocks to Level 7 layouts | Hoard rocks to prepare defense options |
+| **Carrots** | Distributed evenly in rooms | v1.3 enabled carrot respawns upon consumption | Backtrack to known carrot spots when starving |
+| **Batteries** | Spawn at coordinates furthest from center | v1.4 updated final task battery triggers | Locate all four before starting the breaker |
+
+</Section>
+
+<Section icon={Shield} title="Strategic Approaches for Endless Seeds">
+
+Endless Mode requires a different mindset than Story Mode. Because Endless runs start directly at Level 3, players face complex rule combinations immediately. Rather than relying on simple pathing, players must analyze layout generation patterns to predict corridor outlets.
+
+<CardGrid cols={3}>
+  <Card title="Scout the Center Chunk">
+    Locate the central furnace immediately. Most seeded layouts generate the furnace near the starting zone, serving as your primary anchor point.
+  </Card>
+  <Card title="Track the Outer Ring">
+    Keep to the perimeter when collecting coal. The procedural engine generates high-density resource chunks along the outer borders of the seed map.
+  </Card>
+  <Card title="Maintain Escape Paths">
+    Never enter a dead-end corridor without checking your exit. Seeded maps regularly generate single-entrance rooms that can trap you.
+  </Card>
+</CardGrid>
+
+Cobb's sensory rules interact directly with the physical map layout. For instance, if the seed generates narrow corridors and the active rule is "Cobb can smell," players face high danger. 
+
+According to the official [v1.7 Devlog Details](https://abho.itch.io/cobb-can-move/devlog/1527864/v17), Cobb's smell ability was adjusted to decrease sniff frequency and persistence at close range. This balance adjustment gives players a better chance to escape when cornered in tight corridors.
+
+<Callout type="success" title="Pursuit Balance">
+The v1.7 update nerfed Cobb's long-pursuit acceleration, allowing players to outrun him in long corridors if they plan their routes correctly.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Progression Guide from Story to Endless">
+
+Before jumping into complex Endless Mode layouts, players should learn the game's mechanics in Story Mode. The story levels introduce mechanics gradually, preparing players for the unpredictable generation of late-game runs.
+
+<Steps>
+  <Step num="1" title="Learn Sensory Basics (Level 2)">
+    The game guarantees a sensory rule (Hear, Smell, or See) starting at Level 2. Use this level to understand how Cobb reacts to light and noise.
+  </Step>
+  <Step num="2" title="Master Inventory Management">
+    Practice dropping and swapping items. Use the v1.4 drop adjustment, which allows item swapping even when dropping over a wall (indicated by a red highlight).
+  </Step>
+  <Step num="3" title="Survive Level 7 Pressure">
+    Use the rocks added in v1.5 on Level 7 to practice stunning Cobb. Throwing rocks with a direct hit stuns Cobb, providing a window to escape.
+  </Step>
+  <Step num="4" title="Complete the Story Mode Ending">
+    Complete the final task by placing the four batteries and using the blast furnace, which received a larger collision box in v1.6 to prevent interaction errors.
+  </Step>
+  <Step num="5" title="Transition to Endless Mode Seeds">
+    Once you complete the story, use the unlocked Level Select menu to practice specific levels, or jump into Endless Mode where layouts scale in size.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Level Select Unlock">
+Beating the story mode once unlocks the Level Select menu in v1.5. This allows players to replay specific layouts to test routing patterns.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Key Milestones for Endless Mastery">
+
+To consistently reach high levels in Endless Mode, players should track their progress and focus on key survival objectives. 
+
+<Checklist
+  id="endless-progression-goals"
+  title="Endless Mode Goals:"
+  items={[
+    "Locate the furnace within the first 10 seconds of starting a level",
+    "Gather at least three defensive rocks before starting the coal loop",
+    "Identify active rules immediately by reading the text box at the start of a level",
+    "Utilize conveyor belts to move coal safely from outer corridors",
+    "Reach Level 10 in Endless Mode to unlock advanced layout variations"
+  ]}
+/>
+
+<Callout type="tip" title="Conveyor Belt Routing">
+Using the conveyor belts generated in specific rooms helps transport coal over long distances without risking high stamina loss in dark zones.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "How do Cobb Can Move seeds affect the layout of a run?",
+    answer: "Seeds determine the physical maze structure, including wall placement, room connections, and spawn points for items like coal, rocks, and the furnace. However, the active rule changes dynamically each run."
+  },
+  {
+    question: "Can I use community-shared seeds in the HTML5 browser version?",
+    answer: "Yes, the HTML5 browser version on itch.io supports seed entry for Endless Mode, allowing you to play the exact same layout structure as other players."
+  },
+  {
+    question: "How do updates like v1.7 change how seeds generate items?",
+    answer: "While updates don't change the seed formulas, they adjust spawn parameters. For example, v1.6 prevented coal from spawning directly next to the furnace, and v1.5 added more rocks to late-game levels."
+  },
+  {
+    question: "Why does Cobb seem faster on some seeds?",
+    answer: "Cobb's speed is determined by active rules and pursuit duration rather than the seed itself. In v1.6, Cobb gets faster during long chases, though this acceleration was slightly reduced in the v1.7 update."
+  }
+]} />
+
+<Callout type="info" title="Official Download Note">
+Always play on the official itch.io page at [abho.itch.io/cobb-can-move](https://abho.itch.io/cobb-can-move) to ensure your game client is updated to v1.7 and all seed generation functions run correctly.
+</Callout>
+
+</Section>

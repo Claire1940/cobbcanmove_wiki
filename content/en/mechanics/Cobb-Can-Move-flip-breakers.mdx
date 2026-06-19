@@ -1,0 +1,191 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Cobb Can Move flip breakers: Map Mechanics & Run Tactics",
+  description: "Master how to locate, reach, and flip breakers in Cobb Can Move. Learn map rules, avoid Cobb's senses, and manage coal routing under pressure in this guide.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/111827/f3f4f6?text=Breakers+and+Map+Guide",
+  date: "2026-06-19",
+  author: "Cobb Can Move Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Core Mechanic**: The breaker restores map visibility, preventing the player from freezing in low-light environments.
+- **Visual Tell**: The breaker sprite was updated in version 1.3 to feature a more distinct, high-contrast look in dark areas.
+- **Sensory Hazards**: Flipping breakers triggers sound, making players highly vulnerable if the **Cobb can hear** rule is active.
+- **Distraction Strategy**: Throw rocks to stun Cobb or lure him away before attempting to interact with a breaker.
+- **Movement Tip**: Keep a clean path to the furnace; coal spawns farther away as of version 1.6, putting pressure on your route.
+</Callout>
+
+In the pixel-art survival horror game by abho, mastering the layout and executing a clean **Cobb Can Move flip breakers** routine is the difference between survival and a swift game over. In this top-down horror game, the rules change constantly, but your need for light and visibility remains absolute. Restoring power by finding and resetting the circuit breakers is a primary objective that keeps the cold, dark maze from consuming you.
+
+<Section icon={Map} title="Cobb Can Move flip breakers: Mechanics & Light Loop">
+
+Flipping breakers is the primary method for maintaining light levels across the procedurally generated levels. When the map falls completely dark, player movement is heavily restricted, and the player begins to freeze. Locating the breaker and interacting with it resets the room's illumination, allowing you to locate resources like coal and carrots.
+
+The developer updated the breaker sprite in version 1.3 to make it stand out against the dark, grimy dungeon walls. Knowing what the breaker looks like—and how to path toward it without getting trapped by Cobb—is critical.
+
+|Breaker State|Visual Appearance|Light Level Effect|Player Impact|
+|---|---|---|---|
+|**Active**|Bright indicator light|Full room illumination|Safe movement, normal temperature|
+|**Tripped**|Dark, metallic sprite|Fading light / complete darkness|Triggers freezing, restricts visibility|
+|**Interacting**|Interaction prompt|Restores light upon completion|Player is static and vulnerable|
+
+<Callout type="warning" title="Freezing Hazard">
+Do not stay in unlit areas for too long. If the breaker trips and the room goes dark, your screen will begin to frost over, indicating that the freeze mechanic is active. Prioritize finding the breaker sprite over collecting extra coal during dark phases.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Cobb's Senses and Breaker Threat Levels">
+
+Cobb behaves differently depending on the active ruleset of the level. When you navigate the map to flip breakers, you must evaluate which sensory rules are active. The version 1.4 update guarantees that Level 2 introduces a sensory rule (Hear, Smell, or See), forcing players to adapt early in the story mode.
+
+Flipping a breaker makes noise and requires you to stand still. If the active rule is "Cobb can hear," flipping a breaker without throwing a distraction rock first will invite a direct attack. Version 1.7 nerfed the "Cobb can smell" rule, making Cobb sniff less frequently, which gives you slightly more time to complete breaker interactions before being tracked.
+
+|Active Rule|Cobb's Behavior|Breaker Approach Strategy|Danger Rating|
+|---|---|---|---|
+|**Cobb can hear**|Detects running and breaker interactions|Walk slowly; use rocks to distract Cobb elsewhere|★★★★★|
+|**Cobb can see**|Detects player in light beams|Use shadows; approach breaker when Cobb faces away|★★★★☆|
+|**Cobb can smell**|Slowly tracks player's exact path|Keep moving; do not linger near the breaker room|★★★☆☆|
+|**Cobb can reach**|Takes larger steps during pursuits|Maintain extra spacing; do not get cornered near walls|★★★★☆|
+|**Duplicate Cobb**|Multiple Cobbs spawn and patrol|Check both escape routes; duplicates do not merge|★★★★★|
+
+<Callout type="tip" title="Defensive Rock Throwing">
+As of version 1.6, a direct hit with a rock will stun Cobb briefly. If Cobb corners you at a breaker panel, throw a rock directly at him to buy enough time to slip past his hitbox.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Step-by-Step Guide: Resetting the Breaker Safely">
+
+Navigating to the breaker panel requires careful planning. Follow these steps to secure the area, reset the power, and escape back to the safety of the furnace room.
+
+<Steps>
+  <Step num="1" title="Read the Active Level Rules">
+    As soon as the run begins, check the rule text displayed on the screen. Adjust your movement speed and stealth tactics to match Cobb's current sensory capabilities.
+  </Step>
+  <Step num="2" title="Locate the Breaker Sprite">
+    Scan the hallways for the updated high-contrast breaker sprite. Listen closely for Cobb's crawling noises to determine which direction he is patrolling.
+  </Step>
+  <Step num="3" title="Clear the Surrounding Area">
+    Before interacting with the panel, ensure you have a throw-ready rock in your inventory. Stun Cobb if he is nearby, or throw a rock down an opposite corridor to create a sound distraction.
+  </Step>
+  <Step num="4" title="Interact and Flip the Switch">
+    Approach the breaker and hold the interaction key. Keep an eye on the edges of the screen for Cobb's long crawling arms.
+  </Step>
+  <Step num="5" title="Retreat along the Coal Route">
+    Once the lights flash back on, immediately move back toward the furnace. Avoid staying in dead-end breaker rooms where escape routes are limited.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Input Options">
+The game supports both Keyboard and Gamepad inputs. The version 1.6 update optimized international layouts (such as AZERTY), making movement and item-tossing controls much more responsive during tense breaker interactions.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Resource Routing: Managing Coal, Rocks, and Carrots">
+
+Survival in this dark dungeon requires balancing your resource intake while keeping the breaker active. The furnace serves as your home base, but the version 1.6 update adjusted coal spawns so that fuel is less likely to appear directly next to the furnace. This forces you to travel deeper into the corridors, increasing the chances of the breaker tripping while you are far from safety.
+
+Utilize carrots to manage your hunger. Since version 1.3, carrots respawn after being consumed, allowing you to establish a sustainable route between the carrot spawn points, the breaker panel, and the central furnace.
+
+|Resource|Primary Function|Breaker Room Application|Update Note|
+|---|---|---|---|
+|**Coal**|Fuel source for the furnace|Collect along the way; do not carry during chases|v1.6 spawns coal farther away|
+|**Rocks**|Stun Cobb / distract senses|Throw to secure the breaker room before flipping|v1.7 fixed pursuit stun bugs|
+|**Carrots**|Prevents starvation|Eat to restore stamina before a long breaker run|v1.3 carrots respawn|
+|**Batteries**|Triggers ending sequence|Place 4 batteries to activate the final task|v1.4 adjusted final task text|
+
+<Callout type="success" title="Wall Dropping Feature">
+Since version 1.4, you can swap items even when the drop indicator is red or positioned over a wall. Use this to quickly drop a coal piece and pick up a defensive rock near the breaker without getting stuck on collision geometry.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Tactical Variations: Story Mode vs Endless Mode">
+
+Flipping breakers requires different routing strategies depending on whether you are progressing through the narrative or pushing for high scores in the procedurally generated Endless mode.
+
+### Story Mode Progression
+In Story Mode, the developer guides you through structured challenges. Level 7 features extra rocks, which are placed strategically near breaker locations to help you combat Cobb's aggressive pursuit patterns. The ending sequence features a blast furnace with an expanded interaction hitbox (added in version 1.6), allowing for faster final task completions.
+
+### Endless Mode Scaling
+Endless Mode starts at Level 3 as of version 1.3, skipping the simpler introductory stages. The map uses procedural chunk generation with seeded randomness. You cannot memorize a single static route; instead, you must quickly scan the layout of each chunk to find the breaker.
+
+<CardGrid cols={3}>
+  <Card title="Chunk Scouting">
+    In Endless Mode, identify the location of the breaker immediately upon entering a new chunk. Do not wait for the lights to fail.
+  </Card>
+  <Card title="Duplicate Management">
+    After Level 5, duplicates spawn. Because duplicates push each other instead of merging (v1.6 fix), they can block narrow breaker corridors.
+  </Card>
+  <Card title="Pursuit Scaling">
+    During long pursuits, Cobb's acceleration increases. Minimize chase times by using breaker rooms with multiple exit paths.
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Pursuit Balance">
+If Cobb spots you resetting a breaker, do not try to outrun him in a straight corridor. Version 1.6 increased his speed during long chases, though version 1.7 slightly dialed back this acceleration to keep escape routes viable.
+</Callout>
+
+<Checklist
+  id="breaker-run-checklist"
+  title="Breaker Room Safety Checklist:"
+  items={[
+    "Verify the active level rule displayed on screen",
+    "Locate at least one backup rock before entering the breaker room",
+    "Identify two distinct escape paths out of the breaker hallway",
+    "Clear nearby crawling duplicates before starting the switch interaction",
+    "Reset the furnace fuel level before attempting a distant breaker run"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Sparkles} title="Official Version Updates and Balance Changes">
+
+The developer, abho, has actively balanced Cobb's mechanics, breaker interactions, and item utilities across several patches. The following timeline outlines the updates that directly impact your pathing, survival, and general run strategies.
+
+|Version|Release Date|Core Gameplay Balance Adjustments|Impact on Breaker Runs|
+|---|---|---|---|
+|**v1.7**|2026-05-19|Nerfed Cobb's smell persistence; fixed rock pursuit stuns|Rocks are now fully reliable defense tools during runs|
+|**v1.6**|2026-05-16|Added rock stuns; increased ending furnace hitbox; adjusted coal spawn|Forces wider pathing; makes rock collection mandatory|
+|**v1.5**|2026-05-10|Added Level 7 rocks; unlocked post-clear level select menu|Allows targeted practice of complex late-game breaker routes|
+|**v1.4**|2026-05-09|Guaranteed Level 2 sensory rule; nerfed sight; added death tips|Helps players learn breaker routing rules after failing|
+
+<Callout type="tip" title="Level Practice">
+Use the Level Select menu (unlocked after your first story clear) to practice routing runs on Level 7. Mastering rock throws and breaker placements in a controlled setting makes Endless Mode much more manageable.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "What is the safest way to execute Cobb Can Move flip breakers runs?",
+    answer: "The safest method is to locate a rock first, walk quietly to the breaker panel to avoid triggering noise sensors, throw the rock to distract Cobb if he is nearby, and then hold the interaction key to flip the switch."
+  },
+  {
+    question: "Why does Cobb run faster when I try to reset the breaker?",
+    answer: "Cobb gains speed during long pursuits (adjusted in version 1.6 and 1.7). Additionally, if the active rule is 'Cobb can see' or 'Cobb can hear', the noise and light changes from the breaker panel can instantly alert him to your location."
+  },
+  {
+    question: "Do breakers spawn in the same location every run?",
+    answer: "In Story Mode, the layouts are consistent, but in Endless Mode (which starts at Level 3), the maps are procedurally generated using randomized chunks. You must search the walls to locate the updated, high-contrast breaker sprite."
+  },
+  {
+    question: "What should I do if the breaker room is a dead end?",
+    answer: "Never enter a dead-end breaker room without a rock in your inventory. If Cobb enters the corridor, your only defense is throwing a rock directly at him to trigger a brief stun, allowing you to slip past his collision box."
+  }
+]} />
+
+</Section>

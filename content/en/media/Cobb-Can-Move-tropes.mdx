@@ -1,0 +1,181 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Cobb Can Move Tropes: Pixel Horror Design & Mechanics",
+  description: "Explore the core Cobb Can Move tropes, sensory rules, Endless mode scaling, items, and design updates in abho's award-winning indie horror game.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/2a0808/fff?text=Cobb+Can+Move+Tropes",
+  date: "2026-06-19",
+  author: "Cobb Can Move Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Subverting Tropes**: The game flips standard survival rules by changing mechanics dynamically every single level.
+- **Cobb Can Move Tropes**: Utilizes sensory-based horror patterns (Hear, See, Smell) to alter monster detection parameters.
+- **Key Mechanics**: Balancing battery collection, breaker management, and coal fueling under unpredictable threat structures.
+- **Strategic Defenses**: Throwing rocks acts as a direct counter-measure, capable of briefly stunning Cobb in high-tension moments.
+- **Platform Availability**: Available via the official itch.io page for browser play and Windows download.
+</Callout>
+
+<Section icon={Map} title="The Anatomy of Cobb Can Move Tropes in Modern Pixel Horror">
+
+Analyzing the underlying **Cobb Can Move tropes** reveals how modern indie developers subvert traditional horror design patterns to create tension. Developed by abho as a winning entry for Major Jam 7: Wild, the game departs from typical retro survival horror structures. Instead of relying on static monster behaviors, it implements procedural rule generation to keep players perpetually disoriented. 
+
+By combining top-down dungeon mechanics with changing rule sets, the game directly challenges the trope of the predictable AI. Players cannot simply memorize a single routing path. The core mechanics force players to adapt to whatever sensory parameters or physical limits are active during a given run.
+
+<Callout type="info" title="Development Context">
+The official release is hosted on itch.io under a name-your-own-price model, supporting both HTML5 browser play and a downloadable Windows build.
+</Callout>
+
+| Trope Name | Game Mechanics | Design Impact |
+| --- | --- | --- |
+| Rules Change | AI behavior and player limitations randomize. | Active rules display at level start, forcing immediate adaptation. |
+| Sensory Hunting | Monster tracks player through various senses. | Cobb switches between Seeing, Hearing, and Smelling mechanics. |
+| Item Distraction | Throwables divert the monster's attention. | Rocks can be thrown to make noise or directly stun Cobb on hit. |
+| Resource Decay | Continuous pressure requiring constant fuel. | The furnace requires coal hauling to maintain visibility and heat. |
+
+</Section>
+
+<Section icon={Shield} title="Rule-Changing Gameplay: Breaking the Static Survival Trope">
+
+The most significant departure from standard horror conventions is the variable rule mechanic. In traditional survival horror, players learn the exact detection radius, walking speed, and attack patterns of their pursuer. This game replaces that predictability with dynamic parameters. At the beginning of each floor, players receive a rules text message indicating the current constraints of the run.
+
+This framework directly subverts the static puzzle-dungeon trope. You might navigate one level focusing purely on line-of-sight safety, only to find the next level demands complete silence or rapid movement to avoid freezing.
+
+<Callout type="warning" title="Dynamic Threat Alert">
+Always read the rule text at the start of a level. Treating a new floor like the previous one is the most common cause of early-game deaths.
+</Callout>
+
+<CardGrid cols={3}>
+  <Card title="Procedural Rules">
+    - **Variable Constraints**: Shifts active rules randomly.
+    - **No Fixed Routes**: Eliminates repetitive map pathing.
+    - **High Adaptability**: Demands instant tactical changes.
+  </Card>
+  <Card title="Sensory Evolution">
+    - **Evolving AI**: Switches between sight, sound, and smell.
+    - **Detection Tuners**: Tracks player light levels and steps.
+    - **Aggression Scaling**: Pursuits speed up over time.
+  </Card>
+  <Card title="Player Pressures">
+    - **Freezing Risks**: Low light levels cause player freeze.
+    - **Starvation Meter**: Requires constant carrot gathering.
+    - **Inventory Limits**: Red zones restrict simple item drops.
+  </Card>
+</CardGrid>
+
+</Section>
+
+<Section icon={Swords} title="Cobb's Sensory Abilities and Combat Tropes">
+
+The monster, Cobb, uses five distinct rules to interact with players. These sensory abilities dictate how carefully you must navigate the procedurally generated corridors. Recent updates, up to version v1.7, have refined these parameters to balance the challenge without sacrificing the underlying tension.
+
+Understanding Cobb's capabilities requires analyzing how each sense alters the environment. For instance, the sight rule turns player light sources into beacons, while the smell rule turns hiding behind walls into a temporary delay rather than a permanent escape.
+
+<Callout type="tip" title="Tuning Update">
+The v1.7 balance update nerfed the 'Cobb can smell' rule, making sniffs less frequent and reducing persistence when Cobb is at close range.
+</Callout>
+
+| Sensory Rule | Mechanic Details | Player Counter-Strategy |
+| --- | --- | --- |
+| Cobb Can Hear | Tracks player footsteps and throwables. | Walk slowly or throw rocks to create distant noise distractions. |
+| Cobb Can See | Detects player light levels and lines of sight. | Stay in unlit areas and avoid turning on lanterns near Cobb. |
+| Cobb Can Smell | Periodically sniffs out the player's coordinate. | Keep moving constantly; do not hide in corners for too long. |
+| Reach | Cobb takes larger steps during movements. | Maintain a wider safety margin; expect faster closing speeds. |
+| Duplicate | Multiple Cobbs spawn; they push each other. | Track multiple entities; duplicates do not merge together. |
+
+</Section>
+
+<Section icon={Target} title="Object-Interaction Tropes: Coal, Rocks, and Batteries">
+
+To survive Cobb and secure the ending, players must interact with various environmental objects. These items serve to maintain resources, distract the monster, or progress the escape sequence. The interaction physics have been optimized across several version patches to ensure smooth control inputs on both keyboard and gamepad.
+
+Managing these resources forms the core loop of the game. For example, rocks are no longer simple ambient clutter; they represent your primary defensive option when cornered.
+
+<Callout type="success" title="Stun Mechanic">
+A direct hit with a rock will briefly stun Cobb. Patch v1.7 fixed a bug where rocks occasionally failed to stun Cobb during long pursuits.
+</Callout>
+
+<Steps>
+  <Step num="1" title="Sustain the Furnace">
+    Locate coal piles scattered throughout the level. Haul them to the main furnace to prevent the light from fading. Note that v1.6 changed spawning rules so coal is less likely to spawn right next to the furnace.
+  </Step>
+  <Step num="2" title="Manage the Breakers">
+    Keep an eye out for updated breaker sprites. Activating breakers restores sections of light, reducing the risk of freezing in dark zones.
+  </Step>
+  <Step num="3" title="Prepare Defenses">
+    Stock up on rocks. Keep them in your inventory to throw as noise distractions or to execute emergency stuns when Cobb initiates a pursuit.
+  </Step>
+  <Step num="4" title="Collect the Batteries">
+    In story levels, locate and install all four batteries. This triggers the final escape sequence, requiring you to interact with the blast furnace.
+  </Step>
+</Steps>
+
+| Item / Object | Primary Function | Relevant Update Changes |
+| --- | --- | --- |
+| Coal | Restores furnace light levels. | Spawning adjusted in v1.6 to prevent close proximity exploits. |
+| Rocks | Noise distraction and monster stunner. | Loudness increased in v1.6; pursuit stun bug fixed in v1.7. |
+| Carrots | Food source to prevent starvation. | Changed in v1.3 to respawn periodically after consumption. |
+| Batteries | Ending progress item. | Placing four batteries triggers the final escape sequence. |
+| Blast Furnace | Final interaction object. | Hitbox enlarged in v1.6 to prevent interaction clipping. |
+
+</Section>
+
+<Section icon={Trophy} title="Replayability and Endless Mode Tropes">
+
+Once players complete the main story mode, the level select menu unlocks, allowing practice on specific layouts like the challenging Level 7. However, the true test of adaptability lies in Endless Mode. Endless Mode strips away fixed progression, starting players directly at Level 3 and scaling the rules dynamically as depth increases.
+
+This mode relies on procedural chunks and seeded randomness. Players must demonstrate mastery over combined rules, such as managing hunger via carrots while avoiding detection from duplicate Cobbs.
+
+<Callout type="info" title="Endless Scaling">
+Endless Mode starts immediately at Level 3, introducing sensory rules right from the first room.
+</Callout>
+
+<Checklist
+  id="endless-priorities"
+  title="Endless Mode Survival Checklist:"
+  items={[
+    "Verify the active rules text immediately upon spawning",
+    "Locate the nearest carrot spawns to mitigate starvation limits",
+    "Identify wall structures to safely swap items using the red drop zone override",
+    "Conserve rocks exclusively for defensive stuns rather than wasteful noise baiting",
+    "Track pursuit acceleration shifts to calculate safe distance thresholds"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Swords} title="Frequently Asked Questions">
+
+Understanding how these mechanics function is key to mastering the game's loops. Below are answers to common questions regarding gameplay rules, platforms, and features.
+
+<Callout type="tip" title="Community Guide">
+Always refer to the official itch.io devlog for the latest adjustments, bug fixes, and patch notes.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "How do the Cobb Can Move tropes differ from standard pixel horror games?",
+    answer: "Unlike standard pixel horror games that use fixed monster patterns, this game randomizes player limitations and monster sensory abilities (hearing, seeing, smelling) on every floor, forcing players to constantly change their playstyle."
+  },
+  {
+    question: "Are there any active cheat codes or reward codes available?",
+    answer: "No, the developer has not implemented an active code redemption system. The name-your-own-price distribution model on itch.io is the only official method to acquire the game and its updates."
+  },
+  {
+    question: "How do rocks function as a defensive tool against Cobb?",
+    answer: "Rocks can be thrown to make noise, drawing Cobb to a specific location. Additionally, scoring a direct hit with a rock will briefly stun Cobb, which is essential for escaping long pursuits."
+  },
+  {
+    question: "What platforms are officially supported for play?",
+    answer: "The game officially supports Windows and HTML5 web browsers. It can be played directly in browser or downloaded as a standalone build from the official developer page."
+  }
+]} />
+
+</Section>

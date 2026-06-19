@@ -1,0 +1,187 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Cobb Can Move Speedrun: Walkthrough & Survival Tips",
+  description: "Master the fastest routes in Cobb Can Move. Learn level 7 strategies, battery placements, rules modifications, and survival tactics for the latest v1.7 release.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/991b1b/fff?text=Speedrun+Guide",
+  date: "2026-06-19",
+  author: "Cobb Can Move Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Main Goal**: Complete all 7 story levels and the final battery sequence in the fastest time possible.
+- **Key Mechanic**: Adapt to changing rule sets that randomize Cobb's senses and player limitations each run.
+- **Top Utility**: Use rocks to stun Cobb during tight chases and clear pathways to the furnace.
+- **Pathing Rule**: Keep coal routing routes active; do not let the furnace die out during critical transitions.
+- **Controls Tip**: Utilize gamepad or remapped AZERTY keyboard configurations for precise navigation.
+- **Status Codes**: No official redeem codes exist for this game; progress depends entirely on raw play skill.
+</Callout>
+
+<Section icon={Map} title="Cobb Can Move Speedrun Fundamentals">
+
+Mastering a **Cobb Can Move speedrun** requires an intimate understanding of procedural generation, movement physics, and rule adaptability. Because the game utilizes changing rules at the start of each level, a speedrunner cannot rely on memorizing a single static path. Instead, you must learn to read game rules instantly, adjust your movement pattern, and execute resource runs under pressure. 
+
+The game is officially released by abho on itch.io for HTML5 and Windows platforms. It features both keyboard and gamepad input configurations. The latest updates, particularly v1.6 and v1.7, introduced critical controls optimization for international keyboard layouts like AZERTY, which prevents layout mismatches from ruining a run.
+
+To start speedrunning, players can either run the game directly in their web browser or download the standalone Windows build. The downloadable build is highly recommended for speedrunning as it offers more consistent framerates and eliminates browser input latency. 
+
+<Callout type="tip" title="Input Preference">
+Always opt for the downloadable Windows version over HTML5 when executing runs. The offline client reduces frame drops, which is vital when navigating tight corners while being chased.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Rules and Cobb Abilities Speedrun Breakdown">
+
+The central obstacle of any run is Cobb itself. Its abilities are governed by the changing rules chosen at the beginning of each level. Understanding how sensory updates impact Cobb's pathfinding AI allows you to manipulate its movements to shave seconds off your final time.
+
+| Rule Name | Sensory/Behavior Mechanic | Speedrun Adaptation Tactic |
+|---|---|---|
+| Cobb can See | Detects player light levels | Break line of sight immediately; extinguish light source |
+| Cobb can Hear | Pursues noises like rock drops | Throw rocks away from your path to redirect Cobb |
+| Cobb can Smell | Sniffs periodically at player | Keep moving; smell nerf in v1.7 makes it less persistent |
+| Reach | Cobb takes larger steps | Keep spacing wide; do not crowd corners during chases |
+| Duplicate | Clones Cobb after Level 5 | Path away from choke points to prevent getting cornered |
+
+Cobb's pursuit speed has undergone several balance changes. In version 1.6, Cobb was programmed to gain speed during long pursuits. However, the v1.7 update introduced a slight nerf to Cobb's long-pursuit acceleration. This means that if you get caught in a long chase, you have a better chance of recovering, provided you use the environment to break line of sight.
+
+Another crucial mechanic is the rock stun. In v1.6, direct hits with rocks were updated to stun Cobb briefly. The v1.7 patch fixed a critical bug where rocks would sometimes fail to stun Cobb while he was actively pursuing the player. You can now reliably throw a rock directly at Cobb during a pursuit to halt him, allowing you to bypass him in narrow corridors.
+
+<Callout type="warning" title="Pursuit Mechanics">
+Do not attempt to outrun Cobb in a straight line without obstacles. Even with the v1.7 acceleration nerf, Cobb will eventually outpace you. Use corners and throw rocks to break his momentum.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Essential Items and Map Objects Speedrun Routing">
+
+Speedrunning Cobb Can Move is a balance of resource management. You must manage coal, rocks, carrots, and batteries while keeping the furnace lit. Understanding item behaviors and changes introduced in recent updates is key to optimizing your routes.
+
+| Item / Object | Speedrun Role | Key Mechanic & Patch Updates |
+|---|---|---|
+| Coal | Furnace fuel | Spawns farther from furnace; plan long runs |
+| Rocks | Stun & Distraction | Throw to stun Cobb or cause sound distraction |
+| Carrots | Hunger mitigation | Respawns upon consumption; grab mid-route |
+| Batteries | Finale progression | Place 4 to unlock final task and escape sequence |
+| Breaker | Lighting control | Sprite updated for better visibility in tunnels |
+| Item Drop Spot | Inventory management | Allows swapping over walls even when red |
+
+In v1.6, coal spawning was updated so that coal is less likely to spawn directly next to the furnace. This forces you to travel deeper into the procedural map chunks. To mitigate this added distance, use the conveyor belts to transport coal quickly across long distances, reducing your travel time.
+
+Inventory management is also more forgiving due to updates in v1.4. You can now swap items even when the drop spot is over a wall and highlighted in red. This allows you to throw items over obstacles or swap your current inventory with items on the other side of a barrier, saving valuable steps.
+
+<Callout type="success" title="Drop Spot Mechanics">
+Use the wall-swapping mechanic to pass coal or batteries through partitions. This bypasses long corridor detours, saving up to 10 seconds per item deposit.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Story Mode Level Walkthrough and Ending Tactics">
+
+To achieve a competitive time in the Story Mode category, you must progress through all 7 levels and complete the final generator task. Below is the step-by-step speedrun execution flow.
+
+<Steps>
+  <Step num="1" title="Level 1 & 2 Setup">
+    Power through Level 1 by grabbing the nearest coal. In Level 2, be prepared for a guaranteed sensory rule (hear, smell, or see). Instantly identify the active rule displayed on your screen and adjust your stealth strategy accordingly.
+  </Step>
+  <Step num="2" title="Mid-Game Rule Adaptations">
+    Levels 3 through 5 introduce complex rule combinations. Keep an eye out for carrots, which respawn when eaten. Keep your hunger bar filled so your stamina does not drop, allowing you to maintain maximum movement speed.
+  </Step>
+  <Step num="3" title="Level 7 Rock Utilization">
+    Level 7 features an increased density of rocks. Collect these immediately. Do not rush directly to the coal routes without at least two rocks in your inventory to defend against Cobb's aggressive pursuit.
+  </Step>
+  <Step num="4" title="Battery Placement Sequence">
+    Collect and place all four batteries. The final task text changes once the fourth battery is placed. In v1.4, Cobb's speed during the final task was slightly nerfed, but it was buffed again in v1.5.2. Keep moving dynamically.
+  </Step>
+  <Step num="5" title="Blast Furnace Escape">
+    Locate the blast furnace during the ending sequence. In v1.6, the blast furnace hitbox was enlarged, making it much easier to interact with. Deposit your final items and trigger the ending screen to stop the timer.
+  </Step>
+</Steps>
+
+Once you complete the story mode for the first time, you will unlock the Level Select menu. This is an invaluable tool for practice. Use it to load into Level 7 or the final battery phase to practice your item drop spots and defensive rock throws without having to play through the entire game.
+
+<Callout type="info" title="Level Select Strategy">
+Spend time in Level Select practicing the ending generator sequence. Learning the layout of the final area and the placement of the blast furnace is critical for clean runs.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Endless Mode Replay and Seed Optimization">
+
+Endless Mode starts directly at Level 3, skipping the tutorial phases to throw you into high-pressure situations immediately. Speedrunning Endless Mode is judged by how quickly you can complete a set number of levels or how long you can survive under scaling difficulty.
+
+<CardGrid cols={3}>
+  <Card title="Start Point: Level 3">
+    - Starts with advanced sensory rules active
+    - Cobb's base speed is elevated
+    - Requires immediate routing decisions
+  </Card>
+  <Card title="Procedural Chunk Layouts">
+    - Generated randomly from chunk sets
+    - Random item and breaker placements
+    - Requires reactive pathfinding skills
+  </Card>
+  <Card title="Scaling Threats">
+    - Duplicate Cobbs push each other (v1.6)
+    - Cobb gains speed during long pursuits
+    - Stamina and light levels deplete faster
+  </Card>
+</CardGrid>
+
+Survival rules like Freeze and Starve add extra layers of difficulty. Freeze forces you to stay near light sources or the furnace, while Starve requires you to continuously hunt for carrots. When these rules are active, your speedrun route must prioritize survival items over direct progression paths to prevent a sudden run ending.
+
+If you die during an Endless run, pay close attention to the death tips added in v1.4. These tips offer valuable insights into which active rule caused your failure, helping you adjust your strategy for the next attempt.
+
+<Callout type="tip" title="Procedural Adaptation">
+If you get a combination of 'Cobb can Smell' and 'Starve' in Endless Mode, play defensively. Use the v1.7 smell nerf to your advantage by constantly changing direction to throw off Cobb's scent tracking.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Run Preparation Checklist & FAQ">
+
+Before attempting a recorded speedrun, ensure your setup meets standard community guidelines.
+
+<Checklist
+  id="speedrun-prep"
+  title="Speedrun Prep Checklist:"
+  items={[
+    "Download the latest v1.7 Windows client for optimal performance",
+    "Configure your control inputs (AZERTY keyboard adjustments if needed)",
+    "Verify that the level select menu is unlocked for practice runs",
+    "Familiarize yourself with the hitbox of the ending blast furnace",
+    "Ensure your recording software captures the game screen and timer clearly"
+  ]}
+/>
+
+<FAQ items={[
+  {
+    question: "Are there any cheat codes to skip levels in Cobb Can Move?",
+    answer: "No. There is no code redemption system or built-in cheats in the official itch.io game files. Speedruns must be completed through standard gameplay and mechanics."
+  },
+  {
+    question: "How do rocks stun Cobb during a speedrun?",
+    answer: "A direct hit with a rock will stun Cobb briefly. This was added in v1.6 and fixed in v1.7 to ensure it works reliably even when Cobb is in active pursuit of the player."
+  },
+  {
+    question: "What is the best way to practice the ending sequence?",
+    answer: "Beat the story mode once to unlock the Level Select menu. You can then load directly into Level 7 or the final battery task to practice your movements."
+  },
+  {
+    question: "How does the v1.7 smell nerf affect speedrunning?",
+    answer: "Cobb's smell detection is less persistent and sniffs less frequently in v1.7. This allows you to stay in one area slightly longer without Cobb immediately pinpointing your location."
+  }
+]} />
+
+<Callout type="success" title="Developer Context">
+Cobb Can Move was originally created for Major Jam 7: Wild, where it took 1st place overall. The post-jam updates (v1.4 - v1.7) have focused on balancing the game for competitive survival play.
+</Callout>
+
+</Section>
