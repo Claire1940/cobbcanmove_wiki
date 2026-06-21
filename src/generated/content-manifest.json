@@ -1,0 +1,782 @@
+{
+  "en": {
+    "download": [
+      {
+        "slug": "Cobb-Can-Move-android",
+        "file": "Cobb-Can-Move-android"
+      },
+      {
+        "slug": "Cobb-Can-Move-apk",
+        "file": "Cobb-Can-Move-apk"
+      },
+      {
+        "slug": "Cobb-Can-Move-download",
+        "file": "Cobb-Can-Move-download"
+      },
+      {
+        "slug": "Cobb-Can-Move-free",
+        "file": "Cobb-Can-Move-free"
+      },
+      {
+        "slug": "Cobb-Can-Move-itch",
+        "file": "Cobb-Can-Move-itch"
+      },
+      {
+        "slug": "Cobb-Can-Move-mobile",
+        "file": "Cobb-Can-Move-mobile"
+      },
+      {
+        "slug": "Cobb-Can-Move-online",
+        "file": "Cobb-Can-Move-online"
+      },
+      {
+        "slug": "Cobb-Can-Move-platforms",
+        "file": "Cobb-Can-Move-platforms"
+      },
+      {
+        "slug": "Cobb-Can-Move-steam",
+        "file": "Cobb-Can-Move-steam"
+      },
+      {
+        "slug": "Cobb-Can-Move-where-to-play",
+        "file": "Cobb-Can-Move-where-to-play"
+      }
+    ],
+    "ending": [
+      {
+        "slug": "Cobb-Can-Move-all-deaths",
+        "file": "Cobb-Can-Move-all-deaths"
+      },
+      {
+        "slug": "Cobb-Can-Move-ending",
+        "file": "Cobb-Can-Move-ending"
+      },
+      {
+        "slug": "Cobb-Can-Move-full-game",
+        "file": "Cobb-Can-Move-full-game"
+      },
+      {
+        "slug": "Cobb-Can-Move-killing-Cobb",
+        "file": "Cobb-Can-Move-killing-Cobb"
+      },
+      {
+        "slug": "Cobb-Can-Move-short-game",
+        "file": "Cobb-Can-Move-short-game"
+      },
+      {
+        "slug": "Cobb-Can-Move-starvation-death",
+        "file": "Cobb-Can-Move-starvation-death"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "Cobb-Can-Move-all-rules",
+        "file": "Cobb-Can-Move-all-rules"
+      },
+      {
+        "slug": "Cobb-Can-Move-beginner-guide",
+        "file": "Cobb-Can-Move-beginner-guide"
+      },
+      {
+        "slug": "Cobb-Can-Move-final-stage",
+        "file": "Cobb-Can-Move-final-stage"
+      },
+      {
+        "slug": "Cobb-Can-Move-guide",
+        "file": "Cobb-Can-Move-guide"
+      },
+      {
+        "slug": "Cobb-Can-Move-how-to-beat-level-7",
+        "file": "Cobb-Can-Move-how-to-beat-level-7"
+      },
+      {
+        "slug": "Cobb-Can-Move-how-to-play",
+        "file": "Cobb-Can-Move-how-to-play"
+      },
+      {
+        "slug": "Cobb-Can-Move-map",
+        "file": "Cobb-Can-Move-map"
+      },
+      {
+        "slug": "Cobb-Can-Move-speedrun",
+        "file": "Cobb-Can-Move-speedrun"
+      },
+      {
+        "slug": "Cobb-Can-Move-tips",
+        "file": "Cobb-Can-Move-tips"
+      },
+      {
+        "slug": "Cobb-Can-Move-walkthrough",
+        "file": "Cobb-Can-Move-walkthrough"
+      },
+      {
+        "slug": "cobb-can-move-endless-mode",
+        "file": "cobb-can-move-endless-mode"
+      }
+    ],
+    "lore": [
+      {
+        "slug": "Cobb-Can-Move-lore",
+        "file": "Cobb-Can-Move-lore"
+      },
+      {
+        "slug": "Cobb-Can-Move-player",
+        "file": "Cobb-Can-Move-player"
+      },
+      {
+        "slug": "Cobb-Can-Move-species",
+        "file": "Cobb-Can-Move-species"
+      },
+      {
+        "slug": "Cobb-Can-Move-story",
+        "file": "Cobb-Can-Move-story"
+      },
+      {
+        "slug": "Cobb-Can-Move-theory",
+        "file": "Cobb-Can-Move-theory"
+      },
+      {
+        "slug": "Cobb-Can-Move-who-is-Cobb",
+        "file": "Cobb-Can-Move-who-is-Cobb"
+      }
+    ],
+    "mechanics": [
+      {
+        "slug": "Cobb-Can-Move-all-attributes",
+        "file": "Cobb-Can-Move-all-attributes"
+      },
+      {
+        "slug": "Cobb-Can-Move-all-modifiers",
+        "file": "Cobb-Can-Move-all-modifiers"
+      },
+      {
+        "slug": "Cobb-Can-Move-all-mutations",
+        "file": "Cobb-Can-Move-all-mutations"
+      },
+      {
+        "slug": "Cobb-Can-Move-flip-breakers",
+        "file": "Cobb-Can-Move-flip-breakers"
+      },
+      {
+        "slug": "Cobb-Can-Move-how-to-escape-smelling",
+        "file": "Cobb-Can-Move-how-to-escape-smelling"
+      },
+      {
+        "slug": "Cobb-Can-Move-jumpscare",
+        "file": "Cobb-Can-Move-jumpscare"
+      },
+      {
+        "slug": "Cobb-Can-Move-mechanics",
+        "file": "Cobb-Can-Move-mechanics"
+      },
+      {
+        "slug": "Cobb-Can-Move-modifiers",
+        "file": "Cobb-Can-Move-modifiers"
+      },
+      {
+        "slug": "Cobb-Can-Move-seeds",
+        "file": "Cobb-Can-Move-seeds"
+      },
+      {
+        "slug": "Cobb-Can-Move-senses",
+        "file": "Cobb-Can-Move-senses"
+      },
+      {
+        "slug": "Cobb-Can-Move-smell",
+        "file": "Cobb-Can-Move-smell"
+      },
+      {
+        "slug": "cobb-can-move-coal",
+        "file": "cobb-can-move-coal"
+      },
+      {
+        "slug": "cobb-can-move-controls",
+        "file": "cobb-can-move-controls"
+      },
+      {
+        "slug": "cobb-can-move-furnace",
+        "file": "cobb-can-move-furnace"
+      }
+    ],
+    "media": [
+      {
+        "slug": "Cobb-Can-Move-sprites",
+        "file": "Cobb-Can-Move-sprites"
+      },
+      {
+        "slug": "Cobb-Can-Move-tropes",
+        "file": "Cobb-Can-Move-tropes"
+      }
+    ]
+  },
+  "es": {
+    "download": [
+      {
+        "slug": "Cobb-Can-Move-android",
+        "file": "Cobb-Can-Move-android"
+      },
+      {
+        "slug": "Cobb-Can-Move-apk",
+        "file": "Cobb-Can-Move-apk"
+      },
+      {
+        "slug": "Cobb-Can-Move-download",
+        "file": "Cobb-Can-Move-download"
+      },
+      {
+        "slug": "Cobb-Can-Move-free",
+        "file": "Cobb-Can-Move-free"
+      },
+      {
+        "slug": "Cobb-Can-Move-itch",
+        "file": "Cobb-Can-Move-itch"
+      },
+      {
+        "slug": "Cobb-Can-Move-mobile",
+        "file": "Cobb-Can-Move-mobile"
+      },
+      {
+        "slug": "Cobb-Can-Move-online",
+        "file": "Cobb-Can-Move-online"
+      },
+      {
+        "slug": "Cobb-Can-Move-platforms",
+        "file": "Cobb-Can-Move-platforms"
+      },
+      {
+        "slug": "Cobb-Can-Move-steam",
+        "file": "Cobb-Can-Move-steam"
+      },
+      {
+        "slug": "Cobb-Can-Move-where-to-play",
+        "file": "Cobb-Can-Move-where-to-play"
+      }
+    ],
+    "ending": [
+      {
+        "slug": "Cobb-Can-Move-all-deaths",
+        "file": "Cobb-Can-Move-all-deaths"
+      },
+      {
+        "slug": "Cobb-Can-Move-ending",
+        "file": "Cobb-Can-Move-ending"
+      },
+      {
+        "slug": "Cobb-Can-Move-full-game",
+        "file": "Cobb-Can-Move-full-game"
+      },
+      {
+        "slug": "Cobb-Can-Move-killing-Cobb",
+        "file": "Cobb-Can-Move-killing-Cobb"
+      },
+      {
+        "slug": "Cobb-Can-Move-short-game",
+        "file": "Cobb-Can-Move-short-game"
+      },
+      {
+        "slug": "Cobb-Can-Move-starvation-death",
+        "file": "Cobb-Can-Move-starvation-death"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "Cobb-Can-Move-all-rules",
+        "file": "Cobb-Can-Move-all-rules"
+      },
+      {
+        "slug": "Cobb-Can-Move-beginner-guide",
+        "file": "Cobb-Can-Move-beginner-guide"
+      },
+      {
+        "slug": "Cobb-Can-Move-final-stage",
+        "file": "Cobb-Can-Move-final-stage"
+      },
+      {
+        "slug": "Cobb-Can-Move-guide",
+        "file": "Cobb-Can-Move-guide"
+      },
+      {
+        "slug": "Cobb-Can-Move-how-to-beat-level-7",
+        "file": "Cobb-Can-Move-how-to-beat-level-7"
+      },
+      {
+        "slug": "Cobb-Can-Move-how-to-play",
+        "file": "Cobb-Can-Move-how-to-play"
+      },
+      {
+        "slug": "Cobb-Can-Move-map",
+        "file": "Cobb-Can-Move-map"
+      },
+      {
+        "slug": "Cobb-Can-Move-tips",
+        "file": "Cobb-Can-Move-tips"
+      },
+      {
+        "slug": "Cobb-Can-Move-walkthrough",
+        "file": "Cobb-Can-Move-walkthrough"
+      },
+      {
+        "slug": "cobb-can-move-endless-mode",
+        "file": "cobb-can-move-endless-mode"
+      }
+    ],
+    "lore": [
+      {
+        "slug": "Cobb-Can-Move-lore",
+        "file": "Cobb-Can-Move-lore"
+      },
+      {
+        "slug": "Cobb-Can-Move-player",
+        "file": "Cobb-Can-Move-player"
+      },
+      {
+        "slug": "Cobb-Can-Move-species",
+        "file": "Cobb-Can-Move-species"
+      },
+      {
+        "slug": "Cobb-Can-Move-story",
+        "file": "Cobb-Can-Move-story"
+      },
+      {
+        "slug": "Cobb-Can-Move-theory",
+        "file": "Cobb-Can-Move-theory"
+      },
+      {
+        "slug": "Cobb-Can-Move-who-is-Cobb",
+        "file": "Cobb-Can-Move-who-is-Cobb"
+      }
+    ],
+    "mechanics": [
+      {
+        "slug": "Cobb-Can-Move-all-attributes",
+        "file": "Cobb-Can-Move-all-attributes"
+      },
+      {
+        "slug": "Cobb-Can-Move-all-modifiers",
+        "file": "Cobb-Can-Move-all-modifiers"
+      },
+      {
+        "slug": "Cobb-Can-Move-all-mutations",
+        "file": "Cobb-Can-Move-all-mutations"
+      },
+      {
+        "slug": "Cobb-Can-Move-how-to-escape-smelling",
+        "file": "Cobb-Can-Move-how-to-escape-smelling"
+      },
+      {
+        "slug": "Cobb-Can-Move-mechanics",
+        "file": "Cobb-Can-Move-mechanics"
+      },
+      {
+        "slug": "Cobb-Can-Move-modifiers",
+        "file": "Cobb-Can-Move-modifiers"
+      },
+      {
+        "slug": "Cobb-Can-Move-senses",
+        "file": "Cobb-Can-Move-senses"
+      },
+      {
+        "slug": "Cobb-Can-Move-smell",
+        "file": "Cobb-Can-Move-smell"
+      },
+      {
+        "slug": "cobb-can-move-coal",
+        "file": "cobb-can-move-coal"
+      },
+      {
+        "slug": "cobb-can-move-controls",
+        "file": "cobb-can-move-controls"
+      },
+      {
+        "slug": "cobb-can-move-furnace",
+        "file": "cobb-can-move-furnace"
+      }
+    ],
+    "media": [
+      {
+        "slug": "Cobb-Can-Move-sprites",
+        "file": "Cobb-Can-Move-sprites"
+      }
+    ]
+  },
+  "ja": {
+    "download": [
+      {
+        "slug": "Cobb-Can-Move-android",
+        "file": "Cobb-Can-Move-android"
+      },
+      {
+        "slug": "Cobb-Can-Move-apk",
+        "file": "Cobb-Can-Move-apk"
+      },
+      {
+        "slug": "Cobb-Can-Move-download",
+        "file": "Cobb-Can-Move-download"
+      },
+      {
+        "slug": "Cobb-Can-Move-free",
+        "file": "Cobb-Can-Move-free"
+      },
+      {
+        "slug": "Cobb-Can-Move-itch",
+        "file": "Cobb-Can-Move-itch"
+      },
+      {
+        "slug": "Cobb-Can-Move-mobile",
+        "file": "Cobb-Can-Move-mobile"
+      },
+      {
+        "slug": "Cobb-Can-Move-online",
+        "file": "Cobb-Can-Move-online"
+      },
+      {
+        "slug": "Cobb-Can-Move-platforms",
+        "file": "Cobb-Can-Move-platforms"
+      },
+      {
+        "slug": "Cobb-Can-Move-steam",
+        "file": "Cobb-Can-Move-steam"
+      },
+      {
+        "slug": "Cobb-Can-Move-where-to-play",
+        "file": "Cobb-Can-Move-where-to-play"
+      }
+    ],
+    "ending": [
+      {
+        "slug": "Cobb-Can-Move-all-deaths",
+        "file": "Cobb-Can-Move-all-deaths"
+      },
+      {
+        "slug": "Cobb-Can-Move-ending",
+        "file": "Cobb-Can-Move-ending"
+      },
+      {
+        "slug": "Cobb-Can-Move-full-game",
+        "file": "Cobb-Can-Move-full-game"
+      },
+      {
+        "slug": "Cobb-Can-Move-killing-Cobb",
+        "file": "Cobb-Can-Move-killing-Cobb"
+      },
+      {
+        "slug": "Cobb-Can-Move-short-game",
+        "file": "Cobb-Can-Move-short-game"
+      },
+      {
+        "slug": "Cobb-Can-Move-starvation-death",
+        "file": "Cobb-Can-Move-starvation-death"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "Cobb-Can-Move-all-rules",
+        "file": "Cobb-Can-Move-all-rules"
+      },
+      {
+        "slug": "Cobb-Can-Move-beginner-guide",
+        "file": "Cobb-Can-Move-beginner-guide"
+      },
+      {
+        "slug": "Cobb-Can-Move-final-stage",
+        "file": "Cobb-Can-Move-final-stage"
+      },
+      {
+        "slug": "Cobb-Can-Move-guide",
+        "file": "Cobb-Can-Move-guide"
+      },
+      {
+        "slug": "Cobb-Can-Move-how-to-beat-level-7",
+        "file": "Cobb-Can-Move-how-to-beat-level-7"
+      },
+      {
+        "slug": "Cobb-Can-Move-how-to-play",
+        "file": "Cobb-Can-Move-how-to-play"
+      },
+      {
+        "slug": "Cobb-Can-Move-map",
+        "file": "Cobb-Can-Move-map"
+      },
+      {
+        "slug": "Cobb-Can-Move-tips",
+        "file": "Cobb-Can-Move-tips"
+      },
+      {
+        "slug": "Cobb-Can-Move-walkthrough",
+        "file": "Cobb-Can-Move-walkthrough"
+      },
+      {
+        "slug": "cobb-can-move-endless-mode",
+        "file": "cobb-can-move-endless-mode"
+      }
+    ],
+    "lore": [
+      {
+        "slug": "Cobb-Can-Move-lore",
+        "file": "Cobb-Can-Move-lore"
+      },
+      {
+        "slug": "Cobb-Can-Move-player",
+        "file": "Cobb-Can-Move-player"
+      },
+      {
+        "slug": "Cobb-Can-Move-species",
+        "file": "Cobb-Can-Move-species"
+      },
+      {
+        "slug": "Cobb-Can-Move-story",
+        "file": "Cobb-Can-Move-story"
+      },
+      {
+        "slug": "Cobb-Can-Move-theory",
+        "file": "Cobb-Can-Move-theory"
+      },
+      {
+        "slug": "Cobb-Can-Move-who-is-Cobb",
+        "file": "Cobb-Can-Move-who-is-Cobb"
+      }
+    ],
+    "mechanics": [
+      {
+        "slug": "Cobb-Can-Move-all-attributes",
+        "file": "Cobb-Can-Move-all-attributes"
+      },
+      {
+        "slug": "Cobb-Can-Move-all-modifiers",
+        "file": "Cobb-Can-Move-all-modifiers"
+      },
+      {
+        "slug": "Cobb-Can-Move-all-mutations",
+        "file": "Cobb-Can-Move-all-mutations"
+      },
+      {
+        "slug": "Cobb-Can-Move-how-to-escape-smelling",
+        "file": "Cobb-Can-Move-how-to-escape-smelling"
+      },
+      {
+        "slug": "Cobb-Can-Move-mechanics",
+        "file": "Cobb-Can-Move-mechanics"
+      },
+      {
+        "slug": "Cobb-Can-Move-modifiers",
+        "file": "Cobb-Can-Move-modifiers"
+      },
+      {
+        "slug": "Cobb-Can-Move-senses",
+        "file": "Cobb-Can-Move-senses"
+      },
+      {
+        "slug": "Cobb-Can-Move-smell",
+        "file": "Cobb-Can-Move-smell"
+      },
+      {
+        "slug": "cobb-can-move-coal",
+        "file": "cobb-can-move-coal"
+      },
+      {
+        "slug": "cobb-can-move-controls",
+        "file": "cobb-can-move-controls"
+      },
+      {
+        "slug": "cobb-can-move-furnace",
+        "file": "cobb-can-move-furnace"
+      }
+    ],
+    "media": [
+      {
+        "slug": "Cobb-Can-Move-sprites",
+        "file": "Cobb-Can-Move-sprites"
+      }
+    ]
+  },
+  "pt": {
+    "download": [
+      {
+        "slug": "Cobb-Can-Move-android",
+        "file": "Cobb-Can-Move-android"
+      },
+      {
+        "slug": "Cobb-Can-Move-apk",
+        "file": "Cobb-Can-Move-apk"
+      },
+      {
+        "slug": "Cobb-Can-Move-download",
+        "file": "Cobb-Can-Move-download"
+      },
+      {
+        "slug": "Cobb-Can-Move-free",
+        "file": "Cobb-Can-Move-free"
+      },
+      {
+        "slug": "Cobb-Can-Move-itch",
+        "file": "Cobb-Can-Move-itch"
+      },
+      {
+        "slug": "Cobb-Can-Move-mobile",
+        "file": "Cobb-Can-Move-mobile"
+      },
+      {
+        "slug": "Cobb-Can-Move-online",
+        "file": "Cobb-Can-Move-online"
+      },
+      {
+        "slug": "Cobb-Can-Move-platforms",
+        "file": "Cobb-Can-Move-platforms"
+      },
+      {
+        "slug": "Cobb-Can-Move-steam",
+        "file": "Cobb-Can-Move-steam"
+      },
+      {
+        "slug": "Cobb-Can-Move-where-to-play",
+        "file": "Cobb-Can-Move-where-to-play"
+      }
+    ],
+    "ending": [
+      {
+        "slug": "Cobb-Can-Move-all-deaths",
+        "file": "Cobb-Can-Move-all-deaths"
+      },
+      {
+        "slug": "Cobb-Can-Move-ending",
+        "file": "Cobb-Can-Move-ending"
+      },
+      {
+        "slug": "Cobb-Can-Move-full-game",
+        "file": "Cobb-Can-Move-full-game"
+      },
+      {
+        "slug": "Cobb-Can-Move-killing-Cobb",
+        "file": "Cobb-Can-Move-killing-Cobb"
+      },
+      {
+        "slug": "Cobb-Can-Move-short-game",
+        "file": "Cobb-Can-Move-short-game"
+      },
+      {
+        "slug": "Cobb-Can-Move-starvation-death",
+        "file": "Cobb-Can-Move-starvation-death"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "Cobb-Can-Move-all-rules",
+        "file": "Cobb-Can-Move-all-rules"
+      },
+      {
+        "slug": "Cobb-Can-Move-beginner-guide",
+        "file": "Cobb-Can-Move-beginner-guide"
+      },
+      {
+        "slug": "Cobb-Can-Move-final-stage",
+        "file": "Cobb-Can-Move-final-stage"
+      },
+      {
+        "slug": "Cobb-Can-Move-guide",
+        "file": "Cobb-Can-Move-guide"
+      },
+      {
+        "slug": "Cobb-Can-Move-how-to-beat-level-7",
+        "file": "Cobb-Can-Move-how-to-beat-level-7"
+      },
+      {
+        "slug": "Cobb-Can-Move-how-to-play",
+        "file": "Cobb-Can-Move-how-to-play"
+      },
+      {
+        "slug": "Cobb-Can-Move-map",
+        "file": "Cobb-Can-Move-map"
+      },
+      {
+        "slug": "Cobb-Can-Move-tips",
+        "file": "Cobb-Can-Move-tips"
+      },
+      {
+        "slug": "Cobb-Can-Move-walkthrough",
+        "file": "Cobb-Can-Move-walkthrough"
+      },
+      {
+        "slug": "cobb-can-move-endless-mode",
+        "file": "cobb-can-move-endless-mode"
+      }
+    ],
+    "lore": [
+      {
+        "slug": "Cobb-Can-Move-lore",
+        "file": "Cobb-Can-Move-lore"
+      },
+      {
+        "slug": "Cobb-Can-Move-player",
+        "file": "Cobb-Can-Move-player"
+      },
+      {
+        "slug": "Cobb-Can-Move-species",
+        "file": "Cobb-Can-Move-species"
+      },
+      {
+        "slug": "Cobb-Can-Move-story",
+        "file": "Cobb-Can-Move-story"
+      },
+      {
+        "slug": "Cobb-Can-Move-theory",
+        "file": "Cobb-Can-Move-theory"
+      },
+      {
+        "slug": "Cobb-Can-Move-who-is-Cobb",
+        "file": "Cobb-Can-Move-who-is-Cobb"
+      }
+    ],
+    "mechanics": [
+      {
+        "slug": "Cobb-Can-Move-all-attributes",
+        "file": "Cobb-Can-Move-all-attributes"
+      },
+      {
+        "slug": "Cobb-Can-Move-all-modifiers",
+        "file": "Cobb-Can-Move-all-modifiers"
+      },
+      {
+        "slug": "Cobb-Can-Move-all-mutations",
+        "file": "Cobb-Can-Move-all-mutations"
+      },
+      {
+        "slug": "Cobb-Can-Move-how-to-escape-smelling",
+        "file": "Cobb-Can-Move-how-to-escape-smelling"
+      },
+      {
+        "slug": "Cobb-Can-Move-mechanics",
+        "file": "Cobb-Can-Move-mechanics"
+      },
+      {
+        "slug": "Cobb-Can-Move-modifiers",
+        "file": "Cobb-Can-Move-modifiers"
+      },
+      {
+        "slug": "Cobb-Can-Move-senses",
+        "file": "Cobb-Can-Move-senses"
+      },
+      {
+        "slug": "Cobb-Can-Move-smell",
+        "file": "Cobb-Can-Move-smell"
+      },
+      {
+        "slug": "cobb-can-move-coal",
+        "file": "cobb-can-move-coal"
+      },
+      {
+        "slug": "cobb-can-move-controls",
+        "file": "cobb-can-move-controls"
+      },
+      {
+        "slug": "cobb-can-move-furnace",
+        "file": "cobb-can-move-furnace"
+      }
+    ],
+    "media": [
+      {
+        "slug": "Cobb-Can-Move-sprites",
+        "file": "Cobb-Can-Move-sprites"
+      }
+    ]
+  }
+}
